@@ -1,0 +1,79 @@
+<div class="section dark no-padding-vertical">
+    <div class="wrapper">
+        <div class="footer-v2 dark-bg">
+            {{ with site.Params.footer.about_me }}
+            <div class="footer-v2-about">
+                <h6 class="footer-v2-heading text-white">About Me</h6>
+                <p class="paragraph-small white-text">
+                    {{ .text | safeHTML }}
+                </p>
+                <img src="{{ .image | relURL }}" alt="" class="footer-v2-signature"/>
+            </div>
+            {{ end }}
+             {{ with site.Menus.footer }}
+            <div class="footer-v2-nav">
+                <h6 class="footer-v2-heading text-white">Navigations</h6>
+                <div class="footer-v2-nav-links">
+                    {{ range . }}
+                    <a href="{{ .URL }}" class="footer-v2-nav-link dark-bg">{{ .Name }}</a>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ with site.Params.footer.contact }}
+            <div class="footer-v2-contacts">
+                <h6 class="footer-v2-heading text-white">Contacts</h6>
+                <div class="footer-v-2-contact-list">
+                    {{ with .location }}
+                    <div class="footer-v2-contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="footer-v2-contact-icon" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#f0f0f0" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                        <div class="text-block-6">{{ . | safeHTML }}</div>
+                    </div>
+                    {{ end }}
+                    {{ with .email }}
+                    <div class="footer-v2-contact">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="footer-v2-contact-icon" viewBox="0 0 512 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#f0f0f0" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                        <a href="mailto:{{ . }}" class="footer-v2-email dark-bg">{{ . }}</a>
+                    </div>
+                    {{ end }}
+                </div>
+                <a href="/newsletter" class="link-v2 white">Send Message</a>
+            </div>
+            {{ end }}
+            {{ with site.Params.footer.newsletter }}
+            {{ if .enable }}
+            <div class="footer-v2-follow">
+                <h6 class="footer-v2-heading text-white">subscribe To my weekly newsletter</h6>
+                <div class="w-form">
+                    <form id="Subscribe-Form" name="email-form" data-name="Email Form" action="https://atmawarin.us4.list-manage.com/subscribe/post?u=14e57e1e8c6e66dc0fd26741c&amp;amp;id=1ea4f07034" method="post" class="footer-v1-subscribe-form" data-wf-page-id="6293b6e2466a22a009a6a3f8" data-wf-element-id="15a88aab-9444-57fe-7430-2b5d6eb3a555">
+                        <input class="input-2 subscribe-input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" type="email" id="Email" required=""/>
+                        <input type="submit" data-wait="Please wait..." class="button-5 subscribe-button w-button" value=" "/>
+                        <div class="paragraph-small">No spam. Unsubscribe anytime.</div>
+                    </form>
+                    <div class="form-success w-form-done">
+                        <div>Thank you! Your submission has been received!</div>
+                    </div>
+                    <div class="form-error-2 w-form-fail">
+                        <div>Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+            {{ with site.Params.footer.copyright }}
+            <div class="footer-bottom-v2 dark-bg">
+                <div class="footer-bottom-left">
+                    <div class="footer-text-left">
+                        {{ .credits | safeHTML }}
+                    </div>
+                </div>
+                <div class="footer-bottom-right">
+                    <div class="footer-text-right">
+                        {{ .text | safeHTML }}
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>

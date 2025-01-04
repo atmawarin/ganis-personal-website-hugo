@@ -1,0 +1,62 @@
+baseURL: 'https://example.org/'
+languageCode: 'en-us'
+title: 'My New Hugo Site'
+
+# Menu Entries
+menus:
+  main: 
+    - name: "About"
+      weight: 10
+      url: "/"
+    - name: "Book"
+      weight: 20
+      url: "/"
+    - name: "Articles"
+      weight: 30
+      url: "/"
+    - name: "Questions & Ideas"
+      weight: 40
+      url: "/"
+
+  footer:
+    - name: "Articles"
+      weight: 10
+      url: "/"
+    - name: "Book"
+      weight: 20
+      url: "/"
+    - name: "About"
+      weight: 30
+      url: "/"
+    - name: "Running"
+      weight: 40
+      url: "/"
+    - name: "Newsletter"
+      weight: 50
+      url: "/"
+    - name: "Favourite"
+      weight: 60
+      url: "/"
+
+# Params
+params:
+  header:
+    logo: "images/logo.png"
+    twitter: "https://twitter.com/atmawarin"
+    linkedin: "https://www.linkedin.com/in/ganis-atmawarin/"
+
+  footer:
+    about_me: 
+      text: "Interweb enthusiast from Yogyakarta. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, black hair. Lion at Mario Kart, chicken at party."
+      image: "/images/sign.png"
+    
+    contact:
+      location: "I’m based in Yogyakarta"
+      email: "ganis@atmawarin.com"
+
+    newsletter:
+      enable: true
+
+    copyright:
+      credits: "Typography: Brandon Grostesque & Abril Fatface"
+      text: "All contents created by me, unless otherwise noted. You are allowed to copy, distribute, or display your derivative copy of my works without my permission"

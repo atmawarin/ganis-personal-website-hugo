@@ -13,7 +13,7 @@ menus:
       url: "/"
     - name: "Articles"
       weight: 30
-      url: "/"
+      url: "/articles"
     - name: "Questions & Ideas"
       weight: 40
       url: "/"
@@ -21,7 +21,7 @@ menus:
   footer:
     - name: "Articles"
       weight: 10
-      url: "/"
+      url: "/articles"
     - name: "Book"
       weight: 20
       url: "/"
@@ -33,7 +33,7 @@ menus:
       url: "/"
     - name: "Newsletter"
       weight: 50
-      url: "/"
+      url: "/newsletter"
     - name: "Favourite"
       weight: 60
       url: "/"

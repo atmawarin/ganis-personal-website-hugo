@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Business on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/service-business/</link>
+    <description>Recent content in Service Business on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/service-business/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sales Essentials for Directors A – Q&amp;A Guide</title>
+      <link>http://localhost:1313/articles/sales-essentials-for-directors-a---q-a-guide/</link>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/sales-essentials-for-directors-a---q-a-guide/</guid>
+      <description>This is evergreen article. Last update : 21 Nov 2024&#xA;If you’re a Director of a company, selling is the number one skill you need to master. Many software companies pride themselves on their ability to deliver IT projects. They’ve accumulated a wealth of knowledge and are confident about IT delivery. However, as with any service business, there’s always a demand and supply challenge.&#xA;The toughest situation you’ll face? When nobody buys from you.</description>
+    </item>
+    <item>
+      <title>We&#39;ll Gonna Be Okay, Just Don’t Go Full Mr. Krabs, Kay?</title>
+      <link>http://localhost:1313/articles/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay/</link>
+      <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay/</guid>
+      <description>If you’re a tech worker, let’s face it—2024 has probably been a shit year for you. Massive waves of layoffs have rolled through the industry worldwide, and Indonesia hasn’t been spared. It’s brutal out there.&#xA;And honestly, as an industry, we fucked up big time during COVID. Yeah, I’m including my own company in that mess. We got greedy. We grew too fast. And there’s always a price to pay when you bite off more than you can chew.</description>
+    </item>
+    <item>
+      <title>The Best of Jim Collins</title>
+      <link>http://localhost:1313/articles/the-best-of-jim-collins/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/the-best-of-jim-collins/</guid>
+      <description>It was someday in European Summer 1994, and Peter Drucker (the greatest management thinker of all time), pulled up to his home after a long day conversation with Jim Collins. Collins, 36 at that time, just back from the corporate world, teaching at Stanford, and become an aspiring writer.&#xA;“How can I thank you?” Collins asked. Drucker answers “just go out and make yourself useful” before getting out of the car, and strolling back to his house.</description>
+    </item>
+  </channel>
+</rss>

@@ -1794,7 +1794,7 @@ margin-left: 15px;
 }
 
 .w-nav {
-z-index: 1000;
+z-index: 1000 !important;
 background: #ddd;
 position: relative;
 }
@@ -2260,7 +2260,7 @@ color: #fff;
 }
 
 .section.dark.no-padding-vertical {
-z-index: 100;
+z-index: 300;
 background-image: linear-gradient(to right, var(--royal-blue), var(--dark-blue));
 }
 
@@ -2729,6 +2729,7 @@ width: 100%;
 height: 100vh;
 margin-top: 0;
 position: relative;
+z-index: -100 !important;
 }
 
 .split-image.hero-2 {
@@ -2741,7 +2742,6 @@ width: 50%;
 
 .split-image.contact {
 filter: grayscale(80%);
-background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63211eee9578_luca-bravo-65126.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;

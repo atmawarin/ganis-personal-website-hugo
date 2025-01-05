@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work Story on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/work-story/</link>
+    <description>Recent content in Work Story on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/work-story/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pakuningratan No.15</title>
+      <link>http://localhost:1313/articles/pakuningratan-no-15/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/pakuningratan-no-15/</guid>
+      <description>Di usia 2 tahun, saya sudah pindah kota. Dengan menggunakan kapal Pelni Rinjani yang juga berumur sama, bapak membawa saya 5 hari 4 malam ke barat untuk tinggal dengan kakek nenek di Malang. Sejak itu, dilecut oleh kebutuhan dan janji, pindah dari satu nama kota ke kota lain adalah konstanta. Hidup saya hingga umur 18 tidak terikat kepada lokalitas manapun, tidak peduli terhadap rumah.&#xA;Namun, sejak saya pindah ke Yogyakarta, hal itu berubah.</description>
+    </item>
+    <item>
+      <title>Memberikan Feedback - Tips Untuk Team Lead</title>
+      <link>http://localhost:1313/articles/memberikan-feedback-tips-untuk-team-lead/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/memberikan-feedback-tips-untuk-team-lead/</guid>
+      <description>Paul Green menulis dalam Giving Negative Feedback:&#xA;It doesn’t provide the sustenance we need to maintain a positive view of ourselves. And that’s the ultimate irony. The idea behind performance appraisals, and feedback in general, is that to grow and improve, we must have a light shined on the things we can’t see about ourselves. We need the brutal truth. There’s an assumption that what motivates people to improve is the realization that they’re not as good as they think they are.</description>
+    </item>
+    <item>
+      <title>Dwight Schrute Line di SoftwareSeni</title>
+      <link>http://localhost:1313/articles/dwight-schrute-line-di-softwareseni/</link>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/dwight-schrute-line-di-softwareseni/</guid>
+      <description>Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute.</description>
+    </item>
+  </channel>
+</rss>

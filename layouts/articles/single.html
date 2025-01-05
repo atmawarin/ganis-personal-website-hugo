@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="split-content blog-post-content">
+        <div class="article-detail">
+            {{ with .Params.cover }}
+            <img width="500" alt="" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
+            {{ end }}
+            {{ with .Title }}
+            <h1 class="post-heading">{{ . | safeHTML }}</h1>
+            {{ end }}
+            <div class="post w-richtext">
+                {{ .Content }}
+            </div>
+            <div class="divider"></div>
+            {{ with .Params.date }}
+            <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
+            {{ end }}
+            {{ with .Params.tags }}
+            <div class="div-block-3">
+                <div class="grey-text tag-label">Tag : </div>
+                {{ range . }}
+                {{ $url := (printf "%s%s/" ("/tags/" | relURL) (. | urlize)) }}
+                    <a href="{{ $url }}" style="background-color:#fb406c" class="badge color">{{ . }}</a>
+                {{ end }}
+            </div>
+            <div id="post_list" class="w-dyn-list">
+                <div role="list" class="w-dyn-items w-row">
+                    {{ range . }}
+                        {{ $category := . }}
+                        {{ $pages := index $.Site.Taxonomies.tags $category }}
+                        {{ range $pages }}
+                            {{ if ne .Page.Permalink $.Page.Permalink }}
+                                <div role="listitem" class="collection-item-2 w-dyn-item w-col w-col-6">
+                                    <a href="{{ .Page.RelPermalink }}" class="link">{{ .Page.Title }}</a>
+                                </div>
+                            {{ end }}
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <div class="div-block-5 article-nav">
+        <a href="#" id="next_button" class="button-3 button button-article-navigation button-previous w-button">Previous article</a>
+        <a href="#" id="previous_button" class="button-3 button button-article-navigation next-articles w-button">next article</a>
+    </div>
+    <a href="/articles" class="button-4 button w-button">back to all articles</a>
+</div>
+{{ end }}

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div id="Hero" class="section article-hero-bg article-bg-her">
+        <div class="wrapper">
+            <div class="section-intro left no-margin">
+                {{ with .Title }}
+                <h1 class="heading-10">{{ . | safeHTML }}</h1>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="section article-hero">
+        <div class="wrapper">
+            <div class="side-header">
+                <div class="blog-tags-wrapper">
+                    {{ $articlesPage := "/articles" | relURL }}
+                    <a href="{{ $articlesPage }}" aria-current="page" class="link-v2 category-link right">All</a>
+                    <div class="w-dyn-list">
+                        <div role="list" class="blog-tags w-dyn-items">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                                {{ $url := (printf "%s%s/" ("/tags/" | relURL) ($name | urlize)) }}
+                                <a href="{{ $url }}" class="link-v2 category-link right">{{ $name }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ with .Pages.ByDate.Reverse }}
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts-v2 w-dyn-items">
+                    {{ range  . }}
+                    <div role="listitem" class="blog-post-v2 w-dyn-item">
+                        <div class="post-card-v2">
+                            <img alt="article-image" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
+                            <div class="post-card-v2-info">
+                                {{ range .Params.tags }}
+                                {{ $url := (printf "%s%s/" ("/tags/" ) ( . | urlize)) }}
+                                <a style="background-color: #fb406c;" href='{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
+                                {{ end }}
+                                <a href="{{ .RelPermalink }}" class="article-header-link w-inline-block">
+                                    <h4 class="heading-11">{{ .Title | safeHTML }}</h4>
+                                </a>
+                                <p class="paragraph-small grey-text">{{ .Params.description | safeHTML }}</p>
+                                <a href="{{ .RelPermalink }}" class="link-v2">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

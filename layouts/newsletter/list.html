@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="split-media right nav-bar-left">
+        {{ $contact_bg := "/images/dev/contact-bg.jpg" | relURL }}
+        <div class="split-image contact"
+        style='background-image: linear-gradient(#24446480, #24446480), url("{{ $contact_bg }}");'></div>
+    </div>
+    <div class="split-content flex-center">
+        <div class="contact-form-wrapper w-form">
+            <form id="wf-form-Subscribe-to-Newsletter" name="wf-form-Subscribe-to-Newsletter" data-name="Subscribe to Newsletter" action="https://atmawarin.us4.list-manage.com/subscribe/post?u=14e57e1e8c6e66dc0fd26741c&amp;amp;id=1ea4f07034" method="post" class="contact-v1-form" data-wf-page-id="6293b6e2466a223241a6a41d" data-wf-element-id="72bb1b0d-dcea-86b3-7a74-595f250c9f93">
+                <h1 class="contact-v1-heading">{{ .Params.main_heading | safeHTML }}</h1>
+                <div class="grey-text">{{ .Params.text | safeHTML }}</div>
+                <input class="input half-width w-input" maxlength="256" name="Contact-Email" data-name="Contact Email" placeholder="Email address" type="email" id="Contact-Email" required=""/>
+                <input type="submit" data-wait="Please wait..." class="button contact-button w-button" value="Yes! count me in!"/>
+            </form>
+            <div class="form-success w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+            </div>
+            <div id="Form-Error" class="form-error w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

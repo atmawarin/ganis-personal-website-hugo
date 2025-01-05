@@ -23,18 +23,25 @@
                     <a href="{{ $url }}" style="background-color:#fb406c" class="badge color">{{ . }}</a>
                 {{ end }}
             </div>
-            <div id="post_list" class="w-dyn-list">
-                <div role="list" class="w-dyn-items w-row">
+            <div class="side-header">
+                <h1 class="heading-4 article-all-post">Related Posts</h1>
+            </div>
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts w-dyn-items">
                     {{ range . }}
-                        {{ $category := . }}
-                        {{ $pages := index $.Site.Taxonomies.tags $category }}
-                        {{ range $pages }}
-                            {{ if ne .Page.Permalink $.Page.Permalink }}
-                                <div role="listitem" class="collection-item-2 w-dyn-item w-col w-col-6">
-                                    <a href="{{ .Page.RelPermalink }}" class="link">{{ .Page.Title }}</a>
-                                </div>
-                            {{ end }}
-                        {{ end }}
+                    {{ $category := . }}
+                    {{ $pages := index $.Site.Taxonomies.tags $category }}
+                    {{ range first 5 $pages }}
+                    {{ if ne .Page.Permalink $.Page.Permalink }}
+                    <div role="listitem" class="blog-post-v3 w-dyn-item">
+                        <a href="{{ .Page.RelPermalink }}" class="post-card-v3 w-inline-block">
+                            <div class="post-card-info-v3"></div>
+                            <div style="background-image: url('{{ .Page.Params.cover }}')" class="div-block div-round"></div>
+                            <h4 class="post-card-v3-heading">{{ .Page.Title | safeHTML }}</h4>
+                        </a>
+                    </div>
+                    {{ end }}
+                    {{ end }}
                     {{ end }}
                 </div>
             </div>
@@ -42,8 +49,13 @@
         </div>
     </div>
     <div class="div-block-5 article-nav">
-        <a href="#" id="next_button" class="button-3 button button-article-navigation button-previous w-button">Previous article</a>
-        <a href="#" id="previous_button" class="button-3 button button-article-navigation next-articles w-button">next article</a>
+        {{ $pages := .CurrentSection.Pages.ByWeight }}
+        {{ with $pages.Prev . }}
+        <a href="{{ .RelPermalink }}" id="next_button" class="button-3 button button-article-navigation button-previous w-button">Previous article</a>
+        {{ end }}
+        {{ with $pages.Next . }}
+        <a href="{{ .RelPermalink }}" id="previous_button" class="button-3 button button-article-navigation next-articles w-button">next article</a>
+        {{ end }}
     </div>
     <a href="/articles" class="button-4 button w-button">back to all articles</a>
 </div>

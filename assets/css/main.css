@@ -2729,7 +2729,6 @@ width: 100%;
 height: 100vh;
 margin-top: 0;
 position: relative;
-z-index: -100 !important;
 }
 
 .split-image.hero-2 {
@@ -6992,7 +6991,7 @@ padding-right: 40px;
 font-family: brandon-grotesque, sans-serif;
 font-weight: 700;
 transition: all .4s;
-left: -158px;
+left: -170px;
 }
 
 .button-3.button.button-article-navigation.button-previous:hover {
@@ -7006,7 +7005,7 @@ background-position: 3% 46%;
 padding-left: 40px;
 font-family: brandon-grotesque, sans-serif;
 transition: all .4s;
-right: -123px;
+right: -135px;
 }
 
 .button-3.button.button-article-navigation.next-articles:hover {
@@ -7915,7 +7914,6 @@ p {
 }
 
 .split-image.hero-2 {
-    background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d6643fe071de8c7a6ee7afb_DSC_6840.jpeg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;

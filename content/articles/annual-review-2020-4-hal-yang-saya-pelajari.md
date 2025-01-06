@@ -23,9 +23,7 @@ Melihat foto Zen, Zia, Gita, keluarga, teman di tahun kemarin membuat saya meras
 
 Society dan media akan terus menarik otak monyet saya ke dalam game of status. mendikte mana yang penting dan mana yang gak. Belajar untuk mengidentifkasi mana yang "true joy" dan mana yang bukan untuk kemudian secara strategis mendesain hidup saya di sekitar "true joy" itu adalah skill yang harus saya latih terus.
 
-This little rascall make me really really happy last year
-
-![kid grabbing hand](/images/articles/kid-grabbing-hand.jpeg)
+{{< figure src="/images/articles/kid-grabbing-hand.jpeg" caption="This little rascall make me really really happy last year" >}}
 
 ### Gak semuanya gelap
 2020 memaksa saya keluar dari zona nyaman saya. Memberhentikan staff, mengambil alih sales, berhenti berpetualang mengunjungi kota lain, bekerja dari rumah setiap hari, tidak bisa bertemu keluarga yang bahkan di satu kota, rasa cemas takut menulari orang-orang terdekat saya, constant meeting, dan lain-lain, membuat tahun kemarin jadi tahun yang beneran disruptif untuk saya.
@@ -40,9 +38,7 @@ Di waktu senggang, saya masih bisa nonton Mandalorian (in super high resolution)
 
 Iya, 2020 punya cerita gelapnya. Tapi saya sangat beruntung dan berterima kasih, karena hidup telah memperlakukan saya dengan sangat baik.
 
-Daily Scrum di masa pandemi
-
-![office meeting](/images/articles/office-meeting.jpeg)
+{{< figure src="/images/articles/office-meeting.jpeg" caption="Daily Scrum di masa pandemi" >}}
 
 ### Subtraction is the true addition
 Salah satu kutukan dan juga berkah yang saya tanggung adalah saya suka bereksperimen dengan hal baru. Syndrom of a new shiny things jadi hal yang sering menghantui saya sejak kecil. Ketika ada hal baru yang menarik buat saya, eskalasinya bisa cepat sekali naik dari tertarik ke terobsesi.
@@ -51,17 +47,14 @@ Ini membuat saya jadi the ultimate jack of all trade, master of none. Sesuatu ya
 
 Satu hal yang saya perlu pelajari adalah I can only have 24 hours in a day. Menumpuk hobi baru, minat baru, barang baru, project baru dan mencoba untuk mempertahankan semuanya di saat yang bersamaan itu capek. Saya gak bisa total pivot ke minat yang baru, kalau saya masih ingin mempertahankan yang lama di belakang. Sunk cost fallacy itu sindrom yang berbahaya.
 
-Hobi baru di tahun 2020
-
-![keyboard](/images/articles/keyboard.jpeg)
+{{< figure src="/images/articles/keyboard.jpeg" caption="Hobi baru di tahun 2020" >}}
 
 ### Jangan meninggalkan lari
 Tiap orang punya hero story mereka. Dan buat saya, hero story saya adalah ketika mengikuti half marathon di Merapi Run bulan Februari 2020. Lari subuh-subuh di dekat Gunung Merapi dengan hujan badai dan kabut diteman matahari yang pelan-pelan terbit itu surreal. I slay my dragon and become my own hero.
 
 Sayangnya habis Februari, semuanya mundur. Pandemi dan disrupsi membuat saya fokus ke survival mode. Saya jadi sering gagal lari di pagi hari. Hal ini ditambah rasa enggan untuk mengobati cidera harmstring membuat saya mandeg berlari untuk waktu yang sangat panjang. Kalau tahun 2019 saya total berlari sebanyak 179 kali, dan menempuh total jarak 821km, di tahun 2020, catatan lari saya melorot, turun 70% jadi cuma 68 kali lari dan 245km .
 
-![comparision](/images/articles/comparision.png)
-Shame...
+{{< figure src="/images/articles/comparision.png" caption="Shame..." >}}
 
 Saya yakin ini bukan kebetulan. Saat di mana saya berhenti lari, hampir secara bersamaan datang juga semua low point saya di tahun kemarin. Kemudian saat di mana saya mulai lari lagi setelah 5 bulan mandeg, everything started to pick up both in professional and personal life.
 

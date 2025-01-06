@@ -2084,7 +2084,7 @@ left: 0;
 
 body {
 color: #333;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 18px;
 line-height: 22px;
 }
@@ -2157,7 +2157,7 @@ line-height: 20px;
 p {
 color: #244464;
 margin-bottom: 24px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
@@ -2176,7 +2176,7 @@ ul {
 margin-top: 16px;
 margin-bottom: 32px;
 padding-left: 24px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
@@ -2185,7 +2185,7 @@ ol {
 margin-top: 16px;
 margin-bottom: 24px;
 padding-left: 40px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
@@ -2208,7 +2208,7 @@ color: #244464;
 border-left: 3px solid #244464;
 margin-bottom: 32px;
 padding: 12px 20px 12px 24px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 font-style: italic;
 font-weight: 400;
@@ -2458,7 +2458,7 @@ border-radius: 0;
 align-self: auto;
 height: 48px;
 padding: 11px 24px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 15px;
 font-weight: 700;
 line-height: 24px;
@@ -2485,7 +2485,7 @@ background-color: #244464;
 .button.ghost-button {
 color: #244464;
 border: 1px solid #244464;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 font-weight: 700;
 transition: color .4s, background-color .6s, box-shadow .6s;
@@ -2531,7 +2531,7 @@ background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94
 background-position: 20px;
 background-repeat: no-repeat;
 padding-left: 52px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .button.password-button {
@@ -2563,7 +2563,7 @@ margin-right: 8px;
 }
 
 .button.center {
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .button.center:hover {
@@ -2578,7 +2578,7 @@ padding: 40px 15px;
 .paragraph-small {
 color: var(--dark-blue);
 margin-bottom: 16px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 }
@@ -2671,7 +2671,7 @@ color: var(--royal-blue);
 letter-spacing: 2px;
 text-transform: uppercase;
 padding: 12px 14px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 10px;
 font-weight: 700;
 line-height: 32px;
@@ -2827,7 +2827,7 @@ inset: auto 0 0;
 
 .line-button-text {
 z-index: 1;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 24px;
 position: relative;
@@ -2891,13 +2891,13 @@ padding-bottom: 18px;
 .contact-text {
 color: var(--lighter-steel-blue);
 margin-right: 10px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .link-v1 {
 color: #244464;
 text-transform: uppercase;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 13px;
 line-height: 24px;
 text-decoration: none;
@@ -2920,13 +2920,13 @@ box-shadow: 0 2px #fff;
 
 .link-v1.more-link {
 margin-top: 24px;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-size: 14px;
 }
 
 .link-v1.sg-back-link {
 color: #244464;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 position: absolute;
 bottom: 40px;
@@ -3021,7 +3021,7 @@ left: 0;
 .text-block {
 float: left;
 color: var(--lighter-steel-blue);
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 }
@@ -3035,14 +3035,14 @@ line-height: 20px;
 
 .location-text.black-text {
 color: #111;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 }
 
 .grey-text {
 color: #4d6c87;
 margin-bottom: 27px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 font-weight: 400;
 line-height: 35px;
@@ -3051,7 +3051,7 @@ display: block;
 
 .grey-text.tag-label {
 margin-bottom: 32px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 display: inline-block;
 }
@@ -3059,7 +3059,7 @@ display: inline-block;
 .grey-text.date---short-notes {
 text-transform: uppercase;
 margin-bottom: 10px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 }
@@ -3151,7 +3151,7 @@ display: flex;
 box-shadow: 0 2px 0 0 var(--light-blue);
 color: var(--dark-blue);
 text-transform: uppercase;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 16px;
 line-height: 24px;
 text-decoration: none;
@@ -3170,7 +3170,7 @@ margin-bottom: 16px;
 .link-v2.white {
 color: var(--super-light-blue);
 text-transform: uppercase;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 box-shadow: 0 2px #fff3;
 }
@@ -3187,7 +3187,7 @@ text-transform: uppercase;
 background-color: #0000;
 margin-right: 40px;
 padding: 0;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 }
 
@@ -3200,7 +3200,7 @@ color: var(--dark-blue);
 box-shadow: 0 2px 0 0 var(--black);
 color: var(--dark-blue);
 margin-bottom: 20px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 }
 
@@ -3713,7 +3713,7 @@ margin-top: 0;
 margin-bottom: 0;
 margin-left: 10px;
 padding-top: 3px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 12px;
 position: relative;
 top: -2px;
@@ -3724,7 +3724,7 @@ border-style: none;
 margin-bottom: 20px;
 padding-top: 2px;
 padding-bottom: 2px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 10px;
 }
 
@@ -3842,7 +3842,7 @@ border-bottom-color: var(--dark-blue);
 .input.half-width {
 flex: 40%;
 margin-right: 30px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .input.half-width:focus {
@@ -3852,7 +3852,7 @@ border-bottom-color: var(--dark-blue);
 .input.password-input {
 width: 200px;
 margin-right: 24px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .footer-v1-content {
@@ -4365,7 +4365,7 @@ color: var(--light-blue);
 text-align: left;
 flex: 1;
 margin-bottom: 20px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 35px;
 }
@@ -4434,7 +4434,7 @@ color: var(--black);
 align-items: center;
 margin-bottom: -1px;
 padding: 15px 24px 16px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 16px;
 line-height: 24px;
 text-decoration: none;
@@ -4489,7 +4489,7 @@ inset: auto 0 0;
 .card-hover-info {
 color: var(--super-light-blue);
 text-transform: none;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 font-weight: 400;
 line-height: 22px;
@@ -5164,7 +5164,7 @@ color: var(--silver);
 letter-spacing: 1px;
 text-transform: uppercase;
 margin-bottom: 16px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 12px;
 font-weight: 700;
 line-height: 16px;
@@ -5326,7 +5326,7 @@ overflow: hidden;
 .book-author {
 color: var(--light-blue);
 margin-bottom: 24px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 13px;
 line-height: 20px;
 }
@@ -5460,7 +5460,7 @@ flex-direction: column;
 justify-content: flex-end;
 align-items: flex-start;
 padding: 104px 12% 40px;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-weight: 400;
 display: flex;
 position: absolute;
@@ -5551,11 +5551,11 @@ width: 44%;
 }
 
 .career-job-period.text-left {
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 }
 
 .career-job-period.text-right {
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-weight: 500;
 }
 
@@ -5654,12 +5654,12 @@ display: flex;
 .footer-v2-heading {
 color: var(--black);
 margin-bottom: 24px;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 }
 
 .footer-v2-heading.text-white {
 color: var(--super-light-blue);
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 font-weight: 400;
 line-height: 22px;
@@ -5683,7 +5683,7 @@ text-decoration: underline;
 
 .footer-v2-email.dark-bg {
 color: var(--super-light-blue);
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 transition: all .4s;
@@ -5786,7 +5786,7 @@ display: flex;
 .footer-text-left {
 color: var(--super-light-blue);
 margin-right: 16px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 }
@@ -5816,7 +5816,7 @@ display: flex;
 .footer-text-right {
 color: var(--super-light-blue);
 margin-left: 16px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 }
@@ -5835,7 +5835,7 @@ text-transform: uppercase;
 flex-direction: column;
 align-items: flex-start;
 margin-top: -6px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 display: flex;
 }
 
@@ -6605,7 +6605,7 @@ color: #7795aa;
 text-transform: uppercase;
 width: 100%;
 padding: 10px 40px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 13px;
 font-weight: 400;
 line-height: 20px;
@@ -6621,7 +6621,7 @@ text-decoration: underline;
 .sg-sidebar-link.w--current {
 color: #244464;
 border: 1px solid #244464;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 box-shadow: inset 3px 0 #244464;
 }
 
@@ -6681,7 +6681,7 @@ width: 66.66%;
 .work-presentation h6 {
 color: #244464;
 width: 66.66%;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-weight: 700;
 }
 
@@ -6694,7 +6694,7 @@ text-align: left;
 background-color: #0000;
 padding-left: 0;
 padding-right: 0;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
@@ -6704,7 +6704,7 @@ color: var(--red);
 background-color: #0000;
 padding-left: 0;
 padding-right: 0;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
@@ -6780,23 +6780,23 @@ font-weight: 400;
 .heading-6, .heading-7 {
 color: #244464;
 text-transform: none;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-weight: 700;
 }
 
 .heading-8 {
 color: #244464;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-weight: 700;
 }
 
 .heading-9 {
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 }
 
 .book-title {
 color: var(--dark-blue);
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 }
 
 .text-block-2, .text-block-3 {
@@ -6822,14 +6822,14 @@ align-self: auto;
 
 .paragraph-2 {
 color: #244464;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 35px;
 }
 
 .paragraph-3, .paragraph-4 {
 color: #244464;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 }
 
@@ -6839,7 +6839,7 @@ color: #244464;
 
 .text-block-6 {
 color: var(--super-light-blue);
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 14px;
 line-height: 22px;
 }
@@ -6852,7 +6852,7 @@ text-align: center;
 .text-block-7 {
 color: var(--super-light-blue);
 text-align: center;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
@@ -6899,7 +6899,7 @@ width: 100%;
 color: #777;
 text-transform: uppercase;
 margin-bottom: 10px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 13px;
 line-height: 20px;
 }
@@ -6988,7 +6988,7 @@ color: var(--dark-blue);
 background-position: 97% 47%;
 padding-left: 24px;
 padding-right: 40px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-weight: 700;
 transition: all .4s;
 left: -170px;
@@ -7003,7 +7003,7 @@ color: var(--dark-blue);
 background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d995abc6e7b4839a4096ff0_np_arrow-right_888647_244464.svg");
 background-position: 3% 46%;
 padding-left: 40px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 transition: all .4s;
 right: -135px;
 }
@@ -7037,14 +7037,14 @@ height: auto;
 .grey-text-2 {
 color: var(--dark-blue);
 margin-bottom: 40px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 36px;
 }
 
 .link-v2-2 {
 color: #111;
-font-family: ff-meta-web-pro-condensed;
+font-family: "Work Sans", serif;
 font-size: 16px;
 line-height: 24px;
 text-decoration: none;
@@ -7153,7 +7153,7 @@ margin-bottom: 8px;
 margin-right: -2px;
 padding-left: 20px;
 padding-right: 20px;
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 transition: border .6s;
 }
 
@@ -7516,12 +7516,12 @@ font-family: "Abril Fatface", serif;
 }
 
 .rich-text-block-2 {
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-weight: 400;
 }
 
 .block-quote {
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .heading-15 {
@@ -7530,7 +7530,7 @@ font-weight: 400;
 }
 
 .heading-16 {
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .div-block-6 {
@@ -7542,7 +7542,7 @@ text-transform: uppercase;
 }
 
 .link {
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 }
 
 .heading-18 {
@@ -7550,7 +7550,7 @@ font-weight: 400;
 }
 
 .rich-text-block-3 {
-font-family: brandon-grotesque, sans-serif;
+font-family: "Karla", serif;
 font-size: 22px;
 line-height: 35px;
 }
@@ -10085,12 +10085,12 @@ h6 {
 
 .career-job-period.text-left {
     text-align: right;
-    font-family: ff-meta-web-pro-condensed;
+    font-family: "Work Sans", serif;
     font-weight: 400;
 }
 
 .career-job-period.text-right {
-    font-family: ff-meta-web-pro-condensed;
+    font-family: "Work Sans", serif;
 }
 
 .career-job-period.text-left {

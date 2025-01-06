@@ -21,7 +21,7 @@ Di post kali ini saya akan mencoba membantu menjelaskan tentang
 3. Pengalaman saya pindah dari Wordpress ke Webflow,
 
 # Apa itu WebFlow?
-![webflow window](/images/articles/webflow-window.png)
+{{< figure src="/images/articles/webflow-window.png" caption="Tampilan dashboard dari webflow" >}}
 
 Hampir semua orang yang sudah pernah membangun blog akan paham, apa itu Wordpress. Tapi Webflow sepertinya masih jadi hal baru buat beberapa orang.
 
@@ -55,7 +55,7 @@ Untuk control itu, mulai dari hal terkecil, katakanlah membuat layout 2 kolom. D
 
 Di halaman website ini misalnya. Saya bereksperimen dengan FlexBox, CSS Grid, dan terkadang simple float, tergantung halamannya.
 
-![webflow preview](/images/articles/webflow-preview.png)
+{{< figure src="/images/articles/webflow-preview.png" caption="Hello flexbox control!!" >}}
 
 Cara Webflow untuk cascade view dari desktop, ke tablet, ke mobile juga super cerdik. Its not mobile first, tapi memberikan kamu kendali untuk mendefine setiap break point.
 
@@ -73,11 +73,11 @@ Dan satu lagi. Semua yang kita lakukan akan otomatis di save oleh Webflow hampir
 ### First Class Deployment & Backup
 Melakukan **deployment** ke staging dan production di Webflow benar-benar effortless buat saya. Words should not do justice. Coba lihat di bawah ini bagaimana melakukan deployment di Webflow. Insanely fast!
 
-![publish preview](/images/articles/publish-preview.gif)
+{{< figure src="/images/articles/publish-preview.gif" caption="Deployment can't come faster than this." >}}
 
 Untuk pilihan roll back sendiri Webflow punya semacam **Time Machine** yang akan mengambil snapshot project – database dan file. Kamu bebas lompat ke belakang dan ke depan, bahkan membuka secara detail apa yang ada di tiap versi. Fitur ini sangat berguna untuk melakukan debugging. Kamu bisa melihat dan membandingkan 2 konfigurasi yang berbeda, tanpa harus melakukan total restore.
 
-![publish preview](/images/articles/backup-window.png)
+{{< figure src="/images/articles/backup-window.png" caption="Backup interface di Webflow" >}}
 
 # Secepat Kuda
 Webflow is super fast. Dan bagi saya, terasa lebih cepat dari Wordpress standard.
@@ -86,7 +86,7 @@ Karena Webflow mencoba untuk mendekati standard coding dan tidak oversimplify pr
 
 Contohnya halaman homepage saya di bawah ini :
 
-![publish preview](/images/articles/page-performance.png)
+{{< figure src="/images/articles/page-performance.png" caption="Web performance">}}
 
 3.1s, page size 1.94 mb, dan 44 request **tanpa saya melakukan optimisasi manual** adalah hasil yang sangat sangat impressif. Apalagi ditambah dengan feature **FREE CDN** dan pilihan untuk minify assets, Webflow out of the box sudah ada di mode lari kencang.
 
@@ -99,7 +99,7 @@ Untuk ukuran CMS yang sudah berumur 10 tahun lebih. Menurut saya ini adalah kele
 
 Webflow di lain pihak. Punya kemampuan untuk membuat CMS yang cukup powerful dan mudah digunakan. Mirip dengan ExpressionEngine atau Craft. Kamu bisa mendefine channel berisi custom field dan kamu kemudian bisa mencantolkan channel tersebut ke berbagai macam halaman yang kamu inginkan – all without need to write a single code.
 
-![publish preview](/images/articles/cms-preview.png)
+{{< figure src="/images/articles/cms-preview.png" caption="Membangun custom field di Webflo" >}}
 
 Yang lebih impressive lagi. Webflow sudah punya beberapa template custom field standard yang umumnya dibuat orang. Ada portfolio, blog, clients, team members, events, dll. Kamu bisa mengambil salah satu contohnya kemudian melakukan modifikasi sesuka hati.
 
@@ -108,7 +108,7 @@ Dokumentasi di Webflow itu ciamik. Untuk belajar Webflow ada semacam university 
 
 Yang asik lagi, Webflow mencoba mengembed dokumentasi ke dalam dashboard. Jadi ketika kamu sedang membangun halaman di dalam Webflow, kemudian tiba-tiba ingin tahu bagaimana cara “Membuat CSS Grid” misalnya. Tidak perlu membuka halaman baru, cukup mengklik tombol “Tutorial” yang ada di pojok kiri bawah.
 
-![publish preview](/images/articles/video-embed.jpg)
+{{< figure caption="/images/articles/video-embed.jpg" caption="Video tutorial yang mudah diakses" >}}
 
 Kalau ada fitur yang baru (dan fitur baru lumayan sering muncul), Webflow akan memberikan notifikasi kepada penggunanya.
 

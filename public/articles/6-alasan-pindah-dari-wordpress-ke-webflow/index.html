@@ -4,16 +4,29 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+
+
+<script src="/js/plugins/aos.min.js"></script>
+
+
 <title>My New Hugo Site</title>
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/css/main.min.69882d30903f780d7991dd879cb4dab0da6f3df7e7c8d74bf6fe6a406e4a3285.css">
+<link rel="stylesheet" href="http://localhost:1313/css/main.min.8afe84f12cc746dea292231265110c6ba7b4d9fd7a04800b36b2c3f83a631542.css">
+
+
+
+
+
+
+<link rel="stylesheet" href="http://localhost:1313/css/plugins/aos.min.css">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     
@@ -75,7 +88,11 @@
 <li>Pengalaman saya pindah dari Wordpress ke Webflow,</li>
 </ol>
 <h1 id="apa-itu-webflow">Apa itu WebFlow?</h1>
-<p><img src="/images/articles/webflow-window.png" alt="webflow window"></p>
+<figure ><img src="/images/articles/webflow-window.png"
+    alt="Tampilan dashboard dari webflow"><figcaption>
+      Tampilan dashboard dari webflow
+    </figcaption>
+</figure>
 <p>Hampir semua orang yang sudah pernah membangun blog akan paham, apa itu Wordpress. Tapi Webflow sepertinya masih jadi hal baru buat beberapa orang.</p>
 <p>Webflow buat saya adalah ibarat <a href="https://balsamiq.com/wireframes/">Balsamiq</a> untuk membangun Website. Sama seperti Balsamiq, kamu bisa mendrag and drop daftar common element seperti container, section, image, heading, dll ke dalam canvas. Tapi alih-alih mendapatkan wireframe dan gambar statis, yang kamu dapatkan adalah true halaman HTML.</p>
 <p><strong>Webflow memungkinkan kamu mendesain websites tanpa harus koding</strong> (halo pensiun coding). Setelah menentukan desain di setiap halaman, kamu kemudian bisa mulai membangun desain di tiap halaman. Mengubah text on the fly. Dan membuat model CMS sendiri – kalau ingin punya konten dinamis seperti blog.</p>
@@ -93,7 +110,11 @@
 <p>Webflow hampir memiliki semua tag yang kamu perlukan untuk membuat elemen mulai dari section, container, div, image, text, heading, form, dll, dan memberikan granular control kepada tiap elemen tersebut.</p>
 <p>Untuk control itu, mulai dari hal terkecil, katakanlah membuat layout 2 kolom. Di visual editor lainnya. Membuat kolom adalah sebatas menentukan berapa jumlah row. Sementara dengan Webflow kamu punya flexibilitas hampir seperti coding manual. Mau membuat kolom dengan standard kolom? Bisa. Dengan flexbox? Bisa. Mau dengan CSS grid? Bisa.</p>
 <p>Di halaman website ini misalnya. Saya bereksperimen dengan FlexBox, CSS Grid, dan terkadang simple float, tergantung halamannya.</p>
-<p><img src="/images/articles/webflow-preview.png" alt="webflow preview"></p>
+<figure ><img src="/images/articles/webflow-preview.png"
+    alt="Hello flexbox control!!"><figcaption>
+      Hello flexbox control!!
+    </figcaption>
+</figure>
 <p>Cara Webflow untuk cascade view dari desktop, ke tablet, ke mobile juga super cerdik. Its not mobile first, tapi memberikan kamu kendali untuk mendefine setiap break point.</p>
 <h3 id="kecepatan-di-dalam-interface">Kecepatan di Dalam Interface</h3>
 <p>Walaupun dihujani dengan fitur. Saya cukup takjub dengan kecepatan interface di Webflow. Bernavigasi antara satu halaman ke halaman lain bisa terjadi cukup cepat dan jarang terjadi lagging. Fungsi penting seperti drag and drop juga mulus dengan animasi yang halus.</p>
@@ -107,26 +128,46 @@
 </blockquote>
 <h3 id="first-class-deployment--backup">First Class Deployment &amp; Backup</h3>
 <p>Melakukan <strong>deployment</strong> ke staging dan production di Webflow benar-benar effortless buat saya. Words should not do justice. Coba lihat di bawah ini bagaimana melakukan deployment di Webflow. Insanely fast!</p>
-<p><img src="/images/articles/publish-preview.gif" alt="publish preview"></p>
+<figure ><img src="/images/articles/publish-preview.gif"
+    alt="Deployment can&rsquo;t come faster than this."><figcaption>
+      Deployment can&rsquo;t come faster than this.
+    </figcaption>
+</figure>
 <p>Untuk pilihan roll back sendiri Webflow punya semacam <strong>Time Machine</strong> yang akan mengambil snapshot project – database dan file. Kamu bebas lompat ke belakang dan ke depan, bahkan membuka secara detail apa yang ada di tiap versi. Fitur ini sangat berguna untuk melakukan debugging. Kamu bisa melihat dan membandingkan 2 konfigurasi yang berbeda, tanpa harus melakukan total restore.</p>
-<p><img src="/images/articles/backup-window.png" alt="publish preview"></p>
+<figure ><img src="/images/articles/backup-window.png"
+    alt="Backup interface di Webflow"><figcaption>
+      Backup interface di Webflow
+    </figcaption>
+</figure>
 <h1 id="secepat-kuda">Secepat Kuda</h1>
 <p>Webflow is super fast. Dan bagi saya, terasa lebih cepat dari Wordpress standard.</p>
 <p>Karena Webflow mencoba untuk mendekati standard coding dan tidak oversimplify processnya seperti yang dilakukan Elementor misalnya, hasil HTML outputnya cukup bersih. Dan dari HTML yang bersih inilah, lahir kecepatan kuda.</p>
 <p>Contohnya halaman homepage saya di bawah ini :</p>
-<p><img src="/images/articles/page-performance.png" alt="publish preview"></p>
+<figure ><img src="/images/articles/page-performance.png"
+    alt="Web performance"><figcaption>
+      Web performance
+    </figcaption>
+</figure>
 <p>3.1s, page size 1.94 mb, dan 44 request <strong>tanpa saya melakukan optimisasi manual</strong> adalah hasil yang sangat sangat impressif. Apalagi ditambah dengan feature <strong>FREE CDN</strong> dan pilihan untuk minify assets, Webflow out of the box sudah ada di mode lari kencang.</p>
 <h1 id="mudah-membuat-konten-dinamis-custom">Mudah Membuat Konten Dinamis Custom</h1>
 <p>Untuk fungsi Content Management System, memang Wordpress sudah mahsyur dengan halaman postnya. Membuat post blog sangat nyaman dan aman dilakukan. Tapi kalau kamu ingin membuat konten dinamis untuk post selain blog di Wordpress – contoh misalnya ingin membuat <a href="https://www.atmawarin.com/reading">Reading List</a> dengan 4 field sederhana (judul, penulis, gambar cover dan review singkat) tanpa Brooooooo!!!!!! cukup sulit!</p>
 <p>Secara default, settingan custom field disembunyikan oleh Wordpress. Kemudian untuk dapat bisa mencontrol custom field lebih mudah lagi, kamu harus menginstall plugin dulu, dan melakukan manual konfigurasi theme untuk memasukkan custom field.</p>
 <p>Untuk ukuran CMS yang sudah berumur 10 tahun lebih. Menurut saya ini adalah kelemahan terbesar Wordpress.</p>
 <p>Webflow di lain pihak. Punya kemampuan untuk membuat CMS yang cukup powerful dan mudah digunakan. Mirip dengan ExpressionEngine atau Craft. Kamu bisa mendefine channel berisi custom field dan kamu kemudian bisa mencantolkan channel tersebut ke berbagai macam halaman yang kamu inginkan – all without need to write a single code.</p>
-<p><img src="/images/articles/cms-preview.png" alt="publish preview"></p>
+<figure ><img src="/images/articles/cms-preview.png"
+    alt="Membangun custom field di Webflo"><figcaption>
+      Membangun custom field di Webflo
+    </figcaption>
+</figure>
 <p>Yang lebih impressive lagi. Webflow sudah punya beberapa template custom field standard yang umumnya dibuat orang. Ada portfolio, blog, clients, team members, events, dll. Kamu bisa mengambil salah satu contohnya kemudian melakukan modifikasi sesuka hati.</p>
 <h3 id="komparasi-dokumentasi">Komparasi Dokumentasi</h3>
 <p>Dokumentasi di Webflow itu ciamik. Untuk belajar Webflow ada semacam university course yang bisa diambil secara gratis bagi orang yang ingin belajar Webflow. Durasi dari videonya juga pendek dan cepat, dan secara general sangat mudah dipahami.</p>
 <p>Yang asik lagi, Webflow mencoba mengembed dokumentasi ke dalam dashboard. Jadi ketika kamu sedang membangun halaman di dalam Webflow, kemudian tiba-tiba ingin tahu bagaimana cara “Membuat CSS Grid” misalnya. Tidak perlu membuka halaman baru, cukup mengklik tombol “Tutorial” yang ada di pojok kiri bawah.</p>
-<p><img src="/images/articles/video-embed.jpg" alt="publish preview"></p>
+<figure ><img src=""
+    alt="Video tutorial yang mudah diakses"><figcaption>
+      Video tutorial yang mudah diakses
+    </figcaption>
+</figure>
 <p>Kalau ada fitur yang baru (dan fitur baru lumayan sering muncul), Webflow akan memberikan notifikasi kepada penggunanya.</p>
 <h3 id="harga">Harga</h3>
 <p>Oke bagian terakhir. Harga.</p>

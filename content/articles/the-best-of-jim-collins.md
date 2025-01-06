@@ -34,7 +34,8 @@ If you want the average performance of those around you to go up, you must first
 No one but you can take responsibility to leverage how you best work, and the sooner you do, the more years you have to gain the cumulative effect of tens of thousands of hours well-spent.
 
 ### Count your time, and make it count
-![chart](/images/articles/chart.png)
+{{< figure src="/images/articles/chart.png" caption="Mimic Jim Collins. I try to develop my own way to do weekly review based on things that I think important" >}}
+
 
 - What gets measured gets managed. Collins tracking his time into 3 categories: creative work, teaching, backstage work. He divides it into 50%, 30%, and 20%, and tries to make sure that he get 1000 hours of creative work every year. 
 - Create unbroken blocks for individual think time, preferably during the most lucid time of day. Even the busiest executive must do them with regularity.

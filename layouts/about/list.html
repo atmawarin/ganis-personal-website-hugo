@@ -46,7 +46,7 @@
     {{ with .Params.sponsers }}
     {{ if .enable }}
     <div class="section image-4">
-        <div class="wrapper">
+        <div class="wrapper" data-aos="fade-up">
             <div class="section-intro">
                 <h2 class="heading-13">company i've worked with</h2>
             </div>
@@ -72,10 +72,10 @@
             <h1 class="heading-4">{{ $p.main_heading }}</h1>
             {{ end }}
             <div class="side-feature" style="flex-direction:{{if not $is_odd }}row-reverse;{{ end }}">
-                <div class="side-media">
+                <div class="side-media" data-aos="fade-{{ if $is_odd }}right{{ else }}left{{ end }}">
                     <img src="{{ $p.image | relURL }}" sizes="(max-width: 479px) 60vw, (max-width: 991px) 51vw, 26vw" alt="" class="side-image-back {{ if $is_odd }}left{{ else }}right{{ end }}"/>
                 </div>
-                <div class="side-info">
+                <div class="side-info" data-aos="fade-{{ if $is_odd }}left{{ else }}right{{ end }}">
                     <h2>{{ $p.heading | safeHTML }}</h2>
                     <p class="grey-text">
                         {{ $p.text | safeHTML }}

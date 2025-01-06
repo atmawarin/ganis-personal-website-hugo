@@ -20,17 +20,161 @@
     <loc>http://localhost:1313/articles/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/reading/</loc>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-almanack-of-naval-ravikant/</loc>
+    <lastmod>2024-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/watership-down/</loc>
+    <lastmod>2024-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/awareness-conversations-with-the-masters/</loc>
+    <lastmod>2024-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/master-of-the-senate/</loc>
+    <lastmod>2024-05-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/scaling-up/</loc>
+    <lastmod>2024-04-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/a-very-hungry-caterpillar/</loc>
+    <lastmod>2024-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/atomic-habits/</loc>
+    <lastmod>2024-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-element-of-typographic-style/</loc>
+    <lastmod>2024-01-11T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/design/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/articles/the-180-hours-tether-that-binds-everything-so-you-can-ignore-that-relentless-button-nudges/</loc>
     <lastmod>2023-10-12T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/reading/thinking-fast-and-slow/</loc>
+    <lastmod>2022-12-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/building-a-second-brain/</loc>
+    <lastmod>2022-11-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/autobiography-of-a-yogi/</loc>
+    <lastmod>2022-10-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/who-we-reading-when-we-reading/</loc>
+    <lastmod>2022-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-yoga-of-eating/</loc>
+    <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-perfect-mile/</loc>
+    <lastmod>2022-07-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-lessons-of-history/</loc>
+    <lastmod>2022-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/siddharta/</loc>
+    <lastmod>2022-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/nagabumi-2/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/sapiens-vol-1--2/</loc>
+    <lastmod>2022-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/nagabumi-1/</loc>
+    <lastmod>2022-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/decoding-greatness/</loc>
+    <lastmod>2022-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/charlie-mungar/</loc>
+    <lastmod>2022-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/built-to-last/</loc>
+    <lastmod>2022-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/advanced-marathoning/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/what-i-am-talking-about/</loc>
+    <lastmod>2021-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-ride-of-a-life-time/</loc>
+    <lastmod>2021-11-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-alchemist/</loc>
+    <lastmod>2021-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/sprint/</loc>
+    <lastmod>2021-09-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/remote/</loc>
+    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/in-other-words/</loc>
+    <lastmod>2021-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/high-management-output/</loc>
+    <lastmod>2021-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/elevation/</loc>
+    <lastmod>2021-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/coaching-coversation/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/ask-a-manager/</loc>
+    <lastmod>2021-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/21-lesson-for-21-century/</loc>
+    <lastmod>2021-02-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/what-you-do-is-you/</loc>
+    <lastmod>2020-12-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-one-thing/</loc>
+    <lastmod>2020-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-magic-of-thinking-big/</loc>
+    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-lean-startup/</loc>
+    <lastmod>2020-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-hitchhiker-guide-to-the-galaxy/</loc>
+    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-complete-poems/</loc>
+    <lastmod>2020-07-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/the-absolute-of-brightness/</loc>
+    <lastmod>2020-06-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/steve-jobs/</loc>
+    <lastmod>2020-05-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/i-can-not-make-this-up/</loc>
+    <lastmod>2020-04-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/free-to-focus/</loc>
+    <lastmod>2020-03-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/note/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/articles/why-i-keep-coming-back-to-yogyakarta/</loc>
     <lastmod>2020-03-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/educated/</loc>
+    <lastmod>2020-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/chief-joy-officer/</loc>
+    <lastmod>2020-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reading/be-prepared/</loc>
+    <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/articles/the-best-of-jim-collins/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>

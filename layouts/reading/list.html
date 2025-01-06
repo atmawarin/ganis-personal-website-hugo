@@ -1,0 +1,41 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div id="Hero" class="section portfolio-hero">
+        <div class="wrapper">
+            <div class="section-intro left no-margin">
+                <h1 class="heading-10">{{ .Title | safeHTML }}</h1>
+                <div class="text-block-7">{{ .Params.description | safeHTML }}</div>
+            </div>
+        </div>
+    </div>
+    <div id="Hero" class="section portfolio-works">
+        <div class="wrapper">
+            <div data-duration-in="600" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="work-category-tabs w-tabs">
+                {{ range .Pages.GroupByPublishDate "2006" }}
+                <div class="w-tab-content">
+                    <h1 class="centered-text">{{ .Key }}</h1>
+                    <div class="w-dyn-list">
+                        <div role="list" class="works w-dyn-items">
+                            {{ range .Pages }}
+                            <div role="listitem" class="work w-dyn-item">
+                                <div class="work-card-2 w-inline-block">
+                                    <div class="work-card-image-wrapper">
+                                        <div style="opacity:0" class="card-hover-2">
+                                            <h5 style="-webkit-transform:translate3d(0, 32PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 32PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 32PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 32PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="card-hover-info">{{ .Params.description | safeHTML }}</h5>
+                                        </div>
+                                        <img alt="" src="{{ .Params.cover }}" sizes="(max-width: 479px) 91vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 24vw" class="card-image-2"/>
+                                    </div>
+                                    <h5 class="heading-15">{{ .Title | safeHTML }}</h5>
+                                    <div class="work-card-category">{{ .Params.authors | safeHTML }}</div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

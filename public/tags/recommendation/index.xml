@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recommendation on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/recommendation/</link>
+    <link>http://localhost:1313/atmawarin/tags/recommendation/</link>
     <description>Recent content in Recommendation on My New Hugo Site</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 08 Jun 2018 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/recommendation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/atmawarin/tags/recommendation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rekomendasi Note Taking App : Notion</title>
-      <link>http://localhost:1313/articles/rekomendasi-note-taking-app-notion/</link>
+      <link>http://localhost:1313/atmawarin/articles/rekomendasi-note-taking-app-notion/</link>
       <pubDate>Fri, 08 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/rekomendasi-note-taking-app-notion/</guid>
+      <guid>http://localhost:1313/atmawarin/articles/rekomendasi-note-taking-app-notion/</guid>
       <description>Salah satu tool yang sering nongol di desktop saya akhir-akhir ini adalah Notion. Notion didesain untuk membantu kamu menyimpan informasi dan mengorganise informasi, membuat rencana, serta berkolaborasi dengan tim di kantor atau teman.&#xA;Notion mirip sekali dengan Evernote, tapi dengan empat kelebihan yang paripurna untuk saya:&#xA;Markdown dan keyboard shortcut yang sangat intuitive dan mudah untuk digunakan. UX yang sangat sedap di mata. Powerful relational database – mirip dengan airtable. Lebih mudah untuk berkolaborasi.</description>
     </item>
     <item>
       <title>Buat Presentasi Dengan Beautiful.ai</title>
-      <link>http://localhost:1313/articles/buat-presentasi-dengan-beautiful-ai/</link>
+      <link>http://localhost:1313/atmawarin/articles/buat-presentasi-dengan-beautiful-ai/</link>
       <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/buat-presentasi-dengan-beautiful-ai/</guid>
+      <guid>http://localhost:1313/atmawarin/articles/buat-presentasi-dengan-beautiful-ai/</guid>
       <description>Ada banyak opsi yang bagus di pasar yang bisa membantu kamu membuat slide yang bagus. Tapi di antara banyak produk itu, beautiful.ai adalah yang terbaik karena limitasi yang diberikan.&#xA;Produk ini tidak cuma bagus, tapi juga sangat membantu dalam membuat kita fokus ke materi dari presentasi – bukan ke layout dari presentasi.</description>
     </item>
     <item>
       <title>Muji Notebook &#43; Uni-ball Signo UM-151</title>
-      <link>http://localhost:1313/articles/muji-notebook-uni-ball-signo-um-151/</link>
+      <link>http://localhost:1313/atmawarin/articles/muji-notebook-uni-ball-signo-um-151/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/articles/muji-notebook-uni-ball-signo-um-151/</guid>
+      <guid>http://localhost:1313/atmawarin/articles/muji-notebook-uni-ball-signo-um-151/</guid>
       <description>Saya tidak biasanya membuat tulisan tentang hal yang saya miliki, tapi untuk yang satu ini saya ingin membuat pengecualian. Muji Dotted Notebook + Uniball Signo UM-151 adalah surga.&#xA;Duo bolpen dan buku ini bisa melakukan apapun. Menulis catatan, brainstorming, menusuk mata orang, mengaduk kopi, sketching, semuanya bisa dilakukan dengan dengan mulus, mengalir cair.&#xA;PS: Yes, I know the pen looks corny.</description>
     </item>
   </channel>

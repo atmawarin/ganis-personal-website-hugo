@@ -10,7 +10,7 @@ menus:
       url: "/about"
     - name: "Book"
       weight: 20
-      url: "/"
+      url: "/reading"
     - name: "Articles"
       weight: 30
       url: "/articles"
@@ -24,7 +24,7 @@ menus:
       url: "/articles"
     - name: "Book"
       weight: 20
-      url: "/"
+      url: "/reading"
     - name: "About"
       weight: 30
       url: "/about"

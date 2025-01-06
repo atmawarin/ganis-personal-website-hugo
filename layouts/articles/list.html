@@ -34,7 +34,7 @@
                     {{ range  . }}
                     <div role="listitem" class="blog-post-v2 w-dyn-item">
                         <div class="post-card-v2">
-                            <img alt="article-image" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
+                            <img alt="article-image" src="{{ .Params.cover | absURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
                             <div class="post-card-v2-info">
                                 {{ range .Params.tags }}
                                 {{ $url := (printf "%s%s/" ("/tags/" ) ( . | urlize)) }}

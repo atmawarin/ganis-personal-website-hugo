@@ -17,9 +17,13 @@
             {{ end }}
             {{ with .Params.tags }}
             <div class="div-block-3">
-                <div class="grey-text tag-label">Tag : </div>
+                {{ if eq (len .) 1 }}
+                <div class="grey-text tag-label">Tag: </div>
+                {{ else if gt (len .) 1 }}
+                <div class="grey-text tag-label">Tags: </div>
+                {{ end }}
                 {{ range . }}
-                {{ $url := (printf "%s%s/" ("/tags/" | relURL) (. | urlize)) }}
+                {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
                     <a href="{{ $url }}" style="background-color:#fb406c" class="badge color">{{ . }}</a>
                 {{ end }}
             </div>
@@ -50,13 +54,25 @@
     </div>
     <div class="div-block-5 article-nav">
         {{ $pages := .CurrentSection.Pages.ByWeight }}
+        {{ $prev_btn := "images/dev/blue-left-arrow.svg" | relURL }}
+        {{ $next_btn := "images/dev/blue-right-arrow.svg" | relURL }}
         {{ with $pages.Prev . }}
-        <a href="{{ .RelPermalink }}" id="next_button" class="button-3 button button-article-navigation button-previous w-button">Previous article</a>
+        <a
+            href="{{ .RelPermalink }}" id="next_button" class="button-3 button button-article-navigation button-previous w-button" 
+            style="background-image: url('{{ $prev_btn }}')"
+        >
+        Previous article
+        </a>
         {{ end }}
         {{ with $pages.Next . }}
-        <a href="{{ .RelPermalink }}" id="previous_button" class="button-3 button button-article-navigation next-articles w-button">next article</a>
+        <a
+            href="{{ .RelPermalink }}" id="previous_button" class="button-3 button button-article-navigation next-articles w-button"
+            style="background-image: url('{{ $next_btn }}')"
+        >
+        next article
+        </a>
         {{ end }}
     </div>
-    <a href="/articles" class="button-4 button w-button">back to all articles</a>
+    <a href='{{ "articles" | relURL }}' class="button-4 button w-button">back to all articles</a>
 </div>
 {{ end }}

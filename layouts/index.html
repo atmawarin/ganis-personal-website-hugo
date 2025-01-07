@@ -19,7 +19,7 @@
                         <div>
                             <div class="grey-text tag-label">Tag : </div>
                             {{ range . }}
-                            {{ $url := (printf "%s%s/" ("/tags/" | relURL) (. | urlize)) }}
+                            {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
                             <a href="{{ $url }}" class="badge color">{{ . }}</a>
                             {{ end }}
                         </div>
@@ -48,7 +48,7 @@
                 </div>
             </div>
             <div class="div-block-4 center">
-                <a href='{{ "/articles" | relURL }}' class="button center">See All Posts</a>
+                <a href='{{ "articles" | relURL }}' class="button center">See All Posts</a>
             </div>
         </div>
     </div>

@@ -6970,7 +6970,6 @@ align-self: flex-end;
 .button-3.button.button-article-navigation {
 background-color: var(--super-light-blue);
 color: var(--light-blue);
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d995abb4aefbe16f090d29d_np_arrow-left_888650_244464.svg");
 background-position: 0 8px;
 background-repeat: no-repeat;
 background-size: 30px;
@@ -6990,7 +6989,7 @@ padding-right: 40px;
 font-family: "Karla", serif;
 font-weight: 700;
 transition: all .4s;
-left: -170px;
+left: -157px;
 }
 
 .button-3.button.button-article-navigation.button-previous:hover {
@@ -6999,12 +6998,11 @@ left: 0;
 
 .button-3.button.button-article-navigation.next-articles {
 color: var(--dark-blue);
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d995abc6e7b4839a4096ff0_np_arrow-right_888647_244464.svg");
 background-position: 3% 46%;
 padding-left: 40px;
 font-family: "Karla", serif;
 transition: all .4s;
-right: -135px;
+right: -125px;
 }
 
 .button-3.button.button-article-navigation.next-articles:hover {

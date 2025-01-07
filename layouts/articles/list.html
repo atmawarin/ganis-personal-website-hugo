@@ -37,9 +37,9 @@
                         <div class="post-card-v2">
                             <img alt="article-image" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
                             <div class="post-card-v2-info">
-                                {{ range .Params.tags }}
-                                {{ $url := (printf "%s%s/" ("/tags/" ) ( . | urlize)) }}
-                                <a style="background-color: #fb406c;" href='{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
+                                {{ range first 1 .Params.tags }}
+                                {{ $url := (printf "%s%s/" ("tags/" ) ( . | urlize)) }}
+                                <a style="background-color: #fb406c;" href='{{ site.BaseURL }}{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
                                 {{ end }}
                                 <a href="{{ .RelPermalink }}" class="article-header-link w-inline-block">
                                     <h4 class="heading-11">{{ .Title | safeHTML }}</h4>

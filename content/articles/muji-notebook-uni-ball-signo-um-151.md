@@ -1,7 +1,7 @@
 ---
 title: "Muji Notebook + Uni-ball Signo UM-151"
 description: "Muji Dotted Notebook + Uniball Signo UM-151 adalah surga."
-cover: /images/articles/notebook.jpg
+cover: images/articles/notebook.jpg
 date: 2017-10-26
 tags: ["recommendation"]
 ---

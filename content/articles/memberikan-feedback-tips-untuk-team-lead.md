@@ -1,7 +1,7 @@
 ---
 title: "Memberikan Feedback - Tips Untuk Team Lead"
 description: "Tidak punya waktu untuk bertemu dengan tim, seminggu sekali? Ya jangan jadi team lead."
-cover: /images/articles/two-birds.jpg
+cover: images/articles/two-birds.jpg
 date: 2018-04-26
 tags: ["work story"]
 ---

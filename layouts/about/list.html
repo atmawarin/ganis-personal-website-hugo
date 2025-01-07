@@ -9,7 +9,7 @@
                 </p>
                 {{ with .Params.location }}
                 <div class="location home-v2 w-clearfix">
-                    <img src='{{ "/images/icons/about-location.svg" | relURL }}' alt="" class="location-icon"/>
+                    <img src='{{ "images/icons/about-location.svg" | relURL }}' alt="" class="location-icon"/>
                     <div class="text-block">currently live in</div>
                     <div class="location-text black-text">{{ . }}</div>
                 </div>
@@ -22,7 +22,7 @@
                 {{ end }}
             </div>
         </div>
-        {{ $about_bg := "/images/dev/about-hero.jpeg" | relURL }}
+        {{ $about_bg := "images/dev/about-hero.jpeg" | relURL }}
         <div class="split-image hero-2" 
         style='background-image: linear-gradient(#24446480, #24446480), url("{{ $about_bg }}");'>
             {{ with .Site.Params.header }}

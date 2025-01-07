@@ -1,7 +1,7 @@
 ---
 title: Principle 
 description: "Lakukan dan hindari. Tulis dan langgar. Consistent, tapi jangan takut mengganti."
-cover: /images/articles/ruler.jpg
+cover: images/articles/ruler.jpg
 date: 2019-08-03
 tags: ["note"]
 ---

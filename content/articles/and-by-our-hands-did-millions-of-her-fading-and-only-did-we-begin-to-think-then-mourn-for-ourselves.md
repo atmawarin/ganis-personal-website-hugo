@@ -1,7 +1,7 @@
 ---
 title: "And by our hands did millions of her fading and only did we begin to think then mourn for ourselves"
 description: "I wave hello, and she grins back."
-cover: /images/articles/trees.jpg
+cover: images/articles/trees.jpg
 date: 2011-03-23
 tags: ["note"]
 ---

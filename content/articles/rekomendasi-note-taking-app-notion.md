@@ -1,7 +1,7 @@
 ---
 title: "Rekomendasi Note Taking App : Notion"
 description: "Menulis dan membuat rencana sangat menyenangkan untuk dilakukan di aplikasi ini."
-cover: /images/articles/computer-screen.png
+cover: images/articles/computer-screen.png
 date: 2018-06-08
 tags: ["recommendation"]
 ---

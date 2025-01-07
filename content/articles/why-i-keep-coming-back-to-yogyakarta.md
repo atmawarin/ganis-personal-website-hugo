@@ -1,7 +1,7 @@
 ---
 title: "Why I Keep Coming Back to Yogyakarta"
 description: "Hal yang saya pelajari di tahun 2019 kemarin."
-cover: /images/articles/line-drawing.jpeg
+cover: images/articles/line-drawing.jpeg
 date: 2020-03-04
 tags: ["note"]
 ---

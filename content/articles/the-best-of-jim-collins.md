@@ -1,7 +1,7 @@
 ---
 title: "The Best of Jim Collins"
 description: “How can I thank you?” Collins asked. Drucker answers “just go out and make yourself useful” before getting out of the car, and strolling back to his house.
-cover: /images/articles/man-talking.jpg
+cover: images/articles/man-talking.jpg
 date: 2019-12-04
 tags: ["service business"]
 ---
@@ -34,7 +34,7 @@ If you want the average performance of those around you to go up, you must first
 No one but you can take responsibility to leverage how you best work, and the sooner you do, the more years you have to gain the cumulative effect of tens of thousands of hours well-spent.
 
 ### Count your time, and make it count
-{{< figure src="/images/articles/chart.png" caption="Mimic Jim Collins. I try to develop my own way to do weekly review based on things that I think important" >}}
+{{< figure src="images/articles/chart.png" caption="Mimic Jim Collins. I try to develop my own way to do weekly review based on things that I think important" >}}
 
 
 - What gets measured gets managed. Collins tracking his time into 3 categories: creative work, teaching, backstage work. He divides it into 50%, 30%, and 20%, and tries to make sure that he get 1000 hours of creative work every year. 

@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="page-wrapper nav-left">
-    <div id="Hero" class="section article-hero-bg article-bg-her">
+    {{ $article_hero := "images/articles/hero.jpg" | relURL }}
+    <div id="Hero" class="section article-hero-bg article-bg-her" style='background-image: linear-gradient(#24446480, #24446480), url("{{ $article_hero }}");'>
         <div class="wrapper">
             <div class="section-intro left no-margin">
                 {{ with .Title }}
@@ -13,12 +14,12 @@
         <div class="wrapper">
             <div class="side-header">
                 <div class="blog-categories-wrapper">
-                    {{ $articlesPage := "/articles" | relURL }}
+                    {{ $articlesPage := "articles" | relURL }}
                     <a href="{{ $articlesPage }}" aria-current="page" class="link-v2 category-link right">All</a>
                     <div class="w-dyn-list">
                         <div role="list" class="blog-tags w-dyn-items">
                             {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-                                {{ $url := (printf "%s%s/" ("/tags/" | relURL) ($name | urlize)) }}
+                                {{ $url := (printf "%s%s/" ("tags/" | relURL) ($name | urlize)) }}
                                 <a href="{{ $url }}" class="link-v2 category-link right">{{ $name }}</a>
                             {{ end }}
                         </div>

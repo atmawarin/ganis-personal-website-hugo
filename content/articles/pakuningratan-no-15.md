@@ -1,7 +1,7 @@
 ---
 title: "Pakuningratan No.15"
 description: "Saya selalu berpikir rumah adalah tempat, lokasi, dan tanah. Tapi ternyata bukan."
-cover: /images/articles/office-crowd.png
+cover: images/articles/office-crowd.png
 date: 2019-07-29
 tags: ["work story"]
 ---

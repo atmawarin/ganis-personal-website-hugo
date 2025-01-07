@@ -36,7 +36,7 @@
                     <div role="listitem" class="blog-post-v3 w-dyn-item">
                         <a href="{{ .Page.RelPermalink }}" class="post-card-v3 w-inline-block">
                             <div class="post-card-info-v3"></div>
-                            <div style="background-image: url('{{ .Page.Params.cover }}')" class="div-block div-round"></div>
+                            <div style="background-image: url('{{ .Page.Params.cover | relURL }}')" class="div-block div-round"></div>
                             <h4 class="post-card-v3-heading">{{ .Page.Title | safeHTML }}</h4>
                         </a>
                     </div>

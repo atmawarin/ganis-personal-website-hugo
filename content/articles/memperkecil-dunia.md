@@ -1,7 +1,7 @@
 ---
 title: "Memperkecil Dunia"
 description: "Di era di mana semua orang bisa menjadi apapun, punya dunia yang kecil dan sederhana itu enak."
-cover: /images/articles/satellite-view.jpg
+cover: images/articles/satellite-view.jpg
 date: 2019-07-15
 tags: ["note"]
 ---

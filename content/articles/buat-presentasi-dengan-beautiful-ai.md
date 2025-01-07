@@ -1,7 +1,7 @@
 ---
 title: "Buat Presentasi Dengan Beautiful.ai"
 description: "Produk ini tidak cuma bagus, tapi juga sangat membantu dalam membuat kita fokus ke materi dari presentasi – bukan ke layout dari presentasi."
-cover: /images/articles/youtube-screenshot.png
+cover: images/articles/youtube-screenshot.png
 date: 2018-03-29
 tags: ["recommendation"]
 ---

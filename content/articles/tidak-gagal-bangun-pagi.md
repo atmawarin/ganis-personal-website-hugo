@@ -1,7 +1,7 @@
 ---
 title: "Tidak Gagal Bangun Pagi"
 description: “Keep your face always toward the sunshine – and shadows will fall behind you”.
-cover: /images/articles/grass.jpg
+cover: images/articles/grass.jpg
 date: 2019-07-16
 tags: ["note"]
 ---

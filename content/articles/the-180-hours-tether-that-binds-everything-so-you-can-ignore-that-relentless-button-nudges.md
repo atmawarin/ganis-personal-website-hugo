@@ -1,7 +1,7 @@
 ---
 title: "The 180 hours tether that binds everything so you can ignore that relentless button nudges"
 description: "Button vs anchor battle. On how to stay center while moving sideways."
-cover: /images/articles/routine-drawing.png
+cover: images/articles/routine-drawing.png
 date: 2023-10-12
 tags: ["design"]
 ---

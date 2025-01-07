@@ -1,6 +1,6 @@
 baseURL: 'https://mudassir-nawaz.github.io/atmawarin/'
-languageCode: 'en-us'
-title: 'My New Hugo Site'
+languageCode: 'id-ID'
+title: 'Ganis Angger Atmawarin'
 # Taxonomies defined
 taxonomies:
   category: categories #for books

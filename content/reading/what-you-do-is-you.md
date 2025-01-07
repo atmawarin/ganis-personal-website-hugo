@@ -4,4 +4,5 @@ description: 'Pertama kali saya dengar Ben Horowitz dari rekomendasi Jun. Buku i
 cover: "images/reading/what-you-do-is-you.jpeg"
 publishDate: 2020-12-14
 authors: "Ben Horowitz"
+categories: ["business"]
 ---

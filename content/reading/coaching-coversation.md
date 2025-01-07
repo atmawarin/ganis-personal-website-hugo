@@ -4,4 +4,5 @@ description: '44% karyawan bilang kalau mereka gak pernah dapet constructive fee
 cover: "images/reading/coaching-conversation.jpeg"
 publishDate: 2021-04-12
 authors: "Brian Souza"
+categories: ["business"]
 ---

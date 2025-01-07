@@ -4,4 +4,5 @@ description: "Buku ini adalah buku yang bagus untuk pengantar buat desain dan us
 cover: "images/reading/the-checklist-manifesto.jpeg"
 publishDate: 2016-10-11
 authors: "Atul Gawande"
+categories: ["social science & engineering"]
 ---

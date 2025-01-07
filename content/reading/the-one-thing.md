@@ -4,4 +4,5 @@ description: 'Pesan dari buku ini itu jadilah kayak perangko. Nempel terus di sa
 cover: "images/reading/the-one.jpeg"
 publishDate: 2020-11-14
 authors: "Gary Keel"
+categories: ["business"]
 ---

@@ -4,4 +4,5 @@ description: "Buku ini membantu membuat saya kehilangan 4kg dalam 2 bulan. Saya 
 cover: "images/reading/the-obesity-code.jpeg"
 publishDate: 2019-06-11
 authors: "Dr Jason Fung"
+categories: ["business"]
 ---

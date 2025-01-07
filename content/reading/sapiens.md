@@ -4,4 +4,5 @@ description: "Buku yang dibaca oleh hampir semua orang di sekitar saya, dan untu
 cover: "images/reading/sapiens.jpeg"
 publishDate: 2018-08-15
 authors: "Yuval Noah Hahari"
+categories: ["social science & engineering"]
 ---

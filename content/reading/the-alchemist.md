@@ -4,4 +4,5 @@ description: "Semua hal yang terjadi sekali, tidak akan terjadi lagi. Tapi semua
 cover: "images/reading/the-alchemist.jpeg"
 publishDate: 2021-10-12
 authors: "Paulo Coelho"
+categories: ["fiction & literature"]
 ---

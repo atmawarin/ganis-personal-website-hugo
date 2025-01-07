@@ -4,4 +4,5 @@ description: 'Selain hygiene factor, salah satu hal yang penting banget di bagia
 cover: "images/reading/ask-a-manager.jpeg"
 publishDate: 2021-03-12
 authors: "Alison Green"
+categories: ["business"]
 ---

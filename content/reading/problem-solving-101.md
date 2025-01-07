@@ -4,4 +4,5 @@ description: "Ditulis oleh the famous Ken Watanabe (just kidding, this is not TH
 cover: "images/reading/problem-solving-101.png"
 publishDate: 2016-09-11
 authors: "Ken Watanabe"
+categories: ["personal development"]
 ---

@@ -4,4 +4,5 @@ description: "Kompetisi bisa jadi cerita romantis? Iya! Buku ini bercerita tenta
 cover: "images/reading/the-perfect-mile.jpeg"
 publishDate: 2022-07-15
 authors: "Neal Bascomb"
+categories: ["personal development"]
 ---

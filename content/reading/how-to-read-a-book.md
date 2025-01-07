@@ -4,4 +4,5 @@ description: "Buku ini agak aneh. Awalnya saya berpikir kalau How to Read a Book
 cover: "images/reading/how-to-read-a-book.jpeg"
 publishDate: 2019-01-01
 authors: "Mortimer J Adler & Charles Van Doren"
+categories: ["personal development"]
 ---

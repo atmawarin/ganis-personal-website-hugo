@@ -4,4 +4,5 @@ description: "Satu hal yang saya petik dari buku ini adalah, bahkan jenius seper
 cover: "images/reading/who-we-reading-when-we-reading.png"
 publishDate: 2022-09-15
 authors: "David Karashima"
+categories: ["biography"]
 ---

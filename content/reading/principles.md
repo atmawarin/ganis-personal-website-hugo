@@ -4,4 +4,5 @@ description: ¯\\_(ツ)\_/¯ Buku yang seharusnya saya sukai. Saya mencoba memba
 cover: "images/reading/principles.jpeg"
 publishDate: 2018-07-15
 authors: "Ray Dalio"
+categories: ["business"]
 ---

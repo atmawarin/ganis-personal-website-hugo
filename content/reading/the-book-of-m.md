@@ -4,4 +4,5 @@ description: 'I love zombie story. Walaupun buku ini bukan literally tentang zom
 cover: "images/reading/the-book-of-m.jpeg"
 publishDate: 2018-10-15
 authors: "Peng Sheperd"
+categories: ["fiction & literature"]
 ---

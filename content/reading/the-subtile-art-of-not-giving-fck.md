@@ -4,4 +4,5 @@ description: (╯°□°)╯︵ ┻━┻ Ada beberapa konten menarik di dalamny
 cover: "images/reading/the-art-of-not-giving-fck.jpeg"
 publishDate: 2019-10-11
 authors: "Mark Manson"
+categories: ["personal development"]
 ---

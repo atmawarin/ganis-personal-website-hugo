@@ -4,4 +4,5 @@ description: "Anthony De Mello mungkin bisa jadi awareness guru yang paling koca
 cover: "images/reading/conversation-with-the-masters.jpeg"
 publishDate: 2024-06-15
 authors: "Anthony De Mello"
+categories: ["personal development"]
 ---

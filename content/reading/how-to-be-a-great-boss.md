@@ -4,4 +4,5 @@ description: "Buku ini sangat membantu saya ketika saya harus mulai ada di posis
 cover: "images/reading/how-to-great-boss.jpeg"
 publishDate: 2016-06-11
 authors: "Gino Wickman, René Boer"
+categories: ["business"]
 ---

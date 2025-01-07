@@ -4,4 +4,5 @@ description: 'Saya mendapatkan rekomendasi untuk membaca buku ini dari Tiago For
 cover: "images/reading/decoding-greatness.jpeg"
 publishDate: 2022-02-15
 authors: "Ron Friedman"
+categories: ["business"]
 ---

@@ -4,4 +4,5 @@ description: "Buku yang memulai kecintaan saya terhadap genre Zombie. Konyol, ce
 cover: "images/reading/the-zombie-survival.jpeg"
 publishDate: 2016-12-11
 authors: "Max Brooks"
+categories: ["fiction & literature"]
 ---

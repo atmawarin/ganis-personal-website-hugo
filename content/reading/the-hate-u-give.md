@@ -4,4 +4,5 @@ description: ＼(＾O＾)／ Woof! What a ride. Membaca buku ini, saya jadi mera
 cover: "images/reading/the-hate-u-give.jpeg"
 publishDate: 2018-11-15
 authors: "Angie Thomas"
+categories: ["fiction & literature"]
 ---

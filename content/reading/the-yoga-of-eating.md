@@ -4,4 +4,5 @@ description: 'Alih-alih jadi "just another diet book" Charles menggunakan proses
 cover: "images/reading/the-yoga-of-eating.jpeg"
 publishDate: 2022-08-15
 authors: "Charles Eisenstein"
+categories: ["personal development"]
 ---

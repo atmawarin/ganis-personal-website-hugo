@@ -4,4 +4,5 @@ description: "Walaupun bukunya punya judul yang agak menara gading, Effective Ex
 cover: "images/reading/the-effective-executive.jpeg"
 publishDate: 2019-04-11
 authors: "Peter Drucker"
+categories: ["business"]
 ---

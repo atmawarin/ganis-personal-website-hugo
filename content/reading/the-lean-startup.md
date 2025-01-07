@@ -4,4 +4,5 @@ description: '10 tahun lebih ada di dunia teknologi internet, bekerja di perusah
 cover: "images/reading/the-lean-startup.jpeg"
 publishDate: 2020-09-14
 authors: "Eric Ries"
+categories: ["business"]
 ---

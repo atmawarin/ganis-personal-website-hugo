@@ -4,4 +4,5 @@ description: 'Coming of the age book. Wally Roux adalah jenius cilik yang tidak 
 cover: "images/reading/wally-roux-quantum.jpeg"
 publishDate: 2019-11-11
 authors: "Nick Carr"
+categories: ["fiction & literature"]
 ---

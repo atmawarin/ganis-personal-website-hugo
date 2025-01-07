@@ -4,4 +4,5 @@ description: "Buku ini adalah complement yang bagus sekali untuk Atomic Habit. K
 cover: "images/reading/the-power-of-habit.jpeg"
 publishDate: 2019-07-11
 authors: "Charles Duhigg"
+categories: ["social science & engineering"]
 ---

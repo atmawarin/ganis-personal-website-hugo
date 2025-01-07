@@ -4,4 +4,5 @@ description: "Ditulis di tahun 1994, Built to Last mencoba menganalisis deretan 
 cover: "images/reading/built-to-last.jpeg"
 publishDate: 2022-01-11
 authors: "Jim Collins"
+categories: ["business"]
 ---

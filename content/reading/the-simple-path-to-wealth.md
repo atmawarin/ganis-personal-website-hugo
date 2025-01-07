@@ -4,4 +4,5 @@ description: Kaya gak masuk prioritas hidup saya. But, wealthy means freedom. An
 cover: "images/reading/the-simple-path-to-wealth.jpeg"
 publishDate: 2019-09-11
 authors: "JL Collins"
+categories: ["social science & engineering"]
 ---

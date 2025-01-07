@@ -4,4 +4,5 @@ description: 'Buku yang sangat... provokatif. Biasanya membangun really basic MV
 cover: "images/reading/solving-products-design.png"
 publishDate: 2018-09-15
 authors: "Artiom Dashinsky"
+categories: ["design"]
 ---

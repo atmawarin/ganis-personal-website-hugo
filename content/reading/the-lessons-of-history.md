@@ -4,4 +4,5 @@ description: 'Kumpulan atom bernama manusia itu memang aneh. Ia "nothing and eve
 cover: "images/reading/the-lessons-of-history.jpeg"
 publishDate: 2022-06-15
 authors: "Ariel Durant, Will Durant"
+categories: ["social science & engineering"]
 ---

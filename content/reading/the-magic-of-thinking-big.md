@@ -4,4 +4,5 @@ description: 'Buku tentang pragmatist positive optimis. Dari kecil, saya sudah d
 cover: "images/reading/the-magic-of-thinking-big.jpeg"
 publishDate: 2020-10-14
 authors: "David Schwartz"
+categories: ["personal development"]
 ---

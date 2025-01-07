@@ -4,4 +4,5 @@ description: "Don't Panic! Saya baru membacakan buku ini 42 tahun sejak buku ini
 cover: "images/reading/the-hitchhiker-guide.jpeg"
 publishDate: 2020-08-14
 authors: "Douglas Adam"
+categories: ["fiction & literature"]
 ---

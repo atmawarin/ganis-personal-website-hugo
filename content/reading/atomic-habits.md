@@ -4,4 +4,5 @@ description: "No bullshit, self improvement book that really works. Hal paling p
 cover: "images/reading/atomic-habits.jpeg"
 publishDate: 2024-02-11
 authors: "James Clear"
+categories: ["personal development"]
 ---

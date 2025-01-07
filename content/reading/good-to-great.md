@@ -4,4 +4,5 @@ description: 'A really enjoyable business book. Good to Great adalah effort akad
 cover: "images/reading/good-to-great.jpeg"
 publishDate: 2019-01-01
 authors: "Jim Collins"
+categories: ["business"]
 ---

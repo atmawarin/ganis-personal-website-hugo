@@ -4,4 +4,5 @@ description: 'Kocak dan berguna sekali. Saya membeli buku ini ketika Gita mengan
 cover: "images/reading/be-prepared.jpeg"
 publishDate: 2020-01-10
 authors: "Jeannie Hayden, Garry Grenburg"
+categories: ["social science & engineering"]
 ---

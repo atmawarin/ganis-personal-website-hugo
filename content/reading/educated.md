@@ -4,4 +4,5 @@ description: 'Deg degan baca biopic dari Tara Westover. Prosa dan narasiny KUAT 
 cover: "images/reading/educated.jpeg"
 publishDate: 2020-02-14
 authors: "Tara Westover"
+categories: ["biography"]
 ---

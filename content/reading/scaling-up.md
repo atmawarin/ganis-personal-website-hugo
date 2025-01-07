@@ -4,4 +4,5 @@ description: 'Simple to follow – but not easy, framework untuk grow perusahaan
 cover: "images/reading/scalling-up.jpeg"
 publishDate: 2024-04-11
 authors: "Verne Harnish"
+categories: ["business"]
 ---

@@ -4,4 +4,5 @@ description: "Buku ini adalah buku yang bagus untuk pengantar buat desain dan us
 cover: "images/reading/the-design-of-everyday-things.jpeg"
 publishDate: 2016-11-11
 authors: "Donald A Norman"
+categories: ["design"]
 ---

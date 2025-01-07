@@ -4,4 +4,5 @@ description: 'Sisi gelap dan terang dari salah satu CEO terbaik sepanjang masa. 
 cover: "images/reading/steve-jobs.jpeg"
 publishDate: 2020-05-14
 authors: "Walter Isaacson"
+categories: ["biography"]
 ---

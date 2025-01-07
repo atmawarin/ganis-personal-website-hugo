@@ -4,4 +4,5 @@ description: "Ditulis pada tahun 1998 oleh Bill Bryson. Buku ini semacam self mo
 cover: "images/reading/a-walk-in-the-woods.jpeg"
 publishDate: 2019-01-01
 authors: "Bill Bryson"
+categories: ["fiction & literature"]
 ---

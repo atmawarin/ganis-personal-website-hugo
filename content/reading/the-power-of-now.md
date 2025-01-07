@@ -4,4 +4,5 @@ description: ¯\\_(ツ)\_/¯ Agak kecewa dengan buku ini. Format orang bertanya 
 cover: "images/reading/the-power-of-now.jpeg"
 publishDate: 2019-08-11
 authors: "Eckhart Toller"
+categories: ["personal development"]
 ---

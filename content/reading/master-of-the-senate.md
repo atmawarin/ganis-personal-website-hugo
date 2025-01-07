@@ -4,4 +4,5 @@ description: "A masterpiece. Salah satu hal yang mungkin boring buat orang adala
 cover: "images/reading/master-of-the-senate.jpeg"
 publishDate: 2024-05-11
 authors: "Robert A Caro"
+categories: [""]
 ---

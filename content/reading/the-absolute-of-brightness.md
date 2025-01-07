@@ -4,4 +4,5 @@ description: 'Wonderfully narrated and written. Kekuatan di Audiobook ini ada di
 cover: "images/reading/the-absolute-brightness.jpeg"
 publishDate: 2020-06-14
 authors: "James Lecesne"
+categories: ["fiction & literature"]
 ---

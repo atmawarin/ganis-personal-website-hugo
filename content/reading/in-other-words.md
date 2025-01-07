@@ -4,4 +4,5 @@ description: "Seperti ratusan ribu mahasiswa lain di era 2000 an, saya mengidola
 cover: "images/reading/in-other-words.png"
 publishDate: 2021-07-12
 authors: "Goenawan Mohamad"
+categories: ["fiction & literature"]
 ---

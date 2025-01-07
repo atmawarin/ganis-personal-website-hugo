@@ -4,4 +4,5 @@ description: "Salah satu hal yang paling berharga yang bisa dilakukan oleh tiap 
 cover: "images/reading/charlie-munger.jpeg"
 publishDate: 2022-01-15
 authors: "Tren Griffin"
+categories: ["business"]
 ---

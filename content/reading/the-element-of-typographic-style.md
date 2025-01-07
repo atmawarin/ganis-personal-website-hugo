@@ -4,4 +4,5 @@ description: "This is one god damn perfect book. Puisi, teknis, reference, novel
 cover: "images/reading/the-element-of-typographic-style.jpeg"
 publishDate: 2024-01-11
 authors: "Robert Bringhurst"
+categories: ["design"]
 ---

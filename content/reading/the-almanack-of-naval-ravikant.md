@@ -4,4 +4,5 @@ description: "Buku favorit saya di 2021. Titik. I believe in this guy. Banyak sa
 cover: "images/reading/the-almanack-of-naval-ravikant.jpeg"
 publishDate: 2024-08-15
 authors: "Eric Jorgensen, Tim Ferris"
+categories: ["business"]
 ---

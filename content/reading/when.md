@@ -4,4 +4,5 @@ description: 'A fantastic resource untuk memahami kapan kita sebaiknya melakukan
 cover: "images/reading/when.jpeg"
 publishDate: 2018-12-15
 authors: "Daniel H Pink"
+categories: ["social science & engineering"]
 ---

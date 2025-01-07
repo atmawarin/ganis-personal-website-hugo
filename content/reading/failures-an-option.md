@@ -4,4 +4,5 @@ description: 'Penuh dengan kegagalan. Jon Benjamin fokus bercerita list dari sem
 cover: "images/reading/failure-is-an-option.jpeg"
 publishDate: 2019-01-01
 authors: "H Job Benjamin"
+categories: ["fiction & literature"]
 ---

@@ -4,4 +4,5 @@ description: "Murakami Lite. Norwegian Wood – walaupun karya Murakami yang pal
 cover: "images/reading/norwegian-wood.jpeg"
 publishDate: 2016-07-11
 authors: "Haruki Murakami"
+categories: ["fiction & literature"]
 ---

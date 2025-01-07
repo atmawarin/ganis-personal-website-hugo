@@ -1,6 +1,6 @@
 {{ define "main" }}
 <div class="page-wrapper nav-left">
-    {{ $article_hero := "images/articles/hero.jpg" | relURL }}
+    {{ $article_hero := "images/dev/articles-hero.jpg" | relURL }}
     <div id="Hero" class="section article-hero-bg article-bg-her" style='background-image: linear-gradient(#24446480, #24446480), url("{{ $article_hero }}");'>
         <div class="wrapper">
             <div class="section-intro left no-margin">
@@ -20,9 +20,9 @@
                     <a href='{{ "articles" | relURL }}' aria-current="page" class="link-v2 category-link right">All</a>
                     <div class="w-dyn-list">
                         <div role="list" class="blog-categories w-dyn-items">
-                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            {{ range .Site.Taxonomies.tags }}
                             <div role="listitem" class="w-dyn-item">
-                                <a href='{{ "tags/" | relURL }}{{ $name | urlize }}' class="link-v2 category-link right">{{ $name }}</a>
+                                <a href='{{ .Page.RelPermalink }}' class="link-v2 category-link right">{{ .Page.Title }}</a>
                             </div>
                             {{ end }}
                         </div>

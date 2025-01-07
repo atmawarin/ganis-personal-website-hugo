@@ -25,15 +25,7 @@
                     </a>
                     {{ end }}
                 </div>
-                {{ $params := .Params}}
-                {{ range .Pages.GroupByPublishDate "2006" }}
                 <div class="w-tab-content">
-                    {{ if gt .Key "2022" }}
-                    <h1 class="centered-text">{{ $.Params.heading }}</h1>
-                    <p class="centered-text">{{ $.Params.sub_heading }}</p>
-                    {{ else }}
-                    <h1 class="centered-text">{{ .Key }}</h1>
-                    {{ end }}
                     <div class="w-dyn-list">
                         <div role="list" class="works w-dyn-items">
                             {{ range .Pages }}
@@ -53,7 +45,6 @@
                         </div>
                     </div>
                 </div>
-                {{ end }}
             </div>
         </div>
     </div>

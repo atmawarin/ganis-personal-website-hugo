@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="page-wrapper nav-left">
     <div class="split-media right nav-bar-left">
-        {{ $contact_bg := "/images/dev/contact-bg.jpg" | relURL }}
+        {{ $contact_bg := "images/dev/contact-bg.jpg" | relURL }}
         <div class="split-image contact"
         style='background-image: linear-gradient(#24446480, #24446480), url("{{ $contact_bg }}");'></div>
     </div>
@@ -11,7 +11,11 @@
                 <h1 class="contact-v1-heading">{{ .Params.main_heading | safeHTML }}</h1>
                 <div class="grey-text">{{ .Params.text | safeHTML }}</div>
                 <input class="input half-width w-input" maxlength="256" name="Contact-Email" data-name="Contact Email" placeholder="Email address" type="email" id="Contact-Email" required=""/>
-                <input type="submit" data-wait="Please wait..." class="button contact-button w-button" value="Yes! count me in!"/>
+                {{ $plan_icon := "images/icons/paper-plan-icon.svg" | relURL }}
+                <input
+                    type="submit" data-wait="Please wait..." class="button contact-button w-button" value="Yes! count me in!"
+                    style='background-image: url("{{ $plan_icon }}");'
+                    />
             </form>
             <div class="form-success w-form-done">
                 <div>Thank you! Your submission has been received!</div>

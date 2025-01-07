@@ -37,7 +37,7 @@
                     </div>
                     {{ end }}
                 </div>
-                <a href="/newsletter" class="link-v2 white">Send Message</a>
+                <a href='{{ "newsletter/" | relURL }}' class="link-v2 white">Send Message</a>
             </div>
             {{ end }}
             {{ with site.Params.footer.newsletter }}
@@ -47,7 +47,11 @@
                 <div class="w-form">
                     <form id="Subscribe-Form" name="email-form" data-name="Email Form" action="https://atmawarin.us4.list-manage.com/subscribe/post?u=14e57e1e8c6e66dc0fd26741c&amp;amp;id=1ea4f07034" method="post" class="footer-v1-subscribe-form" data-wf-page-id="6293b6e2466a22a009a6a3f8" data-wf-element-id="15a88aab-9444-57fe-7430-2b5d6eb3a555">
                         <input class="input-2 subscribe-input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email address" type="email" id="Email" required=""/>
-                        <input type="submit" data-wait="Please wait..." class="button-5 subscribe-button w-button" value=" "/>
+                        {{ $plan_icon := "images/icons/paper-plan-icon.svg" | relURL }}
+                        <input
+                            type="submit" data-wait="Please wait..." class="button-5 subscribe-button w-button" value=" "
+                            style='background-image: url("{{ $plan_icon }}");'
+                            />
                         <div class="paragraph-small">No spam. Unsubscribe anytime.</div>
                     </form>
                     <div class="form-success w-form-done">

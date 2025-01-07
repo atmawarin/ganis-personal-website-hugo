@@ -1,6 +1,10 @@
 baseURL: 'https://mudassir-nawaz.github.io/atmawarin/'
 languageCode: 'en-us'
 title: 'My New Hugo Site'
+# Taxonomies defined
+taxonomies:
+  category: categories #for books
+  tag: tags #for articles
 
 # Menu Entries
 menus:

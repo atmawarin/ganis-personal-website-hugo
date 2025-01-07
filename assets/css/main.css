@@ -2275,7 +2275,6 @@ padding-top: 128px;
 }
 
 .section.promo-section {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63e3c4ee95c7_ipad-promo.jpg");
 background-position: 50% 210%;
 background-repeat: no-repeat;
 background-size: 1836px;
@@ -2387,7 +2386,6 @@ background-attachment: scroll, fixed;
 
 .section.portfolio-hero {
 color: #fff;
-background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d7acdd034aefe7b7e2933d7_IMG_6321%20(1).jpeg");
 background-position: 0 0, 50% 0;
 background-repeat: repeat, no-repeat;
 background-size: auto, contain;
@@ -2805,9 +2803,9 @@ position: relative;
 
 .color-hover {
 background-color: var(--yellow);
+inset: 0;
 width: 100%;
 position: absolute;
-inset: 0;
 }
 
 .color-hover.left {
@@ -2819,9 +2817,17 @@ inset: 0 auto 0 0;
 
 .color-hover.down {
 background-color: var(--super-light-blue);
-height: 3px;
+height: 100%;
 position: absolute;
 inset: auto 0 0;
+transform: translateY(120px);
+transition-property: all;
+transition-timing-function: ease-in-out;
+transition-duration: 550ms;
+}
+
+.social-link.dark-bg:hover .color-hover.down {
+     transform: translateY(0);
 }
 
 .line-button-text {
@@ -4492,6 +4498,16 @@ font-family: "Karla", serif;
 font-size: 22px;
 font-weight: 400;
 line-height: 22px;
+transform: translateY(30px);
+opacity: 0;
+transition-property: all;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 550ms;
+}
+
+.work-card-2:hover .card-hover-info {
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 .card-hover-info.work-big-info {
@@ -6864,7 +6880,9 @@ text-decoration: none;
 display: block;
 position: relative;
 overflow: hidden;
-}
+cursor: pointer;
+} 
+
 
 .work-card-image-wrapper {
 margin-bottom: 24px;
@@ -6872,7 +6890,18 @@ position: relative;
 overflow: hidden;
 }
 
+.work-card-image-wrapper .card-image-2 {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 550ms;
+}
+
+.work-card-2:hover .work-card-image-wrapper .card-image-2 {
+    transform: scale(1.05);
+}
+
 .card-hover-2 {
+opacity: 0;
 z-index: 1;
 color: var(--super-light-blue);
 background-color: #0000;
@@ -6883,11 +6912,15 @@ padding-right: 14px;
 display: flex;
 position: absolute;
 inset: 0;
+transition-property: all;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 550ms;
 }
 
-.card-hover-2:hover {
-background-color: #244464e6;
-}
+.work-card-2:hover .card-hover-2 {
+    opacity: 1;
+    background-color: #244464e6;
+} 
 
 .card-image-2 {
 filter: grayscale(0%);

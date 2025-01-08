@@ -2296,7 +2296,6 @@ border-top: 1px solid var(--gainsboro);
 
 .section.about-v2-hero {
 color: #fff;
-background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/62924d98345465b8d0c292af_thomas-stephan-54mo4HhH2Ks-unsplash.jpg");
 background-position: 0 0, 50% 0;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -4061,6 +4060,10 @@ margin-bottom: 40px;
 
 .story-heading.questions {
 color: var(--yellow);
+}
+
+.questions.w-richtext > * {
+    color: var(--yellow);
 }
 
 .job-time {

@@ -7,7 +7,7 @@
 <script src="{{ $aos.RelPermalink }}"></script>
 
 <!-- site title -->
-<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Page.Title }} | {{ .Site.Title}}{{ end }}</title>
+<title>{{ if .IsHome }}Homepage | {{ .Site.Title }}{{ else }}{{ .Page.Title }} | {{ .Site.Title}}{{ end }}</title>
 
 <!-- favicon -->
 <link rel="shortcut icon" href='{{ "images/favicon.png" | relURL }}' type="image/x-icon">

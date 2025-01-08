@@ -1,0 +1,61 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    {{ $qi_bg := "images/dev/q-i.jpg" | relURL }}
+    <div
+        id="Hero" class="section about-v2-hero"
+        style='
+background-image: linear-gradient(#24446480, #24446480), url("{{ $qi_bg }}");'
+    >
+        <div class="wrapper">
+            <div class="section-intro-2 no-margin-bottom">
+                <h1 class="text-white">{{ .Title | safeHTML }}</h1>
+                <div>{{ .Params.subtitle | safeHTML }}</div>
+            </div>
+        </div>
+    </div>
+    {{ with .Pages }}
+    <div class="section">
+        <div class="wrapper">
+            <div class="story">
+                <div class="story-info questions">
+                    <h2 class="story-heading questions">questions 🙋</h2>
+                    <div class="w-dyn-list">
+                        <div role="list" class="w-dyn-items">
+                            {{ range where .ByDate.Reverse "Type" "question" }}
+                            <div role="listitem" class="w-dyn-item">
+                                <div class="div-block-7">
+                                    <h3 class="heading-21">{{ .Title | safeHTML }}</h3>
+                                    {{ with .Date }}
+                                    <div class="job-time-2 questions">{{ . | time.Format "January 2, 2006" }}</div>
+                                    {{ end }}
+                                    <div class="rich-text-block-4 questions w-richtext">{{ .Content }}</div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+                <div class="story-info">
+                    <h2 class="story-heading">ideas 💡</h2>
+                    <div class="w-dyn-list">
+                        <div role="list" class="w-dyn-items">
+                            {{ range where .ByDate.Reverse "Type" "idea" }}
+                            <div role="listitem" class="w-dyn-item">
+                                <div class="div-block-7">
+                                    <h3>{{ .Title | safeHTML }}</h3>
+                                    {{ with .Date }}
+                                    <div class="job-time-2">{{ . | time.Format "January 2, 2006" }}</div>
+                                    {{ end }}
+                                    <div class="rich-text-block-4 w-richtext">{{ .Content }}</div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

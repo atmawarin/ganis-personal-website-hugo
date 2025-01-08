@@ -20,7 +20,7 @@ menus:
       url: "/articles"
     - name: "Questions & Ideas"
       weight: 40
-      url: "/"
+      url: "/questions-and-ideas"
 
   footer:
     - name: "Articles"

@@ -40,7 +40,7 @@ menus:
       url: "/newsletter"
     - name: "Favourite"
       weight: 60
-      url: "/"
+      url: "/favourite"
 
 # Params
 params:

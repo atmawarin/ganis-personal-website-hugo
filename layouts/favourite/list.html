@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="section">
+        <div class="wrapper side-padding">
+            <div class="work-top">
+                <div class="work-info">
+                    <h1 class="work-heading">{{ .Title | safeHTML }}</h1>
+                    {{ range .Pages.ByWeight }}
+                    <div class="section-fav">
+                        <h4>
+                            {{ with .Params.type }}
+                            <strong>{{ . | safeHTML }}</strong>
+                            {{ end }}
+                            : <a href="{{ .Params.link | safeURL }}" target="_blank">{{ .Title | safeHTML }}</a>
+                        </h4>
+                        {{ with .Params.image }}
+                        <img src="{{ . | relURL }}" alt="" class="image-10"/>
+                        {{ end }}
+                        {{ with .Content }}
+                        <div class="grey-text-2">{{ . }}</div>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ end }}

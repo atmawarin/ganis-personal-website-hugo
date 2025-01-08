@@ -34,7 +34,7 @@ menus:
       url: "/about"
     - name: "Running"
       weight: 40
-      url: "/"
+      url: "/running"
     - name: "Newsletter"
       weight: 50
       url: "/newsletter"

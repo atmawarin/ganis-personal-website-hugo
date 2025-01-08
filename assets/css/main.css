@@ -2250,6 +2250,10 @@ position: relative;
 overflow: hidden;
 }
 
+.white-text > * {
+    color: white !important;
+}
+
 .section.no-paddings {
 padding: 0 0%;
 }

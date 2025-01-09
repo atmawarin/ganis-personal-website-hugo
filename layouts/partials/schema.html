@@ -1,0 +1,74 @@
+<script type="application/ld+json">
+{{ if .IsPage }}
+{{- $ISO8601 := "2006-01-02T15:04:05-07:00" }}
+{
+    "@context": "https://schema.org/",
+    "@type": "BlogPosting",
+    "@id": "{{ .Permalink }}",
+    "headline": "{{ .Title }}",
+    "name": "{{ .Title }}",
+    {{ with .Params.description }}
+    "description": "{{ . }}",
+    {{ end }}
+    {{ with .PublishDate }}
+    "datePublished": "{{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}",
+    {{ end }}
+    {{ with .Date }}
+    "dateModified": "{{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}",
+    {{ end }}
+    "publisher": {
+        "@type": "Person",
+        "@id": "{{ site.BaseURL }}",
+        "name": "{{ site.Title }}",
+        "logo": {
+            "@type": "ImageObject",
+            "@id": "{{ $.Site.Params.logo | relURL }}",
+            "url": "{{ $.Site.Params.logo | relURL }}",
+        }
+    },
+    {{ with .Params.cover }}
+    "image": {
+        "@type": "ImageObject",
+        "@id": "{{ . | relURL }}",
+        "url": "{{ . | relURL }}",
+    },
+    {{ end }}
+    "url": "{{ .Permalink }}",
+    "isPartOf": {
+        "@type" : "Blog",
+            "@id": "{{ site.BaseURL }}articles",
+            "name": "{{ site.Title }} Blog",
+            "publisher": {
+                "@type": "Person",
+                "@id": "{{ site.BaseURL }}",
+                "name": "{{ site.Title }}"
+            }
+        },
+    "wordCount": "{{ .WordCount }}",
+    {{- $keywords := slice -}}
+    {{- with .Params.tags }}
+    {{- range . }}
+        {{- $keywords = $keywords | append . }}
+    {{- end }}
+    {{- end }}
+    {{- with $keywords }}
+    "keywords": [
+        {{ delimit . `,` }}
+    ],
+    {{- end }}
+}
+{{ else }}
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ .Title }}",
+    {{ with or .Page.Params.description .Page.Params.subtitle }}
+    "description": "{{ . }}",
+    {{ end }}
+    "publisher": {
+        "@type": "Person",
+        "name": "{{ site.Title }}"
+    },
+}
+{{ end }}
+</script>

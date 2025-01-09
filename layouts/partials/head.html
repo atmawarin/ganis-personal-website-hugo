@@ -15,6 +15,9 @@
 <!-- opengraph -->
 {{ template "partials/opengraph.html" . }}
 
+<!-- schema -->
+{{ template "partials/schema.html" . }}
+
 <!-- main css -->
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.Permalink }}">

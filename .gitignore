@@ -14,3 +14,5 @@ hugo.linux
 
 # Node modules directory
 /node_modules/
+
+/README.md

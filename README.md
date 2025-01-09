@@ -1,4 +1,4 @@
-# Hugo Website Documentation
+# Website Documentation
 
 Welcome to the documentation for managing and developing this Hugo-based website. This guide will walk you through adding or editing pages and updating menus. ✨🛠️
 

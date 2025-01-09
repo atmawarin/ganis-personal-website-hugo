@@ -13,13 +13,23 @@
 <link rel="shortcut icon" href='{{ "images/favicon.png" | relURL }}' type="image/x-icon">
 
 <!-- opengraph -->
-{{ template "partials/opengraph.html" . }}
+{{ template "_internal/opengraph.html" . }}
+{{- with or .Params.image .Params.cover }}
+    <meta property="og:image" content="{{ . | relURL }}">
+{{- end }}
 
 <!-- schema -->
 {{ template "partials/schema.html" . }}
 
+<!-- twitter card -->
+{{ partial "partials/twitter_cards.html" . }}
+{{- with or .Params.image .Params.cover }}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ . | relURL }}">
+{{- end }}
+
 <!-- main css -->
-{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+{{ $css := resources.Get "css/main.css" | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $css.Permalink }}">
 
 <!-- plugins css -->

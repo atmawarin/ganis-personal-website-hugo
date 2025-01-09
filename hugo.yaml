@@ -44,10 +44,12 @@ menus:
 
 # Params
 params:
-  header:
-    logo: "images/logo.png"
+  social:
     twitter: "https://twitter.com/atmawarin"
     linkedin: "https://www.linkedin.com/in/ganis-atmawarin/"
+
+  header:
+    logo: "images/logo.png"
 
   footer:
     about_me: 

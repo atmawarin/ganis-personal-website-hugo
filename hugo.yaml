@@ -1,5 +1,6 @@
 baseURL: 'https://mudassir-nawaz.github.io/atmawarin/'
-languageCode: 'id-ID'
+languageCode: 'id'
+languageName: 'Indonesian'
 title: 'Ganis Angger Atmawarin'
 # Taxonomies defined
 taxonomies:

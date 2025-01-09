@@ -16,6 +16,11 @@
     {{ with .Date }}
     "dateModified": "{{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}",
     {{ end }}
+    "availableLanguage": {
+        "@type": "Language",
+        "name": "{{ site.Language.LanguageName }}",
+        "alternateName": "{{ site.Language.LanguageCode }}"
+    },
     "publisher": {
         "@type": "Person",
         "@id": "{{ site.BaseURL }}",
@@ -65,6 +70,11 @@
     {{ with or .Page.Params.description .Page.Params.subtitle }}
     "description": "{{ . }}",
     {{ end }}
+    "availableLanguage": {
+        "@type": "Language",
+        "name": "{{ site.Language.LanguageName }}",
+        "alternateName": "{{ site.Language.LanguageCode }}"
+    },
     "publisher": {
         "@type": "Person",
         "name": "{{ site.Title }}"

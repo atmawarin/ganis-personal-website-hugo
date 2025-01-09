@@ -168,25 +168,6 @@ td, th {
 padding: 0;
 }
 
-@font-face {
-font-family: webflow-icons;
-src: url("data:application/x-font-ttf;charset=utf-8;base64,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") format("truetype");
-font-weight: normal;
-font-style: normal;
-}
-
-[class^="w-icon-"], [class*=" w-icon-"] {
-speak: none;
-font-variant: normal;
-text-transform: none;
--webkit-font-smoothing: antialiased;
--moz-osx-font-smoothing: grayscale;
-font-style: normal;
-font-weight: normal;
-line-height: 1;
-font-family: webflow-icons !important;
-}
-
 .w-icon-slider-right:before {
 content: "î˜€";
 }
@@ -1525,21 +1506,18 @@ top: 0;
 }
 
 .w-lightbox-left {
-background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0yMCAwIDI0IDQwIiB3aWR0aD0iMjQiIGhlaWdodD0iNDAiPjxnIHRyYW5zZm9ybT0icm90YXRlKDQ1KSI+PHBhdGggZD0ibTAgMGg1djIzaDIzdjVoLTI4eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDN2MjNoMjN2M2gtMjZ6IiBmaWxsPSIjZmZmIi8+PC9nPjwvc3ZnPg==");
 display: none;
 bottom: 0;
 left: 0;
 }
 
 .w-lightbox-right {
-background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMjQgNDAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0MCI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMC0waDI4djI4aC01di0yM2gtMjN6IiBvcGFjaXR5PSIuNCIvPjxwYXRoIGQ9Im0xIDFoMjZ2MjZoLTN2LTIzaC0yM3oiIGZpbGw9IiNmZmYiLz48L2c+PC9zdmc+");
 display: none;
 bottom: 0;
 right: 0;
 }
 
 .w-lightbox-close {
-background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii00IDAgMTggMTciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyI+PGcgdHJhbnNmb3JtPSJyb3RhdGUoNDUpIj48cGF0aCBkPSJtMCAwaDd2LTdoNXY3aDd2NWgtN3Y3aC01di03aC03eiIgb3BhY2l0eT0iLjQiLz48cGF0aCBkPSJtMSAxaDd2LTdoM3Y3aDd2M2gtN3Y3aC0zdi03aC03eiIgZmlsbD0iI2ZmZiIvPjwvZz48L3N2Zz4=");
 background-size: 18px;
 height: 2.6em;
 right: 0;
@@ -2304,7 +2282,6 @@ background-attachment: scroll, fixed;
 
 .section.image-4 {
 color: #fff;
-background-image: linear-gradient(#244464cc, #244464cc), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63bfb9ee9558_nathan-anderson-472406.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2315,7 +2292,6 @@ padding-bottom: 40px;
 
 .section.image-2 {
 color: #fff;
-background-image: linear-gradient(#1119, #1119), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e638591ee957b_yanapi-senaud-592425-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2324,7 +2300,6 @@ background-attachment: scroll, fixed;
 
 .section.image-1 {
 color: #fff;
-background-image: linear-gradient(#11111180, #11111180), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63165dee9580_nikolay-tarashchenko-551710-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2333,7 +2308,6 @@ background-attachment: scroll, fixed;
 
 .section.image-5 {
 color: #fff;
-background-image: linear-gradient(#11111180, #11111180), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6393b7ee9576_benjamin-voros-310026-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2341,7 +2315,6 @@ background-attachment: scroll, fixed;
 }
 
 .section.image-6 {
-background-image: linear-gradient(#0003, #0003), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6319a2ee957c_rawpixel-com-463439-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2349,7 +2322,6 @@ background-attachment: scroll, fixed;
 }
 
 .section.image-7 {
-background-image: linear-gradient(#1111114d, #1111114d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e638d4eee956e_brevite-434280-unsplash.jpg");
 background-position: 0 0, 0 0;
 background-size: auto, 1500px;
 background-attachment: scroll, fixed;
@@ -2357,7 +2329,6 @@ background-attachment: scroll, fixed;
 
 .section.about-v1-hero {
 color: #fff;
-background-image: linear-gradient(#1111114d, #1111114d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e637a96ee9537_benjaminrobyn-jespersen-438640.jpg");
 background-position: 0 0, 50% -100px;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2371,7 +2342,6 @@ padding-right: 0%;
 
 .section.image-8 {
 color: #fff;
-background-image: linear-gradient(#11111180, #11111180), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e639895ee95ad_clem-onojeghuo-123657.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2380,7 +2350,6 @@ background-attachment: scroll, fixed;
 
 .section.image-3 {
 color: #fff;
-background-image: linear-gradient(#1119, #1119), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63b301ee95c6_tyler-franta-589346-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2396,7 +2365,6 @@ background-attachment: scroll, fixed;
 }
 
 .section.portfolio-hero.reading-hero {
-background-image: linear-gradient(#0000, #0000), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d7ac98ca9740c54bf58bdc1_IMG_6321.jpeg");
 background-position: 0 0, 50% 0;
 background-size: auto, contain;
 }
@@ -2500,7 +2468,6 @@ box-shadow: inset 0 0 0 1px #0000;
 
 .button.subscribe-button {
 background-color: var(--yellow);
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63b195ee9516_paper-plane-icon.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 width: 48px;
@@ -2527,7 +2494,6 @@ color: #fff;
 }
 
 .button.contact-button {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63b195ee9516_paper-plane-icon.svg");
 background-position: 20px;
 background-repeat: no-repeat;
 padding-left: 52px;
@@ -2537,7 +2503,6 @@ font-family: "Karla", serif;
 .button.password-button {
 color: #0000;
 text-align: center;
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63627bee950f_lock-icon.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 width: 48px;
@@ -2604,7 +2569,6 @@ padding: 48px 15px;
 
 .button-style-wrapper.dark-bg {
 background-color: #222;
-background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63eaf5ee953b_james-pond-185593.jpg");
 background-position: 0 0, 50%;
 background-size: auto, cover;
 background-attachment: scroll, fixed;
@@ -2643,7 +2607,6 @@ overflow: hidden;
 }
 
 .page-wrapper._404 {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63eaf5ee953b_james-pond-185593.jpg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -2721,7 +2684,6 @@ display: flex;
 }
 
 .split-image {
-background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -2732,7 +2694,6 @@ position: relative;
 }
 
 .split-image.hero-2 {
-background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d6643fe071de8c7a6ee7afb_DSC_6840.jpeg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2753,7 +2714,6 @@ position: relative;
 }
 
 .split-image.protected-image {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e634bf1ee952e_siarhei-horbach-267470.jpg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -2765,7 +2725,6 @@ z-index: 2;
 }
 
 .split-image.hero-1 {
-background-image: linear-gradient(to top, #0000004d, #fff0 25%), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63523aee952f_berwin-coroza-340446.jpg");
 background-position: 0 0, 50% 0;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2773,7 +2732,6 @@ width: 50%;
 }
 
 .split-image.about {
-background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d7c0165516b0312429343b9_IMG_6476%20(2).jpeg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -2781,7 +2739,6 @@ width: 100%;
 }
 
 .split-image.image-1 {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e636b2eee95de_jakob-owens-486025-unsplash%20copy.jpg");
 }
 
 .hero-split-content {
@@ -3249,7 +3206,6 @@ padding-bottom: 1px;
 }
 
 .counters.image-2 {
-background-image: linear-gradient(to bottom, #00000080, #00000080), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e632341ee9561_joshua-earle-541397-unsplash.jpg"), linear-gradient(to right, var(--dim-grey), var(--dark-space));
 background-position: 0 0, 50%, 0 0;
 background-repeat: repeat, no-repeat, repeat;
 background-size: auto, cover, auto;
@@ -3257,7 +3213,6 @@ background-attachment: scroll, fixed, scroll;
 }
 
 .counters.image-3 {
-background-image: linear-gradient(to bottom, #1119, #1119), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6343daee9565_darren-coleshill-558552-unsplash.jpg"), linear-gradient(to right, var(--dim-grey), var(--dark-space));
 background-position: 0 0, 50%, 0 0;
 background-repeat: repeat, no-repeat, repeat;
 background-size: auto, cover, auto;
@@ -3286,28 +3241,24 @@ box-shadow: 1px 0 #ffffff26;
 
 .counter._1 {
 text-align: center;
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6338d8ee94f3_done-icon.png");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: 160px;
 }
 
 .counter._2 {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63702eee94f8_mask-icon.png");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: 160px;
 }
 
 .counter._3 {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e631d89ee94ef_calendar-icon.png");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: 160px;
 }
 
 .counter._4 {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e631c18ee94f4_win-icon.png");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: 160px;
@@ -3475,7 +3426,6 @@ left: 0;
 }
 
 .review-v1 {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6373ecee94c3_quote-icon.svg");
 background-position: 85% 0;
 background-repeat: no-repeat;
 align-items: flex-start;
@@ -3484,7 +3434,6 @@ display: flex;
 }
 
 .review-v1.light {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63619dee9583_quote-icon-grey.svg");
 background-size: auto;
 }
 
@@ -3495,7 +3444,6 @@ margin-left: 30px;
 }
 
 .review-v1-avatar-wrapper {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6381bcee9505_avatar-border.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -3505,7 +3453,6 @@ display: flex;
 }
 
 .review-v1-avatar-wrapper.color {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e634f96ee958d_avatar-border-color.svg");
 }
 
 .review-v1-text {
@@ -3644,7 +3591,6 @@ margin-right: 24px;
 }
 
 .zoom-image {
-background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
 background-position: 0 0;
 background-size: cover;
 border-radius: 50%;
@@ -3654,7 +3600,6 @@ height: 200px;
 }
 
 .zoom-image.split-about {
-background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6334a4ee95b0_anton-darius-sollers-424830.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -3663,7 +3608,6 @@ inset: 0;
 }
 
 .zoom-image.split-contacts {
-background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63211eee9578_luca-bravo-65126.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -3672,7 +3616,6 @@ inset: 0;
 }
 
 .zoom-image.split-works {
-background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e634ce1ee959d_gabriel-izgi-173852-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -3681,7 +3624,6 @@ inset: 0;
 }
 
 .zoom-image.split-blog {
-background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6343daee9565_darren-coleshill-558552-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -4142,7 +4084,6 @@ transform: rotate(90deg);
 }
 
 .card-image {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d72b42c8c31f40a7f33a2d0_reading-ganis.jpg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: contain;
@@ -4282,7 +4223,6 @@ display: flex;
 }
 
 .about-video-preview {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63cb13ee9533_nielsen-ramon-279902.jpg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -4293,7 +4233,6 @@ position: relative;
 
 .about-video-play {
 background-color: var(--dark-blue);
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e639b01ee94f7_play-icon.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 width: 31px;
@@ -4406,7 +4345,6 @@ padding-left: 76px;
 }
 
 .post-back-link {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63c078ee94d8_arrow-left-icon.svg");
 background-position: 0 54%;
 background-repeat: no-repeat;
 padding-top: 8px;
@@ -4609,7 +4547,6 @@ position: relative;
 
 .hero-full-image.home-v5 {
 color: #fff;
-background-image: linear-gradient(#1111114d, #1111114d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e632533ee9591_aziz-acharki-253909.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -4620,7 +4557,6 @@ display: flex;
 
 .hero-full-image.home-v3 {
 color: #fff;
-background-image: linear-gradient(#00000040, #00000040), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e633410ee9531_clem-onojeghuo-277043.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -4630,7 +4566,6 @@ display: flex;
 
 .hero-full-image.home-v8 {
 color: #fff;
-background-image: linear-gradient(#0000001a, #0000001a), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e639fb1ee9590_beardface.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -5016,7 +4951,6 @@ left: 64px;
 .intro-page-hero {
 background-color: var(--dark);
 color: #fff;
-background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63ba45ee9577_intro-hero-image.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -5362,7 +5296,6 @@ display: flex;
 .instagram-more {
 background-color: var(--dark-slate-grey);
 color: #fff;
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63e060ee9553_instagram-icon.png");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: 160px;
@@ -5429,7 +5362,6 @@ background-image: none;
 }
 
 .skill-circle-bg.image-3 {
-background-image: linear-gradient(#1119, #1119), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e6343daee9565_darren-coleshill-558552-unsplash.jpg");
 background-position: 0 0, 50%;
 background-size: auto, cover;
 background-attachment: scroll, fixed;
@@ -5881,7 +5813,6 @@ overflow: hidden;
 }
 
 .work-big {
-background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -5963,7 +5894,6 @@ display: flex;
 z-index: 1;
 color: #fff;
 background-color: #1119;
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63621aee9547_location-icon-white.svg");
 background-position: 12px;
 background-repeat: no-repeat;
 background-size: 16px;
@@ -6016,7 +5946,6 @@ display: block;
 }
 
 .side-image-back.left {
-background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
 background-position: 0 0;
 background-size: 125px;
 margin-left: auto;
@@ -6087,7 +6016,6 @@ margin-left: 16.66%;
 
 .play-button {
 background-color: #111111b3;
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e639b01ee94f7_play-icon.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: 16px;
@@ -6173,7 +6101,6 @@ padding-bottom: 32px;
 }
 
 .pricing-feature {
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e634e4bee9549_checkmark-icon.svg");
 background-position: 2px 4px;
 background-repeat: no-repeat;
 background-size: 16px;
@@ -6343,21 +6270,18 @@ display: none;
 }
 
 .hero-slide._1 {
-background-image: linear-gradient(#1116, #1116), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e638453ee9532_fabrizio-verrecchia-438342.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
 }
 
 .hero-slide._2 {
-background-image: linear-gradient(#11111180, #11111180), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63eaf5ee953b_james-pond-185593.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
 }
 
 .hero-slide._3 {
-background-image: linear-gradient(#1119, #1119), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63f04bee9592_jake-davies-235504-unsplash.jpg");
 background-position: 0 0, 50%;
 background-repeat: repeat, no-repeat;
 background-size: auto, cover;
@@ -6746,7 +6670,6 @@ height: 280px;
 }
 
 .div-block {
-background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
 background-position: 50%;
 background-size: cover;
 border-radius: 50%;
@@ -6757,7 +6680,6 @@ height: 200px;
 
 .div-block.div-round {
 filter: grayscale();
-background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 background-size: cover;
@@ -7132,7 +7054,6 @@ background-color: #f6a136;
 .button-5.subscribe-button {
 background-color: var(--lighter-steel-blue);
 background-color: #faaf52;
-background-image: url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63b195ee9516_paper-plane-icon.svg");
 background-position: 50%;
 background-repeat: no-repeat;
 width: 48px;
@@ -7829,17 +7750,14 @@ p {
 }
 
 .section.about-v2-hero {
-    background-image: linear-gradient(to bottom, null, null), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63784fee9581_sirotorn-sumpunkulpak-180551-unsplash.jpg");
     background-position: 0 0, 50% 0;
 }
 
 .section.about-v1-hero {
-    background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e637a96ee9537_benjaminrobyn-jespersen-438640.jpg");
     background-position: 0 0, 50% 0;
 }
 
 .section.portfolio-hero {
-    background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d7ace1b34aefe5a55293464_IMG_6321%20(2).jpeg");
     background-position: 0 0, 40% 0;
     background-size: auto, contain;
 }
@@ -7958,7 +7876,6 @@ p {
 }
 
 .split-image.contact {
-    background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e63211eee9578_luca-bravo-65126.jpg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -8393,7 +8310,6 @@ p {
 }
 
 .hero-full-image.home-v5 {
-    background-image: linear-gradient(#1111114d, #1111114d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e632533ee9591_aziz-acharki-253909.jpg");
     background-attachment: scroll, fixed;
     min-height: 100vh;
     margin-top: -64px;
@@ -9208,7 +9124,6 @@ h6 {
 }
 
 .hero-full-image.home-v5 {
-    background-image: linear-gradient(#1111114d, #1111114d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e632533ee9591_aziz-acharki-253909.jpg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -9592,7 +9507,6 @@ h6 {
 }
 
 .section.portfolio-hero {
-    background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d7ace1b34aefe5a55293464_IMG_6321%20(2).jpeg");
     background-position: 0 0, 0 0;
     background-size: auto, cover;
 }
@@ -9608,7 +9522,6 @@ h6 {
 }
 
 .section.article-hero-bg.article-bg-her {
-    background-image: linear-gradient(#24446480, #24446480), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d72b42c8c31f40a7f33a2d0_reading-ganis.jpg");
     background-position: 0 0, 50% 0;
     background-size: auto, cover;
     padding-top: 70px;
@@ -9872,7 +9785,6 @@ h6 {
 }
 
 .hero-full-image.home-v5 {
-    background-image: linear-gradient(#1111114d, #1111114d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e632533ee9591_aziz-acharki-253909.jpg");
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -9890,7 +9802,6 @@ h6 {
 }
 
 .hero-full-image.home-v8 {
-    background-image: linear-gradient(#0000004d, #0000004d), url("https://cdn.prod.website-files.com/5d65948dd62e639f69ee94a2/5d65948dd62e639fb1ee9590_beardface.jpg");
     background-position: 0 0, 63%;
     flex-direction: column;
     justify-content: center;

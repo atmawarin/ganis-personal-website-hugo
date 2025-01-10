@@ -56,7 +56,7 @@ params:
   footer:
     about_me: 
       text: "Interweb enthusiast from Yogyakarta. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, black hair. Lion at Mario Kart, chicken at party."
-      image: "/images/sign.png"
+      image: "images/sign.png"
     
     contact:
       location: "I’m based in Yogyakarta"

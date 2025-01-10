@@ -19,8 +19,9 @@
                     <div class="w-dyn-list">
                         <div role="list" class="blog-tags w-dyn-items">
                             {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            {{ $active := cond (eq .Page.RelPermalink $.Page.RelPermalink) "active" "" }}
                                 {{ $url := (printf "%s%s/" ("tags/" | relURL) ($name | urlize)) }}
-                                <a href="{{ $url }}" class="link-v2 category-link right">{{ $name }}</a>
+                                <a href="{{ $url }}" class="{{ if $active }}w--current{{ end }} link-v2 category-link right">{{ $name }}</a>
                             {{ end }}
                         </div>
                     </div>

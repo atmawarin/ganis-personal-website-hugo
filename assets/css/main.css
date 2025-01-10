@@ -3171,7 +3171,7 @@ font-size: 14px;
 
 .link-v2.category-link.right {
 margin-bottom: 20px;
-margin-left: 40px;
+margin-left: 40px !important;
 margin-right: 0;
 }
 

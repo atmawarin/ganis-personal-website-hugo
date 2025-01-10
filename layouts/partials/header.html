@@ -1,13 +1,14 @@
-{{ with site.Params.header }}
 <div data-collapse="medium" data-animation="default" data-duration="400" data-no-scroll="1" data-easing="ease" data-easing2="ease" role="banner" class="nav-bar-left w-nav">
+    {{ with site.Params.header }}
     {{ with .logo }}
     <a href ="{{ site.BaseURL }}" aria-current="page" class="brand w-nav-brand w--current">
         <img src="{{ . | relURL }}" width="48" alt=""/>
     </a>
     {{ end }}
+    {{ end }}
     <nav role="navigation" class="nav-menu-left w-nav-menu" id="navigation">
         {{ range site.Menus.main }}
-        <a href="{{ .URL }}" class="nav-link w-nav-link">{{ .Name }}</a>
+            <a href="{{ .URL }}" class="nav-link w-nav-link">{{ .Name }}</a>
         {{ end }}
     </nav>
     <div class="menu-button w-hidden-main w-nav-button">
@@ -15,6 +16,7 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#010101" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
         </button>
     </div>
+    {{ with site.Params.header }}
     <div class="nav-left-social-icons">
         {{ with site.Params.social.twitter }}
         <a href="{{ . }}" target="_blank" class="social-icon-link w-inline-block">
@@ -27,5 +29,5 @@
         </a>
         {{ end }}
     </div>
+    {{ end }}
 </div>
-{{ end }}

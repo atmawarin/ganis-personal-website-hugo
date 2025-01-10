@@ -16,7 +16,7 @@
         <div class="wrapper">
             <div data-duration-in="600" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="work-category-tabs w-tabs">
                 <div class="tabs-menu w-tab-menu">
-                    <a href='{{ "reading/" | relURL }}' class="link-v2 category-link w-inline-block w-tab-link">
+                    <a href='{{ "reading/" | relURL }}' class="link-v2 category-link w-inline-block w-tab-link w--current">
                         <div class="text-block-8">All</div>
                     </a>
                     {{ range .Site.Taxonomies.categories }}

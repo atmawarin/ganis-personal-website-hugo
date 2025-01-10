@@ -29,13 +29,13 @@ project_interest:
           text: "Run early in the morning while the city still silent is incredibly soothing experience. So I trade my computer for my shoes whenever I can! <br><br> Run is one of those thing that I always looking forward when I close my eyes at night."
           button: 
             label: "read My running goal"
-            url: "#"
+            url: "https://mudassir-nawaz.github.io/atmawarin/running/"
         - image: "images/two-kids-smiling.jpeg"
           heading: "Peduli Anak Foundation"
           text: "Peduli Anak Foundation is a non-profit organization for child welfare in Lombok and Sumbawa, Indonesia dedicated to providing family-like care, education, in-home family care, medical and legal support to thousands of underprivileged, neglected and abused children. <br><br> I work with their technology team since early 2019 to make sure that the donation platform working well and the site run as smoothly as possible."
           button: 
             label: "contribute to peduli anak"
-            url: "#"
+            url: "https://www.pedulianak.org/"
         - image: "images/track-drawing.png"
           heading: "Learn to write"
           text: "I attribute a lot of my work toward collecting other people amazing ideas. <br><br> But storing ideas itself is not enough. To make those ideas become truly mine, I need to distill it through writing. Problem is writing is hard as hell for me. It doesn't come naturally. <br><br> While I (almost) already give up cooking, I want to try to keep learn to write. This website is part of that journey."

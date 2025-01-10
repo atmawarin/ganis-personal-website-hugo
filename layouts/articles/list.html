@@ -17,7 +17,7 @@
         <div class="wrapper">
             <div class="side-header">
                 <div class="blog-categories-wrapper">
-                    <a href='{{ "articles" | relURL }}' aria-current="page" class="link-v2 category-link right">All</a>
+                    <a href='{{ "articles" | relURL }}' aria-current="page" class="link-v2 category-link right w--current">All</a>
                     <div class="w-dyn-list">
                         <div role="list" class="blog-categories w-dyn-items">
                             {{ range .Site.Taxonomies.tags }}

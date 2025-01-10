@@ -2,6 +2,7 @@ baseURL: 'https://mudassir-nawaz.github.io/atmawarin/'
 languageCode: 'id'
 languageName: 'Indonesian'
 title: 'Ganis Angger Atmawarin'
+enableRobotsTXT: true #robots.txt
 # Taxonomies defined
 taxonomies:
   category: categories #for books

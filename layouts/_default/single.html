@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="section no-bottom-padding">
+        <div class="wrapper">
+            {{ with .Title }}
+            <h1 class="post-heading">{{ . | safeHTML }}</h1>
+            {{ end }}
+            <div class="post w-richtext">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

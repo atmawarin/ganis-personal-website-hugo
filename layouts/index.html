@@ -1,0 +1,56 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="section no-bottom-padding">
+        <div class="wrapper">
+            {{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "articles") }}
+            <div class="w-dyn-list">
+                <div role="list" class="w-dyn-items">
+                    <div role="listitem" class="collection-item-3 w-dyn-item">
+                        <img alt="" src="" class="image-9 w-dyn-bind-empty"/>
+                        <h1 class="post-heading">{{ .Title }}</h1>
+                        <div class="rich-text-block w-richtext">
+                            {{ .Content }}
+                        </div>
+                        <div class="divider"></div>
+                        {{ with .Params.date }}
+                        <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
+                        {{ end }}
+                        {{ with .Params.tags }}
+                        <div>
+                            <div class="grey-text tag-label">Tag : </div>
+                            {{ range . }}
+                            {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
+                            <a href="{{ $url }}" class="badge color">{{ . }}</a>
+                            {{ end }}
+                        </div>
+                        {{ end }}
+                        <div class="divider"></div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+            <div class="side-header">
+                <h1 class="heading-4 article-all-post">Latest Posts</h1>
+            </div>
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts w-dyn-items">
+                    {{ with where .Site.RegularPages.ByDate.Reverse "Section" "articles" }}
+                    {{ range after 1 (first 7 .) }}
+                    <div role="listitem" class="blog-post-v3 w-dyn-item">
+                        <a href="{{ .RelPermalink }}" class="post-card-v3 w-inline-block">
+                            <div class="post-card-info-v3"></div>
+                            <div style="background-image: url('{{ .Params.cover }}')" class="div-block div-round"></div>
+                            <h4 class="post-card-v3-heading">{{ .Title | safeHTML }}</h4>
+                        </a>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            <div class="div-block-4 center">
+                <a href='{{ "articles" | relURL }}' class="button center">See All Posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

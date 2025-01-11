@@ -1,0 +1,70 @@
+baseURL: 'https://mudassir-nawaz.github.io/atmawarin/'
+languageCode: 'id'
+languageName: 'Indonesian'
+title: 'Ganis Angger Atmawarin'
+enableRobotsTXT: true #robots.txt
+# Taxonomies defined
+taxonomies:
+  category: categories #for books
+  tag: tags #for articles
+
+# Menu Entries
+menus:
+  main: 
+    - name: "About"
+      weight: 10
+      url: "/about"
+    - name: "Book"
+      weight: 20
+      url: "/reading"
+    - name: "Articles"
+      weight: 30
+      url: "/articles"
+    - name: "Questions & Ideas"
+      weight: 40
+      url: "/questions-and-ideas"
+
+  footer:
+    - name: "Articles"
+      weight: 10
+      url: "/articles"
+    - name: "Book"
+      weight: 20
+      url: "/reading"
+    - name: "About"
+      weight: 30
+      url: "/about"
+    - name: "Running"
+      weight: 40
+      url: "/running"
+    - name: "Newsletter"
+      weight: 50
+      url: "/newsletter"
+    - name: "Favourite"
+      weight: 60
+      url: "/favourite"
+
+# Params
+params:
+  social:
+    twitter: "https://twitter.com/atmawarin"
+    linkedin: "https://www.linkedin.com/in/ganis-atmawarin/"
+
+  header:
+    logo: "images/logo.png"
+
+  footer:
+    about_me: 
+      text: "Interweb enthusiast from Yogyakarta. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, black hair. Lion at Mario Kart, chicken at party."
+      image: "images/sign.png"
+    
+    contact:
+      location: "I’m based in Yogyakarta"
+      email: "ganis@atmawarin.com"
+
+    newsletter:
+      enable: true
+
+    copyright:
+      credits: "Typography: Brandon Grostesque & Abril Fatface"
+      text: "All contents created by me, unless otherwise noted. You are allowed to copy, distribute, or display your derivative copy of my works without my permission"

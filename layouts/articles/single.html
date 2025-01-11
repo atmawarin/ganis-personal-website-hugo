@@ -1,0 +1,78 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="split-content blog-post-content">
+        <div class="article-detail">
+            {{ with .Params.cover }}
+            <img width="500" alt="" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
+            {{ end }}
+            {{ with .Title }}
+            <h1 class="post-heading">{{ . | safeHTML }}</h1>
+            {{ end }}
+            <div class="post w-richtext">
+                {{ .Content }}
+            </div>
+            <div class="divider"></div>
+            {{ with .Params.date }}
+            <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
+            {{ end }}
+            {{ with .Params.tags }}
+            <div class="div-block-3">
+                {{ if eq (len .) 1 }}
+                <div class="grey-text tag-label">Tag: </div>
+                {{ else if gt (len .) 1 }}
+                <div class="grey-text tag-label">Tags: </div>
+                {{ end }}
+                {{ range . }}
+                {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
+                    <a href="{{ $url }}" style="background-color:#fb406c" class="badge color">{{ . }}</a>
+                {{ end }}
+            </div>
+            <div class="side-header">
+                <h1 class="heading-4 article-all-post">Related Posts</h1>
+            </div>
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts w-dyn-items">
+                    {{ range . }}
+                    {{ $category := . }}
+                    {{ $pages := index $.Site.Taxonomies.tags $category }}
+                    {{ range first 5 $pages }}
+                    {{ if ne .Page.Permalink $.Page.Permalink }}
+                    <div role="listitem" class="blog-post-v3 w-dyn-item">
+                        <a href="{{ .Page.RelPermalink }}" class="post-card-v3 w-inline-block">
+                            <div class="post-card-info-v3"></div>
+                            <div style="background-image: url('{{ .Page.Params.cover | relURL }}')" class="div-block div-round"></div>
+                            <h4 class="post-card-v3-heading">{{ .Page.Title | safeHTML }}</h4>
+                        </a>
+                    </div>
+                    {{ end }}
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    <div class="div-block-5 article-nav">
+        {{ $pages := .CurrentSection.Pages.ByWeight }}
+        {{ $prev_btn := "images/dev/blue-left-arrow.svg" | relURL }}
+        {{ $next_btn := "images/dev/blue-right-arrow.svg" | relURL }}
+        {{ with $pages.Prev . }}
+        <a
+            href="{{ .RelPermalink }}" id="next_button" class="button-3 button button-article-navigation button-previous w-button" 
+            style="background-image: url('{{ $prev_btn }}')"
+        >
+        Previous article
+        </a>
+        {{ end }}
+        {{ with $pages.Next . }}
+        <a
+            href="{{ .RelPermalink }}" id="previous_button" class="button-3 button button-article-navigation next-articles w-button"
+            style="background-image: url('{{ $next_btn }}')"
+        >
+        next article
+        </a>
+        {{ end }}
+    </div>
+    <a href='{{ "articles" | relURL }}' class="button-4 button w-button">back to all articles</a>
+</div>
+{{ end }}

@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    <div class="section dark">
+        <div class="wrapper">
+            <div class="section-intro-2">
+                <div class="mini-heading-2 dark-bg text-white">{{ .Params.pretitle | safeHTML }}</div>
+                <h1 class="text-white">{{ .Title | safeHTML }}</h1>
+                <p class="text-white">{{ .Params.description | safeHTML }}</p>
+            </div>
+            <div class="w-richtext white-text">
+                {{ .Content }}
+            </div>
+            {{ with .Pages }}
+            <div class="career no-margin">
+                {{ range $index, $params := .ByWeight.Reverse }}
+                {{ $is_even := math.ModBool $index 2 }}
+                <div class="career-job-wrapper {{ if $is_even }}mobile-reversed{{ end }}" style="{{ if not $is_even }}flex-direction: row-reverse;{{ end }}">
+                    <div class="career-job-2 {{ if $is_even }}left{{ else }}right{{ end }}">
+                        <div class="career-job-corner-2 {{ if $is_even }}right{{ else }}left{{ end }}"></div>
+                        {{ with .Title }}
+                        <h4 class="no-margin">{{ . }}</h4>
+                        {{ end }}
+                        {{ with .Params.subtitle }}
+                        <div class="career-job-position">{{ . }}</div>
+                        {{ end }}
+                        {{ with .Content }}
+                        <div class="paragraph-small-2 grey-text no-margin">{{ . }}</div>
+                        {{ end }}
+                    </div>
+                    <h6 class="career-job-period {{ if $is_even }}text-left{{ else }}text-right{{ end }}">
+                        <span class="text-color-2">
+                            {{ with .Params.location }}
+                            {{ . }}<br/>
+                            {{ end }}
+                            {{ with .Date }}
+                            {{ . | time.Format "2 January 2006"}}
+                            {{ end }}
+                        </span>
+                    </h6>
+                    <div class="timeline-dot-v2-2"></div>
+                </div>
+                {{ end }}
+                <div class="career-timeline-2 dark-bg"></div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+    </div>
+</div>
+{{ end }}

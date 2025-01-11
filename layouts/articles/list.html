@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    {{ $article_hero := "images/dev/articles-hero.jpg" | relURL }}
+    <div id="Hero" class="section article-hero-bg article-bg-her" style='background-image: linear-gradient(#24446480, #24446480), url("{{ $article_hero }}");'>
+        <div class="wrapper">
+            <div class="section-intro left no-margin">
+                {{ with .Title }}
+                <h1 class="heading-10">{{ . | safeHTML }}</h1>
+                {{ end }}
+                {{ with .Params.description }}
+                <div class="text-block-7">{{ . | safeHTML }}</div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="section article-hero">
+        <div class="wrapper">
+            <div class="side-header">
+                <div class="blog-categories-wrapper">
+                    <a href='{{ "articles" | relURL }}' aria-current="page" class="link-v2 category-link right w--current">All</a>
+                    <div class="w-dyn-list">
+                        <div role="list" class="blog-categories w-dyn-items">
+                            {{ range .Site.Taxonomies.tags }}
+                            <div role="listitem" class="w-dyn-item">
+                                <a href='{{ .Page.RelPermalink }}' class="link-v2 category-link right">{{ .Page.Title }}</a>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ with .RegularPages.ByDate.Reverse }}
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts-v2 w-dyn-items">
+                    {{ range  . }}
+                    <div role="listitem" class="blog-post-v2 w-dyn-item">
+                        <div class="post-card-v2">
+                            <img alt="article-image" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
+                            <div class="post-card-v2-info">
+                                {{ range first 1 .Params.tags }}
+                                {{ $url := (printf "%s%s/" ("tags/" ) ( . | urlize)) }}
+                                <a style="background-color: #fb406c;" href='{{ site.BaseURL }}{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
+                                {{ end }}
+                                <a href="{{ .RelPermalink }}" class="article-header-link w-inline-block">
+                                    <h4 class="heading-11">{{ .Title | safeHTML }}</h4>
+                                </a>
+                                <p class="paragraph-small grey-text">{{ .Params.description | safeHTML }}</p>
+                                <a href="{{ .RelPermalink }}" class="link-v2">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

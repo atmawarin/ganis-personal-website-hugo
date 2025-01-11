@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="page-wrapper nav-left">
+    {{ $reading_bg := "images/dev/reading-hero.jpeg" | relURL }}
+    <div
+        id="Hero" class="section portfolio-hero"
+        style='background-image: linear-gradient(#24446480, #24446480), url("{{ $reading_bg }}");'
+        >
+        <div class="wrapper">
+            <div class="section-intro left no-margin">
+                <h1 class="heading-10">{{ .Title | safeHTML }}</h1>
+                <div class="text-block-7">{{ .Params.description | safeHTML }}</div>
+            </div>
+        </div>
+    </div>
+    <div id="Hero" class="section portfolio-works">
+        <div class="wrapper">
+            <div data-duration-in="600" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="work-category-tabs w-tabs">
+                <div class="tabs-menu w-tab-menu">
+                    <a href='{{ "reading/" | relURL }}' class="link-v2 category-link w-inline-block w-tab-link">
+                        <div class="text-block-8">All</div>
+                    </a>    
+                    {{ range .Site.Taxonomies.categories }}
+                    {{ $active := cond (eq .Page.RelPermalink $.Page.RelPermalink) "active" "" }}
+                    <a href='{{ .Page.RelPermalink }}' class="link-v2 category-link w-inline-block w-tab-link {{ if $active }}w--current{{ end }}">
+                        <div>{{ .Page.Title }}</div>
+                    </a>
+                    {{ end }}
+                </div>
+                <div class="w-tab-content">
+                    <div class="w-dyn-list">
+                        <div role="list" class="works w-dyn-items">
+                            {{ range .Pages }}
+                            <div role="listitem" class="work w-dyn-item">
+                                <div class="work-card-2 w-inline-block">
+                                    <div class="work-card-image-wrapper">
+                                        <div class="card-hover-2">
+                                            <h5 class="card-hover-info">{{ .Params.description | safeHTML }}</h5>
+                                        </div>
+                                        <img alt="" src="{{ .Params.cover | relURL }}" sizes="(max-width: 479px) 91vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 24vw" class="card-image-2"/>
+                                    </div>
+                                    <h5 class="heading-15">{{ .Title | safeHTML }}</h5>
+                                    <div class="work-card-category">{{ .Params.authors | safeHTML }}</div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

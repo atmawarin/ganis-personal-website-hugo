@@ -7,8 +7,11 @@
     {{ end }}
     {{ end }}
     <nav role="navigation" class="nav-menu-left w-nav-menu" id="navigation">
+        {{ $current := .RelPermalink }}
+        {{ $current := strings.TrimRight "/" $current }}
         {{ range site.Menus.main }}
-            <a href="{{ .URL }}" class="nav-link w-nav-link">{{ .Name }}</a>
+        {{ $active := eq .URL $current }}
+            <a href="{{ .URL }}" class="nav-link w-nav-link {{ if $active }}w--current{{ end }}">{{ .Name }}</a>
         {{ end }}
     </nav>
     <div class="menu-button w-hidden-main w-nav-button">

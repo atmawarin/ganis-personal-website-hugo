@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "2adb5fb274d03670",
+    "type": "split",
+    "children": [
+      {
+        "id": "36da9e70a09f2bc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f594fc5f23bfc7a9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e2290a6f98ea1d82",
+    "type": "split",
+    "children": [
+      {
+        "id": "052766b1d4c1cf7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "066fec1ed7f3140d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "84333d0bad3e9ebc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "92c3b41e25713a98",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "130b75887e7b140c",
+    "type": "split",
+    "children": [
+      {
+        "id": "7890c17c22eff132",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d022f58e88b7771",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/articles/dwight-schrute-line-di-softwareseni.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for dwight-schrute-line-di-softwareseni"
+            }
+          },
+          {
+            "id": "9ce361d0c24d154e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/articles/dwight-schrute-line-di-softwareseni.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from dwight-schrute-line-di-softwareseni"
+            }
+          },
+          {
+            "id": "71c168a20b64be15",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ab778d10e2cc44bc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/articles/dwight-schrute-line-di-softwareseni.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of dwight-schrute-line-di-softwareseni"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f594fc5f23bfc7a9",
+  "lastOpenFiles": [
+    "content/reading/_index.md",
+    "content/reading/21-lesson-for-21-century.md",
+    "content/reading/a-walk-in-the-woods.md",
+    "content/reading/autobiography-of-a-yogi.md",
+    "content/questions-and-ideas/why-there-is-an-obese-doctor.md",
+    "content/questions-and-ideas/how-you-can-weed-out-busy-time.md",
+    "content/questions-and-ideas/15-is-too-short.md",
+    "content/questions-and-ideas/_index.md",
+    "content/favourite/the-element-of-typographic-style.md",
+    "content/favourite/the-earth-is-not-a-cool-dead-place.md",
+    "content/articles/principle.md",
+    "content/articles/muji-notebook-uni-ball-signo-um-151.md",
+    "content/articles/hal-terbaik-di-2018.md",
+    "content/articles/dwight-schrute-line-di-softwareseni.md",
+    "content/articles/be-yourself-at-work.md",
+    "content/articles/6-alasan-pindah-dari-wordpress-ke-webflow.md",
+    "content/about/_index.md",
+    "content/articles/buat-presentasi-dengan-beautiful-ai.md",
+    "content/articles/berbeda-sebagai-strategi.md",
+    "content/articles/annual-review-2020-4-hal-yang-saya-pelajari.md",
+    "content/articles/_index.md"
+  ]
+}

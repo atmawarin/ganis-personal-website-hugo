@@ -2,6 +2,7 @@
 title: About
 heading: "hi, i 'm ganis, and I think you are looking amazing today!"
 location: "Yogyakarta, Indonesia"
+description: "Interweb enthusiast from Yogyakarta. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, curly black hair. Lion at Mario Kart, chicken at party."
 sponsers:
     enable: true
     icons:

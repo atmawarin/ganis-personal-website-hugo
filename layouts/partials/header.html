@@ -7,13 +7,16 @@
     {{ end }}
     {{ end }}
     <nav role="navigation" class="nav-menu-left w-nav-menu" id="navigation">
+        {{ $current := .RelPermalink }}
+        {{ $current := strings.TrimRight "/" $current }}
         {{ range site.Menus.main }}
-            <a href="{{ .URL }}" class="nav-link w-nav-link">{{ .Name }}</a>
+        {{ $active := eq .URL $current }}
+            <a href="{{ .URL }}" class="nav-link w-nav-link {{ if $active }}w--current{{ end }}">{{ .Name }}</a>
         {{ end }}
     </nav>
     <div class="menu-button w-hidden-main w-nav-button">
         <button class="w-icon-nav-menu" id="nav-button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#010101" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path fill="#010101" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
         </button>
     </div>
     {{ with site.Params.header }}

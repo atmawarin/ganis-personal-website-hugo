@@ -50,6 +50,6 @@ I'm an interweb enthusiast from Indonesia. I was born, raised, and probably drin
 
 I love trees and typography. Although generally a calm presence in life, I'm notoriously brutal in Mario Kart and Pingpong.
 
-I write about product development, teamwork in an emerging tech company, and scaling profitable service business. And all opinion are my own.
+I write about product development, teamwork in an emerging tech company, and scaling profitable service business. The opinions I share here are entirely my own and do not reflect those of the company that employs me.
 
 While you would find some English here and there, I try my best to write all the articles in Bahasa.

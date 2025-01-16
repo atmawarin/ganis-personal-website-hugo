@@ -2212,7 +2212,7 @@ position: relative;
 
 .body {
 color: var(--black);
-font-family: ff-meta-web-pro;
+font-family: Karla;
 font-size: 18px;
 line-height: 27px;
 }
@@ -2885,7 +2885,7 @@ box-shadow: 0 2px #fff;
 
 .link-v1.more-link {
 margin-top: 24px;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-size: 14px;
 }
 
@@ -5414,7 +5414,7 @@ flex-direction: column;
 justify-content: flex-end;
 align-items: flex-start;
 padding: 104px 12% 40px;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-weight: 400;
 display: flex;
 position: absolute;
@@ -5505,11 +5505,11 @@ width: 44%;
 }
 
 .career-job-period.text-left {
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 }
 
 .career-job-period.text-right {
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-weight: 500;
 }
 
@@ -5608,7 +5608,7 @@ display: flex;
 .footer-v2-heading {
 color: var(--black);
 margin-bottom: 24px;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 }
 
 .footer-v2-heading.text-white {
@@ -6627,7 +6627,7 @@ width: 66.66%;
 .work-presentation h6 {
 color: #244464;
 width: 66.66%;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-weight: 700;
 }
 
@@ -6724,23 +6724,23 @@ font-weight: 400;
 .heading-6, .heading-7 {
 color: #244464;
 text-transform: none;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-weight: 700;
 }
 
 .heading-8 {
 color: #244464;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-weight: 700;
 }
 
 .heading-9 {
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 }
 
 .book-title {
 color: var(--dark-blue);
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 }
 
 .text-block-2, .text-block-3 {
@@ -7003,7 +7003,7 @@ line-height: 36px;
 
 .link-v2-2 {
 color: #111;
-font-family: "Work Sans", serif;
+font-family: "Karla", serif;
 font-size: 16px;
 line-height: 24px;
 text-decoration: none;
@@ -10031,12 +10031,12 @@ h6 {
 
 .career-job-period.text-left {
     text-align: right;
-    font-family: "Work Sans", serif;
+    font-family: "Karla", serif;
     font-weight: 400;
 }
 
 .career-job-period.text-right {
-    font-family: "Work Sans", serif;
+    font-family: "Karla", serif;
 }
 
 .career-job-period.text-left {

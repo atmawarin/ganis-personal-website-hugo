@@ -4,6 +4,7 @@ description: "Putus dengan Wordpress, jadian dengan Webflow."
 cover: images/articles/webflow-window.png
 date: 2019-10-05
 tags: ["design"]
+status: 🟢
 ---
 
 Merawat medium bernama **website pribadi** yang bisa dikontrol sendiri, dibuat sendiri, dipublish sendiri, merupakan salah satu hal yang paling cerdik yang pernah saya lakukan. Dari situ saya belajar coding, eksperimen tipografi, dan juga menulis. Punya website pribadi bagi saya sangat manjur untuk mengasah skill, mempertemukan saya dengan orang-orang baik dan juga membuka jendela bagi karir professional saya.

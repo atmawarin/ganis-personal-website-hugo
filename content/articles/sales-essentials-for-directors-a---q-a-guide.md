@@ -5,77 +5,201 @@ date: 2024-11-21
 tags: ["service business"]
 ---
 
-This is evergreen article. Last update : 21 Nov 2024
+*This is evergreen article. Last update : 21 Nov 2024*
 
-If you’re a **Director of a company**, selling is **the number one skill you need to master**. Many software companies pride themselves on their ability to deliver IT projects. They’ve accumulated a wealth of knowledge and are confident about IT delivery. However, as with any service business, there’s always a **demand and supply challenge**.  
+**Jualan Itu Kayak Jualan Bakso, Enak Doang Nggak Cukup!**
 
-The toughest situation you’ll face? **When nobody buys from you.**
-This document is a living guide based on years of my sales experience. I think what I did is working so far, we have more than we can chew, I hope it's working for you.
+Bayangin kamu punya bakso yang enaknya nggak ketulungan. Kuahnya gurih, dagingnya juicy, ada menu iga lagi, yang nyobain langsung pengen ngambil kamu jadi anak angkat. Tapi… kamu jualannya di tengah hutan. Hutan Alas Purwo lagi. **Siapa yang mau beli?** Nah, ini masalah yang dialami banyak perusahaan software. **Produk keren, tim hebat, tapi sales pipeline macet.**
 
-It’s written in a Q&A format, which I believe makes it easier to digest. You can skip around and pick what’s relevant. I’ve also tried to make this an enjoyable read, because let’s face it, sales docs are usually dull.
+Mereka mikir, *“Yang penting kita bikin aplikasi yang bagus, nanti orang datang sendiri.”*
 
-Let’s dive in! 🚀
+Tapi kenyataannya? **Nggak ada yang datang.** Kalau kamu cuma fokus bikin produk, tapi nggak ngerti cara jualan? **Be prepare aja liat bisnis kamu jalan di tempat, atau worst lepasin tim yang baik berbakat.** 
 
-# Appearance
-**Do I have to look expensive to sell expensive stuff?***
+Jualan itu bukan soal siapa yang paling jago bikin produk. **Tapi siapa yang paling ngerti client.** 
 
-**Yes. Unfortunately appearance matter.** I wish I could tell you it doesn’t, but clients often judge by what they see first. That said, you need to strike a balance. If you appear significantly wealthier than your client, it can create a disconnect and drive them away. Keep your look polished but approachable. Here’s how I prioritize:
+> “You only change what you understand. What you do not understand and are not aware of, you repress. You don’t change. But when you understand it, it changes.”
+> *–Anthony de Mello*
 
-1. **Clothes**. Most of my working and meeting client is discounted Uniqlo (red label baby!). Its not cheap in Indonesia standard, but it's safe choice.
-2. **Shoes**. Clean shoes are non-negotiable. Even the most expensive shoes look bad if they’re dirty. **Clean > fancy**. The cheap brand of shoes cleaner that work for me is [Loxus](https://tokopedia.link/W0pnYisYGOb).
-3. Watch. Wear one. It doesn’t need to be flashy, just functional and classy. A watch signals professionalism.
-4. Bag. Invest in a premium, not luxury brand (the easy way to tell is that the price is the feature for this brand). I’ve been using a Filson bag for almost 9 years, and it’s still going strong. Durable bags tell your clients you value quality.
+Nah, di sini pengen nulis sedikit. Ini adalah panduan dari pengalaman saya jualan bertahun-tahun. Bukan kitab suci. **Banyak orang lain yang lebih jago.** Tapi kalau kamu main di bisnis software dan bingung mulai dari mana, **cobain baca ini, siapa tahu ada yang nyantol.** 
 
-# Price
-**How do I set the right price?**
+Ini saya buat dalam format **tanya-jawab**, biar gampang. Bisa loncat-loncat ke bagian yang relevan. Dan saya usahain nulis ini **seringan mungkin**—karena jujur aja, dokumen sales biasanya garing kayak kerupuk kemarin sore.
 
-**Go out there and find out your competition.** The worst mistake you can make is to price your services based on operational costs or what you “feel” you deserve. The market doesn’t care about your costs or your expected margins. What matters is how you compare to competitors and the value you deliver.
+Oh ya, ini format dokumennya. I hope I can make it easy for you to navigate. 
 
-1. **Understand your competition**. Research how competitors price their services. Where do they sit on the value vs. cost spectrum? What makes their offering different from yours? Only when you fully grasp this can you position your pricing.
-2. **Focus on market fit**. Your business model must align with the market. It’s not the market’s job to adjust to you.
-3. **Be resourceful and creative**. Sometimes, you need to dig deep to uncover the pricing strategies of your competitors. Be smart, not sneaky. As long as it’s legal, it’s fair game. Remember, your company depends on your ability to adapt and stay competitive.
-3. **Adjust all the time**. Review your pricing all the time.
-4. **Discount**. Show discount to the client. Is just always nice for procurement thing, when they find that they can chop price.
-Failing to understand your pricing in context is a guaranteed recipe for disaster. Don’t be that guy.
+**1. Mendatangkan Client (Bikin Orang Datang ke Kamu, Bukan Sekadar Nungguin!)**
 
-# Finding Clients
+- **Organic Marketing**–Gimana caranya bikin orang tahu kalau … bakso kamu yang lembut itu ada?
+- **Networking and Partnership**–Apa perlu kamu cari teman buat dapet client?
+- **Outbound Sales**–Boleh nggak aku gedor pintu kamu random malam-malam?
 
-Finding clients can come from two main channels: **leveraging your network** or **building a strong inbound marketing system**. Each has its strengths, and understanding both is crucial.
+**2. Mengconvert Client (Dari “Tertarik” Jadi “Mau Bayar”)**
 
-1. **Leveraging Your Network**
+- **Mindset**–Wait… sales ada mindset-nya? Huh…
+- **Penampilan**–Apakah boleh saya dandan?
+- **Proposal**–Kayak gimana sih bikin proposal yang yahud?
+- **Handling Objection**–Kenapa client selalu bilang “Nanti aja deh”?
+- **Closing**–Gimana cara nutup deal biar nggak PHP-an?
 
-**Your network is your strongest asset**. The first clients you land are often from people who trust you–friends, former colleagues, partners, or referrals. This channel consistently outperforms inbound marketing in terms of conversion rates and speed. Here’s how to make the most of it:
+**3. Build to Learn (Biar Kamu Tau Apa yang Jalan dan Apa yang Nggak!)**
 
-- **Offer value first**. Don’t jump straight to the pitch. Share insights, advice, or connections that benefit your network. People reciprocate value.
-- **Ask for referrals**. Happy clients are your best salespeople. Proactively ask them to connect you with people who might need your services. One of the best mantra that I get and learn from Davo is to ask client "do you know someone else that I can talk to"? 
+- **Tracking**–Apa yang harus diukur biar nggak sekadar nebak-nebak?
+- **Iterasi**–Gimana cara tau mana strategi yang harus ditinggalin?
+- **Scale**–Kapan harus mulai scale up dan bawa tim lebih besar?
+- **Feedback Loop**–Gimana cara ngecek apakah strategi ini beneran efektif?
 
-**Things to avoid**:
-1. Relying only on your existing network without expanding it. There is this network theory that the strongest one in your node is not your friend, but the friend of your friend 😉. Learn on exploit that one.
-2. Not following up. If you say something during meeting, and you don't follow it up. Guarantee 100% that your network will die.
+**4. Pengen Tambah Jago. Belajar Apa Aja?**
 
-2. **Building an Inbound Marketing Engine**
+- **Buku**–Buku apa aja yang wajib dibaca kalau mau jago jualan?
+- **Artikel**–Ada artikel yang bisa bikin kamu melek sales lebih cepat?
+- **Person**–Siapa aja orang yang bisa jadi panutan buat belajar jualan?
 
-If you’re just starting out and don’t have a strong network yet, **digital marketing** is your best bet to generate leads. Done right, inbound marketing creates a steady pipeline of opportunities.
+**Langsung gaskeun! 🚀**
 
-**Key Skills to Master:**
-- **SEO and Content Marketing**. Learn how search engines work, and create content that answers your clients’ questions. I highly recommend ahrefs.com as a resource. Understanding SEO and relevance is a game-changer.
-- **Building Trust through Value**. Publish case studies, blogs, whitepapers, or videos that showcase your expertise. Clients find you when your content adds value.
-- **Paid Ads (with Strategy)**. Invest in well-targeted ads on Google or LinkedIn to drive quality leads to your site. Always test and refine.
+*PS: Please note, artikel ini dibuat dengan asumsi kalau barang yang kamu jual itu valuable dan berguna. Ibarat makanan, atau bakso tadi, enak lah. **Nah kalau baksonya gak enak? You have bigger problem my friend**. Fix that one first, before selling. Product atau Service kamu harus oke dulu, or you'll suffer in the short and long run. 
 
-**Balancing Inbound with Networking:**
+---
 
-Once you’ve landed enough clients, shift your focus to building relationships. Inbound marketing can open doors, but your network is what keeps those doors open.
+## Bagaimana Cara Mendatangkan Client
 
-**Things to avoid:**
+### Inbound Marketing
 
-1. Producing generic, low-value content. Clients can tell when you’re not invested.
-2. Treating inbound marketing as a quick-fix solution. It’s a long-term game.
-3. Ignoring follow-ups. Leads are worthless if you don’t act on them.
+#### Bang, Gak Punya Budget Iklan Nih. Gimana Dong?
+xxxxxxxxxx
 
-**Final Thoughts on Finding Clients**
+**Bikin Konten yang Jawab Pertanyaan Client!**
 
-**Start where you are, and play to your strengths**. If you already have a network, use it. If not, double down on digital marketing to build trust and visibility. Both channels feed into each other, and as you grow, they become a cycle that keeps your pipeline full.
+Client itu Google-in dulu sebelum beli. Kalau mereka cari *“Gimana cara bikin aplikasi fintech murah?”* dan artikel kamu yang muncul, **boom!** Kamu udah menang setengah jalan.
 
-‍
+- **Bangun Social Proof**
 
-Next Up… **Build to Learn**
+Klien lebih percaya testimoni dari orang lain dibanding dari kamu sendiri. **Tunjukin hasil kerja, bukan cuma omongan.**
+
+**Networking and Partnership–Apa perlu kamu cari teman buat dapet client?**
+
+Pendeknya? **Iya.**
+
+- **Makin Banyak Kenalan, Makin Gampang Jualan**
+
+Ada teori yang bilang: **bukan teman kamu yang bikin kamu berkembang, tapi temannya teman kamu.** Jadi jangan cuma kenalan, **kenalanin diri ke temannya kenalan kamu.**
+
+- **Bantu Dulu, Jualan Belakangan**
+
+Jangan langsung nawarin jasa. **Kasih insight, bantu network kamu dulu.** Orang lebih gampang beli kalau udah merasa berutang budi.
+
+**Outbound Sales–Boleh nggak aku gedor pintu kamu random malam-malam?**
+
+Kalau kamu literally gedor pintu orang, bisa-bisa kena pasal. Tapi **gedor pintu digital? Wajib hukumnya.**
+
+- **Cold Email yang Gak Terlihat Kayak Spam**
+
+Kalau email kamu dibuka, berarti kamu udah menang separuh pertempuran. Kuncinya? **Langsung to the point, jangan kebanyakan basa-basi.**
+
+- **DM yang Bikin Client Bales**
+
+Jangan DM panjang kayak cerpen. Keep it short, jelas, dan kasih alasan kenapa mereka harus baca.
+
+- **Referral Itu Powerful**
+
+Client puas? Tanya mereka: *“Ada orang lain yang bisa saya ajak ngobrol soal ini?”* **Simple, tapi powerful.**
+
+**2. Mengconvert Client (Dari “Tertarik” Jadi “Mau Bayar”)**
+
+**Mindset–Wait… sales ada mindset-nya? Huh…**
+
+**Iya ada.** Dan kalau kamu belum ngerti, **mungkin itu alasan kamu susah closing.**
+
+- **Jualan Itu Bukan “Maksa”, Tapi Bantu Client Paham Kenapa Mereka Butuh Kamu.**
+- **Rejection Itu Normal.** Kalau takut ditolak, mending jualan napas aja.
+
+**Penampilan–Apakah boleh saya dandan?**
+
+**Boleh, malah wajib.** Tapi jangan kayak mau pesta pernikahan.
+
+- **Baju:** Uniqlo red label. Cukup mahal biar nggak keliatan murahan, cukup murah biar nggak keliatan sok kaya.
+- **Sepatu:** Bersih lebih penting dari mahal.
+- **Jam:** Pakai jam. Klien lebih percaya sama orang yang bisa lihat waktu.
+- **Tas:** Jangan norak. Premium, bukan luxury.
+
+**Proposal–Kayak gimana sih bikin proposal yang yahud?**
+
+Bikin proposal tuh kayak bikin profil dating. **Kalau template, pasti di-swipe left.**
+
+- **Jangan Banyak Teori, Tunjukin Bukti**
+- **Langsung ke Point: Problem–Solution–Result**
+- **Kasih Pilihan, Jangan Cuma Satu Opsi**
+
+**Handling Objection–Kenapa client selalu bilang “Nanti aja deh”?**
+
+Karena mereka nggak yakin. Tugas kamu? **Bikin mereka yakin.**
+
+- **Objection Harga:** Kasih perbandingan biaya kalau mereka **nggak pakai solusi kamu.**
+- **Objection Timing:** “Kalau nggak mulai sekarang, kira-kira kapan?” (Spoiler: Mereka bakal kejebak jawabannya sendiri.)
+
+**Closing–Gimana cara nutup deal biar nggak PHP-an?**
+
+**Simple: Kasih alasan buat mereka gerak sekarang.**
+
+- **FOMO:** “Kita bisa mulai minggu ini, tapi slotnya tinggal 1.”
+- **Deadline:** “Diskon ini cuma sampai Jumat.”
+- **Ajak Bayangin Masa Depan:** “Kalau kita mulai sekarang, tiga bulan lagi kamu udah bisa pakai produknya.”
+
+**3. Build to Learn (Biar Kamu Tau Apa yang Jalan dan Apa yang Nggak!)**
+
+**Tracking–Apa yang harus diukur biar nggak sekadar nebak-nebak?**
+
+**Tebakan itu buat main kuis, bukan buat bisnis.**
+
+- **Berapa Client Masuk Pipeline?**
+- **Berapa yang Jadi Client Beneran?**
+- **Mana Channel yang Paling Banyak Ngasih Lead?**
+
+**Iterasi–Gimana cara tau mana strategi yang harus ditinggalin?**
+
+Coba, ukur, evaluasi, ulangi.
+
+- **Mana yang Beneran Ngasih Hasil? Lanjutin.**
+- **Mana yang Nggak Berfungsi? Cut.**
+
+**Scale–Kapan harus mulai scale up dan bawa tim lebih besar?**
+
+Kalau **client udah kebanyakan sampe kamu susah nafas, itu waktunya.**
+
+- **Otomatisasi yang Bisa Diotomatisasi**
+- **Delegasikan yang Bisa Didelegasikan**
+
+**Feedback Loop–Gimana cara ngecek apakah strategi ini beneran efektif?**
+
+Client nggak beli? Tanya kenapa.
+
+Client puas? Tanya apa yang bikin puas.
+
+- **Dengerin Data, Bukan Ego**
+- **Ubah Strategi Berdasarkan Realitas, Bukan Perasaan**
+
+**4. Pengen Tambah Jago. Belajar Apa Aja?**
+
+**Buku–Buku apa aja yang wajib dibaca kalau mau jago jualan?**
+
+- **The Psychology of Selling–Brian Tracy**
+- **Influence–Robert Cialdini**
+- **SPIN Selling–Neil Rackham**
+
+**Artikel–Ada artikel yang bisa bikin kamu melek sales lebih cepat?**
+
+- Blognya **ahrefs.com** buat SEO.
+- Medium-nya **SaaStr** buat B2B sales.
+- **Ecommurz** kalau mau belajar jualan digital dengan bahasa manusia.
+
+**Person–Siapa aja orang yang bisa jadi panutan buat belajar jualan?**
+
+- **Alex Hormozi**–Jago bikin bisnis scale.
+- **Gary Vaynerchuk**–Kalau butuh motivasi + brutal honesty.
+- **David Ogilvy**–Kalau mau belajar jualan lewat copywriting.
+
+**Kesimpulan: Jangan Cuma Baca, Action-in!**
+
+Jualan itu skill. Sama kayak naik sepeda, **kalau nggak pernah praktek, ya bakal terus jatuh.**
+
+Jadi, **jangan cuma baca, langsung coba.**
+
+**Langsung gaskeun! 🚀**

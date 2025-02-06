@@ -5,4 +5,5 @@ cover: "images/reading/the-perfect-mile.jpeg"
 publishDate: 2022-07-15
 authors: "Neal Bascomb"
 categories: ["personal development"]
+status: 🟡
 ---

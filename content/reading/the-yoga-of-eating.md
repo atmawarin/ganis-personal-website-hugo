@@ -5,4 +5,5 @@ cover: "images/reading/the-yoga-of-eating.jpeg"
 publishDate: 2022-08-15
 authors: "Charles Eisenstein"
 categories: ["personal development"]
+status: 🟡
 ---

@@ -5,4 +5,5 @@ cover: "images/reading/siddharta.jpeg"
 publishDate: 2022-05-15
 authors: "Hermann Hesse"
 categories: ["personal development"]
+status: 🟡
 ---

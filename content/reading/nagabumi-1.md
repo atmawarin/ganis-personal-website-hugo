@@ -5,4 +5,5 @@ cover: "images/reading/nagabumi-1.jpeg"
 publishDate: 2022-03-15
 authors: "Seno Gumira Ajidarma"
 categories: ["fiction & literature"]
+status: 🟡
 ---

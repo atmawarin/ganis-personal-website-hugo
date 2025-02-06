@@ -5,4 +5,5 @@ cover: "images/reading/sapiens-1-2.jpeg"
 publishDate: 2022-04-15
 authors: "David Vandermeulen, Daniel Casanave, Yuval Noah Harari"
 categories: ["social science & engineering"]
+status: 🟡
 ---

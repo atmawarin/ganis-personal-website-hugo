@@ -66,5 +66,5 @@ params:
       enable: true
 
     copyright:
-      credits: "Typography: Brandon Grostesque & Abril Fatface"
+      credits: "Typography: The <b>majestic <a href='https://fonts.google.com/specimen/Abril+Fatface' target='_blank'>Abril Fatface</a></b> by Veronika Burian and José Scaglione & the <b>effortlessly versatile <a href='https://fonts.google.com/specimen/Karla' target='_blank'>Karla</a></b> by Jonathan Pinhorn"
       text: "All contents created by me, unless otherwise noted. You are allowed to copy, distribute, or display your derivative copy of my works without my permission"

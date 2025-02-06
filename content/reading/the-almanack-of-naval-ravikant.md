@@ -1,6 +1,6 @@
 ---
 title: "The Almanack of Naval Ravikant"
-description: "Buku favorit saya di 2021. Titik. I believe in this guy. Banyak saran dia yang resonate dengan isi kepala dan hati saya."
+description: "No one can compete with you on being you. Most of life is a search for who and what needs you the most."
 cover: "images/reading/the-almanack-of-naval-ravikant.jpeg"
 publishDate: 2024-08-15
 authors: "Eric Jorgensen, Tim Ferris"

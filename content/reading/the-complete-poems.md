@@ -4,5 +4,5 @@ description: 'Pertama dengar Walt Whitman dari Dead Poet Society. Untuk ukuran o
 cover: "images/reading/the-poem-of-walt-whitman.jpeg"
 publishDate: 2020-07-14
 authors: "Walt Whitman"
-categories: ["fiction & literature"]
+categories: ["design & creativity"]
 ---

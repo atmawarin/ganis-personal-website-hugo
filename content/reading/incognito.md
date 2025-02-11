@@ -4,5 +4,5 @@ description: "Buku dari penulis favorit saya. Incognito bukan hanya berkisah ten
 cover: "images/reading/incognito.jpeg"
 publishDate: 2019-01-03
 authors: "David Eagleman"
-categories: ["social science & engineering"]
+categories: ["science & system thinking"]
 ---

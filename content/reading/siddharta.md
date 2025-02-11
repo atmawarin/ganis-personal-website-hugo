@@ -1,9 +1,9 @@
 ---
 title: "Siddharta"
-description: "Nice serendipity. Awalnya buku ini saya comot, karena mengira akan membaca cerita tentang perjalanan Buddha, tapi saya kecele abis. Alih-alih Buddha, buku ini bercerita tentang orang lain yang bernama Siddharta – lahir beberapa tahun setelah Buddha, dari masa remaja hingga dia mati. Di ujung buku, Siddharta akhirnya mokhsa sebagai tukang perahu, setelah mengalami pahit dan salah, dan jaya, sebagai manusia biasa – bukan brahmana yang adalah awal takdir Siddharta. Dialog jadi kekuatan buku ini, dan saya senang telah salah membeli."
+description: "“Peace is not something that happens when you achieve your goals, but something that happens within you when you cease to seek.”"
 cover: "images/reading/siddharta.jpeg"
 publishDate: 2022-05-15
 authors: "Hermann Hesse"
-categories: ["personal development"]
-status: 🟡
+categories: ["stories & narratives"]
+status: 🟢
 ---

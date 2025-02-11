@@ -4,6 +4,6 @@ description: "“Creativity isn’t about having more ideas. It’s about making
 cover: "images/reading/building-a-second-brain.jpeg"
 publishDate: 2022-11-15
 authors: "Tiago Forte"
-categories: ["business"]
+categories: ["business & leadership"]
 status: 🟢
 ---

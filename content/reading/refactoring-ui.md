@@ -4,5 +4,5 @@ description: "Nicely package book tentang UX. What works what not works. Saya sa
 cover: "images/reading/refactoring-ui.png"
 publishDate: 2019-01-06
 authors: "Adam Wathan & Steve Schoger"
-categories: ["design"]
+categories: ["design & creativity"]
 ---

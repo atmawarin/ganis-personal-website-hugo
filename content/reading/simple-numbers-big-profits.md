@@ -4,5 +4,5 @@ description: Buku terbaik tentang finance untuk non finance guy yang pernah saya
 cover: "images/reading/simple-numbers-big-profits.png"
 publishDate: 2019-01-07
 authors: "Greg Crabtree"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

@@ -4,6 +4,6 @@ description: "No one can compete with you on being you. Most of life is a search
 cover: "images/reading/the-almanack-of-naval-ravikant.jpeg"
 publishDate: 2024-08-15
 authors: "Eric Jorgensen, Tim Ferris"
-categories: ["business"]
+categories: ["business & leadership"]
 status: 🟢
 ---

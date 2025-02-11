@@ -1,8 +1,9 @@
 ---
 title: "Charlie Munger: The Complete Investor"
-description: "Salah satu hal yang paling berharga yang bisa dilakukan oleh tiap orang yang berpindah ke posisi manajer adalah, bia memahami pola pikir kepala owner atau investor. Ini sulit sekali ya, terutama kalau kita belum pernah memulai sesuatu dari 0, atau mendirikan bisnis sendiri. Buku ini salah satu shortcut cepat untuk bisa punya insight itu."
+description: "“We all have a tendency to think we are smarter than we are. We need to be aware of that and counteract it.”"
 cover: "images/reading/charlie-munger.jpeg"
 publishDate: 2022-01-15
 authors: "Tren Griffin"
-categories: ["business"]
+categories: ["business & leadership"]
+status: 🟢
 ---

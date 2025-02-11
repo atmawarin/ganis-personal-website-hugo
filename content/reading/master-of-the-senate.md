@@ -4,6 +4,6 @@ description: "“The greatest legislative victories are rarely loud. They are sh
 cover: "images/reading/master-of-the-senate.jpeg"
 publishDate: 2024-05-11
 authors: "Robert A Caro"
-categories: [""]
+categories: ["stories & narratives"]
 status: 🟢
 ---

@@ -4,5 +4,5 @@ description: "Waktu dulu masih jadi Product Manager, buku ini sering saya jadika
 cover: "images/reading/sprint.jpeg"
 publishDate: 2021-09-12
 authors: "Jake Knapp"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

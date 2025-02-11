@@ -4,5 +4,5 @@ description: "Buku ini menyisakan sedikit kedongkolan buat saya. 90% awal dari b
 cover: "images/reading/colorless-tsukuru-tazaki.jpeg"
 publishDate: 2018-06-15
 authors: "Haruki Murakami"
-categories: ["fiction & literature"]
+categories: ["stories & narratives"]
 ---

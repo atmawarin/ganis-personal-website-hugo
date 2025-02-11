@@ -1,8 +1,9 @@
 ---
-title: "Be Prepared - A Practical Handbook for New Dads"
-description: 'Kocak dan berguna sekali. Saya membeli buku ini ketika Gita mengandung Zia, dan ini jadi salah satu buku yang paling berguna di tool kit saya dalam pertempuran di tahun pertama dan kedua dengan bayi kecil onar yang lucu.'
+title: "⭐️⭐️⭐️ Be Prepared - A Practical Handbook for New Dads"
+description: '"Fresh out of the womb newborns look very different. As a matter of fact, your newborn may not bear any resemblance to you, your partner, or any known members of your species."'
 cover: "images/reading/be-prepared.jpeg"
 publishDate: 2020-01-10
 authors: "Jeannie Hayden, Garry Grenburg"
-categories: ["social science & engineering"]
+categories: ["science & system thinking"]
+status: 🟢
 ---

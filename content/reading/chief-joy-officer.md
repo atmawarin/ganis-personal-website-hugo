@@ -4,5 +4,5 @@ description: 'Jujur saja. Gak banyak yang saya ingat dari buku ini. Ceritanya ga
 cover: "images/reading/chief-joy-officer.jpeg"
 publishDate: 2020-01-14
 authors: "Richard Sheridan, Tom Peters"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

@@ -4,5 +4,5 @@ description: 'A really really underrated productivity book. Free to Focus mungki
 cover: "images/reading/free-to-focus.jpeg"
 publishDate: 2020-03-14
 authors: "Michael Hyatt"
-categories: ["personal development"]
+categories: ["self-mastery & growth"]
 ---

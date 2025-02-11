@@ -4,6 +4,6 @@ description: "“The easiest way to be miserable is to want people to behave the
 cover: "images/reading/conversation-with-the-masters.jpeg"
 publishDate: 2024-06-15
 authors: "Anthony De Mello"
-categories: ["personal development"]
+categories: ["self-mastery & growth"]
 status: 🟢
 ---

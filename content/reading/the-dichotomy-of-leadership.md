@@ -4,5 +4,5 @@ description: "Ditulis dan dinarasikan oleh dua orang ex SEAL, The Dichotomy of L
 cover: "images/reading/the-dichotomy-of-leadership.jpeg"
 publishDate: 2019-02-11
 authors: "Jocko Willink, Leif Babin"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

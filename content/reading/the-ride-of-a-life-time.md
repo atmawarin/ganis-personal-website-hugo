@@ -4,5 +4,5 @@ description: "Walaupun Papa Iger punya sukses luar biasa dalam membangun Disney 
 cover: "images/reading/the-ride-of-a-lifetime.jpeg"
 publishDate: 2021-11-12
 authors: "Robert Iger"
-categories: ["biography"]
+categories: ["stories & narratives"]
 ---

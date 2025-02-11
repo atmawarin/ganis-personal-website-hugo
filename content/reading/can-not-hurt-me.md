@@ -4,4 +4,5 @@ description: "Seram dan exciting! Can't Hurt Me ini semacam semi autobiography s
 cover: "images/reading/can-not-hurt-me.jpeg"
 publishDate: 2019-01-01
 authors: "David Goggins"
+categories: "stories & narratives"
 ---

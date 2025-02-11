@@ -4,5 +4,5 @@ description: 'Dalam beberapa tahun terakhir, Cal Newport sering menulis tentang 
 cover: "images/reading/eat-their-lunch.jpeg"
 publishDate: 2019-01-01
 authors: "Cal Newport"
-categories: ["personal development"]
+categories: ["self-mastery & growth"]
 ---

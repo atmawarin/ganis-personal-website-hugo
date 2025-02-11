@@ -5,8 +5,9 @@ cover: "images/reading/3-body-problem.jpg"
 publishDate: 2025-02-06
 authors: Liu Cixin
 categories:
-  - fiction & literature
+  - stories & narratives
 ---
+
 - status:: 🟢
 
 ![[3-body-problem.jpg]]

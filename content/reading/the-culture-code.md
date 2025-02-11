@@ -4,5 +4,5 @@ description: "Mengeksplorasi berbagai macam organisasi paling sukses di dunia, m
 cover: "images/reading/the-culture-code.jpeg"
 publishDate: 2019-01-10
 authors: "Daniel Coyle"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

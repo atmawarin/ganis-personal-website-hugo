@@ -4,5 +4,5 @@ description: "Love this book. Approach yang di dalamnya adalah semacam sentilan 
 cover: "images/reading/the-customer-founded-business.jpeg"
 publishDate: 2019-01-11
 authors: "John Mullins"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

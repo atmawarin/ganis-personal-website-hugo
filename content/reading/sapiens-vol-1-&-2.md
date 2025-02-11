@@ -4,6 +4,6 @@ description: "Ketika gambar lebih baik daripada kata-kata. Sapiens Graphic Novel
 cover: "images/reading/sapiens-1-2.jpeg"
 publishDate: 2022-04-15
 authors: "David Vandermeulen, Daniel Casanave, Yuval Noah Harari"
-categories: ["social science & engineering"]
+categories: ["science & systems thinking"]
 status: 🟡
 ---

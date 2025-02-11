@@ -4,5 +4,5 @@ description: 'Murakami lari tiap hari selama 10km. Mencoba untuk meniru ini, say
 cover: "images/reading/what-i-talk-about.jpeg"
 publishDate: 2021-12-12
 authors: "Haruki Murakami"
-categories: ["biography"]
+categories: ["stories & narratives"]
 ---

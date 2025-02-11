@@ -1,8 +1,9 @@
 ---
-title: "Built to Last: Successful Habits of Visionary Companies"
-description: "Ditulis di tahun 1994, Built to Last mencoba menganalisis deretan perusahaan yang sukses (long term), dengan yang tidak, dan mencoba untuk menemukan benang merah, apa yang membuat sebuah perusahaan bisa tahan banting dan sukses di waktu yang lama."
+title: "⭐️ Built to Last: Successful Habits of Visionary Companies"
+description: "“Great leadership isn’t about charisma. It’s about creating a system that empowers others to succeed.”"
 cover: "images/reading/built-to-last.jpeg"
 publishDate: 2022-01-11
 authors: "Jim Collins"
-categories: ["business"]
+categories: ["business & leadership"]
+status: 🟢
 ---

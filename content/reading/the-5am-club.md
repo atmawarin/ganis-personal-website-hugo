@@ -4,5 +4,5 @@ description: (╯°□°)╯︵ ┻━┻ Berhenti di chapter ke empat. Can't st
 cover: "images/reading/the-5am-club.jpeg"
 publishDate: 2019-01-08
 authors: "Robin Sharma"
-categories: ["personal development"]
+categories: ["self-mastery & growth"]
 ---

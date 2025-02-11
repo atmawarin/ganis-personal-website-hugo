@@ -4,5 +4,5 @@ description: 'Buku yang sebenernya sedikit mengecewakan buat saya pribadi. Saya 
 cover: "images/reading/i-can-not-make-this-up.jpeg"
 publishDate: 2020-04-14
 authors: "Kevin Hart"
-categories: ["biography"]
+categories: ["stories & narratives"]
 ---

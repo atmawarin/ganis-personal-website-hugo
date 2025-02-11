@@ -4,5 +4,5 @@ description: "Buku yang sangat oke untuk membantu kamu memahami bagaimana strukt
 cover: "images/reading/orgnizational-physics.jpeg"
 publishDate: 2016-08-11
 authors: "Lex Sisney"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

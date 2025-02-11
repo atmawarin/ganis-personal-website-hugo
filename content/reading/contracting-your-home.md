@@ -4,5 +4,5 @@ description: "Buku yang sangat berguna untuk pemula yang ingin membangun rumah. 
 cover: "images/reading/contracting-your-home.png"
 publishDate: 2019-01-09
 authors: "Kent Lester"
-categories: ["social science & engineering"]
+categories: ["science & system thinking"]
 ---

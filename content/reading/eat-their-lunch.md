@@ -4,5 +4,5 @@ description: 'A fantastic resource untuk marketing dan sales. Penuh dengan ide d
 cover: "images/reading/eat-their-lunch.jpeg"
 publishDate: 2019-01-01
 authors: "Anthony Iannarino"
-categories: ["business"]
+categories: ["business & leadership"]
 ---

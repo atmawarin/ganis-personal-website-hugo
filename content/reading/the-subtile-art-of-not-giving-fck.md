@@ -1,8 +1,8 @@
 ---
-title: "The Subtle Art Of Not Giving A F*ck"
-description: (╯°□°)╯︵ ┻━┻ Ada beberapa konten menarik di dalamnya sebenernya. Dan saya bisa mentoleransi expletive di beberapa bagian. Tapi mengulanginya terus menerus rasanya tidak perlu.
+title: "💩 The Subtle Art Of Not Giving A F*ck"
+description: “Stop trying to be extraordinary. Embrace being average and do the things that make you truly happy.”
 cover: "images/reading/the-art-of-not-giving-fck.jpeg"
 publishDate: 2019-10-11
 authors: "Mark Manson"
-categories: ["personal development"]
+categories: ["self-mastery & growth"]
 ---

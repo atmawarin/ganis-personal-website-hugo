@@ -5,4 +5,5 @@ cover: "images/reading/nine-lies-about-work.jpeg"
 publishDate: 2019-01-05
 authors: "Marcus Buckingham, Ashley Goodall"
 categories: ["business & leadership"]
+status: 🟢
 ---

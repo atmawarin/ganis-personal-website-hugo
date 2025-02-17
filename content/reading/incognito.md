@@ -1,8 +1,9 @@
 ---
 title: "Incognito: The Secret Lives of the Brain"
-description: "Buku dari penulis favorit saya. Incognito bukan hanya berkisah tentang apa yang terjadi di otak melalui studi neoroscience terbaru, tapi juga implikasi dari studi ini terhadap filsafat dan juga hukum. Fascinating reading, penuh dengan penggalan unik tentang cara kerja otak."
+description: "“Our brains are in the business of gathering information and steering behavior appropriately. It doesn’t matter whether consciousness is involved in the decision-making process.”"
 cover: "images/reading/incognito.jpeg"
 publishDate: 2019-01-03
 authors: "David Eagleman"
-categories: ["science & system thinking"]
+categories: ["science & systems thinking"]
+status: 🟢
 ---

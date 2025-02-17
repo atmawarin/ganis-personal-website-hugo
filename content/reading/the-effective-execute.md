@@ -5,4 +5,5 @@ cover: "images/reading/the-effective-executive.jpeg"
 publishDate: 2019-04-11
 authors: "Peter Drucker"
 categories: ["business & leadership"]
+status: 🟢
 ---

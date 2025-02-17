@@ -1,8 +1,9 @@
 ---
 title: "Sapiens"
-description: "Buku yang dibaca oleh hampir semua orang di sekitar saya, dan untuk alasan yang saya tidak pahami, I didn't like the book. Mungkin karena ada beberapa sudut pandang Yuval yang saya tidak setuju. Akan mencoba Audible version next time."
+description: "“The real difference between us and chimpanzees is the mysterious glue that enables millions of humans to cooperate effectively.”"
 cover: "images/reading/sapiens.jpeg"
 publishDate: 2018-08-15
 authors: "Yuval Noah Hahari"
 categories: ["science & systems thinking"]
+status: 🟢
 ---

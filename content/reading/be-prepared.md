@@ -4,6 +4,6 @@ description: '"Fresh out of the womb newborns look very different. As a matter o
 cover: "images/reading/be-prepared.jpeg"
 publishDate: 2020-01-10
 authors: "Jeannie Hayden, Garry Grenburg"
-categories: ["science & system thinking"]
+categories: ["science & systems thinking"]
 status: 🟢
 ---

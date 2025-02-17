@@ -5,4 +5,5 @@ cover: "images/reading/the-hitchhiker-guide.jpeg"
 publishDate: 2020-08-14
 authors: "Douglas Adam"
 categories: ["stories & narratives"]
+status: 🟢
 ---

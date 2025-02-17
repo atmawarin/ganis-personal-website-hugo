@@ -5,4 +5,5 @@ cover: "images/reading/problem-solving-101.png"
 publishDate: 2016-09-11
 authors: "Ken Watanabe"
 categories: ["self-mastery & growth"]
+status: 🟢
 ---

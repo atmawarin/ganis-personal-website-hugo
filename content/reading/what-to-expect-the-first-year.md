@@ -4,5 +4,5 @@ description: "Oh what a god send book for amateur dad. Jadi orang tua pemula art
 cover: "images/reading/what-to-expect-first-year.jpeg"
 publishDate: 2017-12-11
 authors: "Heidi Murkoff"
-categories: ["science & system thinking"]
+categories: ["science & systems thinking"]
 ---

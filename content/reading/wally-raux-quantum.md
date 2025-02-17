@@ -5,4 +5,5 @@ cover: "images/reading/wally-roux-quantum.jpeg"
 publishDate: 2019-11-11
 authors: "Nick Carr"
 categories: ["stories & narratives"]
+status: 🟢
 ---

@@ -4,5 +4,5 @@ description: "Novel audio tentang masa depan di mana orang akan kembali hidup ji
 cover: "images/reading/dispatcher.jpeg"
 publishDate: 2019-03-11
 authors: "John Scalzi"
-categories: ["fiction & literature"]
+categories: ["stories & narratives"]
 ---

@@ -1,8 +1,9 @@
 ---
 title: "When - The Scientific Secrets of Perfect Timing"
-description: 'A fantastic resource untuk memahami kapan kita sebaiknya melakukan sesuatu. Sedikit mirip dengan buku buku Dan Ariely. Penuh dengan Helpful ideas yang bisa kita praktikan di kehidupan sehari-hari based on hard science.'
+description: '“Beginnings matter. A strong start can shape the trajectory of everything that follows. Midpoints can be a slump or a spark. It’s up to us to decide which one. Endings shape our memory of an experience. We remember the final moments more than the middle.'
 cover: "images/reading/when.jpeg"
 publishDate: 2018-12-15
 authors: "Daniel H Pink"
-categories: ["science & system thinking"]
+categories: ["science & systems thinking"]
+status: 🟢
 ---

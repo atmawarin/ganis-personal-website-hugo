@@ -1,8 +1,9 @@
 ---
 title: "What You Do is Who You Are"
-description: 'Pertama kali saya dengar Ben Horowitz dari rekomendasi Jun. Buku ini berbicara tentang kultur perusahaan. Kata yang sering dipakai di laporan, dan interview, tapi gak banyak orang yang bisa mengartikulasikannya dengan baik (termasuk saya!).'
+description: '“It’s not about being the smartest person in the room. It’s about being the one who consistently sets the standard through actions.”'
 cover: "images/reading/what-you-do-is-you.jpeg"
 publishDate: 2020-12-14
 authors: "Ben Horowitz"
 categories: ["business & leadership"]
+status: 🟢
 ---

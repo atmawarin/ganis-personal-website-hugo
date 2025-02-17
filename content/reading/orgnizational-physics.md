@@ -1,8 +1,9 @@
 ---
 title: "Orgnizational Physics"
-description: "Buku yang sangat oke untuk membantu kamu memahami bagaimana struktur organisasi dapat mempengaruhi kultur dan sukses dari organisasi, dan prinsip apa saja yang perlu kita ketahui ketika kita ingin mendesain atau mengubah struktur perusahaan."
+description: "“The right organizational structure isn’t the one that looks good on paper, it’s the one that supports the flow of energy within the business.”"
 cover: "images/reading/orgnizational-physics.jpeg"
 publishDate: 2016-08-11
 authors: "Lex Sisney"
 categories: ["business & leadership"]
+status: 🟢
 ---

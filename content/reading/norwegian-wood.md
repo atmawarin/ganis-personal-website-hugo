@@ -1,8 +1,9 @@
 ---
 title: "Norwegian Wood"
-description: "Murakami Lite. Norwegian Wood – walaupun karya Murakami yang paling populer, sebenernya anomali di keseluruhan body worknya. Dia realisme (buku Murakami yang lain biasanya lebih aneh dan imajinatif), dan lumayan sentimentil (mungkin ini juga yang bikin Norwegian Wood populer). Saya menyarankan mengicipi Wild Sheep Chase atau Wind Up Bird Chronicle, sebelum membaca Norwegian Wood."
+description: "“I once had a girl, or should I say, she once had me.”"
 cover: "images/reading/norwegian-wood.jpeg"
 publishDate: 2016-07-11
 authors: "Haruki Murakami"
 categories: ["stories & narratives"]
+status: 🟢
 ---

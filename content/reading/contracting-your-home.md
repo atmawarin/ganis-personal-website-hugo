@@ -1,8 +1,9 @@
 ---
 title: "The Complete Guide to Contracting Your Home: A Step-by-Step Method for Managing Home Construction"
-description: "Buku yang sangat berguna untuk pemula yang ingin membangun rumah. Memberikan konsep tentang airflow, fondasi, safety, insulasi, dan juga HVAC. Banyak konsep yang ada di buku ini berangkat dari model membangun rumah di Amerika, tapi sekitar 70% kontennya bisa diimplementasikan untuk rumah di Indonesia."
+description: "Family bathrooms used by children need plenty of storage to combat clutter. Install large medicine cabinets with zones for each child. Use vanities with several drawers. Provide ample storage for a variety of towels and toiletries near the shower."
 cover: "images/reading/contracting-your-home.png"
 publishDate: 2019-01-09
 authors: "Kent Lester"
-categories: ["science & system thinking"]
+categories: ["science & systems thinking"]
+status: 🟢
 ---

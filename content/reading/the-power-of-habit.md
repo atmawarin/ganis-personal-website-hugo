@@ -4,5 +4,6 @@ description: "“It’s not motivation that drives change—it’s momentum, cre
 cover: "images/reading/the-power-of-habit.jpeg"
 publishDate: 2019-07-11
 authors: "Charles Duhigg"
-categories: ["social science & engineering"]
+categories: ["science & systems thinking"]
+status: 🟢
 ---

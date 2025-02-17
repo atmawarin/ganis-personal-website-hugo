@@ -5,4 +5,5 @@ cover: "images/reading/remote.jpeg"
 publishDate: 2021-08-12
 authors: "David Heinemeier Hansson and Jason Fried"
 categories: ["business & leadership"]
+status: 🟢
 ---

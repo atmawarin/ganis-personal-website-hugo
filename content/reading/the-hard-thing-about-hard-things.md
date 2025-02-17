@@ -5,4 +5,5 @@ cover: "images/reading/the-hard-thing-about-hard-things.jpeg"
 publishDate: 2019-05-11
 authors: "Ben Horowitz"
 categories: ["business & leadership"]
+status: 🟢
 ---

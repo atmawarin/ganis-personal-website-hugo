@@ -5,4 +5,5 @@ cover: "images/reading/coaching-conversation.jpeg"
 publishDate: 2021-04-12
 authors: "Brian Souza"
 categories: ["business & leadership"]
+status: 🟢
 ---

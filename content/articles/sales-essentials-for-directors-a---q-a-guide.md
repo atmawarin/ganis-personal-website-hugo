@@ -7,7 +7,8 @@ tags: ["service business"]
 
 *This is evergreen article. Last update : 6 Feb 2025*
 
-![Ini gambar apa ya](website-struktur.png)
+![Ini gambar apa ya](/website-struktur.png)
+
 
 *–4-3-1-2 is true OG. Kalau Guardiola bikin PT mungkin bakal 2-3-1-4*
 

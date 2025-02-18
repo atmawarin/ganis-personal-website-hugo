@@ -5,5 +5,5 @@ publishDate: 2022-08-15
 authors: "Charles Eisenstein"
 categories: ["self-mastery & growth"]
 status: 🟢
-cover: "images/reading/the-yoga-of-eating.jpg"
+cover: "images/website-yoga-of-eating.jpg"
 ---

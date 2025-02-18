@@ -7,7 +7,7 @@ tags: ["service business"]
 
 *This is evergreen article. Last update : 6 Feb 2025*
 
-![Ini gambar apa ya](/website-struktur.png)
+![Ini gambar apa ya](/images/website-struktur.png)
 
 
 *–4-3-1-2 is true OG. Kalau Guardiola bikin PT mungkin bakal 2-3-1-4*
@@ -22,7 +22,7 @@ Hopefully you can steal one or two thing from the list 😉.
 
 ## **Worry About Input, Not Output**
 
-![Fokus ke Input](website-input-output.png)
+![Fokus ke Input](/images/website-input-output.png)
 
 *–Spend 3 sessions on improving proposal quality? Mungkin tambah satu sesi lagi buat improving spelling dulu, ya.*
 
@@ -39,7 +39,7 @@ Sementara itu, **input 100% ada di kontrol kamu.** Kamu bisa atur berapa banyak 
 
 ## Make Sure Input Will Bring You Output
 
-![Contoh Input](website-sales-contoh-input.png)
+![Contoh Input](/images/website-sales-contoh-input.png)
 
 Nah, salah satu hal yang paling tricky adalah figure out gimana caranya "mendekatkan" antara Input kamu dengan Output. Maksudnya, idealnya apapun **Input** yang kamu lakukan kalau bisa linear lurus ke Output yang kamu inginkan. Jadi kalau kamu melakukan 30 artikel dan hasilnya ada 300 visitor, make ketika kamu melakukan 300 artikel, kamu bisa mendapatkan 3000 visitor. Ini input yang nyambung dengan output. 
 
@@ -57,7 +57,7 @@ Ada beberapa hal yang bisa kamu lakukan biar nggak buang waktu di strategi yang 
 2. **Masukkan Waktu buat Review Process**. Sibuk bukan berarti produktif. Banyak orang stuck di rutinitas yang nggak ada impact-nya, tapi nggak sadar karena **mereka nggak pernah review progressnya.** Jadwalkan waktu sama tim buat nge-review apakah input kamu beneran jalan atau cuma buang waktu. Kalau setelah 1 bulan effort kamu **gak ada impact ke angka bisnis**, **either tweak strategi atau stop wasting time.**
 3. **Stop Doing Things That Don’t Work**. Jangan maksa strategi yang gagal. Kalau strategi A nggak ngasih hasil setelah diuji beberapa kali, berhenti coba pakai strategi itu terus-menerus. Kalau artikel gak ada yang baca, bikin artikel 10x lipat lebih banyak bukan solusi.  
 
-![Contoh Report](website-funnel.png)
+![Contoh Report](/images/website-funnel.png)
 
 *_ Analysis Funnel dan compare antara data leads dan data sales bakal bantu kamu untuk tahu, mana Input yang relevant dan mana yang nggak.* 
 
@@ -67,7 +67,7 @@ Nyambung dari point sebelumnya. xxx.xxx.xxxx xxx
 
 ## Kelihatan Rapi Dan Bersih, Tapi Jangan Sampai Jadi Luxury
 
-![Nope this is not working for you](website-sergey-ngawur.png)
+![Nope this is not working for you](/images/website-sergey-ngawur.png)
 
 *–Bro kiri: ‘Kerja buat hidup.’ Bro kanan: ‘Hidup buat kerja.’*
 

@@ -6,8 +6,11 @@
             <div class="w-dyn-list">
                 <div role="list" class="w-dyn-items">
                     <div role="listitem" class="collection-item-3 w-dyn-item">
-                        <img alt="" src="" class="image-9 w-dyn-bind-empty"/>
+                        {{ with .Params.cover }}
+            <img width="500" alt="" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
+            {{ end }}
                         <h1 class="post-heading">{{ .Title }}</h1>
+                        
                         <div class="rich-text-block w-richtext">
                             {{ .Content }}
                         </div>

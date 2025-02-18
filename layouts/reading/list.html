@@ -29,7 +29,8 @@
                 {{ range .Pages.GroupByPublishDate "2006" }}
                 <div class="w-tab-content">
                     
-                    <h1 class="centered-text">{{ .Key }}</h1>
+                    <!-- Display Year with Book Count -->
+                    <h1 class="centered-text">{{ .Key }} <span class="color-dark-blue-less"> *  {{ len .Pages }}</span></h1>
                     
                     <div class="w-dyn-list">
                         <div role="list" class="works w-dyn-items">

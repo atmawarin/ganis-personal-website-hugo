@@ -3,14 +3,10 @@ title: "Sales Essentials for Directors A – Q&A Guide"
 description: "Dress sharp, price smarter than your competitors, and charm clients like your team paychecks depends on it—because it does."
 date: 2024-11-21
 tags: ["service business"]
+cover: /images/website-struktur.png
 ---
 
 *This is evergreen article. Last update : 6 Feb 2025*
-
-![Ini gambar apa ya](/images/website-struktur.png)
-
-
-*–4-3-1-2 is true OG. Kalau Guardiola bikin PT mungkin bakal 2-3-1-4*
 
 Bayangin kamu tukang bakso yang enaknya nggak ketulungan. Kuahnya gurih, dagingnya juicy, ada menu iga sedap, yang nyobain langsung pengen adopt kamu si Tukang Bakso. Tapi… the thing is, kamu jualannya di tengah hutan. Hutan Alas Purwo lagi. **Orang takut beli bang**. To make it worse, kamu jualan service. Sesuatu yang intangible, gak bisa dipegang, persis demit. 
 

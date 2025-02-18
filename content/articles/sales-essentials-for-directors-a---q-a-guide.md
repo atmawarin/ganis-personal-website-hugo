@@ -6,8 +6,6 @@ tags: ["service business"]
 cover: /images/website-struktur.png
 ---
 
-*This is evergreen article. Last update : 6 Feb 2025*
-
 Bayangin kamu tukang bakso yang enaknya nggak ketulungan. Kuahnya gurih, dagingnya juicy, ada menu iga sedap, yang nyobain langsung pengen adopt kamu si Tukang Bakso. Tapi… the thing is, kamu jualannya di tengah hutan. Hutan Alas Purwo lagi. **Orang takut beli bang**. To make it worse, kamu jualan service. Sesuatu yang intangible, gak bisa dipegang, persis demit. 
 
 Nothing more sad than seeing **product/service keren, tim solid, tapi sales pipeline macet.** Product/Amazing service is half the work, and I learn the hard way kalau this is the ~~second~~ most important thing, untuk membangun proper business. Profitable business. Jago bikin product is not guarantee kalau kamu bakal sukses. Bakso itu harus dipasarkan dengan ciamik. 
@@ -57,23 +55,19 @@ Ada beberapa hal yang bisa kamu lakukan biar nggak buang waktu di strategi yang 
 
 *_ Analysis Funnel dan compare antara data leads dan data sales bakal bantu kamu untuk tahu, mana Input yang relevant dan mana yang nggak.* 
 
-## Build to Learn
-
-Nyambung dari point sebelumnya. xxx.xxx.xxxx xxx
-
-## Kelihatan Rapi Dan Bersih, Tapi Jangan Sampai Jadi Luxury
+## Kelihatan Rapi, Premium Dan Bersih
 
 ![Nope this is not working for you](/images/website-sergey-ngawur.png)
 
 *–Bro kiri: ‘Kerja buat hidup.’ Bro kanan: ‘Hidup buat kerja.’*
 
-**Iya. Sayangnya, penampilan itu penting.** Saya juga pengen bilang kalau klien nggak bakal nilai dari tampang, tapi kenyataannya emang first impression itu nyata.
+Buat yang nanya apakah sales itu boleh tampil apa adanya, jawabannya nggak. **Iya. Sayangnya, penampilan kamu gak bisa apa adanya.** Saya juga pengen bilang kalau klien nggak bakal nilai dari tampang, tapi kenyataannya emang first impression itu nyata.
 
-**Kalau kamu kelihatan terlalu murah, klien bakal ragu.** Apalagi kalau jualan kamu high-ticket atau kliennya level enterprise. 
+**Kalau kamu kelihatan gak representative, klien bakal ragu.** Apalagi kalau jualan kamu high-ticket atau kliennya level enterprise. 
 
 On the other hand, terlalu fancy juga bisa backfire. Bayangin kamu dateng pake Mercy, tas LV, jam Rolex, sementara kliennya masih cicil mobil. Bisa-bisa mereka mikir, *“Orang ini nge-charge gue terlalu mahal gak ya?”*
 
-Jadi, **penampilan harus rapi, premium, tapi tetap approachable.** Nggak perlu lebay, cukup enak dilihat dan bikin klien nyaman. Ini checklist yang bisa dipakai:
+Jadi, **penampilan harus rapi, premium, tapi tetap approachable.** Nggak perlu pake merek luxury atau worse beli merek luxury palsu, yang penting jangan bikin client sampe mikir "oh, yah, kayaknya biasa aja ya Mas/Mbaknya". Beberapa tips juga buat hal yang berkaitan penampilan:
 
 1. **Baju**–**Uniqlo diskonan** (red label, baby!). **Nggak murah banget, tapi juga nggak norak.** Aman buat segala situasi.
 2. **Sepatu**–**Sepatu bersih itu harga mati.** Mau semahal apapun, kalau kotor ya tetep kelihatan kumel. **Clean > fancy.** Bersihin di awal minggu kalau mau ketemu client.
@@ -82,6 +76,14 @@ Jadi, **penampilan harus rapi, premium, tapi tetap approachable.** Nggak perlu l
 
 Golden rule-nya? **Rapi, premium (bukan luxury), dan yang paling penting: bersih.** 🚀
 
-## Network Beat Everything Else. By LARGE MARGIN
+## Authentic
 
-…. to be continue
+Lupa yang bilang siapa, tapi main currency business itu trust. Kalau calon client ngerasa kamu authentic, ini bakal bantu kamu untuk build long-term trust sama client. Cara paling gampang buat jadi authentic **adalah menghindari bullshit**. Kebanyakan decision maker di perusahaan, yang jadi leader, mereka ada di posisinya karena mereka punya brain power yang oke dan juga kepekaan. Orang-orang kayak gini udah kenyang pengalaman dan bisa mengendus bullshit dari kejauhan. Kadang mereka bakal mentolerir bullshit kalau mereka kepepet atau merasa value yang kamu tawarkan sangat menarik. But all thing equal, mereka bakal reluctant buat kerja bareng orang yang mereka gak yakin bakal bisa dipercaya.
+
+Be transparent sama strength kamu dan jelasin juga ke client upfront tentang limitasi product dan service yang kamu tawarkan–bahkan sebelum ditanya sama client. Share struggle kamu juga, dan cerita how you solve it. 
+
+![](/images/website-talking-point.png)
+
+*Yes, ini contoh contekan. Selalu prepare talking point. Ditato di tangan lebih oke lagi.*
+
+*…. next topic: Network beat everything else, by large margin*

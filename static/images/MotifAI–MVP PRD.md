@@ -1,0 +1,379 @@
+## MotifAI–MVP PRD
+
+### TL;DR
+
+MotifAI enables toko kain (fabric shop) owners to instantly visualize their fabrics on a range of modest female and male clothing mockups, streamlining customer consultations and boosting sales. By leveraging AI-driven image generation and a subscription model, the app empowers fabric retailers to offer a modern, engaging experience to their customers. The primary audience is Indonesian fabric shop owners serving customers interested in modest fashion, with support for both female and male clothing types. MotifAI will be delivered as native mobile apps (Android/iOS) and a PWA, using Flutter as the cross-platform technology.
+
+---
+
+## Product Owner
+
+**Mahesh Kanayo Daswani (Munu)**
+
+---
+
+## Goals
+
+### Business Goals
+
+- Acquire at least 100 paying toko kain owners within 3 months of launch.
+	
+- Achieve a 90%+ monthly retention rate among active subscribers.
+	
+- Generate a minimum of IDR 50M in monthly recurring revenue by month 4.
+	
+- Position MotifAI as a leading provider of AI-powered retail tools in the Indonesian textile sector.
+
+### User Goals
+
+- Enable toko kain owners to quickly generate realistic clothing mockups from fabric photos.
+	
+- Help users present fabric options more attractively to customers, increasing conversion rates.
+	
+- Simplify the process of managing orders and inventory through native platform features.
+	
+- Offer a user-friendly, mobile-accessible platform tailored to Indonesian business needs.
+	
+- Reduce the time and cost associated with traditional sample making and manual mockups.
+
+### Non-Goals
+
+- Custom clothing design tools beyond basic mockup generation (e.g., full pattern design).
+	
+- Support for non-textile product categories (e.g., shoes, accessories).
+	
+- Advanced analytics or reporting features outside of basic business operations.
+	
+- ERP integration (all business operations are managed natively within MotifAI).
+
+---
+
+## Mahesh's Background & Vision
+
+Mahesh Kanayo Daswani (Munu) brings decades of experience in garment manufacturing and textile distribution, having built and sold multiple brands and navigated the industry's ups and downs. Inspired by international solutions and his own prototyping, Mahesh (Munu) envisions a user-friendly, mobile-first app that delivers instant, real-time pattern-to-garment visualization. His goal is to empower Indonesian fabric retailers with modern, efficient tools that are simple, fast, and accessible, while supporting both modest female and male clothing mockups. Mahesh (Munu) is committed to ongoing investment and collaboration, with a clear roadmap for future feature expansion.
+
+---
+
+## Target Users
+
+- **Primary:** Toko kain (fabric shop) owners in Indonesia, gender-neutral.
+	
+- **Secondary:** Store staff and tailors assisting customers.
+	
+- **Mockups:** Both modest female and male clothing types are supported.
+
+---
+
+## User Stories
+
+**Persona 1: Toko Kain Owner**
+
+- As a toko kain owner, I want to upload a photo of my fabric, so that I can see how it looks on different clothing styles.
+	
+- As a toko kain owner, I want to show customers instant mockups, so that I can help them make faster purchase decisions.
+	
+- As a toko kain owner, I want to manage my inventory and sales in one place, so that I can save time and avoid errors.
+	
+- As a toko kain owner, I want to pay a simple monthly fee, so that I can access all features without hidden costs.
+
+**Persona 2: Store Staff / Tailor**
+
+- As a store staff member, I want to access the app on my phone, so that I can assist customers anywhere in the store.
+	
+- As a tailor, I want to view both male and female clothing mockups, so that I can recommend fabric for all customer types.
+
+---
+
+## Functional Requirements
+
+- **Fabric Photo Upload & Management** (Priority: High)
+	
+	- Fabric Photo Upload: Users can upload high-quality images of their fabrics.
+		
+	- Fabric Gallery: Users can view, organize, and delete uploaded fabrics.
+		
+	- Image Quality Guidance: App provides tips or validation for optimal photo results.
+		
+- **AI Mockup Generation** (Priority: High)
+	
+	- Clothing Mockup Selection: Users choose from a categorized list of female (modest) and male clothing types.
+		
+	- AI-Generated Previews: App generates realistic mockups of the selected clothing with the uploaded fabric.
+		
+	- Download/Share Options: Users can download or share mockup images with customers.
+		
+	- **Note:** Mahesh (Munu) can provide a database of garment mockups/vectors, or the design team can supplement as needed.
+		
+	- **Emphasis:** To enhance user experience, we will implement snappy UI/UX tactics that create a perception of speed, even in the presence of API latency. Fast interface is the core MVP feature.
+		
+- **Subscription & Payment** (Priority: High)
+	
+	- Subscription Plans: Users can view and select from available subscription tiers.
+		
+	- Payment Integration: Secure payment processing for monthly/annual plans.
+		
+	- Access Control: Features gated based on subscription status.
+		
+- **Business Operations Management** (Priority: Medium)
+	
+	- Inventory Management: Users can track and manage fabric inventory natively within the platform.
+		
+	- Order Management: Users can record and manage customer orders directly in the app.
+		
+	- Sales Tracking: Users can view and manage sales data within the platform.
+		
+	- **Note:** Future roadmap for Nostra ERP integration; all business operations are managed natively within MotifAI.
+		
+- **Localization & Accessibility** (Priority: Medium)
+	
+	- Multi-language support: Bahasa Indonesia and English available from launch.
+		
+	- Mobile-first design for phones and tablets.
+
+---
+
+## User Experience
+
+**Entry Point & First-Time User Experience**
+
+- Users discover the app via network, referral, online search, or direct outreach.
+	
+- Landing page explains benefits, features, and offers a free trial. Along with link to App Store/Play Store.
+	
+- Onboarding flow guides users through account creation, fabric photo upload, and first mockup generation.
+	
+- Optional tutorial highlights key features and best practices for photo quality.
+
+**Core Experience**
+
+1. **User logs in and lands on the dashboard.**
+	
+	- Clean, uncluttered UI with clear navigation.
+		
+	- Prominent “Upload Fabric” button.
+		
+2. **User uploads a fabric photo.**
+	
+	- App checks image quality (lighting, focus, background).
+		
+	- If issues detected, prompts user to retake or adjust.
+		
+	- Successful upload adds fabric to gallery.
+		
+3. **User selects a fabric from the gallery.**
+	
+	- Thumbnails display all uploaded fabrics.
+		
+	- Option to rename or delete fabrics.
+		
+4. **User chooses a clothing mockup type (female or male, with general categories).**
+	
+	- Categories: Female (gamis, tunic, hijab, skirt, abaya, cardigan, pants), Male (shirt, koko shirt, trousers, etc.).
+		
+	- Simple icons and labels for each type.
+		
+5. **AI generates mockup preview.**
+	
+	- Loading indicator and estimated wait time.
+		
+	- Result displayed in high resolution, with zoom and rotate options.
+		
+6. **User downloads or shares the mockup.**
+	
+	- Download button and share-to-WhatsApp/other channels.
+		
+7. **User manages inventory and orders natively within the platform.**
+	
+	- Simple forms and dashboards for tracking stock and sales.
+		
+8. **Subscription management.**
+	
+	- Access to billing, plan upgrades, and payment history.
+
+**Advanced Features & Edge Cases**
+
+- Power users can batch upload fabrics.
+	
+- Error handling for failed uploads or AI generation errors.
+	
+- Graceful handling of expired subscriptions (read-only mode, prompt to renew).
+	
+- Support for low-bandwidth or offline scenarios (basic caching, retry logic).
+
+**UI/UX Highlights**
+
+- High-contrast, readable text and buttons.
+	
+- Responsive layout for mobile and tablet.
+	
+- Bahasa Indonesia as default language, with clear, culturally relevant icons.
+	
+- Accessibility: Alt text for images, keyboard navigation, and screen reader support.
+	
+- Minimal steps to complete core tasks; avoid clutter and unnecessary options.
+	
+- **Emphasis:** The UI must be simple, fast, and user-friendly, with minimal friction and no unnecessary complexity.
+
+---
+
+## Narrative
+
+Pak Andi owns a small toko kain in Bandung, serving a loyal customer base looking for the latest in modest fashion. Traditionally, when a customer asks how a fabric will look as a gamis or koko shirt, Pak Andi must rely on imagination or time-consuming manual sketches. This often leads to indecision and lost sales.
+
+With MotifAI, Pak Andi simply snaps a photo of any fabric in his shop. Within seconds, he can show his customer a realistic mockup of that fabric as a gamis, tunic, or even a men’s shirt. The customer is delighted to see exactly how the fabric will look, making it easier to choose and buy on the spot. When the sale is made, Pak Andi records the order and updates his inventory directly within the app, saving time and reducing errors.
+
+The app’s subscription model is affordable and easy to manage, and Pak Andi appreciates the Bahasa Indonesia interface and mobile-friendly design. As word spreads, more customers visit his shop for the modern, interactive experience. Pak Andi’s sales increase, his workflow is smoother, and his business stands out in a competitive market.
+
+---
+
+## Success Metrics
+
+### User-Centric Metrics
+
+- Monthly active users (MAU)
+	
+- Net Promoter Score (NPS) and user feedback
+	
+- Average number of mockups generated per user
+
+### Business Metrics
+
+- Monthly recurring revenue (MRR)
+	
+- Churn rate (subscription cancellations)
+	
+- Number of users actively managing inventory and sales in the platform
+
+### Technical Metrics
+
+- System uptime (target: 99.5%+)
+	
+- Average mockup generation time (<30 seconds)
+	
+- Error rate for uploads and AI (<2%)
+
+### Tracking Plan
+
+- Fabric photo uploads
+	
+- Mockup generation requests
+	
+- Subscription sign-ups and renewals
+	
+- Inventory and order management events
+	
+- User logins and session duration
+	
+- In-app feedback submissions
+
+---
+
+## Technical Considerations
+
+### Technical Needs
+
+- AI model for fabric-to-mockup image generation (cloud-based inference)
+	
+- Flutter-based cross-platform codebase for native Android/iOS apps and PWA
+	
+- Secure back-end for user management, image storage, and payment processing
+	
+- Native business operations management (inventory, orders, sales) within the platform
+	
+- Payment gateway integration (local Indonesian providers preferred)
+	
+- **Multi-language support:** Bahasa Indonesia and English
+
+### Integration Points
+
+- Payment gateway (e.g., Midtrans, Xendit)
+	
+- Optional: WhatsApp or social sharing APIs
+
+### Data Storage & Privacy
+
+- Secure cloud storage for user-uploaded images and generated mockups
+	
+- Compliance with Indonesian data privacy regulations (PDP Law)
+	
+- User authentication and access control
+	
+- Data retention and deletion policies
+
+### Scalability & Performance
+
+- Designed for 1,000+ concurrent users at launch
+	
+- AI inference optimized for low-latency responses
+	
+- Scalable storage and compute resources
+
+### Technical Risks & Boundaries
+
+- **Emphasis:** Only fabric-to-mockup on pre-shot models is in scope for MVP. User try-on, sketch-to-pattern, and CAD-to-garment are explicitly out of scope for MVP and will be considered in future phases.
+	
+- **AI Cost Management:** For MVP, leverage existing third-party AI APIs/models. For future scalability, evaluate the cost/benefit of building or fine-tuning in-house models.
+	
+- **Mockup/Vector Asset Sourcing:** Mahesh (Munu) will provide a database of garment mockups/vectors, with the option for the design team to supplement as needed.
+	
+- **UI Simplicity:** The UI must be simple, fast, and user-friendly, with minimal friction and no unnecessary complexity.
+
+### Potential Challenges
+
+- Ensuring high-quality, realistic mockups for diverse fabric types
+	
+- Handling poor image uploads (blurry, low-light, etc.)
+	
+- Reliable business operations management and error handling
+	
+- Payment failures and subscription management
+	
+- Supporting low-bandwidth users
+	
+- Managing third-party AI API costs as usage scales
+
+---
+
+## Milestones & Sequencing
+
+### Project Estimate
+
+- **Timeline:** 2–3 months (8–12 weeks) for MVP launch
+
+### Team Size & Composition
+
+- **Team:** 3–5 people
+	
+	- 1 Product Manager
+		
+	- 2 Engineers (full-stack, AI/ML, Flutter)
+		
+	- 1 UI/UX Designer
+		
+	- 1 QA/Support (part-time or shared)
+
+### Suggested Phases
+
+**Phase 1: Discovery & Design (2 weeks)**
+
+- Key Deliverables: User research, wireframes, UI/UX prototypes (Product, Designer)
+	
+- Dependencies: Stakeholder input
+
+**Phase 2: Core Development (5 weeks)**
+
+- Key Deliverables: Fabric upload, AI mockup generation, basic UI, subscription/payment (Engineers, Designer)
+	
+- Dependencies: AI model readiness, payment gateway setup
+
+**Phase 3: Integration & Testing (2 weeks)**
+
+- Key Deliverables: Business operations management, QA testing, bug fixes (Engineers, QA)
+	
+- Dependencies: Test users
+
+**Phase 4: Launch & Feedback (1–2 weeks)**
+
+- Key Deliverables: Go-live, onboarding materials, user support, feedback collection (All)
+	
+- Dependencies: Marketing coordination, support setup

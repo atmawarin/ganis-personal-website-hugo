@@ -9,7 +9,7 @@
                 </p>
                 {{ with .Params.location }}
                 <div class="location home-v2 w-clearfix">
-                    <img src='{{ "images/icons/about-location.svg" | relURL }}' alt="" class="location-icon"/>
+                    <img src='{{ "images/icons/about-location.svg" | relURL }}' alt="Location" class="location-icon"/>
                     <div class="text-block">currently live in</div>
                     <div class="location-text black-text">{{ . }}</div>
                 </div>
@@ -56,7 +56,7 @@
             <div class="clients-v1">
                 {{ range .icons }}
                 <a href="{{ if .url }}{{ .url }}{{ else }}#{{ end }}" class="client-v1-link w-inline-block">
-                    <img src="{{ .icon | relURL }}" sizes="(max-width: 479px) 64vw, 182.734375px" alt="" class="client-logo"/>
+                    <img src="{{ .icon | relURL }}" sizes="(max-width: 479px) 64vw, 182.734375px" alt="Client logo" loading="lazy" class="client-logo"/>
                 </a>
                 {{ end }}
                 <a href="#" class="client-v1-link w-inline-block"></a>
@@ -76,7 +76,7 @@
             {{ end }}
             <div class="side-feature" style="flex-direction:{{if not $is_odd }}row-reverse;{{ end }}">
                 <div class="side-media" data-aos="fade-{{ if $is_odd }}right{{ else }}left{{ end }}">
-                    <img src="{{ $p.image | relURL }}" sizes="(max-width: 479px) 60vw, (max-width: 991px) 51vw, 26vw" alt="" class="side-image-back {{ if $is_odd }}left{{ else }}right{{ end }}"/>
+                    <img src="{{ $p.image | relURL }}" sizes="(max-width: 479px) 60vw, (max-width: 991px) 51vw, 26vw" alt="{{ $p.heading }}" loading="lazy" class="side-image-back {{ if $is_odd }}left{{ else }}right{{ end }}"/>
                 </div>
                 <div class="side-info" data-aos="fade-{{ if $is_odd }}left{{ else }}right{{ end }}">
                     <h2>{{ $p.heading | safeHTML }}</h2>

@@ -14,21 +14,24 @@ menus:
     - name: "About"
       weight: 10
       url: "/about"
-    - name: "Book"
+    - name: "Writing"
       weight: 20
-      url: "/reading"
-    - name: "Articles"
-      weight: 30
       url: "/articles"
-    - name: "Questions & Ideas"
+    - name: "Reading"
+      weight: 30
+      url: "/reading"
+    - name: "Running"
       weight: 40
-      url: "/questions-and-ideas"
+      url: "/running"
+    - name: "Newsletter"
+      weight: 50
+      url: "/newsletter"
 
   footer:
-    - name: "Articles"
+    - name: "Writing"
       weight: 10
       url: "/articles"
-    - name: "Book"
+    - name: "Reading"
       weight: 20
       url: "/reading"
     - name: "About"
@@ -46,6 +49,7 @@ menus:
 
 # Params
 params:
+  description: "Ganis Angger Atmawarin — builder, runner, reader, writer. Founder of Synetica. Based in Yogyakarta."
   social:
     twitter: "https://twitter.com/atmawarin"
     linkedin: "https://www.linkedin.com/in/ganis-atmawarin/"
@@ -55,11 +59,11 @@ params:
 
   footer:
     about_me: 
-      text: "Interweb enthusiast from Yogyakarta. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, black hair. Lion at Mario Kart, chicken at party."
+      text: "Interweb enthusiast from Yogyakarta. Founder of Synetica. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, black hair. Chicken at party, lion at Pingpong."
       image: "images/sign.png"
     
     contact:
-      location: "I’m based in Yogyakarta"
+      location: "I'm based in Yogyakarta"
       email: "ganis@atmawarin.com"
 
     newsletter:

@@ -8,10 +8,13 @@
 <meta name="description" content="{{ .Site.Params.description }}">
 {{- end }}
 
-<!-- aos link -->
+<!-- canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- aos link (deferred) -->
 {{ $aos := resources.Get "js/plugins/aos.js" }}
 {{ $aos := $aos | minify }}
-<script src="{{ $aos.RelPermalink }}"></script>
+<script src="{{ $aos.RelPermalink }}" defer></script>
 
 <!-- site title -->
 <title>{{ if .IsHome }}Homepage | {{ .Site.Title }}{{ else }}{{ .Page.Title }} | {{ .Site.Title}}{{ end }}</title>
@@ -51,4 +54,4 @@
 <!-- fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">

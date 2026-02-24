@@ -54,6 +54,44 @@ params:
     twitter: "https://twitter.com/atmawarin"
     linkedin: "https://www.linkedin.com/in/ganis-atmawarin/"
 
+  tributes:
+    "":  # homepage
+      name: "Jan Tschichold"
+      description: "Inspired by Jan Tschichold's Die Neue Typographie (1928). Tschichold codified the rules of modern typography — asymmetric layouts, sans-serif primacy, and white space as structure. He later rejected his own rules and returned to classical design. Fun fact: he redesigned every single Penguin paperback cover in the late 1940s."
+      typography: "Abril Fatface + Karla"
+      mainColor: "#244464"
+      color: "rgba(255,255,255,0.7)"
+    about:
+      name: "Massimo Vignelli"
+      description: "Inspired by Massimo Vignelli's lifelong pursuit of rational design. Vignelli believed you only need 5 typefaces for a lifetime. He designed the NYC subway map, American Airlines' identity, and Knoll furniture catalogs — all with the same discipline: reduce, clarify, dignify. Fun fact: he carried a custom leather-bound folder that held exactly 6 Bic pens."
+      typography: "Bodoni + Helvetica (in spirit)"
+      mainColor: "#D94F30"
+      color: "#D94F30"
+    articles:
+      name: "Beatrice Warde"
+      description: "Inspired by Beatrice Warde's The Crystal Goblet (1932). Warde argued that typography should be invisible — like a crystal goblet that reveals the wine inside. Good type doesn't draw attention to itself; it draws attention to the words. She was one of the first great type scholars and the only woman in a room full of men who didn't know what they were looking at."
+      typography: "Perpetua + Gill Sans (in spirit)"
+      mainColor: "#2C3E50"
+      color: "rgba(255,255,255,0.65)"
+    reading:
+      name: "László Moholy-Nagy"
+      description: "Inspired by László Moholy-Nagy's experiments at the Bauhaus (1923–1928). Moholy-Nagy believed in the unity of art and technology long before anyone called it 'design thinking.' He pioneered photograms, kinetic sculpture, and typography as visual architecture. Fun fact: he once ordered paintings by telephone, dictating coordinates to a sign factory. The paintings were exhibited as art."
+      typography: "Universal Grotesk + geometric forms"
+      mainColor: "#C13A28"
+      color: "#C13A28"
+    running:
+      name: "Josef Müller-Brockmann"
+      description: "Inspired by Josef Müller-Brockmann's Grid Systems in Graphic Design (1981). Müller-Brockmann brought mathematical precision to visual design — grids, rhythm, proportion. His concert posters for Zurich's Tonhalle are considered masterpieces of Swiss Style. Fun fact: he once said 'the grid system is an aid, not a guarantee' — proof that even the most systematic minds know rules are meant to be bent."
+      typography: "Akzidenz-Grotesk + strict grid"
+      mainColor: "#1A1A1A"
+      color: "rgba(255,255,255,0.55)"
+    newsletter:
+      name: "Herbert Bayer"
+      description: "Inspired by Herbert Bayer's Universal Alphabet (1925). Bayer believed in radical simplicity — only lowercase letters, pure geometric forms, and zero unnecessary ornament. His most famous work is the Universal typeface, which stripped the alphabet down to circles, triangles, and lines. Fun fact: Bayer designed the iconic Bauhaus logo and later became the art director for Vogue magazine. He also lost vision in one eye, which he said made him see design more clearly."
+      typography: "Universal Type (Bayer, 1925)"
+      mainColor: "#E84D1E"
+      color: "#E84D1E"
+
   header:
     logo: "images/logo.png"
 

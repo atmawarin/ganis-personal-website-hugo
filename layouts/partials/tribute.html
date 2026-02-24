@@ -1,0 +1,24 @@
+{{- $tribute := false -}}
+{{- with .Params.tribute -}}
+  {{- $tribute = . -}}
+{{- else -}}
+  {{- with site.Params.tributes -}}
+    {{- $section := $.Page.Section -}}
+    {{- if eq $section "" -}}
+      {{- $section = "" -}}
+    {{- end -}}
+    {{- with index . $section -}}
+      {{- $tribute = . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- with $tribute -}}
+<div class="tribute-section" style="border-top: 1px solid rgba(255,255,255,0.15); padding: 24px 0 8px; margin-top: 24px; text-align: center;">
+    <div style="text-transform: uppercase; letter-spacing: 4px; font-size: 10px; color: rgba(255,255,255,0.4); margin-bottom: 8px;">Tribute to</div>
+    <div style="font-family: 'Abril Fatface', cursive; font-size: 18px; color: {{ .color | default "rgba(255,255,255,0.7)" }}; margin-bottom: 12px;">{{ .name }}</div>
+    <p style="font-size: 12px; line-height: 1.6; color: rgba(255,255,255,0.45); max-width: 480px; margin: 0 auto 12px; font-style: italic;">{{ .description | safeHTML }}</p>
+    <div style="font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 2px; text-transform: uppercase;">
+        {{ with .typography }}Typography: {{ . }}{{ end }}{{ with .mainColor }} · Color: {{ . }}{{ end }}
+    </div>
+</div>
+{{- end -}}

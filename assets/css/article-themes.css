@@ -1,0 +1,322 @@
+/* ==========================================================================
+   PER-ARTICLE STYLE THEMES
+   Each theme is fully scoped under a `.theme-<name>` wrapper class that is
+   emitted by layouts/articles/single.html when an article sets `style:` in
+   its front matter. Nothing here leaks to other articles.
+   ==========================================================================
+
+   THEME: bauhaus
+   Tribute to László Moholy-Nagy and the Bauhaus / New Vision school.
+   Geometric sans (Jost — a Futura revival), primary colour blocks, heavy
+   black rules, constructivist offsets and a typographic, poster-like voice.
+   -------------------------------------------------------------------------- */
+
+.theme-bauhaus {
+  --bh-paper: #f1ece0;
+  --bh-ink: #16130d;
+  --bh-red: #e1402a;
+  --bh-blue: #1f49c0;
+  --bh-yellow: #f3c114;
+  --bh-rule: 8px;
+
+  background-color: var(--bh-paper);
+  /* faint constructivist grid */
+  background-image:
+    linear-gradient(rgba(22, 19, 13, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(22, 19, 13, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  color: var(--bh-ink);
+}
+
+/* ---- typography base --------------------------------------------------- */
+.theme-bauhaus .article-detail,
+.theme-bauhaus .post,
+.theme-bauhaus .post p,
+.theme-bauhaus .post li,
+.theme-bauhaus .post-date,
+.theme-bauhaus .tag-label {
+  font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
+  color: var(--bh-ink);
+}
+
+.theme-bauhaus .article-detail {
+  position: relative;
+  max-width: 760px;
+}
+
+/* tricolour rule that opens the piece — pure Bauhaus primaries */
+.theme-bauhaus .article-detail::before {
+  content: "";
+  display: block;
+  height: 16px;
+  margin-bottom: 40px;
+  background: linear-gradient(
+    90deg,
+    var(--bh-red) 0 33.34%,
+    var(--bh-blue) 0 66.67%,
+    var(--bh-yellow) 0 100%
+  );
+}
+
+/* large outlined circle floating top-right, constructivist accent */
+.theme-bauhaus .article-detail::after {
+  content: "";
+  position: absolute;
+  top: 84px;
+  right: -54px;
+  width: 132px;
+  height: 132px;
+  border: 12px solid var(--bh-blue);
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* ---- cover image: framed + offset shadow ------------------------------- */
+.theme-bauhaus .image-9 {
+  border: var(--bh-rule) solid var(--bh-ink);
+  border-radius: 0;
+  box-shadow: 16px 16px 0 0 var(--bh-red);
+  margin-bottom: 56px;
+  filter: grayscale(100%) contrast(108%);
+}
+
+/* ---- title ------------------------------------------------------------- */
+.theme-bauhaus .post-heading {
+  position: relative;
+  z-index: 1;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  font-size: clamp(40px, 7vw, 76px);
+  line-height: 0.94;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--bh-ink);
+  margin: 0 0 28px;
+  padding-bottom: 28px;
+  border-bottom: var(--bh-rule) solid var(--bh-ink);
+}
+
+/* three primary shapes above the headline */
+.theme-bauhaus .post-heading::before {
+  content: "";
+  display: block;
+  width: 96px;
+  height: 28px;
+  margin-bottom: 24px;
+  background:
+    radial-gradient(circle at 14px 14px, var(--bh-red) 13px, transparent 14px) left center / 28px 28px no-repeat,
+    linear-gradient(var(--bh-blue), var(--bh-blue)) 34px center / 28px 28px no-repeat,
+    linear-gradient(var(--bh-yellow), var(--bh-yellow)) 68px center / 28px 28px no-repeat;
+}
+
+/* ---- body copy --------------------------------------------------------- */
+.theme-bauhaus .post {
+  counter-reset: bh-section;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.72;
+  position: relative;
+  z-index: 1;
+}
+
+.theme-bauhaus .post p {
+  margin: 0 0 22px;
+}
+
+/* drop cap as a red constructivist block on the first paragraph */
+.theme-bauhaus .post > p:first-of-type::first-letter {
+  float: left;
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  font-size: 78px;
+  line-height: 0.66;
+  text-transform: uppercase;
+  color: var(--bh-paper);
+  background: var(--bh-red);
+  padding: 14px 16px 12px;
+  margin: 8px 18px 4px 0;
+}
+
+.theme-bauhaus .post strong {
+  font-weight: 700;
+  box-shadow: inset 0 -0.4em 0 rgba(243, 193, 20, 0.55);
+}
+
+.theme-bauhaus .post em {
+  font-style: italic;
+  color: var(--bh-red);
+}
+
+/* ---- section headings: numbered colour blocks -------------------------- */
+.theme-bauhaus .post h2 {
+  counter-increment: bh-section;
+  display: flex;
+  align-items: baseline;
+  gap: 18px;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: clamp(26px, 4vw, 38px);
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: var(--bh-ink);
+  margin: 64px 0 24px;
+}
+
+.theme-bauhaus .post h2::before {
+  content: counter(bh-section, decimal-leading-zero);
+  flex: 0 0 auto;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 1;
+  color: var(--bh-paper);
+  background: var(--bh-blue);
+  padding: 10px 12px;
+  transform: translateY(-2px);
+}
+
+.theme-bauhaus .post h2:nth-of-type(3n + 1)::before { background: var(--bh-red); }
+.theme-bauhaus .post h2:nth-of-type(3n + 2)::before { background: var(--bh-blue); }
+.theme-bauhaus .post h2:nth-of-type(3n + 3)::before { background: var(--bh-ink); }
+
+.theme-bauhaus .post h3 {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin: 40px 0 16px;
+}
+
+/* ---- horizontal rules (markdown ---) : heavy two-tone bar -------------- */
+.theme-bauhaus .post hr {
+  border: 0;
+  height: 10px;
+  width: 100%;
+  margin: 52px 0;
+  background: linear-gradient(
+    90deg,
+    var(--bh-ink) 0 72%,
+    var(--bh-yellow) 0 100%
+  );
+}
+
+/* ---- lists ------------------------------------------------------------- */
+.theme-bauhaus .post ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.theme-bauhaus .post ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+}
+
+.theme-bauhaus .post ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 14px;
+  height: 14px;
+  background: var(--bh-red);
+}
+
+.theme-bauhaus .post ol {
+  padding-left: 22px;
+}
+
+/* ---- links ------------------------------------------------------------- */
+.theme-bauhaus .post a {
+  color: var(--bh-blue);
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: inset 0 -3px 0 var(--bh-blue);
+}
+
+.theme-bauhaus .post a:hover {
+  color: var(--bh-paper);
+  background: var(--bh-blue);
+  box-shadow: none;
+}
+
+/* ---- footer furniture: divider, date, tags ----------------------------- */
+.theme-bauhaus .divider {
+  border: 0;
+  height: 16px;
+  box-shadow: none;
+  margin: 8px 0 32px;
+  background: linear-gradient(
+    90deg,
+    var(--bh-red) 0 33.34%,
+    var(--bh-blue) 0 66.67%,
+    var(--bh-yellow) 0 100%
+  );
+}
+
+.theme-bauhaus .post-date {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 14px;
+}
+
+.theme-bauhaus .tag-label {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.theme-bauhaus .badge,
+.theme-bauhaus .badge.color {
+  border-radius: 0 !important;
+  background: var(--bh-ink) !important;
+  color: var(--bh-paper) !important;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ---- related posts + navigation buttons -------------------------------- */
+.theme-bauhaus .article-all-post {
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+}
+
+.theme-bauhaus .post-card-v3-heading {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+}
+
+.theme-bauhaus .div-round {
+  border-radius: 0;
+  border: 4px solid var(--bh-ink);
+}
+
+.theme-bauhaus .button,
+.theme-bauhaus .button-4 {
+  border-radius: 0;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+/* ---- responsive trims -------------------------------------------------- */
+@media (max-width: 767px) {
+  .theme-bauhaus { background-size: 28px 28px; }
+  .theme-bauhaus .article-detail::after {
+    width: 84px;
+    height: 84px;
+    right: -10px;
+    top: 60px;
+    border-width: 9px;
+  }
+  .theme-bauhaus .image-9 { box-shadow: 10px 10px 0 0 var(--bh-red); }
+  .theme-bauhaus .post h2 { gap: 12px; }
+  .theme-bauhaus .post > p:first-of-type::first-letter { font-size: 60px; }
+}

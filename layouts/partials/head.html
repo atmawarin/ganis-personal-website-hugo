@@ -32,7 +32,7 @@
 {{ template "partials/schema.html" . }}
 
 <!-- twitter card -->
-{{ partial "partials/twitter_cards.html" . }}
+{{ partial "twitter_cards.html" . }}
 {{- with or .Params.image .Params.cover }}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ . | relURL }}">
@@ -55,3 +55,12 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<!-- per-article style theme (opt-in via front matter: style: "<name>") -->
+{{- with .Params.style }}
+{{- if eq . "bauhaus" }}
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300..800;1,400..600&display=swap" rel="stylesheet">
+{{- end }}
+{{ $theme := resources.Get "css/article-themes.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $theme.Permalink }}">
+{{- end }}

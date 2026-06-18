@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="page-wrapper nav-left">
+<div class="page-wrapper nav-left{{ with .Params.style }} article-themed theme-{{ . }}{{ end }}">
     <div class="split-content blog-post-content">
         <div class="article-detail">
             {{ with .Params.cover }}

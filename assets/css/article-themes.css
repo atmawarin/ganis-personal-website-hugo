@@ -1,8 +1,14 @@
 /* ==========================================================================
    PER-ARTICLE STYLE THEMES
    Each theme is fully scoped under a `.theme-<name>` wrapper class that is
-   emitted by layouts/articles/single.html when an article sets `style:` in
-   its front matter. Nothing here leaks to other articles.
+   emitted whenever an article sets `style:` in its front matter — both on the
+   article detail page (layouts/articles/single.html) and on the homepage
+   featured block (layouts/index.html). Nothing here leaks to other articles.
+
+   Two content structures are themed in parallel so the homepage featured
+   article looks identical to its detail page:
+     - detail page:  .article-detail  >  .post.w-richtext
+     - homepage:     .collection-item-3  >  .rich-text-block.w-richtext
    ==========================================================================
 
    THEME: bauhaus
@@ -30,22 +36,28 @@
 
 /* ---- typography base --------------------------------------------------- */
 .theme-bauhaus .article-detail,
+.theme-bauhaus .collection-item-3,
 .theme-bauhaus .post,
 .theme-bauhaus .post p,
 .theme-bauhaus .post li,
+.theme-bauhaus .rich-text-block,
+.theme-bauhaus .rich-text-block p,
+.theme-bauhaus .rich-text-block li,
 .theme-bauhaus .post-date,
 .theme-bauhaus .tag-label {
   font-family: "Jost", "Helvetica Neue", Arial, sans-serif;
   color: var(--bh-ink);
 }
 
-.theme-bauhaus .article-detail {
+.theme-bauhaus .article-detail,
+.theme-bauhaus .collection-item-3 {
   position: relative;
   max-width: 760px;
 }
 
 /* tricolour rule that opens the piece — pure Bauhaus primaries */
-.theme-bauhaus .article-detail::before {
+.theme-bauhaus .article-detail::before,
+.theme-bauhaus .collection-item-3::before {
   content: "";
   display: block;
   height: 16px;
@@ -59,7 +71,8 @@
 }
 
 /* large outlined circle floating top-right, constructivist accent */
-.theme-bauhaus .article-detail::after {
+.theme-bauhaus .article-detail::after,
+.theme-bauhaus .collection-item-3::after {
   content: "";
   position: absolute;
   top: 84px;
@@ -111,7 +124,8 @@
 }
 
 /* ---- body copy --------------------------------------------------------- */
-.theme-bauhaus .post {
+.theme-bauhaus .post,
+.theme-bauhaus .rich-text-block {
   counter-reset: bh-section;
   font-weight: 400;
   font-size: 19px;
@@ -120,12 +134,14 @@
   z-index: 1;
 }
 
-.theme-bauhaus .post p {
+.theme-bauhaus .post p,
+.theme-bauhaus .rich-text-block p {
   margin: 0 0 22px;
 }
 
 /* drop cap as a red constructivist block on the first paragraph */
-.theme-bauhaus .post > p:first-of-type::first-letter {
+.theme-bauhaus .post > p:first-of-type::first-letter,
+.theme-bauhaus .rich-text-block > p:first-of-type::first-letter {
   float: left;
   font-family: "Jost", sans-serif;
   font-weight: 800;
@@ -138,18 +154,21 @@
   margin: 8px 18px 4px 0;
 }
 
-.theme-bauhaus .post strong {
+.theme-bauhaus .post strong,
+.theme-bauhaus .rich-text-block strong {
   font-weight: 700;
   box-shadow: inset 0 -0.4em 0 rgba(243, 193, 20, 0.55);
 }
 
-.theme-bauhaus .post em {
+.theme-bauhaus .post em,
+.theme-bauhaus .rich-text-block em {
   font-style: italic;
   color: var(--bh-red);
 }
 
 /* ---- section headings: numbered colour blocks -------------------------- */
-.theme-bauhaus .post h2 {
+.theme-bauhaus .post h2,
+.theme-bauhaus .rich-text-block h2 {
   counter-increment: bh-section;
   display: flex;
   align-items: baseline;
@@ -164,7 +183,8 @@
   margin: 64px 0 24px;
 }
 
-.theme-bauhaus .post h2::before {
+.theme-bauhaus .post h2::before,
+.theme-bauhaus .rich-text-block h2::before {
   content: counter(bh-section, decimal-leading-zero);
   flex: 0 0 auto;
   font-weight: 800;
@@ -176,11 +196,15 @@
   transform: translateY(-2px);
 }
 
-.theme-bauhaus .post h2:nth-of-type(3n + 1)::before { background: var(--bh-red); }
-.theme-bauhaus .post h2:nth-of-type(3n + 2)::before { background: var(--bh-blue); }
-.theme-bauhaus .post h2:nth-of-type(3n + 3)::before { background: var(--bh-ink); }
+.theme-bauhaus .post h2:nth-of-type(3n + 1)::before,
+.theme-bauhaus .rich-text-block h2:nth-of-type(3n + 1)::before { background: var(--bh-red); }
+.theme-bauhaus .post h2:nth-of-type(3n + 2)::before,
+.theme-bauhaus .rich-text-block h2:nth-of-type(3n + 2)::before { background: var(--bh-blue); }
+.theme-bauhaus .post h2:nth-of-type(3n + 3)::before,
+.theme-bauhaus .rich-text-block h2:nth-of-type(3n + 3)::before { background: var(--bh-ink); }
 
-.theme-bauhaus .post h3 {
+.theme-bauhaus .post h3,
+.theme-bauhaus .rich-text-block h3 {
   font-family: "Jost", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -189,7 +213,8 @@
 }
 
 /* ---- horizontal rules (markdown ---) : heavy two-tone bar -------------- */
-.theme-bauhaus .post hr {
+.theme-bauhaus .post hr,
+.theme-bauhaus .rich-text-block hr {
   border: 0;
   height: 10px;
   width: 100%;
@@ -202,18 +227,21 @@
 }
 
 /* ---- lists ------------------------------------------------------------- */
-.theme-bauhaus .post ul {
+.theme-bauhaus .post ul,
+.theme-bauhaus .rich-text-block ul {
   list-style: none;
   padding-left: 0;
 }
 
-.theme-bauhaus .post ul li {
+.theme-bauhaus .post ul li,
+.theme-bauhaus .rich-text-block ul li {
   position: relative;
   padding-left: 30px;
   margin-bottom: 12px;
 }
 
-.theme-bauhaus .post ul li::before {
+.theme-bauhaus .post ul li::before,
+.theme-bauhaus .rich-text-block ul li::before {
   content: "";
   position: absolute;
   left: 0;
@@ -223,19 +251,22 @@
   background: var(--bh-red);
 }
 
-.theme-bauhaus .post ol {
+.theme-bauhaus .post ol,
+.theme-bauhaus .rich-text-block ol {
   padding-left: 22px;
 }
 
 /* ---- links ------------------------------------------------------------- */
-.theme-bauhaus .post a {
+.theme-bauhaus .post a,
+.theme-bauhaus .rich-text-block a {
   color: var(--bh-blue);
   text-decoration: none;
   font-weight: 600;
   box-shadow: inset 0 -3px 0 var(--bh-blue);
 }
 
-.theme-bauhaus .post a:hover {
+.theme-bauhaus .post a:hover,
+.theme-bauhaus .rich-text-block a:hover {
   color: var(--bh-paper);
   background: var(--bh-blue);
   box-shadow: none;
@@ -279,7 +310,7 @@
   letter-spacing: 0.04em;
 }
 
-/* ---- related posts + navigation buttons -------------------------------- */
+/* ---- related posts + featured-card furniture --------------------------- */
 .theme-bauhaus .article-all-post {
   font-family: "Jost", sans-serif;
   font-weight: 800;
@@ -297,19 +328,108 @@
   border: 4px solid var(--bh-ink);
 }
 
-.theme-bauhaus .button,
-.theme-bauhaus .button-4 {
-  border-radius: 0;
+/* NOTE: site navigation chrome (prev/next arrows, "back to all articles" and
+   the homepage "read the full article" button) is intentionally left at its
+   default site styling — themes must not restyle it, so it stays consistent
+   across every post regardless of the custom style. */
+
+/* ---- tribute / colophon: constructivist ink block ---------------------- */
+.theme-bauhaus .article-tribute {
+  max-width: 100%;
+  margin: 72px 0 8px;
+  padding: 36px 36px 34px;
+  border-top: 0;
+  text-align: left;
+  background: var(--bh-ink);
+  color: var(--bh-paper);
+  position: relative;
+  overflow: hidden;
+}
+
+/* tricolour bar across the top of the block */
+.theme-bauhaus .article-tribute::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background: linear-gradient(
+    90deg,
+    var(--bh-red) 0 33.34%,
+    var(--bh-blue) 0 66.67%,
+    var(--bh-yellow) 0 100%
+  );
+}
+
+/* large faint geometric mark, bottom-right */
+.theme-bauhaus .article-tribute::after {
+  content: "";
+  position: absolute;
+  right: -40px;
+  bottom: -40px;
+  width: 150px;
+  height: 150px;
+  border: 14px solid rgba(241, 236, 224, 0.08);
+  border-radius: 50%;
+}
+
+.theme-bauhaus .article-tribute__kicker {
   font-family: "Jost", sans-serif;
-  font-weight: 700;
+  color: var(--bh-yellow);
+  letter-spacing: 5px;
+  margin-bottom: 14px;
+}
+
+.theme-bauhaus .article-tribute__name {
+  font-family: "Jost", sans-serif;
+  font-weight: 800;
+  font-size: clamp(28px, 4.5vw, 40px);
+  line-height: 0.98;
+  letter-spacing: -0.01em;
   text-transform: uppercase;
-  letter-spacing: 0.04em;
+  color: var(--bh-paper);
+  margin-bottom: 18px;
+}
+
+.theme-bauhaus .article-tribute__desc {
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.66;
+  color: rgba(241, 236, 224, 0.82);
+  max-width: 60ch;
+  margin: 0 0 22px;
+  position: relative;
+  z-index: 1;
+}
+
+.theme-bauhaus .article-tribute__meta {
+  justify-content: flex-start;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: var(--bh-yellow);
+  gap: 0;
+}
+
+.theme-bauhaus .article-tribute__meta span {
+  padding-right: 18px;
+  margin-right: 18px;
+  border-right: 2px solid rgba(241, 236, 224, 0.25);
+}
+
+.theme-bauhaus .article-tribute__meta span:last-child {
+  border-right: 0;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 /* ---- responsive trims -------------------------------------------------- */
 @media (max-width: 767px) {
   .theme-bauhaus { background-size: 28px 28px; }
-  .theme-bauhaus .article-detail::after {
+  .theme-bauhaus .article-detail::after,
+  .theme-bauhaus .collection-item-3::after {
     width: 84px;
     height: 84px;
     right: -10px;
@@ -317,6 +437,8 @@
     border-width: 9px;
   }
   .theme-bauhaus .image-9 { box-shadow: 10px 10px 0 0 var(--bh-red); }
-  .theme-bauhaus .post h2 { gap: 12px; }
-  .theme-bauhaus .post > p:first-of-type::first-letter { font-size: 60px; }
+  .theme-bauhaus .post h2,
+  .theme-bauhaus .rich-text-block h2 { gap: 12px; }
+  .theme-bauhaus .post > p:first-of-type::first-letter,
+  .theme-bauhaus .rich-text-block > p:first-of-type::first-letter { font-size: 60px; }
 }

@@ -40,7 +40,7 @@
 
 <!-- main css -->
 {{ $css := resources.Get "css/main.css" | minify | fingerprint | resources.PostProcess }}
-<link rel="stylesheet" href="{{ $css.Permalink }}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 <!-- plugins css -->
 {{ $plugins := resources.Get "css/plugins/aos.css" }}
@@ -49,7 +49,7 @@
 {{ else }}
 {{ $plugins = $plugins | minify }}
 {{ end }}
-<link rel="stylesheet" href="{{ $plugins.Permalink }}">
+<link rel="stylesheet" href="{{ $plugins.RelPermalink }}">
 
 <!-- fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -57,10 +57,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
 
 <!-- per-article style theme (opt-in via front matter: style: "<name>") -->
-{{- with .Params.style }}
+{{- /* Resolve the active style from the page itself. The homepage used to
+       inherit the latest article's style when it rendered a featured article,
+       but the homepage is now an article index and should keep neutral chrome. */ -}}
+{{- $style := .Params.style -}}
+{{- with $style }}
 {{- if eq . "bauhaus" }}
 <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300..800;1,400..600&display=swap" rel="stylesheet">
 {{- end }}
 {{ $theme := resources.Get "css/article-themes.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $theme.Permalink }}">
+<link rel="stylesheet" href="{{ $theme.RelPermalink }}">
 {{- end }}

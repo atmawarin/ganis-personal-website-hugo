@@ -1,5 +1,5 @@
 baseURL: 'https://atmawarin.com/'
-languageCode: 'id'
+locale: 'id'
 languageName: 'Indonesian'
 title: 'Ganis Angger Atmawarin'
 enableRobotsTXT: true #robots.txt

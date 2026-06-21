@@ -1,57 +1,62 @@
 {{ define "main" }}
+{{ $articlesPage := .Site.GetPage "section" "articles" }}
+{{ $articles := where .Site.RegularPages.ByDate.Reverse "Section" "articles" }}
 <div class="page-wrapper nav-left">
-    <div class="section no-bottom-padding">
+    {{ $articleHero := "images/dev/articles-hero.jpg" | relURL }}
+    <div id="Hero" class="section article-hero-bg article-bg-her" style='background-image: linear-gradient(#24446480, #24446480), url("{{ $articleHero }}");'>
         <div class="wrapper">
-            {{ range first 1 (where .Site.RegularPages.ByDate.Reverse "Section" "articles") }}
-            <div class="w-dyn-list">
-                <div role="list" class="w-dyn-items">
-                    <div role="listitem" class="collection-item-3 w-dyn-item">
-                        {{ with .Params.cover }}
-            <img width="500" alt="{{ $.Title }}" loading="lazy" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
-            {{ end }}
-                        <h1 class="post-heading">{{ .Title }}</h1>
-                        
-                        <div class="rich-text-block w-richtext">
-                            {{ .Content }}
-                        </div>
-                        <div class="divider"></div>
-                        {{ with .Params.date }}
-                        <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
-                        {{ end }}
-                        {{ with .Params.tags }}
-                        <div>
-                            <div class="grey-text tag-label">Tag : </div>
-                            {{ range . }}
-                            {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
-                            <a href="{{ $url }}" class="badge color">{{ . }}</a>
+            <div class="section-intro left no-margin">
+                <h1 class="heading-10">Writing</h1>
+                {{ with $articlesPage.Params.description }}
+                <div class="text-block-7">{{ . | safeHTML }}</div>
+                {{ else }}
+                <div class="text-block-7">Essays, project notes, recommendations, and small ideas in progress.</div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="section article-hero">
+        <div class="wrapper">
+            <div class="side-header">
+                <div class="blog-categories-wrapper">
+                    <a href='{{ "articles" | relURL }}' class="link-v2 category-link right">All Articles</a>
+                    <div class="w-dyn-list">
+                        <div role="list" class="blog-categories w-dyn-items">
+                            {{ range .Site.Taxonomies.tags }}
+                            <div role="listitem" class="w-dyn-item">
+                                <a href='{{ .Page.RelPermalink }}' class="link-v2 category-link right">{{ .Page.Title }}</a>
+                            </div>
                             {{ end }}
                         </div>
-                        {{ end }}
-                        <div class="divider"></div>
                     </div>
+                </div>
+            </div>
+            {{ with $articles }}
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts-v2 w-dyn-items">
+                    {{ range first 8 . }}
+                    <div role="listitem" class="blog-post-v2 w-dyn-item">
+                        <div class="post-card-v2">
+                            <img alt="{{ .Title }}" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
+                            <div class="post-card-v2-info">
+                                {{ range first 1 .Params.tags }}
+                                {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
+                                <a style="background-color: #fb406c;" href='{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
+                                {{ end }}
+                                <a href="{{ .RelPermalink }}" class="article-header-link w-inline-block">
+                                    <h4 class="heading-11">{{ .Title | safeHTML }}</h4>
+                                </a>
+                                <p class="paragraph-small grey-text">{{ .Params.description | safeHTML }}</p>
+                                <a href="{{ .RelPermalink }}" class="link-v2">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
                 </div>
             </div>
             {{ end }}
-            <div class="side-header">
-                <h1 class="heading-4 article-all-post">Latest Posts</h1>
-            </div>
-            <div class="w-dyn-list">
-                <div role="list" class="blog-posts w-dyn-items">
-                    {{ with where .Site.RegularPages.ByDate.Reverse "Section" "articles" }}
-                    {{ range after 1 (first 7 .) }}
-                    <div role="listitem" class="blog-post-v3 w-dyn-item">
-                        <a href="{{ .RelPermalink }}" class="post-card-v3 w-inline-block">
-                            <div class="post-card-info-v3"></div>
-                            <div style="background-image: url('{{ .Params.cover }}')" class="div-block div-round"></div>
-                            <h4 class="post-card-v3-heading">{{ .Title | safeHTML }}</h4>
-                        </a>
-                    </div>
-                    {{ end }}
-                    {{ end }}
-                </div>
-            </div>
-            <div class="div-block-4 center">
-                <a href='{{ "articles" | relURL }}' class="button center">See All Posts</a>
+            <div class="home-articles-cta">
+                <a href='{{ "articles" | relURL }}' class="button center">See All Articles</a>
             </div>
         </div>
     </div>

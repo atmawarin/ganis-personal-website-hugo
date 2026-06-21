@@ -15,6 +15,7 @@
             {{ with .Params.date }}
             <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
             {{ end }}
+            {{ partial "tribute.html" (dict "page" . "variant" "article") }}
             {{ with .Params.tags }}
             <div class="div-block-3">
                 {{ if eq (len .) 1 }}

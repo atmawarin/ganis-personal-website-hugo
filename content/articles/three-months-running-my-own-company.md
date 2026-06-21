@@ -5,6 +5,11 @@ cover: images/articles/line-drawing.jpeg
 date: 2026-06-06
 draft: true
 style: "bauhaus"
+tribute:
+  name: "László Moholy-Nagy"
+  description: "This piece wears the Bauhaus, after László Moholy-Nagy's experiments at the school (1923–1928). Moholy-Nagy believed in the unity of art and technology long before anyone called it 'design thinking' — geometric form, primary colour, and typography as visual architecture. A fitting lens for a note about building something from raw parts. Fun fact: he once ordered paintings by telephone, dictating coordinates to a sign factory, then exhibited them as art."
+  typography: "Jost (after Futura) + geometric forms"
+  mainColor: "#E1402A"
 tags: ["note", "business"]
 ---
 
@@ -38,6 +43,8 @@ There was me, Gita, Dion, Adit, Rijal, Hasbi, Bayu, and a few friends from Softw
 
 I remember feeling proud. Not the loud kind of proud. More like a quiet internal click.
 
+Somebody ordered a second coffee. Somebody else explained, at length, why their drink was technically not coffee. This, I have since learned, is what a founding team looks like before it has a logo.
+
 Ah. This is real now.
 
 For years, the idea lived inside me as fragments. Notes. Complaints. Patterns I kept seeing in client work. Founders spending too much money building the wrong thing. Teams moving slowly because every decision needed a meeting. Products built from assumption instead of user signal. Agencies acting like delivery vendors when what clients actually needed was clarity.
@@ -64,6 +71,8 @@ This part genuinely surprised me. I expected AI to help. I did not expect it to 
 
 The "20 people with 5x leverage" idea still sounds ridiculous when said out loud. But it feels less ridiculous after watching what one focused person with the right agents can do in a day.
 
+I say "one focused person" with great confidence, as though I have met him. We are still being introduced.
+
 AI does not remove the work.
 
 It changes where the work is.
@@ -85,6 +94,8 @@ It still might, if I let it.
 But the first three months showed me that it does not have to.
 
 The 6-9 PM family window survived more often than I expected. Not perfectly. But enough. There were dinners, mall walks with Gita, the kids' activities, Zen's science competition, Mario Party, little conversations in the car, Zia being Zia. These are not side quests. They are the point.
+
+I lose at Mario Party with a consistency my children now find suspicious, as though a grown man could not possibly be this bad without a strategy. I assure them there is no strategy. They do not believe me. This is, I suspect, the most honest negotiation in my week.
 
 I need to keep saying that because the company will always create a convincing reason to steal more.
 
@@ -198,6 +209,8 @@ The stupid parts: phone addiction, Mobile Legends, YouTube rabbit holes, too muc
 
 On one low morning, I woke up, opened the phone, drifted into the usual digital swamp, and later felt ashamed of myself. Too fat. Not fulfilling potential. Letting people down. Letting myself down.
 
+It is an impressive volume of self-loathing to manufacture before breakfast, and I did it with no training whatsoever, on an empty stomach, using only a phone and the last shred of my own goodwill.
+
 That is not the kind of sentence people put in founder updates.
 
 But it is the truth of the first three months too.
@@ -207,6 +220,8 @@ There is a version of founder life where everything becomes fuel. Stress becomes
 Sometimes, yes.
 
 Other times, pressure just makes you reinstall the game.
+
+I have deleted Mobile Legends so many times that my phone now offers it back to me gently, the way you would return a set of car keys to someone you love but do not entirely trust behind the wheel.
 
 This is why I keep coming back to running. Not because running is magic. Running is not magic. Running is boring, sweaty, and occasionally humiliating. But running gives me one clean win early in the day. It reminds my body that I am not just a brain attached to a calendar.
 
@@ -231,6 +246,8 @@ Useful book.
 Its central punch is simple: most small business owners are technicians having an entrepreneurial seizure. They are good at doing the work, so they start a business, and then the business becomes a prison where they keep doing the work forever.
 
 I do not like how relevant that is.
+
+I read that sentence twice. The second time slowly, the way you reread a medical pamphlet that has just described, in plain language, your exact symptoms.
 
 Because I like doing the work.
 

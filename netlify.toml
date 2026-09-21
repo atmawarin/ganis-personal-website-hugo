@@ -11,3 +11,16 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify --baseURL $DEPLOY_PRIME_URL"
+
+# The running dashboard is its own repo and Netlify site (run.ganisatmawarin.com):
+# it takes workout POSTs from the phone and keeps data in Netlify Blobs. Proxy it
+# here so visitors stay on one domain; the dashboard uses relative paths for this.
+[[redirects]]
+  from = "/running/log"
+  to = "https://run.ganisatmawarin.com/"
+  status = 200
+
+[[redirects]]
+  from = "/running/log/*"
+  to = "https://run.ganisatmawarin.com/:splat"
+  status = 200

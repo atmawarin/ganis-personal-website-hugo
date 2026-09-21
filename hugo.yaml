@@ -1,4 +1,4 @@
-baseURL: 'https://atmawarin.com/'
+baseURL: 'https://ganisatmawarin.com/'
 locale: 'id'
 languageName: 'Indonesian'
 title: 'Ganis Angger Atmawarin'
@@ -22,7 +22,7 @@ menus:
       url: "/reading"
     - name: "Running"
       weight: 40
-      url: "/running"
+      url: "/running/log/"
     - name: "Newsletter"
       weight: 50
       url: "/newsletter"

@@ -4,7 +4,7 @@ Static site built with Hugo (extended), using a custom theme in-repo. Content is
 
 ## Overview
 - Generator: Hugo static site, no external theme module
-- Base URL: `https://atmawarin.com/` (set in `hugo.yaml`)
+- Base URL: `https://ganisatmawarin.com/` (set in `hugo.yaml`)
 - Sections: `articles`, `reading`, `questions-and-ideas`, `running`, `favourite`, `about`, `newsletter`
 - Taxonomies: `tag` (articles), `category` (reading)
 - Assets: custom CSS/JS via Hugo Pipes in `assets/`; static files in `static/`

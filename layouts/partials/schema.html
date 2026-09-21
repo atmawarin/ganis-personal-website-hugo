@@ -11,15 +11,20 @@
     "description": "{{ . }}",
     {{ end }}
     {{ with .PublishDate }}
-    "datePublished": "{{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}",
+    "datePublished": "{{ .Format $ISO8601 }}",
     {{ end }}
     {{ with .Date }}
-    "dateModified": "{{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}",
+    "dateModified": "{{ .Format $ISO8601 }}",
     {{ end }}
+    "author": {
+        "@type": "Person",
+        "name": "Ganis Angger Atmawarin",
+        "url": "{{ site.BaseURL }}"
+    },
     "availableLanguage": {
         "@type": "Language",
-        "name": "{{ site.Language.LanguageName }}",
-        "alternateName": "{{ site.Language.LanguageCode }}"
+        "name": "{{ site.Language.Label }}",
+        "alternateName": "{{ site.Language.Locale }}"
     },
     "publisher": {
         "@type": "Person",
@@ -28,38 +33,38 @@
         "logo": {
             "@type": "ImageObject",
             "@id": "{{ $.Site.Params.logo | relURL }}",
-            "url": "{{ $.Site.Params.logo | relURL }}",
+            "url": "{{ $.Site.Params.logo | relURL }}"
         }
     },
     {{ with .Params.cover }}
     "image": {
         "@type": "ImageObject",
         "@id": "{{ . | relURL }}",
-        "url": "{{ . | relURL }}",
+        "url": "{{ . | relURL }}"
     },
     {{ end }}
     "url": "{{ .Permalink }}",
     "isPartOf": {
         "@type" : "Blog",
-            "@id": "{{ site.BaseURL }}articles",
-            "name": "{{ site.Title }} Blog",
-            "publisher": {
-                "@type": "Person",
-                "@id": "{{ site.BaseURL }}",
-                "name": "{{ site.Title }}"
-            }
-        },
-    "wordCount": "{{ .WordCount }}",
+        "@id": "{{ site.BaseURL }}articles",
+        "name": "{{ site.Title }} Blog",
+        "publisher": {
+            "@type": "Person",
+            "@id": "{{ site.BaseURL }}",
+            "name": "{{ site.Title }}"
+        }
+    },
+    "wordCount": "{{ .WordCount }}"
     {{- $keywords := slice -}}
     {{- with .Params.tags }}
     {{- range . }}
         {{- $keywords = $keywords | append . }}
     {{- end }}
     {{- end }}
-    {{- with $keywords }}
+    {{- with $keywords }},
     "keywords": [
         {{ delimit . `,` }}
-    ],
+    ]
     {{- end }}
 }
 {{ else }}
@@ -72,13 +77,13 @@
     {{ end }}
     "availableLanguage": {
         "@type": "Language",
-        "name": "{{ site.Language.LanguageName }}",
-        "alternateName": "{{ site.Language.LanguageCode }}"
+        "name": "{{ site.Language.Label }}",
+        "alternateName": "{{ site.Language.Locale }}"
     },
     "publisher": {
         "@type": "Person",
         "name": "{{ site.Title }}"
-    },
+    }
 }
 {{ end }}
 </script>

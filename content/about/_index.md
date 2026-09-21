@@ -2,54 +2,53 @@
 title: About
 heading: "hi, i 'm ganis, and I think you are looking amazing today!"
 location: "Yogyakarta, Indonesia"
-description: "Interweb enthusiast from Yogyakarta. Love trees, typography, running and single origin. Slightly blurry vision, five foot six, curly black hair. Lion at Mario Kart, chicken at party."
+description: "Builder, runner, reader, writer. Founder of Synetica. Based in Yogyakarta, Indonesia. Slightly blurry vision, five foot six, black hair. Chicken at party."
 sponsers:
     enable: true
     icons:
         - icon: "images/traveloka-logo.png"
-          url: "#"
+          url: "https://www.traveloka.com"
         - icon: "images/angkasapura-logo.png"
-          url: "#"
+          url: "https://www.angkasapura2.co.id"
         - icon: "images/astra-logo.png"
-          url: "#"
+          url: "https://www.astra.co.id"
         - icon: "images/redballoon-logo.svg"
-          url: "#"
+          url: "https://www.redballoon.com.au"
 
 project_interest:
     enable: true
     section:
         - image: "images/team.jpeg"
           main_heading: "current projects & interest"
-          heading: "Building SoftwareSeni"
-          text: "I'm the director of SoftwareSeni, a talented team of 200+, worked on 1300+ projects with 100+ clients globally. <br><br> We started the company 8 years ago on a small colonial house at Jl Pakuningratan no.15. From its 20 people beginning in 2013, the business grew exponentially over the years, open up a lot of opportunity window for our clients and our employees."
+          heading: "Building Synetica"
+          text: "After 12 years helping build SoftwareSeni from 20 people to 200+, I started Synetica in early 2026. We turn fuzzy ideas into build-ready product blueprints, then actually build them. <br><br> Small team, sharp focus. We call ourselves the Musang team — named after the civet cat. Resourceful, independent, gets things done in the shadows. The opposite of a committee."
           button: 
-            label: "Work with SoftwareSeni"
-            url: "#"
+            label: "Work with Synetica"
+            url: "https://synetica.co"
         - image: "images/man-running.jpeg"
           heading: "Running"
-          text: "Run early in the morning while the city still silent is incredibly soothing experience. So I trade my computer for my shoes whenever I can! <br><br> Run is one of those thing that I always looking forward when I close my eyes at night."
+          text: "Run early in the morning while the city is still silent — that is the closest thing I know to meditation. I trade my computer for my shoes whenever I can. <br><br> Currently training for my first marathon in April 2026. The goal is absurd and the timeline is tight. But that is sort of the point."
           button: 
-            label: "read My running goal"
-            url: "https://mudassir-nawaz.github.io/atmawarin/running/"
+            label: "read my running stories"
+            url: "/running/"
         - image: "images/two-kids-smiling.jpeg"
-          heading: "Peduli Anak Foundation"
-          text: "Peduli Anak Foundation is a non-profit organization for child welfare in Lombok and Sumbawa, Indonesia dedicated to providing family-like care, education, in-home family care, medical and legal support to thousands of underprivileged, neglected and abused children. <br><br> I work with their technology team since early 2019 to make sure that the donation platform working well and the site run as smoothly as possible."
+          heading: "Zen & Zia"
+          text: "Two small humans who are significantly better at negotiation than most executives I have met. They teach me patience, presence, and the strategic importance of ice cream. <br><br> The 6-9 PM window is sacred — screens down, full attention. Everything else can wait."
           button: 
-            label: "contribute to peduli anak"
-            url: "https://www.pedulianak.org/"
+            label: "back to reading"
+            url: "/reading/"
         - image: "images/track-drawing.png"
-          heading: "Learn to write"
-          text: "I attribute a lot of my work toward collecting other people amazing ideas. <br><br> But storing ideas itself is not enough. To make those ideas become truly mine, I need to distill it through writing. Problem is writing is hard as hell for me. It doesn't come naturally. <br><br> While I (almost) already give up cooking, I want to try to keep learn to write. This website is part of that journey."
+          heading: "Writing"
+          text: "I have been trying to write for years now. It still does not come naturally — every paragraph feels like pulling teeth. But I keep showing up because writing is how half-formed ideas become real. <br><br> I write about building products, running a business, and occasionally about running actual miles. Mostly in Bahasa, sometimes in English when the mood strikes."
           button: 
-            label: "read my articles"
-            url: "#"
+            label: "read my writing"
+            url: "/articles/"
 ---
 
-I'm an interweb enthusiast from Indonesia. I was born, raised, and probably drinking too much sun in the country of sixteen thousand islands, Indonesia.
-‍
+I'm an interweb enthusiast from Indonesia. Born, raised, and probably drinking too much sun in the country of sixteen thousand islands.
 
-I love trees and typography. Although generally a calm presence in life, I'm notoriously brutal in Mario Kart and Pingpong.
+I love trees and typography. Although generally a calm presence in life, I'm notoriously brutal at Pingpong and unreasonably opinionated about coffee.
 
-I write about product development, teamwork in an emerging tech company, and scaling profitable service business. The opinions I share here are entirely my own and do not reflect those of the company that employs me.
+I spent 12 years building SoftwareSeni — from a small colonial house on Jl Pakuningratan to a team of 200+. In 2026, I started Synetica to do things differently: smaller, sharper, more intentional.
 
-While you would find some English here and there, I try my best to write all the articles in Bahasa.
+I write about product development, service businesses, and the messy art of building things that work.

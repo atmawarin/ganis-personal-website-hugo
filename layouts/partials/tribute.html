@@ -1,0 +1,35 @@
+{{- /* Accepts a dict: (dict "page" . "variant" "footer"|"article").
+       Resolves the tribute from the page's own `tribute` front matter, else
+       falls back to the section-level tribute defined in site.Params.tributes. */ -}}
+{{- $page := .page -}}
+{{- $variant := .variant | default "footer" -}}
+{{- $tribute := false -}}
+{{- with $page.Params.tribute -}}
+  {{- $tribute = . -}}
+{{- else -}}
+  {{- with index site.Params.tributes $page.Section -}}
+    {{- $tribute = . -}}
+  {{- end -}}
+{{- end -}}
+{{- with $tribute -}}
+{{- if eq $variant "article" -}}
+<aside class="article-tribute">
+    <span class="article-tribute__kicker">Tribute to</span>
+    <h3 class="article-tribute__name">{{ .name }}</h3>
+    <p class="article-tribute__desc">{{ .description | safeHTML }}</p>
+    <div class="article-tribute__meta">
+        {{- with .typography }}<span>Typography — {{ . }}</span>{{ end -}}
+        {{- with .mainColor }}<span>Color — {{ . }}</span>{{ end -}}
+    </div>
+</aside>
+{{- else -}}
+<div class="tribute-section" style="border-top: 1px solid rgba(255,255,255,0.15); padding: 24px 0 8px; margin-top: 24px; text-align: center;">
+    <div style="text-transform: uppercase; letter-spacing: 4px; font-size: 10px; color: rgba(255,255,255,0.4); margin-bottom: 8px;">Tribute to</div>
+    <div style="font-family: 'Abril Fatface', cursive; font-size: 18px; color: {{ .color | default "rgba(255,255,255,0.7)" }}; margin-bottom: 12px;">{{ .name }}</div>
+    <p style="font-size: 12px; line-height: 1.6; color: rgba(255,255,255,0.45); max-width: 480px; margin: 0 auto 12px; font-style: italic;">{{ .description | safeHTML }}</p>
+    <div style="font-size: 10px; color: rgba(255,255,255,0.3); letter-spacing: 2px; text-transform: uppercase;">
+        {{ with .typography }}Typography: {{ . }}{{ end }}{{ with .mainColor }} · Color: {{ . }}{{ end }}
+    </div>
+</div>
+{{- end -}}
+{{- end -}}

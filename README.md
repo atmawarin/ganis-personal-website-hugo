@@ -4,15 +4,15 @@ Static site built with Hugo (extended), using a custom theme in-repo. Content is
 
 ## Overview
 - Generator: Hugo static site, no external theme module
-- Base URL: `https://atmawarin.com/` (set in `hugo.yaml`)
+- Base URL: `https://ganisatmawarin.com/` (set in `hugo.yaml`)
 - Sections: `articles`, `reading`, `questions-and-ideas`, `running`, `favourite`, `about`, `newsletter`
 - Taxonomies: `tag` (articles), `category` (reading)
 - Assets: custom CSS/JS via Hugo Pipes in `assets/`; static files in `static/`
 
 ## Requirements
-- Hugo Extended: 0.132.2 (pinned in `netlify.toml`)
+- Hugo Extended: 0.163.2 (pinned in `netlify.toml`)
   - macOS/Homebrew: `brew install hugo`
-  - Verify: `hugo version` (should show extended and ≥ 0.132.2)
+  - Verify: `hugo version` (should show extended and ≥ 0.163.2)
 
 ## Local Development
 - Start dev server with drafts: `hugo server -D`
@@ -76,7 +76,7 @@ Netlify builds from source and publishes `public/`.
 - Config: `netlify.toml`
   - Build command: `hugo --gc --minify --baseURL $URL`
   - Publish dir: `public`
-  - Environment: `HUGO_VERSION = 0.132.2`, `HUGO_ENV = production`
+  - Environment: `HUGO_VERSION = 0.163.2`, `HUGO_ENV = production`
   - Deploy previews use `--baseURL $DEPLOY_PRIME_URL`
 - Git: `public/` is not committed. Netlify generates it during the build.
 

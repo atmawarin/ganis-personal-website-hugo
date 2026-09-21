@@ -1,9 +1,9 @@
 {{ define "main" }}
-<div class="page-wrapper nav-left">
+<div class="page-wrapper nav-left{{ with .Params.style }} article-themed theme-{{ . }}{{ end }}">
     <div class="split-content blog-post-content">
         <div class="article-detail">
             {{ with .Params.cover }}
-            <img width="500" alt="" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
+            <img width="500" alt="{{ $.Title }}" loading="lazy" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
             {{ end }}
             {{ with .Title }}
             <h1 class="post-heading">{{ . | safeHTML }}</h1>
@@ -15,6 +15,7 @@
             {{ with .Params.date }}
             <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
             {{ end }}
+            {{ partial "tribute.html" (dict "page" . "variant" "article") }}
             {{ with .Params.tags }}
             <div class="div-block-3">
                 {{ if eq (len .) 1 }}

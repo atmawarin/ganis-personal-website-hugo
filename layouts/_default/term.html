@@ -1,0 +1,111 @@
+{{ define "main" }}
+{{ if eq .Data.Singular "category" }}
+<div class="page-wrapper nav-left">
+    {{ $reading_bg := "images/dev/reading-hero.jpeg" | relURL }}
+    <div
+        id="Hero" class="section portfolio-hero"
+        style='background-image: linear-gradient(#24446480, #24446480), url("{{ $reading_bg }}");'
+        >
+        <div class="wrapper">
+            <div class="section-intro left no-margin">
+                <h1 class="heading-10">{{ .Title | safeHTML }}</h1>
+                <div class="text-block-7">{{ .Params.description | safeHTML }}</div>
+            </div>
+        </div>
+    </div>
+    <div id="Hero" class="section portfolio-works">
+        <div class="wrapper">
+            <div data-duration-in="600" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="work-category-tabs w-tabs">
+                <div class="tabs-menu w-tab-menu">
+                    <a href='{{ "reading/" | relURL }}' class="link-v2 category-link w-inline-block w-tab-link">
+                        <div class="text-block-8">All</div>
+                    </a>
+                    {{ range .Site.Taxonomies.categories }}
+                    {{ $active := cond (eq .Page.RelPermalink $.Page.RelPermalink) "active" "" }}
+                    <a href='{{ .Page.RelPermalink }}' class="link-v2 category-link w-inline-block w-tab-link {{ if $active }}w--current{{ end }}">
+                        <div>{{ .Page.Title }}</div>
+                    </a>
+                    {{ end }}
+                </div>
+                <div class="w-tab-content">
+                    <div class="w-dyn-list">
+                        <div role="list" class="works w-dyn-items">
+                            {{ range .Pages }}
+                            <div role="listitem" class="work w-dyn-item">
+                                <div class="work-card-2 w-inline-block">
+                                    <div class="work-card-image-wrapper">
+                                        <div class="card-hover-2">
+                                            <h5 class="card-hover-info"><strong>Oof, this sentence… </strong> <br> {{ .Params.description | safeHTML }}</h5>
+                                        </div>
+                                        <img alt="{{ .Title }}" loading="lazy" src="{{ .Params.cover | relURL }}" sizes="(max-width: 479px) 91vw, (max-width: 767px) 92vw, (max-width: 991px) 30vw, 24vw" class="card-image-2"/>
+                                    </div>
+                                    <h5 class="heading-15">{{ .Title | safeHTML }}</h5>
+                                    <div class="work-card-category">{{ .Params.authors | safeHTML }}</div>
+                                </div>
+                            </div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ else }}
+<div class="page-wrapper nav-left">
+    {{ $article_hero := "images/dev/articles-hero.jpg" | relURL }}
+    <div id="Hero" class="section article-hero-bg article-bg-her" style='background-image: linear-gradient(#24446480, #24446480), url("{{ $article_hero }}");'>
+        <div class="wrapper">
+            <div class="section-intro left no-margin">
+                {{ with .Title }}
+                <h1 class="heading-10">{{ . | safeHTML }}</h1>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="section article-hero">
+        <div class="wrapper">
+            <div class="side-header">
+                <div class="blog-categories-wrapper">
+                    {{ $articlesPage := "articles" | relURL }}
+                    <a href="{{ $articlesPage }}" aria-current="page" class="link-v2 category-link right">All</a>
+                    <div class="w-dyn-list">
+                        <div role="list" class="blog-tags w-dyn-items">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            {{ $active := cond (eq .Page.RelPermalink $.Page.RelPermalink) "active" "" }}
+                                {{ $url := (printf "%s%s/" ("tags/" | relURL) ($name | urlize)) }}
+                                <a href="{{ $url }}" class="{{ if $active }}w--current{{ end }} link-v2 category-link right">{{ $name }}</a>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{ with .Pages.ByDate.Reverse }}
+            <div class="w-dyn-list">
+                <div role="list" class="blog-posts-v2 w-dyn-items">
+                    {{ range . }}
+                    <div role="listitem" class="blog-post-v2 w-dyn-item">
+                        <div class="post-card-v2">
+                            <img alt="{{ .Title }}" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
+                            <div class="post-card-v2-info">
+                                {{ range .Params.tags }}
+                                {{ $url := (printf "%s%s/" ("/tags/" ) (. | urlize)) }}
+                                <a style="background-color: #fb406c;" href='{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
+                                {{ end }}
+                                <a href="{{ .RelPermalink }}" class="article-header-link w-inline-block">
+                                    <h4 class="heading-11">{{ .Title | safeHTML }}</h4>
+                                </a>
+                                <p class="paragraph-small grey-text">{{ .Params.description | safeHTML }}</p>
+                                <a href="{{ .RelPermalink }}" class="link-v2">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}
+{{ end }}

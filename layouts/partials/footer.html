@@ -7,7 +7,7 @@
                 <p class="paragraph-small white-text">
                     {{ .text | safeHTML }}
                 </p>
-                <img src="{{ .image | relURL }}" alt="" class="footer-v2-signature"/>
+                <img src="{{ .image | relURL }}" alt="Ganis Atmawarin signature" class="footer-v2-signature"/>
             </div>
             {{ end }}
              {{ with site.Menus.footer }}
@@ -63,6 +63,9 @@
                 </div>
             </div>
             {{ end }}
+            {{ end }}
+            {{ if not (or .IsHome (and (eq .Kind "page") (eq .Section "articles"))) }}
+            {{ partial "tribute.html" (dict "page" . "variant" "footer") }}
             {{ end }}
             {{ with site.Params.footer.copyright }}
             <div class="footer-bottom-v2 dark-bg">

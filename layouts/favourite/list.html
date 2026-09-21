@@ -14,7 +14,7 @@
                             : <a href="{{ .Params.link | safeURL }}" target="_blank">{{ .Title | safeHTML }}</a>
                         </h4>
                         {{ with .Params.image }}
-                        <img src="{{ . | relURL }}" alt="" class="image-10"/>
+                        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" class="image-10"/>
                         {{ end }}
                         {{ with .Content }}
                         <div class="grey-text-2">{{ . }}</div>

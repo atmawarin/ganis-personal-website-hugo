@@ -8,10 +8,13 @@
 <meta name="description" content="{{ .Site.Params.description }}">
 {{- end }}
 
-<!-- aos link -->
+<!-- canonical URL -->
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- aos link (deferred) -->
 {{ $aos := resources.Get "js/plugins/aos.js" }}
 {{ $aos := $aos | minify }}
-<script src="{{ $aos.RelPermalink }}"></script>
+<script src="{{ $aos.RelPermalink }}" defer></script>
 
 <!-- site title -->
 <title>{{ if .IsHome }}Homepage | {{ .Site.Title }}{{ else }}{{ .Page.Title }} | {{ .Site.Title}}{{ end }}</title>
@@ -29,7 +32,7 @@
 {{ template "partials/schema.html" . }}
 
 <!-- twitter card -->
-{{ partial "partials/twitter_cards.html" . }}
+{{ partial "twitter_cards.html" . }}
 {{- with or .Params.image .Params.cover }}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ . | relURL }}">
@@ -37,7 +40,7 @@
 
 <!-- main css -->
 {{ $css := resources.Get "css/main.css" | minify | fingerprint | resources.PostProcess }}
-<link rel="stylesheet" href="{{ $css.Permalink }}">
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 <!-- plugins css -->
 {{ $plugins := resources.Get "css/plugins/aos.css" }}
@@ -46,9 +49,22 @@
 {{ else }}
 {{ $plugins = $plugins | minify }}
 {{ end }}
-<link rel="stylesheet" href="{{ $plugins.Permalink }}">
+<link rel="stylesheet" href="{{ $plugins.RelPermalink }}">
 
 <!-- fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+<!-- per-article style theme (opt-in via front matter: style: "<name>") -->
+{{- /* Resolve the active style from the page itself. The homepage used to
+       inherit the latest article's style when it rendered a featured article,
+       but the homepage is now an article index and should keep neutral chrome. */ -}}
+{{- $style := .Params.style -}}
+{{- with $style }}
+{{- if eq . "bauhaus" }}
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300..800;1,400..600&display=swap" rel="stylesheet">
+{{- end }}
+{{ $theme := resources.Get "css/article-themes.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $theme.RelPermalink }}">
+{{- end }}

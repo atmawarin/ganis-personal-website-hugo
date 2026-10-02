@@ -1,0 +1,5 @@
+<form class="subscribe" action="{{ site.Params.newsletter_action }}" method="post" target="_blank">
+    <label class="visually-hidden" for="email-{{ .id }}">Email address</label>
+    <input id="email-{{ .id }}" type="email" name="EMAIL" placeholder="you@somewhere.com" autocomplete="email" required>
+    <button type="submit">Send me letters</button>
+</form>

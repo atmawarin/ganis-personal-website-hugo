@@ -1,50 +1,28 @@
 {{ define "main" }}
-<div class="page-wrapper nav-left">
-    <div class="section dark">
-        <div class="wrapper">
-            <div class="section-intro-2">
-                <div class="mini-heading-2 dark-bg text-white">{{ .Params.pretitle | safeHTML }}</div>
-                <h1 class="text-white">{{ .Title | safeHTML }}</h1>
-                <p class="text-white">{{ .Params.description | safeHTML }}</p>
-            </div>
-            <div class="w-richtext white-text">
-                {{ .Content }}
-            </div>
-            {{ with .Pages }}
-            <div class="career no-margin">
-                {{ range $index, $params := .ByWeight.Reverse }}
-                {{ $is_even := math.ModBool $index 2 }}
-                <div class="career-job-wrapper {{ if $is_even }}mobile-reversed{{ end }}" style="{{ if not $is_even }}flex-direction: row-reverse;{{ end }}">
-                    <div class="career-job-2 {{ if $is_even }}left{{ else }}right{{ end }}">
-                        <div class="career-job-corner-2 {{ if $is_even }}right{{ else }}left{{ end }}"></div>
-                        {{ with .Title }}
-                        <h4 class="no-margin">{{ . }}</h4>
-                        {{ end }}
-                        {{ with .Params.subtitle }}
-                        <div class="career-job-position">{{ . }}</div>
-                        {{ end }}
-                        {{ with .Content }}
-                        <div class="paragraph-small-2 grey-text no-margin">{{ . }}</div>
-                        {{ end }}
-                    </div>
-                    <h6 class="career-job-period {{ if $is_even }}text-left{{ else }}text-right{{ end }}">
-                        <span class="text-color-2">
-                            {{ with .Params.location }}
-                            {{ . }}<br/>
-                            {{ end }}
-                            {{ with .Date }}
-                            {{ . | time.Format "2 January 2006"}}
-                            {{ end }}
-                        </span>
-                    </h6>
-                    <div class="timeline-dot-v2-2"></div>
-                </div>
-                {{ end }}
-                <div class="career-timeline-2 dark-bg"></div>
-            </div>
-            {{ end }}
-        </div>
+<section class="title-block">
+    <p class="slug">{{ .Params.pretitle }}</p>
+    <h1 class="title-block__h">{{ .Title }}</h1>
+    <p class="title-block__dek">{{ .Params.description }}</p>
+</section>
+{{ with .Params.stats }}
+<section class="block"><div class="bignum">{{ range . }}<div><b>{{ .n }}</b><span>{{ .l }}</span></div>{{ end }}</div></section>
+{{ end }}
+<section class="block about-grid">
+    <div class="prose">{{ .Content }}
+        <a class="cta-line" href="/running/log/">Open the live running log →</a>
     </div>
+    <div>
+        <h2 class="block__h"><span class="slug">Race log</span></h2>
+        <ol class="races">
+        {{ range .Pages.ByDate.Reverse }}
+            <li class="race">
+                <span class="race__date">{{ .Date.Format "Jan 2006" }}</span>
+                <div><p class="race__name">{{ .Title }}</p><span class="race__where">{{ .Params.location }}</span></div>
+                <span class="race__dist">{{ .Params.subtitle }}</span>
+                <div class="race__body">{{ .Content }}</div>
+            </li>
+        {{ end }}
+        </ol>
     </div>
-</div>
+</section>
 {{ end }}

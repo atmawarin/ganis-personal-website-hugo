@@ -1,63 +1,68 @@
 ---
 title: "Annual Review 2020: 4 Hal Yang Saya Pelajari"
-description: "Apa yang saya pelajari di tahun pandemi kemarin."
+description: "Empat hal yang saya pelajari di tahun pandemi, dari rumah, hampir 24 jam sehari, seperti Groundhog Day."
 cover: images/articles/drawing.png
-tags: ["note"]
+date: 2021-03-14
+tags: ["life"]
+style: "tufte"
+lang_code: "id"
+dek: "Empat hal yang saya pelajari di tahun ketika saya hampir tidak keluar rumah."
+image: "images/og/annual-review-2020-4-hal-yang-saya-pelajari.png"
 ---
 
-Waktu saya mengetik artikel ini, kalendar menunjukkan bulan Maret. Dan biarpun 2020 sudah lewat 3 bulan yang lalu, residu dari wabah COVID masih pekat. Wajar memang sih, karena hingga detik ini saya masih menghabiskan hampir semua jatah 24 jam saya di rumah, rinse and repeat, mirip adegan film Groundhog Day.
+Waktu saya mengetik ini, kalender sudah bulan Maret. 2020 sudah lewat tiga bulan, tapi residu COVID masih pekat. Wajar sih. Sampai detik ini, hampir seluruh jatah 24 jam saya masih habis di rumah. Bangun, kerja, tidur, ulangi. Mirip Groundhog Day, minus Bill Murray.
 
-Tahun yang penuh disrupsi kemarin memotivasi saya untuk lebih serius dalam melakukan ritual annual review. 2020 adalah waktu yang spesial dan saya harap saya bisa melihat jernih apa yang terjadi di tahun kemarin buat modal untuk melakukan annual plan 2021.
+Tahun yang kacau itu yang membuat saya akhirnya serius melakukan annual review. 2020 tahun yang aneh, dan saya ingin melihatnya dengan jernih sebelum menyusun rencana untuk 2021. Kalau tidak, saya takut 2021 cuma jadi 2020 bagian dua.
 
-Model annual review yang saya lakukan ini berdasarkan proses yang dibuat oleh Tiago Forte dan David Perell, [dua orang favorit saya](https://fortelabs.co/blog/the-annual-review-workshop-2021/) di internet. Workshopnya berlangsung selama 2 hari, dengan total durasi sekitar 6 jam, dan dibuat dengan pendekatan cohort bottom to top.
+Format annual review-nya saya ambil dari proses buatan Tiago Forte dan David Perell, [dua orang favorit saya](https://fortelabs.co/blog/the-annual-review-workshop-2021/) di internet. Workshop-nya dua hari, total sekitar 6 jam, dengan pendekatan cohort bottom to top.
 
-Workshop ini bukan self paced, saya melakukannya bersama ratusan orang lain lewat zoom dan dibuat dengan mengumpulkan data berupa photo, jurnal, tulisan, item kalender dari 2020. Dengan pendekatan bottom to top, saya harus balik ke belakang, dan menjawab berbagai prompt pertanyaan unik sebelum saya bisa maju ke depan. Data point dari pertanyaan ini nanti bakal dijadikan modal untuk menjadi key takeaway dan juga rencana untuk tahun 2021. Tiago dan David juga mendorong saya untuk mempublikasikan hasil dari annual review, sebagai bagian dari accountability hack, dan ini sebabnya hasil annual review ini sekarang nongol di website saya.
+Ini bukan workshop self paced. Saya mengerjakannya bareng ratusan orang lain lewat Zoom, dengan modal data dari 2020: foto, jurnal, tulisan, isi kalender. Bottom to top artinya saya harus mundur dulu, menjawab berbagai prompt pertanyaan yang aneh-aneh tentang tahun kemarin, baru boleh melangkah maju. Jawaban-jawaban itu nanti jadi bahan key takeaway dan rencana 2021. Tiago dan David juga mendorong peserta untuk mempublikasikan hasilnya, sebagai accountability hack. Itu sebabnya tulisan ini sekarang nongol di website saya, dan bukan cuma di jurnal.
 
-# 4 Key Takeaway di 2020
-Ada banyak hal yang saya pelajari di 2020, tapi berikut ini adalah main key takeaway yang saya dapatkan di 2020:
+# 4 key takeaway di 2020
+Ada banyak yang saya pelajari di 2020. Ini empat yang paling menempel:
 
 ### Apa yang saya pikir akan bikin saya happy, dengan apa yang beneran bikin saya happy, seringkali gak nyambung
-Ada beberapa hal yang awalnya saya bayangkan akan memberikan efek signifikan untuk happiness seperti proyek kantor yang sukses, karir, possession, ternyata ketika berhasil diraih tidak semenyenangkan yang saya bayangkan. Kebanyakan hal yang truly joyful malah berasal dari pengalaman intangible yang biasanya saya take for granted. Contoh kecilnya adalah bocah umur 3.5 tahun bernama Zen. Saya tahu dia bagian yang penting dalam hidup saya, tapi yang saya tidak sangka dia secara konstan memberikan energi yang besar buat saya.
+Ada hal-hal yang saya bayangkan akan bikin saya bahagia sekali. Proyek kantor yang sukses. Karir. Barang. Waktu akhirnya tercapai, rasanya ternyata biasa saja. Yang benar-benar bikin senang malah hal-hal intangible yang biasanya saya take for granted. Contoh kecilnya, bocah umur 3,5 tahun bernama Zen. Saya tahu dia penting dalam hidup saya. Yang saya tidak sangka, dia terus-menerus mengisi baterai saya, setiap hari, tanpa diminta.
 
-Melihat foto Zen, Zia, Gita, keluarga, teman di tahun kemarin membuat saya merasa fulfilled. Jauh daripada ketika saya melihat beberapa achievement saya di tempat kerja.
+Waktu membuka foto-foto 2020, yang membuat saya merasa penuh adalah foto Zen, Zia, Gita, keluarga, teman. Jauh lebih penuh daripada waktu saya melihat daftar pencapaian saya di kantor.
 
-Society dan media akan terus menarik otak monyet saya ke dalam game of status. mendikte mana yang penting dan mana yang gak. Belajar untuk mengidentifkasi mana yang "true joy" dan mana yang bukan untuk kemudian secara strategis mendesain hidup saya di sekitar "true joy" itu adalah skill yang harus saya latih terus.
+Society dan media akan terus menyeret otak monyet saya ke game of status, mendikte mana yang penting dan mana yang tidak. Otak monyet saya juga gampang sekali diseret. Jadi saya perlu terus berlatih memilah mana yang "true joy" dan mana yang bukan, lalu menyusun hidup saya di sekitar yang pertama.
 
 {{< figure src="images/articles/kid-grabbing-hand.jpeg" caption="This little rascall make me really really happy last year" >}}
 
 ### Gak semuanya gelap
-2020 memaksa saya keluar dari zona nyaman saya. Memberhentikan staff, mengambil alih sales, berhenti berpetualang mengunjungi kota lain, bekerja dari rumah setiap hari, tidak bisa bertemu keluarga yang bahkan di satu kota, rasa cemas takut menulari orang-orang terdekat saya, constant meeting, dan lain-lain, membuat tahun kemarin jadi tahun yang beneran disruptif untuk saya.
+2020 menyeret saya keluar dari zona nyaman. Memberhentikan staff. Mengambil alih sales. Berhenti jalan-jalan ke kota lain. Kerja dari rumah setiap hari. Tidak bisa bertemu keluarga, padahal tinggal satu kota. Cemas kalau-kalau saya menulari orang terdekat. Meeting yang tidak putus-putus. Daftarnya masih panjang, dan semuanya terjadi di tahun yang sama.
 
-Having said that. Di saat yang bersamaan saya juga merasa sangat beruntung karena saya hidup di era yang mengijinkan saya untuk bisa tetap berkontribusi dan menikmati hidup.
+Having said that, di saat yang sama saya merasa sangat beruntung. Saya hidup di zaman yang masih mengizinkan saya bekerja dan menikmati hidup, dari ruang tamu.
 
-Di dunia karir, saya masih bisa berinteraksi dan bekerja secara virtual. Saya sangat bersyukur client masih mempercayakan product mereka untuk dikerjakan dan dibangun oleh SoftwareSeni. Pandemi juga membuat bonding antara saya dan tim saya jadi lebih kuat lagi. SoftwareSeni gak cuma bisa bertahan tahun kemarin, tapi juga bisa meneruskan growth rate dari tahun sebelumnya.
+Di kantor, saya masih bisa bekerja dan berinteraksi secara virtual. Saya bersyukur sekali klien masih mempercayakan produk mereka untuk dibangun oleh SoftwareSeni. Pandemi juga membuat ikatan saya dengan tim jadi lebih kuat. SoftwareSeni bertahan tahun kemarin, bahkan growth rate-nya tetap jalan seperti tahun sebelumnya.
 
-Di rumah, saya bisa melewatkan sebagian besar waktu saya bersama keluarga. Dan itu mengajarkan saya untuk gak cuma menerima, tapi juga embrace kehadiran mereka, paying attention, be really there dan gak ada di tempat lain.
+Di rumah, saya bisa menghabiskan sebagian besar waktu bersama keluarga. Dan itu mengajari saya untuk benar-benar hadir. Paying attention. Be really there, bukan di tempat lain, bukan di layar.
 
-Di waktu senggang, saya masih bisa nonton Mandalorian (in super high resolution) sama Gita. Saya masih bisa menikmati the perfect telur dadar buatan Mamak. Hell, saya bahkan masih bisa lari dan bisa pulih dari cedera harmsting yang menghantui saya selama 4 bulan.
+Di waktu senggang, saya masih bisa nonton Mandalorian (in super high resolution) bareng Gita. Saya masih bisa menikmati telur dadar sempurna buatan Mamak. Hell, saya bahkan masih bisa lari, dan pulih dari cedera hamstring yang menghantui saya selama 4 bulan.
 
-Iya, 2020 punya cerita gelapnya. Tapi saya sangat beruntung dan berterima kasih, karena hidup telah memperlakukan saya dengan sangat baik.
+Iya, 2020 punya sisi gelapnya. Tapi hidup memperlakukan saya dengan sangat baik, lebih baik dari yang pantas saya terima, dan saya berterima kasih untuk itu.
 
 {{< figure src="images/articles/office-meeting.jpeg" caption="Daily Scrum di masa pandemi" >}}
 
 ### Subtraction is the true addition
-Salah satu kutukan dan juga berkah yang saya tanggung adalah saya suka bereksperimen dengan hal baru. Syndrom of a new shiny things jadi hal yang sering menghantui saya sejak kecil. Ketika ada hal baru yang menarik buat saya, eskalasinya bisa cepat sekali naik dari tertarik ke terobsesi.
+Salah satu kutukan, sekaligus berkah, dalam hidup saya adalah hobi bereksperimen dengan hal baru. Shiny object syndrome sudah menghantui saya sejak kecil. Begitu ada hal baru yang menarik, eskalasinya cepat sekali. Pagi tertarik, sore sudah terobsesi.
 
-Ini membuat saya jadi the ultimate jack of all trade, master of none. Sesuatu yang buat saya pribadi adalah strength saya.
+Hasilnya, saya jadi the ultimate jack of all trades, master of none. Yang, buat saya pribadi, termasuk kekuatan saya.
 
-Satu hal yang saya perlu pelajari adalah I can only have 24 hours in a day. Menumpuk hobi baru, minat baru, barang baru, project baru dan mencoba untuk mempertahankan semuanya di saat yang bersamaan itu capek. Saya gak bisa total pivot ke minat yang baru, kalau saya masih ingin mempertahankan yang lama di belakang. Sunk cost fallacy itu sindrom yang berbahaya.
+Yang masih harus saya pelajari: I can only have 24 hours in a day. Menumpuk hobi baru, minat baru, barang baru, project baru, lalu mencoba merawat semuanya sekaligus itu melelahkan. Saya tidak bisa pindah total ke minat yang baru kalau yang lama masih saya pegangi di belakang. Sunk cost fallacy itu licin.
 
 {{< figure src="images/articles/keyboard.jpeg" caption="Hobi baru di tahun 2020" >}}
 
 ### Jangan meninggalkan lari
-Tiap orang punya hero story mereka. Dan buat saya, hero story saya adalah ketika mengikuti half marathon di Merapi Run bulan Februari 2020. Lari subuh-subuh di dekat Gunung Merapi dengan hujan badai dan kabut diteman matahari yang pelan-pelan terbit itu surreal. I slay my dragon and become my own hero.
+Setiap orang punya hero story. Hero story saya adalah half marathon di Merapi Run, Februari 2020. Lari subuh-subuh di kaki Gunung Merapi, ditemani hujan badai dan kabut, sementara matahari pelan-pelan terbit. Rasanya surreal. I slayed my dragon and became my own hero.
 
-Sayangnya habis Februari, semuanya mundur. Pandemi dan disrupsi membuat saya fokus ke survival mode. Saya jadi sering gagal lari di pagi hari. Hal ini ditambah rasa enggan untuk mengobati cidera harmstring membuat saya mandeg berlari untuk waktu yang sangat panjang. Kalau tahun 2019 saya total berlari sebanyak 179 kali, dan menempuh total jarak 821km, di tahun 2020, catatan lari saya melorot, turun 70% jadi cuma 68 kali lari dan 245km .
+Sayangnya, habis Februari semuanya mundur. Pandemi membuat saya masuk survival mode. Saya jadi sering gagal lari pagi. Ditambah lagi, saya malas mengobati cedera hamstring, jadi saya mandek lari lama sekali. Di 2019 saya lari 179 kali, total 821 km. Di 2020 catatan itu melorot 70%, tinggal 68 kali lari dan 245 km.
 
 {{< figure src="images/articles/comparision.png" caption="Shame..." >}}
 
-Saya yakin ini bukan kebetulan. Saat di mana saya berhenti lari, hampir secara bersamaan datang juga semua low point saya di tahun kemarin. Kemudian saat di mana saya mulai lari lagi setelah 5 bulan mandeg, everything started to pick up both in professional and personal life.
+Saya tidak percaya ini kebetulan. Waktu saya berhenti lari, hampir bersamaan datang semua titik terendah saya di tahun itu. Lalu waktu saya mulai lari lagi setelah 5 bulan mandek, everything started to pick up, di kantor maupun di rumah.
 
-Ternyata lari itu gak cuma sangat penting untuk saya, tapi juga vital. Tanpa lari, saya jadi stagnan dan mundur, dan jadi versi terburuk saya.
+Ternyata lari itu vital buat saya. Tanpa lari, saya diam di tempat, lalu mundur, lalu jadi versi terburuk saya.
 
 Run fix me.

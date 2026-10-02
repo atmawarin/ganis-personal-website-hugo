@@ -1,0 +1,18 @@
+/* László Moholy-Nagy, Bauhaus 1925: primaries, heavy rules, type as architecture. */
+.theme-bauhaus { --p-bg:#f1ece0; --p-ink:#16130d; --p-muted:#4a443a; --p-accent:#e1402a; --p-rule:rgba(22,19,13,.25);
+  --p-display:'Jost','Futura',sans-serif; --p-text:'Jost','Futura',sans-serif; --p-meta:'Jost',sans-serif; --p-measure: 38em; --p-size: clamp(1.08rem,1.2vw,1.2rem); --p-lh:1.65;
+  background-image: linear-gradient(rgba(22,19,13,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(22,19,13,.045) 1px, transparent 1px); background-size: 40px 40px; }
+.theme-bauhaus .piece__ornament { display: block; position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
+.theme-bauhaus .piece__ornament span:nth-child(1) { position: absolute; top: 60px; right: 6%; width: clamp(80px,14vw,180px); aspect-ratio: 1; border-radius: 50%; background: #1f49c0; }
+.theme-bauhaus .piece__ornament span:nth-child(2) { position: absolute; top: 220px; right: calc(6% + 60px); width: clamp(60px,9vw,120px); aspect-ratio: 1; background: #f3c114; transform: rotate(12deg); }
+.theme-bauhaus .piece__ornament span:nth-child(3) { position: absolute; top: 40px; left: 0; width: 100%; height: 14px; background: linear-gradient(90deg, #e1402a 0 33.3%, #1f49c0 0 66.6%, #f3c114 0); }
+.theme-bauhaus .piece__head { position: relative; }
+.theme-bauhaus .piece__title { font-weight: 800; text-transform: uppercase; font-size: clamp(2.6rem, 7.5vw, 6rem); line-height: .92; letter-spacing: -.02em; max-width: 12ch; }
+.theme-bauhaus .piece__dek { font-style: normal; font-weight: 300; }
+.theme-bauhaus .piece__byline { border-top: 6px solid var(--p-ink); font-weight: 600; }
+.theme-bauhaus .piece__cover img { filter: grayscale(1) contrast(1.3); mix-blend-mode: multiply; }
+.theme-bauhaus .piece__body h2 { text-transform: uppercase; font-weight: 800; letter-spacing: .04em; font-size: 1.5rem; display: flex; gap: 12px; align-items: center; }
+.theme-bauhaus .piece__body h2::before { content: ""; width: 18px; height: 18px; background: var(--p-accent); flex: none; }
+.theme-bauhaus .piece__body h2:nth-of-type(3n+2)::before { background: #1f49c0; border-radius: 50%; }
+.theme-bauhaus .piece__body h2:nth-of-type(3n)::before { background: #f3c114; clip-path: polygon(50% 0, 100% 100%, 0 100%); }
+.theme-bauhaus .piece__body blockquote { border-left: 8px solid #1f49c0; font-style: normal; font-weight: 500; }

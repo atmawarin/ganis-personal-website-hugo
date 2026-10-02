@@ -1,0 +1,22 @@
+/* Josef Müller-Brockmann, Zürich 1955: the grid as a moral position. */
+.theme-swiss { --p-bg:#ffffff; --p-ink:#000; --p-muted:#555; --p-accent:#e2231a; --p-rule:rgba(0,0,0,.2);
+  --p-display:'Inter Tight','Helvetica Neue',Helvetica,sans-serif; --p-text:'Inter Tight','Helvetica Neue',Helvetica,sans-serif; --p-meta:'Inter Tight',sans-serif; --p-measure: 1080px; --p-size: clamp(1.05rem,1.15vw,1.15rem); --p-lh:1.55; }
+.theme-swiss .piece { max-width: 1180px; }
+.theme-swiss .piece__head { max-width: none; display: grid; grid-template-columns: repeat(12, 1fr); gap: 0 20px; }
+.theme-swiss .piece__head > * { grid-column: 1 / -1; }
+.theme-swiss .piece__kicker { grid-column: 1 / 5; text-transform: none; letter-spacing: 0; font-weight: 500; font-size: .95rem; color: var(--p-ink); flex-direction: column; }
+.theme-swiss .piece__no { font-size: 4rem; font-weight: 800; line-height: 1; letter-spacing: -.04em; }
+.theme-swiss .piece__title { grid-column: 1 / 12; font-weight: 800; font-size: clamp(2.6rem, 7.6vw, 7rem); line-height: .92; letter-spacing: -.045em; }
+.theme-swiss .piece__dek { grid-column: 5 / 12; font-style: normal; font-weight: 500; color: var(--p-ink); }
+.theme-swiss .piece__byline { grid-column: 5 / -1; text-transform: none; letter-spacing: 0; border-top: 2px solid var(--p-ink); font-size: .9rem; color: var(--p-ink); }
+.theme-swiss .piece__cover { max-width: 1180px; }
+.theme-swiss .piece__cover img { filter: grayscale(1) contrast(1.15); max-height: 50vh; }
+.theme-swiss .piece__body { display: grid; grid-template-columns: minmax(0, 4fr) minmax(0, 8fr); gap: 0 20px; }
+.theme-swiss .piece__body > * { grid-column: 2; max-width: 40em; }
+.theme-swiss .piece__body > h2, .theme-swiss .piece__body > h3 { grid-column: 1; font-weight: 800; font-size: 1.35rem; letter-spacing: -.01em; margin: 0; padding-top: 1.6em; line-height: 1.15; position: sticky; top: 16px; align-self: start; }
+.theme-swiss .piece__body > h2 + * { padding-top: 0; }
+.theme-swiss .piece__body > h2::before { content: "■ "; color: var(--p-accent); }
+.theme-swiss .piece__body blockquote { border-left: 0; font-style: normal; font-weight: 700; font-size: 1.4rem; line-height: 1.25; color: var(--p-ink); padding: 0; }
+.theme-swiss .piece__end { max-width: 1080px; display: grid; grid-template-columns: 4fr 8fr; gap: 20px; }
+.theme-swiss .piece__end > * { grid-column: 2; }
+@media (max-width: 760px) { .theme-swiss .piece__body, .theme-swiss .piece__end { display: block; } .theme-swiss .piece__body > h2 { position: static; } .theme-swiss .piece__head > * { grid-column: 1 / -1 !important; } }

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<section class="title-block">
+    <p class="slug">Colophon</p>
+    <h1 class="title-block__h">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="title-block__dek">{{ . }}</p>{{ end }}
+</section>
+<div class="prose page-body">{{ .Content }}</div>
+<section class="block">
+    <h2 class="block__h"><span class="slug">The specimens, in the order they were made</span></h2>
+    {{- $rows := slice }}
+    {{- range $p := where site.RegularPages "Section" "articles" }}{{ with index hugo.Data.styles ($p.Params.style | default "") }}{{ $rows = $rows | append (dict "s" . "p" $p "y" .year) }}{{ end }}{{ end }}
+    <ul class="specimens">
+    {{ range sort $rows "y" }}{{ $s := .s }}
+        <li>
+            <span class="specimens__who">{{ $s.year }} · {{ $s.place }}</span>
+            <span class="specimens__sample" style="{{ partial "face.html" $s | safeCSS }}">{{ partial "smart.html" $s.designer }}</span>
+            <p>{{ partial "smart.html" $s.note }}</p>
+            <p><a href="{{ .p.RelPermalink }}">Read the essay set this way: {{ partial "smart.html" .p.Title }} →</a></p>
+        </li>
+    {{ end }}
+    </ul>
+</section>
+{{ end }}

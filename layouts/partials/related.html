@@ -1,0 +1,4 @@
+{{- /* Three essays to read next: Hugo's related index, topped up at random. */ -}}
+{{- $r := site.RegularPages.Related . | first 3 }}
+{{- if lt (len $r) 3 }}{{ $r = where (where site.RegularPages "Section" "articles") "Permalink" "ne" .Permalink | shuffle | first 3 }}{{ end }}
+{{- return $r }}

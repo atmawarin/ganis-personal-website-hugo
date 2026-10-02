@@ -1,70 +1,45 @@
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- Meta description -->
-{{- with .Params.description }}
-<meta name="description" content="{{ . }}">
-{{- else }}
-<meta name="description" content="{{ .Site.Params.description }}">
-{{- end }}
-
-<!-- canonical URL -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{- $desc := partial "smart.html" (or .Params.description .Summary site.Params.description) | strings.TrimSpace | truncate 200 }}
+{{- $t := partial "smart.html" (.Params.seo_title | default .Title) }}
+{{- $title := cond .IsHome (printf "%s: essays, books and miles from Yogyakarta" site.Title) (cond (gt (len $t) 55) $t (printf "%s · %s" $t site.Title)) }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- if .Params.noindex }}<meta name="robots" content="noindex,follow">{{ end }}
+<meta name="theme-color" content="#f4efe6">
+<link rel="icon" href='{{ "images/favicon.png" | relURL }}' type="image/png">
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }}: essays">
 
-<!-- aos link (deferred) -->
-{{ $aos := resources.Get "js/plugins/aos.js" }}
-{{ $aos := $aos | minify }}
-<script src="{{ $aos.RelPermalink }}" defer></script>
-
-<!-- site title -->
-<title>{{ if .IsHome }}Homepage | {{ .Site.Title }}{{ else }}{{ .Page.Title }} | {{ .Site.Title}}{{ end }}</title>
-
-<!-- favicon -->
-<link rel="shortcut icon" href='{{ "images/favicon.png" | relURL }}' type="image/x-icon">
-
-<!-- opengraph -->
-{{ template "_internal/opengraph.html" . }}
-{{- with or .Params.image .Params.cover }}
-    <meta property="og:image" content="{{ . | relURL }}">
-{{- end }}
-
-<!-- schema -->
-{{ template "partials/schema.html" . }}
-
-<!-- twitter card -->
-{{ partial "twitter_cards.html" . }}
-{{- with or .Params.image .Params.cover }}
+{{- /* Open Graph: absolute image URL, article metadata */}}
+{{- $img := or .Params.image .Params.cover site.Params.image }}
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $t }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:locale" content="{{ if eq (.Params.lang_code | default "en") "id" }}id_ID{{ else }}en_US{{ end }}">
+{{- with $img }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+{{- if .IsPage }}{{ with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}{{ end }}
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="{{ . | relURL }}">
-{{- end }}
 
-<!-- main css -->
-{{ $css := resources.Get "css/main.css" | minify | fingerprint | resources.PostProcess }}
-<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+{{ partial "schema.html" . }}
 
-<!-- plugins css -->
-{{ $plugins := resources.Get "css/plugins/aos.css" }}
-{{ if hugo.IsProduction }}
-{{ $plugins = $plugins | minify | fingerprint | resources.PostProcess }}
-{{ else }}
-{{ $plugins = $plugins | minify }}
-{{ end }}
-<link rel="stylesheet" href="{{ $plugins.RelPermalink }}">
-
-<!-- fonts -->
+{{- /* Fonts: chrome faces everywhere, plus the essay's period faces on essay pages */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+{{- partial "specimen-fonts.html" . }}
+{{- $style := "" }}
+{{- if and .IsPage (eq .Section "articles") }}{{ $style = .Params.style }}{{ end }}
+{{- with $style }}{{ with index hugo.Data.styles . }}{{ with .fonts }}
+<link href="https://fonts.googleapis.com/css2?family={{ . | safeURL }}&display=swap" rel="stylesheet">
+{{- end }}{{ end }}{{ end }}
 
-<!-- per-article style theme (opt-in via front matter: style: "<name>") -->
-{{- /* Resolve the active style from the page itself. The homepage used to
-       inherit the latest article's style when it rendered a featured article,
-       but the homepage is now an article index and should keep neutral chrome. */ -}}
-{{- $style := .Params.style -}}
-{{- with $style }}
-{{- if eq . "bauhaus" }}
-<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300..800;1,400..600&display=swap" rel="stylesheet">
-{{- end }}
-{{ $theme := resources.Get "css/article-themes.css" | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $theme.RelPermalink }}">
-{{- end }}
+
+{{- $css := resources.Get "css/main.css" }}
+{{- with $style }}{{ with resources.Get (printf "css/themes/%s.css" .) }}{{ $css = slice $css . | resources.Concat (printf "css/site-%s.css" $style) }}{{ end }}{{ end }}
+{{- $css = $css | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ partial "analytics.html" . }}

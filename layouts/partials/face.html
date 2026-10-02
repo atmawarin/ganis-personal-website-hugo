@@ -1,0 +1,4 @@
+{{- /* Inline font declaration for a style registry entry: family, weight, italic. */ -}}
+{{- $s := "" -}}
+{{- with . -}}{{- $s = printf "font-family: %s; font-weight: %v; font-style: %s;" .stack (.weight | default 400) (cond (eq .italic true) "italic" "normal") -}}{{- end -}}
+{{- return $s -}}

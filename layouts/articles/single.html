@@ -1,79 +1,63 @@
+{{ define "bodyclass" }}page page--essay{{ with .Params.style }} theme-{{ . }}{{ end }}{{ end }}
 {{ define "main" }}
-<div class="page-wrapper nav-left{{ with .Params.style }} article-themed theme-{{ . }}{{ end }}">
-    <div class="split-content blog-post-content">
-        <div class="article-detail">
-            {{ with .Params.cover }}
-            <img width="500" alt="{{ $.Title }}" loading="lazy" src="{{ . | relURL }}" sizes="(max-width: 479px) 100vw, (max-width: 991px) 88vw, 80vw" class="image-9"/>
-            {{ end }}
-            {{ with .Title }}
-            <h1 class="post-heading">{{ . | safeHTML }}</h1>
-            {{ end }}
-            <div class="post w-richtext">
-                {{ .Content }}
-            </div>
-            <div class="divider"></div>
-            {{ with .Params.date }}
-            <div class="post-date">{{ time.Format "January 2, 2006" . }}</div>
-            {{ end }}
-            {{ partial "tribute.html" (dict "page" . "variant" "article") }}
-            {{ with .Params.tags }}
-            <div class="div-block-3">
-                {{ if eq (len .) 1 }}
-                <div class="grey-text tag-label">Tag: </div>
-                {{ else if gt (len .) 1 }}
-                <div class="grey-text tag-label">Tags: </div>
-                {{ end }}
-                {{ range . }}
-                {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
-                    <a href="{{ $url }}" style="background-color:#fb406c" class="badge color">{{ . }}</a>
-                {{ end }}
-            </div>
-            <div class="side-header">
-                <h1 class="heading-4 article-all-post">Related Posts</h1>
-            </div>
-            <div class="w-dyn-list">
-                <div role="list" class="blog-posts w-dyn-items">
-                    {{ range . }}
-                    {{ $category := . }}
-                    {{ $pages := index $.Site.Taxonomies.tags $category }}
-                    {{ range first 5 $pages }}
-                    {{ if ne .Page.Permalink $.Page.Permalink }}
-                    <div role="listitem" class="blog-post-v3 w-dyn-item">
-                        <a href="{{ .Page.RelPermalink }}" class="post-card-v3 w-inline-block">
-                            <div class="post-card-info-v3"></div>
-                            <div style="background-image: url('{{ .Page.Params.cover | relURL }}')" class="div-block div-round"></div>
-                            <h4 class="post-card-v3-heading">{{ .Page.Title | safeHTML }}</h4>
-                        </a>
-                    </div>
-                    {{ end }}
-                    {{ end }}
-                    {{ end }}
-                </div>
-            </div>
-            {{ end }}
-        </div>
+{{- $s := index hugo.Data.styles (.Params.style | default "") }}
+{{- $all := where site.RegularPages.ByDate "Section" "articles" }}
+{{- $no := 0 }}{{ range $i, $p := $all }}{{ if eq $p.Permalink $.Permalink }}{{ $no = add $i 1 }}{{ end }}{{ end }}
+{{- $en := eq .Params.lang_code "en" }}
+<article class="piece" {{ with .Params.lang_code }}lang="{{ . }}"{{ end }}>
+    <div class="piece__ornament" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <header class="piece__head">
+        <p class="piece__kicker">
+            <span class="piece__no">No.&nbsp;{{ printf "%02d" $no }}</span>
+            {{ with $s }}<span class="piece__after">After {{ partial "smart.html" .designer }}, {{ .year }}</span>{{ end }}
+        </p>
+        <h1 class="piece__title">{{ .Title | markdownify }}</h1>
+        {{ with .Params.description }}<p class="piece__dek">{{ . | markdownify }}</p>{{ end }}
+        <p class="piece__byline">
+            <span>{{ .Date.Format "2 January 2006" }}</span>
+            <span>{{ .ReadingTime }} {{ if $en }}min read{{ else }}menit baca{{ end }}</span>
+            <span>{{ if $en }}English{{ else }}Bahasa Indonesia{{ end }}</span>
+        </p>
+    </header>
+    {{ with .Params.cover }}
+    <figure class="piece__cover"><img src="{{ . | relURL }}" alt="" loading="eager" decoding="async"></figure>
+    {{ end }}
+    <div class="piece__body prose">
+        {{ .Content | replaceRE `<p><strong>(\d\d:\d\d[^<]*)</strong>` `<p><strong class="ts">$1</strong>` | safeHTML }}
     </div>
-    <div class="div-block-5 article-nav">
-        {{ $pages := .CurrentSection.Pages.ByWeight }}
-        {{ $prev_btn := "images/dev/blue-left-arrow.svg" | relURL }}
-        {{ $next_btn := "images/dev/blue-right-arrow.svg" | relURL }}
-        {{ with $pages.Prev . }}
-        <a
-            href="{{ .RelPermalink }}" id="next_button" class="button-3 button button-article-navigation button-previous w-button" 
-            style="background-image: url('{{ $prev_btn }}')"
-        >
-        Previous article
-        </a>
+    <footer class="piece__end">
+        <p class="piece__sign">— Ganis</p>
+        {{ with $s }}
+        <aside class="specimen-card" aria-label="About this typography">
+            <p class="specimen-card__kicker">Set in the manner of</p>
+            <p class="specimen-card__name">{{ partial "smart.html" .designer }}</p>
+            <p class="specimen-card__work">{{ partial "smart.html" .work }} · {{ .place }}, {{ .year }}</p>
+            <p class="specimen-card__note">{{ partial "smart.html" .note }}</p>
+            <p class="specimen-card__faces">Typefaces: {{ partial "smart.html" .faces }}</p>
+        </aside>
         {{ end }}
-        {{ with $pages.Next . }}
-        <a
-            href="{{ .RelPermalink }}" id="previous_button" class="button-3 button button-article-navigation next-articles w-button"
-            style="background-image: url('{{ $next_btn }}')"
-        >
-        next article
-        </a>
-        {{ end }}
+    </footer>
+</article>
+
+<section class="after-piece" aria-label="Keep reading">
+    <div class="after-piece__letters">
+        <p class="slug">If that was any good</p>
+        <p class="after-piece__ask">I send a letter when there&rsquo;s a new essay. That&rsquo;s the whole deal.</p>
+        {{ partial "subscribe.html" (dict "id" "essay") }}
     </div>
-    <a href='{{ "articles" | relURL }}' class="button-4 button w-button">back to all articles</a>
-</div>
+    {{- $related := partialCached "related.html" . .Permalink }}
+    <div class="after-piece__next">
+        <p class="slug">Another specimen</p>
+        <ol class="mini-index">
+        {{ range $related }}{{ $rs := index hugo.Data.styles (.Params.style | default "") }}
+            <li><a href="{{ .RelPermalink }}"><span class="mini-index__title" {{ with $rs }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ partial "smart.html" .Title }}</span><span class="mini-index__meta">{{ with $rs }}{{ partial "smart.html" .designer }}, {{ .year }}{{ end }}</span></a></li>
+        {{ end }}
+        </ol>
+        <nav class="prevnext" aria-label="Essays">
+            {{ with $all.Prev . }}<a rel="prev" href="{{ .RelPermalink }}">← Older</a>{{ end }}
+            <a href="{{ "articles/" | relURL }}">All essays</a>
+            {{ with $all.Next . }}<a rel="next" href="{{ .RelPermalink }}">Newer →</a>{{ end }}
+        </nav>
+    </div>
+</section>
 {{ end }}

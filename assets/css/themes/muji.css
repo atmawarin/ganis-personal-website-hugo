@@ -1,0 +1,19 @@
+/* Kenya Hara, Muji 2003: emptiness as a vessel. */
+.theme-muji { --p-bg:#f7f4ee; --p-ink:#2f2c28; --p-muted:#6b655c; --p-accent:#7f0019; --p-rule:rgba(59,59,59,.14);
+  --p-display:'Shippori Mincho','Hiragino Mincho ProN',serif; --p-text:'Zen Kaku Gothic New','Hiragino Sans',sans-serif; --p-meta:'Zen Kaku Gothic New',sans-serif; --p-measure: 32em; --p-size: clamp(1.02rem,1.1vw,1.1rem); --p-lh:1.75; }
+.theme-muji .piece { padding-top: clamp(60px, 12vw, 160px); }
+.theme-muji .piece__head { max-width: 32em; position: relative; }
+@media (min-width: 900px) { .theme-muji .piece__kicker { position: absolute; left: -5em; top: 0; writing-mode: vertical-rl; flex-wrap: nowrap; } }
+.theme-muji .piece__kicker { text-transform: none; letter-spacing: .3em; font-size: .78rem; }
+.theme-muji .piece__no { color: var(--p-accent); }
+.theme-muji .piece__title { font-weight: 600; font-size: clamp(1.8rem, 3.6vw, 2.6rem); line-height: 1.45; letter-spacing: .04em; }
+.theme-muji .piece__title::before { content: ""; display: block; width: 14px; height: 14px; background: var(--p-accent); margin-bottom: 28px; }
+.theme-muji .piece__dek { font-family: 'Zen Kaku Gothic New', sans-serif; font-style: normal; font-weight: 400; font-size: 1.05rem; line-height: 1.9; }
+.theme-muji .piece__byline { border-top: 1px solid var(--p-rule); text-transform: none; letter-spacing: .2em; font-size: .72rem; margin-top: 48px; }
+.theme-muji .piece__cover { max-width: 32em; margin-top: 80px; }
+.theme-muji .piece__cover img { filter: sepia(.25) saturate(.6) brightness(1.05); }
+.theme-muji .piece__body { margin-top: 96px; font-weight: 400; }
+.theme-muji .piece__body p { margin-bottom: 1.6em; }
+.theme-muji .piece__body h2 { font-family: 'Shippori Mincho', serif; font-weight: 600; font-size: 1.25rem; letter-spacing: .08em; margin-top: 4em; }
+.theme-muji .piece__body blockquote { border-left: 1px solid var(--p-accent); font-style: normal; }
+.theme-muji .specimen-card { border-color: var(--p-rule); background: transparent; }

@@ -1,0 +1,9 @@
+{{- /* Analytics stays off until an ID is set in hugo.yaml (params.analytics).
+       Production builds only. GA4: ga4: "G-XXXX". Plausible: plausible: "ganisatmawarin.com". */ -}}
+{{- if hugo.IsProduction }}{{ with site.Params.analytics }}
+{{- with .ga4 }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','{{ . }}');</script>
+{{- end }}
+{{- with .plausible }}<script defer data-domain="{{ . }}" src="https://plausible.io/js/script.outbound-links.js"></script>{{ end }}
+{{- end }}{{ end -}}

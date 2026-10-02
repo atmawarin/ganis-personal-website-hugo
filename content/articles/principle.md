@@ -1,9 +1,13 @@
 ---
 title: "Principle"
-description: "Lakukan dan hindari. Tulis dan langgar. Consistent, tapi jangan takut mengganti."
+description: "Tujuh hal yang saya lakukan dan dua yang saya hindari. Semuanya pernah saya langgar, beberapa minggu ini juga."
 cover: images/articles/ruler.jpg
 date: 2019-08-03
-tags: ["note", "life"]
+tags: ["life"]
+style: "vignelli"
+lang_code: "id"
+dek: "Tujuh hal yang saya lakukan, dua yang saya hindari. Ditulis oleh orang yang sering melanggarnya."
+image: "images/og/principle.png"
 ---
 
 ## Lakukan
@@ -13,7 +17,7 @@ tags: ["note", "life"]
 4. Percaya dengan yang rutin. Percaya dengan yang eksponensial.
 5. Asumsi kalau semua ingin yang positif.
 6. Peluk yang sulit, peluk yang membosankan.
-7. Matikan AC. Matikan Lampu. Buang sampah.
+7. Matikan AC. Matikan lampu. Buang sampah.
 
 ## Hindari
 1. Jangan biarkan power bikin corrupt.
@@ -21,9 +25,9 @@ tags: ["note", "life"]
 
 ---
 
-Daftar di atas terlihat sederhana. Pendek. Mungkin terlihat seperti sesuatu yang ditulis dalam lima menit. Dan memang, menulisnya memang cepat. Tapi setiap butir di atas datang dari tempat yang spesifik — dari momen tertentu, kegagalan tertentu, percakapan tertentu yang mengubah cara saya melihat sesuatu.
+Daftar di atas pendek. Kelihatannya ditulis dalam lima menit, dan memang begitu. Yang lama itu bagian sebelumnya, waktu saya salah dulu, berkali-kali, sampai butirnya kepikiran sendiri.
 
-Prinsip tanpa cerita adalah poster motivasi. Jadi biar saya ceritakan.
+Daftar tanpa cerita cuma jadi poster di dinding kantor. Jadi ini ceritanya.
 
 ---
 
@@ -31,77 +35,77 @@ Prinsip tanpa cerita adalah poster motivasi. Jadi biar saya ceritakan.
 
 ### 1. Perkecil dunia.
 
-Saya sudah menulis tentang ini secara terpisah, tapi intinya layak diulang: mengatakan ya itu mudah. Mengatakan tidak itu seni.
+Saya sudah pernah menulis soal ini, tapi saya masih saja perlu mengingatnya. Bilang ya itu gampang. Bilang tidak itu yang bikin keringetan.
 
-Ada periode di hidup saya — sekitar 2014-2015 — ketika saya bilang ya untuk hampir semuanya. Ya untuk freelance project. Ya untuk side business. Ya untuk ajakan startup. Ya untuk meetup. Ya untuk semua orang. Dan hasilnya? Saya ada di mana-mana, tapi tidak benar-benar ada di mana pun. Energi saya tersebar tipis seperti mentega di roti yang terlalu besar.
+Sekitar 2014-2015, saya bilang ya untuk hampir semuanya. Ya untuk freelance project. Ya untuk side business. Ya untuk ajakan startup. Ya untuk meetup. Ya untuk siapa saja yang bertanya. Hasilnya, saya ada di mana-mana dan tidak benar-benar ada di mana pun. Energi saya tersebar tipis, seperti mentega yang dioles ke roti yang kebesaran.
 
-David Packard bilang lebih banyak organisasi mati karena tidak bisa menelan daripada karena kelaparan. Saya pernah tersedak.
+David Packard bilang lebih banyak organisasi mati karena tidak bisa menelan daripada karena kelaparan. Saya bukan organisasi, tapi saya pernah tersedak.
 
-Sekarang, "perkecil dunia" adalah filter pertama saya untuk setiap keputusan. Apakah ini memperkecil atau memperbesar dunia saya? Kalau memperbesar tanpa alasan yang sangat kuat — tidak, terima kasih.
+Sekarang "perkecil dunia" jadi saringan pertama saya. Setiap ada tawaran, saya tanya: ini bikin dunia saya lebih kecil atau lebih besar? Kalau lebih besar dan alasannya tidak kuat sekali, saya bilang tidak, terima kasih. Masih sambil keringetan.
 
 ### 2. Eksekusi yang gesit.
 
-Ada dua tipe orang di dunia (simplifikasi yang berlebihan, tapi berguna): orang yang merencanakan dengan sempurna lalu tidak pernah mulai, dan orang yang langsung mulai meskipun rencananya berantakan.
+Kasarnya, ada dua tipe orang. Yang merencanakan dengan sempurna lalu tidak pernah mulai, dan yang langsung mulai walaupun rencananya berantakan. Ini simplifikasi, tapi berguna.
 
-Saya menghabiskan sebagian besar usia dua puluhan saya di kubu pertama. Merencanakan. Membuat spreadsheet. Membaca buku tentang cara memulai sebelum benar-benar memulai. *Analysis paralysis* dalam bentuknya yang paling patologis.
+Sebagian besar umur dua puluhan saya habis di tipe pertama. Merencanakan. Bikin spreadsheet. Membaca buku tentang cara memulai, sebagai pengganti memulai. *Analysis paralysis* yang sudah kronis, lengkap dengan spreadsheet-nya.
 
-SoftwareSeni mengajarkan saya sebaliknya. Di software development, kamu bisa merencanakan berbulan-bulan, tapi realita selalu berbeda begitu kamu mulai ngoding. User tidak berperilaku seperti yang kamu asumsikan. API pihak ketiga berubah. Requirement berevolusi.
+SoftwareSeni yang menyembuhkan saya, pelan-pelan. Di software development, kamu bisa merencanakan berbulan-bulan, lalu realita datang begitu kamu mulai ngoding. User tidak berperilaku seperti asumsi kamu. API pihak ketiga berubah. Requirement berubah. Rencana saya ikut berubah, dengan muka cemberut.
 
-Gesit bukan berarti ceroboh. Gesit berarti mulai dengan apa yang kamu tahu, lalu menyesuaikan sambil jalan. Seperti jazz — ada struktur, tapi ada ruang untuk improvisasi.
+Gesit tidak sama dengan ceroboh. Gesit artinya mulai dari yang kamu tahu, lalu menyesuaikan sambil jalan. Mirip jazz. Ada strukturnya, ada juga ruang buat improvisasi.
 
 ### 3. Tiap pekerjaan butuh deadline.
 
-Parkinson's Law: pekerjaan akan mengembang untuk mengisi waktu yang tersedia. Tanpa deadline, sebuah tugas yang seharusnya selesai dalam dua jam bisa menjadi proyek seminggu. Saya sudah membuktikan ini berkali-kali dengan diri saya sendiri.
+Parkinson's Law bilang pekerjaan akan mengembang memenuhi waktu yang tersedia. Tanpa deadline, tugas dua jam bisa jadi proyek seminggu. Saya tidak perlu membaca hukumnya untuk tahu ini. Saya subjek percobaannya, berkali-kali.
 
-Deadline bukan soal tekanan. Deadline soal *clarity*. Ketika kamu tahu kapan sesuatu harus selesai, kamu dipaksa membuat keputusan tentang apa yang penting dan apa yang tidak. Kamu dipaksa memotong scope. Kamu dipaksa mengirimkan sesuatu yang "cukup baik" alih-alih mengejar "sempurna" yang tidak pernah datang.
+Buat saya, deadline itu soal *clarity*. Tekanan cuma efek sampingnya. Begitu tahu kapan sesuatu harus selesai, saya terpaksa memilih mana yang penting. Terpaksa memotong scope. Terpaksa mengirim yang "cukup baik", karena yang "sempurna" itu tidak pernah datang tepat waktu.
 
-Di SoftwareSeni, setiap sprint punya deadline. Setiap meeting punya waktu. Setiap email punya expected response time. Bukan karena kami robot. Karena tanpa batas waktu, kami menjadi manusia yang membuang waktu.
+Di SoftwareSeni, setiap sprint punya deadline. Setiap meeting punya batas waktu. Setiap email punya expected response time. Kami bukan robot. Kami justru manusia biasa, dan manusia biasa tanpa batas waktu itu jago sekali membuang waktu. Saya contohnya.
 
 ### 4. Percaya dengan yang rutin. Percaya dengan yang eksponensial.
 
-Ini dua hal yang terdengar kontradiktif tapi sebenarnya saling melengkapi.
+Kedengarannya bertentangan. Sebenarnya yang satu butuh yang lain.
 
-Yang rutin: menulis setiap hari, lari setiap pagi, membaca sebelum tidur, code review setiap Senin. Rutin itu membosankan. Rutin itu tidak seksi. Tapi rutin adalah fondasi dari semua hal yang bernilai.
+Yang rutin itu menulis setiap hari, lari setiap pagi, membaca sebelum tidur, code review setiap Senin. Membosankan dan sama sekali tidak seksi. Tapi semua yang saya hargai dibangun dari situ.
 
-Yang eksponensial: efek kumulatif dari rutinitas yang konsisten. Menulis setiap hari selama setahun menghasilkan lebih banyak output daripada dua minggu "marathon menulis" yang diikuti enam bulan kekosongan. Lari setiap pagi selama setahun membentuk tubuh yang tidak bisa kamu bangun dalam satu bulan brutal.
+Yang eksponensial itu efek tumpukan dari rutinitas tadi. Menulis setiap hari selama setahun menghasilkan lebih banyak daripada dua minggu "marathon menulis" lalu enam bulan kosong. Lari setiap pagi selama setahun membentuk badan yang tidak bisa dibangun dalam satu bulan brutal.
 
-James Clear menulis tentang ini dalam *Atomic Habits*: perbaikan 1% per hari, secara kompounding, menghasilkan sesuatu yang 37 kali lebih baik setelah setahun. Matematikanya benar. Tapi yang sulit bukan matematikanya. Yang sulit adalah percaya pada prosesnya ketika hasilnya belum terlihat.
+James Clear menulis di *Atomic Habits*: perbaikan 1% per hari, kalau dikompound, hasilnya 37 kali lebih baik setelah setahun. Matematikanya benar. Yang susah itu tetap percaya waktu hasilnya belum kelihatan sama sekali.
 
-Percaya. Tetap rutin. Eksponensial akan datang — biasanya di saat kamu sudah lupa menghitung.
+Hasilnya biasanya datang waktu saya sudah lupa menghitung.
 
 ### 5. Asumsi kalau semua ingin yang positif.
 
-Ini prinsip yang paling sering diuji.
+Ini prinsip yang paling sering diuji, biasanya lewat email.
 
-Seseorang mengirim email yang terdengar kasar? Asumsikan mereka sedang bad day, bukan orang jahat. Klien meminta perubahan mendadak? Asumsikan ada tekanan dari atas yang kamu tidak tahu, bukan karena mereka tidak menghargai kerja timmu. Tim member miss deadline? Asumsikan ada hambatan yang belum dikomunikasikan, bukan karena malas.
+Ada email yang nadanya kasar. Saya coba anggap pengirimnya sedang bad day, bukan orang jahat. Klien minta perubahan mendadak. Mungkin ada tekanan dari atasannya yang saya tidak tahu. Anggota tim miss deadline. Mungkin ada hambatan yang belum sempat dia ceritakan, dan belum tentu karena malas.
 
-Hanlon's Razor versi yang lebih lembut: *never attribute to malice that which can be adequately explained by... being human.*
+Hanlon's Razor, versi yang lebih lembut: *never attribute to malice that which can be adequately explained by... being human.*
 
-Ini tidak berarti naif. Ini berarti memberikan benefit of the doubt sebagai starting point. Kamu selalu bisa adjust berdasarkan bukti. Tapi memulai dari asumsi positif membuat interaksimu lebih sehat, keputusanmu lebih adil, dan — ini yang paling penting — hidupmu lebih ringan.
+Ini tidak sama dengan naif. Benefit of the doubt cuma titik awal, dan saya boleh mengubahnya kalau buktinya datang. Mulai dari asumsi positif bikin keputusan saya lebih adil. Hidup juga jadi lebih ringan, karena saya tidak perlu menyimpan dendam ke separuh inbox.
 
-Saya belajar ini setelah bertahun-tahun menjadi manajer. Orang yang kamu perlakukan dengan curiga akan menjadi orang yang layak dicurigai. Orang yang kamu perlakukan dengan trust akan mengejutkanmu dengan trust mereka balik.
+Saya belajar ini setelah bertahun-tahun jadi manajer. Orang yang saya curigai biasanya lama-lama jadi pantas dicurigai. Orang yang saya percaya biasanya membalas dengan kepercayaan juga.
 
 ### 6. Peluk yang sulit, peluk yang membosankan.
 
-Sebagian besar pekerjaan yang bernilai itu tidak menyenangkan *saat dilakukan*. Menulis itu sulit. Debugging itu menyebalkan. Difficult conversation dengan tim itu draining. Belajar skill baru itu frustrating.
+Sebagian besar pekerjaan yang bernilai itu tidak enak *waktu dikerjakan*. Menulis itu sulit. Debugging itu menyebalkan. Difficult conversation dengan tim itu menguras tenaga. Belajar skill baru bikin frustrasi.
 
-Tapi inilah rahasianya: hal-hal yang menyelesaikan masalah sesungguhnya hampir selalu sulit atau membosankan. Yang menyenangkan — meeting yang banyak tapi tanpa outcome, brainstorm tanpa follow-up, scroll Twitter sambil merasa "research" — itu biasanya noise.
+Tapi yang benar-benar menyelesaikan masalah hampir selalu yang sulit atau yang membosankan. Yang menyenangkan, misalnya meeting banyak tanpa outcome, brainstorm tanpa follow-up, atau scroll Twitter sambil merasa sedang "research", biasanya cuma noise.
 
-Mark Manson menulis bahwa pertanyaan yang tepat bukan "apa yang kamu inginkan?" tapi "penderitaan apa yang kamu bersedia tanggung?" Semua orang ingin tubuh yang fit. Tidak semua orang bersedia bangun jam 5 pagi untuk lari di udara dingin.
+Mark Manson menulis bahwa pertanyaan yang tepat bukan "apa yang kamu inginkan?" tapi "penderitaan apa yang kamu bersedia tanggung?" Semua orang mau badan fit. Tidak semua orang mau bangun jam 5 pagi untuk lari di udara dingin.
 
-Peluk yang sulit. Peluk yang membosankan. Di sanalah pertumbuhan yang sebenarnya terjadi.
+Saya mau, kadang-kadang. Yang kadang-kadang itu yang sedang saya kerjakan.
 
-### 7. Matikan AC. Matikan Lampu. Buang sampah.
+### 7. Matikan AC. Matikan lampu. Buang sampah.
 
-Ini terdengar sepele. Terlalu sepele untuk dijadikan prinsip. Tapi dengarkan sebentar.
+Ini kedengarannya terlalu remeh untuk masuk daftar prinsip. Sebentar.
 
-Ini bukan cuma tentang hemat listrik atau kebersihan (meskipun keduanya penting). Ini tentang *ownership*. Tentang menganggap ruang di sekitarmu sebagai tanggung jawabmu, bukan orang lain.
+Ini bukan soal hemat listrik atau kebersihan, walaupun dua-duanya bagus. Ini soal *ownership*. Ruang di sekitar saya itu tanggung jawab saya, bukan tanggung jawab orang lain.
 
-Di kantor, saya sering melihat orang meninggalkan AC menyala di ruangan kosong. Lampu menyala di toilet yang tidak terpakai. Sampah di meja yang "nanti aja." Ini kecil. Tapi kecilnya ini membentuk kebiasaan besar: kebiasaan menunggu orang lain untuk melakukan hal yang bisa kamu lakukan sendiri.
+Di kantor, saya sering melihat AC menyala di ruangan kosong. Lampu menyala di toilet yang tidak dipakai. Sampah di meja dengan status "nanti aja." Semuanya kecil. Tapi dari yang kecil-kecil ini tumbuh kebiasaan menunggu orang lain mengerjakan hal yang bisa kita kerjakan sendiri.
 
-Broken windows theory, tapi untuk kantor. Lingkungan yang rapi menghasilkan perilaku yang rapi. Lingkungan yang berantakan menghasilkan... lebih banyak berantakan.
+Broken windows theory, versi kantor. Ruangan rapi bikin orang berperilaku rapi. Ruangan berantakan bikin... lebih banyak berantakan.
 
-Dan ada sesuatu yang satisfying tentang mematikan lampu ruangan kosong. Sebuah act of care yang kecil tapi nyata. Bukti bahwa kamu peduli terhadap ruang yang kamu tempati, meskipun tidak ada yang melihat.
+Lagipula, mematikan lampu di ruangan kosong itu memuaskan. Kecil, nyata, dan tidak ada yang lihat.
 
 ---
 
@@ -111,34 +115,32 @@ Dan ada sesuatu yang satisfying tentang mematikan lampu ruangan kosong. Sebuah a
 
 Lord Acton: "Power tends to corrupt, and absolute power corrupts absolutely."
 
-Saya melihat ini terjadi berkali-kali, termasuk pada diri saya sendiri. Ketika SoftwareSeni mulai tumbuh dan tim saya makin besar, ada momen-momen di mana saya menyadari bahwa saya membuat keputusan bukan karena itu keputusan terbaik, tapi karena saya bisa. Karena tidak ada yang menantang. Karena saya "yang paling tahu."
+Saya sudah melihat ini terjadi berkali-kali, termasuk di cermin. Waktu SoftwareSeni mulai tumbuh dan tim saya makin besar, ada momen-momen di mana saya sadar saya mengambil keputusan bukan karena itu yang terbaik. Saya mengambilnya karena bisa. Karena tidak ada yang membantah. Karena saya merasa "yang paling tahu."
 
-Power yang tidak ditantang menghasilkan keputusan yang malas.
+Power yang tidak pernah dibantah menghasilkan keputusan yang malas.
 
-Solusi saya — yang masih terus saya asah — adalah memastikan ada orang di sekitar saya yang berani bilang "kamu salah." Bukan yes-man. Bukan orang yang setuju karena kamu atasannya. Tapi orang yang genuinely peduli cukup untuk jujur.
+Obatnya, yang masih terus saya tambal, adalah memastikan ada orang di sekitar saya yang berani bilang "kamu salah." Bukan yes-man yang setuju karena saya atasannya. Orang yang cukup peduli untuk jujur.
 
-Dan ketika seseorang bilang saya salah, reaksi pertama saya bukan defensif (oke, kadang defensif — saya masih manusia). Tapi saya mencoba mengambil jeda sebelum merespons. Karena di jeda itu, seringkali saya menyadari bahwa mereka benar.
+Waktu ada yang bilang saya salah, reaksi pertama saya tidak selalu defensif. Oke, kadang defensif. Saya masih manusia, dan manusia yang agak keras kepala. Tapi saya coba ambil jeda sebelum menjawab. Di jeda itu, sering saya sadar mereka benar, dan itu tidak pernah enak.
 
 ### 2. Jangan judge.
 
-Ini prinsip paling sulit. Karena menilai itu mudah. Melihat orang sukses dan mengasumsikan mereka pasti kerja keras. Melihat orang gagal dan mengasumsikan mereka pasti malas.
+Ini yang paling sulit, karena menilai orang itu gampang sekali. Lihat orang sukses, langsung saya asumsikan dia pasti kerja keras. Lihat orang gagal, langsung saya asumsikan dia pasti malas.
 
-Kenyataannya jauh lebih rumit. Ada orang yang kerja keras luar biasa tapi gagal karena circumstance yang di luar kontrol mereka. Ada orang yang sukses besar tapi — jujur saja — banyak faktor keberuntungan yang bermain. Right place, right time, right connections.
+Kenyataannya jauh lebih ruwet. Ada orang yang kerja kerasnya luar biasa dan tetap gagal karena hal di luar kendali mereka. Ada orang yang sukses besar, dan kalau mau jujur, banyak keberuntungan di situ. Right place, right time, right connections.
 
-Nassim Taleb menyebutnya *survivorship bias*. Kita hanya melihat yang berhasil dan membuat narasi dari kesuksesan mereka. Kita jarang melihat yang gagal meskipun melakukan hal yang persis sama.
+Nassim Taleb menyebutnya *survivorship bias*. Kita cuma melihat yang berhasil, lalu bikin cerita dari keberhasilan mereka. Kita jarang melihat yang gagal padahal melakukan hal yang persis sama.
 
-Ini penting bukan cuma sebagai filosofi abstrak, tapi secara praktikal: bagaimana kamu memperlakukan orang di sekitarmu bergantung pada bagaimana kamu menilai mereka. Kalau kamu judge seseorang yang gagal sebagai "malas," kamu tidak akan membantu mereka. Kalau kamu memahami bahwa kegagalan punya seribu wajah, kamu akan lebih compassionate — dan compassion, surprisingly, adalah salah satu tool paling efektif dalam manajemen.
+Buat saya ini urusan praktis. Cara saya memperlakukan orang tergantung cara saya menilai mereka. Kalau saya anggap orang yang gagal itu "malas," saya tidak akan menolong mereka. Kalau saya ingat kegagalan punya seribu wajah, saya jadi lebih compassionate. Dan compassion, ternyata, salah satu tool manajemen yang paling ampuh. Saya tidak menyangka.
 
 ---
 
-## Catatan Penutup
+## Catatan penutup
 
-Prinsip-prinsip ini bukan tablet batu. Saya menulisnya sebagai panduan untuk diri saya sendiri, dan saya sendiri sering melanggarnya. Kadang saya bilang ya padahal seharusnya tidak. Kadang saya malas dan meninggalkan AC menyala. Kadang saya judge orang sebelum memahami konteksnya.
+Prinsip-prinsip ini bukan prasasti. Saya menulisnya untuk diri sendiri, dan saya sendiri yang paling sering melanggarnya. Kadang saya bilang ya padahal harusnya tidak. Kadang saya malas dan meninggalkan AC menyala. Kadang saya judge orang sebelum tahu ceritanya.
 
-Yang penting bukan kesempurnaan. Yang penting adalah *awareness* — menyadari ketika kamu menyimpang, dan punya niat untuk kembali.
+Jadi saya tulis, saya langgar, saya tulis lagi. Menuliskan apa yang saya percaya, ternyata, sudah ada gunanya sendiri, walaupun besok saya langgar lagi.
 
-Tulis prinsipmu. Langgar. Tulis lagi. Langgar lagi. Tapi terus tulis. Karena proses menulis prinsip — memaksa dirimu memverbalisasi apa yang kamu percaya — itu sendiri sudah bernilai.
-
-Consistent, tapi jangan takut mengganti. Karena prinsip yang bagus, seperti software yang bagus, selalu butuh update.
+Kemungkinan besar daftar ini akan berubah. Seperti software, ia butuh update. Versi ini masih penuh bug.
 
 Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/rule?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

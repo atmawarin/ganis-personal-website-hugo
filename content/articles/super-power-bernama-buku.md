@@ -1,81 +1,89 @@
 ---
 title: "Super Power Bernama Buku"
-description: "Kamu akan jadi orang yang sama 5 tahun lagi, seperti sekarang, kecuali karena dua hal. Orang yang kamu temui dan buku yang kamu baca."
+description: "Lima tahun lagi kamu masih orang yang sama, kecuali karena orang yang kamu temui dan buku yang kamu baca. Saya baru paham bagian kedua lewat timbangan."
 cover: images/articles/books-wall.jpg
 date: 2019-10-27
-tags: ["note"]
+tags: ["life"]
+style: "penguin"
+lang_code: "id"
+dek: "Saya sudah tahu cara menurunkan berat badan. Ternyata tahu saja tidak cukup."
+image: "images/og/super-power-bernama-buku.png"
 ---
 
-Ini mungkin kedengaran seperti klise ya. Tapi menurut saya buku itu underrated di Indonesia. Coba check dan tanya teman kerja di kiri dan kanan. Seberapa banyak dari mereka yang habis baca 1 buku, dalam 1 bulan terakhir? Gak banyak kan? Buat mereka, buku itu mungkin meminta pengorbanan yang gak semua orang punya. Waktu.
+Ini mungkin kedengaran klise. Tapi menurut saya buku itu underrated di Indonesia. Coba tanya teman kerja di kiri dan kanan, siapa yang menghabiskan satu buku dalam sebulan terakhir. Saya berani taruhan, tidak banyak. Buku minta sesuatu yang tidak semua orang mau kasih, yaitu waktu.
 
-The thing is, buku itu satu dari sedikit medium yang worthy pengorbanan itu, karena dia bisa menggeser titik equilibrium kamu dari "tahu akan sesuatu," ke "paham akan sesuatu."
+The thing is, buku termasuk sedikit medium yang layak dibayar dengan waktu. Dia bisa menggeser kamu dari "tahu sesuatu" ke "paham sesuatu". Saya belajar bedanya bukan dari rak buku, tapi dari timbangan.
 
-## Buku Bisa Menurunkan Berat Badan
+## Buku bisa menurunkan berat badan
 
-Untuk memberi illustrasi tentang superpower buku, mari kita bicara topik tabu satu ini: berat badan. Buku bisa mengurangi berat badan. Lho!?
+Untuk menjelaskan superpower buku, mari bicara topik yang agak tabu: berat badan. Buku bisa menurunkan berat badan. Lho.
 
-Sejak tahun 2017 saya mulai semangat turunin berat badan supaya bisa ikut lari marathon. Sebuah cita-cita sejak dulu yang sempat terkubur karena timbunan lemak yang menggila sampai 85 waktu kerja di Jakarta (damn you Kentucky Fried Chicken!!).
+Sejak 2017 saya semangat menurunkan berat badan supaya bisa ikut marathon. Cita-cita lama itu sempat terkubur di bawah timbunan lemak yang menggila sampai 85 kg, waktu saya kerja di Jakarta. Saya tidak menyalahkan siapa-siapa, kecuali Kentucky Fried Chicken.
 
 {{< figure src="images/articles/graph.jpeg" caption="Kurva berat badan turun, sebelum flat di 70kg." >}}
 
-Sempat kehilangan 5 kg. Weight loss saya mandek selama setahun di angka 71. Padahal target ada di 65kg supaya bisa finish marathon sub 4.5 jam. Berat badan saya naik turun, keep on and off selama 2 tahun. Turun di bulan puasa biasanya, sebelum nendang dan naik lagi bulan berikutnya. Mandek.
+Lima kilo sempat hilang. Lalu berhenti. Setahun penuh timbangan saya betah di angka 71, padahal target saya 65 kg supaya bisa finish marathon di bawah 4,5 jam. Dua tahun berat badan saya naik turun. Biasanya turun di bulan puasa, lalu naik lagi bulan berikutnya, seperti tamu yang sudah pamit tapi balik lagi karena ketinggalan payung.
 
-Sebulan kemarin saya coba baca buku tentang diet makanan dari Jason Fung — *The Obesity Code* — dan voila! Momentumnya magically balik lagi. Berat badan turun banyak ke 68 dan on track untuk ada di 67 sampai akhir tahun ini.
+Sebulan lalu saya membaca *The Obesity Code* dari Jason Fung. Momentumnya balik, dan saya tidak punya penjelasan yang lebih ilmiah dari kata "magically". Berat badan turun ke 68, dan sekarang on track untuk ada di 67 sebelum akhir tahun.
 
 {{< figure src="images/articles/graph-labeled.jpeg" caption="Book kick in. Berat badan turun lagi." >}}
 
-## Dari Tahu ke Paham
+## Dari tahu ke paham
 
-The thing is — semua saran dari Jason Fung, I already know it! Kalau pengen kurangin berat badan ya simply stop ngemil dan kurangin asupan gula. Ini bukan rocket science. Semua orang tahu ini.
+Yang agak memalukan, semua saran Jason Fung itu sudah saya tahu. Mau turun berat badan, ya berhenti ngemil dan kurangi gula. Ini bukan rocket science. Semua orang tahu.
 
-Tapi yang membedakan dari sebelumnya adalah: buku ini membantu untuk jadi *paham* mekanik dari tubuh. Gimana makanan diolah. Kenapa tubuh jadi homeostasis dan resistant sama usaha buat ngurangin berat. Peran insulin dan gula. Kenapa calorie counting itu misleading. Kenapa ada orang yang makan banyak tapi tetap kurus, sementara ada yang makan sedikit tapi tetap gemuk.
+Saya tahu itu selama dua tahun. Selama dua tahun juga angka 71 tidak mau pergi.
 
-Dan dari paham itu, saya jadi lebih mudah merubah behaviour dan relationship saya dengan kudapan dan makanan — which is salah satu kunci dari sustainable weight loss.
+Bedanya, buku itu membuat saya *paham* mekanik tubuh. Bagaimana makanan diolah. Kenapa tubuh mencari homeostasis dan melawan setiap usaha menurunkan berat. Apa peran insulin dan gula. Kenapa menghitung kalori itu menyesatkan. Kenapa ada orang yang makan banyak tapi tetap kurus, sementara yang lain makan sedikit tapi tetap gemuk.
 
-Ini yang saya maksud dengan "menggeser dari tahu ke paham." Tahu itu dangkal. Tahu itu bisa dari judul artikel. Tahu itu bisa dari caption Instagram. Paham itu berbeda. Paham itu datang dari menghabiskan 6-8 jam bersama satu ide, membiarkan ide itu meresap, berargumen dengannya dalam pikiran, dan akhirnya mengintegrasikannya ke dalam cara kamu melihat dunia.
+Setelah paham, mengubah kebiasaan jadi lebih gampang. Hubungan saya dengan kudapan berubah, dan itu yang membuat berat badan turun dan tidak balik lagi.
 
-Hanya buku yang bisa memberikan itu.
+Ini maksud saya dengan menggeser dari tahu ke paham. Tahu itu dangkal. Tahu bisa didapat dari judul artikel atau caption Instagram. Paham datang dari menghabiskan 6-8 jam bersama satu ide, berdebat dengannya di kepala, sampai ide itu mengubah cara kamu melihat sesuatu.
 
-## Kenapa Bukan Artikel atau Podcast?
+Buat saya, sejauh ini cuma buku yang bisa memberi itu.
 
-Jangan salah paham — saya consume artikel dan podcast juga. Medium, Substacks, The Tim Ferriss Show, Lex Fridman. Semuanya bagus. Tapi ada perbedaan fundamental.
+## Kenapa bukan artikel atau podcast?
 
-Artikel dan podcast itu snacking. Buku itu full course meal.
+Jangan salah paham, saya juga konsumsi artikel dan podcast. Medium, Substack, The Tim Ferriss Show, Lex Fridman. Semuanya bagus. Tapi bedanya besar.
 
-Artikel memberikan kamu satu perspektif tentang satu topik dalam 5-10 menit. Podcast memberikan percakapan yang entertaining tentang banyak topik dalam 1-2 jam. Tapi buku? Buku memberikan kamu satu orang yang menghabiskan berbulan-bulan (kadang bertahun-tahun) mendalami satu topik, menyusunnya dengan logis, dan mempresentasikannya dalam format yang terstruktur.
+Artikel dan podcast itu ngemil. Buku itu makan besar. Dan tahun ini saya belajar dengan susah payah bahwa hidup dari ngemil tidak membawa saya ke mana-mana.
 
-Naval Ravikant — yang buku kompilasinya (*The Almanack of Naval Ravikant*) juga sangat bagus — pernah bilang: "Read the best 100 books over and over again." Bukan 1000 buku sekali. 100 buku, berulang kali. Karena buku yang benar-benar bagus selalu memberikan sesuatu yang baru setiap kali kamu membacanya ulang. Kamu berubah di antara pembacaan, dan buku yang sama terasa berbeda.
+Artikel memberi satu perspektif tentang satu topik dalam 5-10 menit. Podcast memberi obrolan yang menghibur tentang banyak topik dalam 1-2 jam. Buku memberi satu orang yang menghabiskan berbulan-bulan, kadang bertahun-tahun, mendalami satu topik, lalu menyusunnya dengan runut.
 
-## Unfair Competitive Advantage
+Naval Ravikant, yang buku kompilasinya (*The Almanack of Naval Ravikant*) juga sangat bagus, pernah bilang: "Read the best 100 books over and over again." Seratus buku, berulang kali, bukan seribu buku sekali baca. Buku yang benar-benar bagus selalu memberi sesuatu yang baru setiap dibaca ulang. Bukunya tidak berubah. Kamu yang berubah di antara dua pembacaan.
 
-> "You will be the same person in five years as you are today except for the people you meet and the books you read." — Charlie Jones
+## Unfair competitive advantage
 
-Di jaman mie instant, di mana kebanyakan orang lebih nyaman memilih bacaan ringan semacam feed berita di Instagram, Twitter, atau baca artikel Medium — buku itu unfair competitive advantage.
+Charlie Jones pernah bilang:
 
-Dan ini bukan hyperbole. Bayangkan dua orang product manager dengan pengalaman kerja yang sama. Yang satu membaca 20 buku tentang product management, psychology, bisnis, dan desain setiap tahun. Yang satu mengandalkan blog post dan Twitter thread. Setelah 5 tahun, gap pengetahuan dan depth of understanding di antara mereka akan massive.
+> "You will be the same person in five years as you are today except for the people you meet and the books you read."
 
-Bukan karena yang satu lebih pintar. Tapi karena yang satu invest waktu untuk paham, sementara yang lain cuma tahu.
+Di jaman mie instan, ketika kebanyakan orang lebih nyaman dengan bacaan ringan seperti feed Instagram, Twitter, atau artikel Medium, buku jadi unfair competitive advantage. Saya tidak sedang menunjuk orang lain. Medium tadi juga ada di daftar bacaan saya.
 
-## Cara Saya Membaca
+Bayangkan dua product manager dengan pengalaman kerja yang sama. Yang satu membaca 20 buku setahun tentang product management, psikologi, bisnis, dan desain. Yang satu mengandalkan blog post dan Twitter thread. Lima tahun kemudian, jarak pemahaman mereka jauh sekali.
 
-Saya bukan speed reader. Saya lambat. Satu buku non-fiction bisa memakan waktu 2-3 minggu, kadang lebih. Dan itu tidak apa-apa.
+Bukan karena yang satu lebih pintar. Yang satu menyisihkan waktu untuk paham. Yang lain merasa cukup dengan tahu. Soal berat badan, saya dua tahun jadi orang yang kedua.
+
+## Cara saya membaca
+
+Saya bukan speed reader. Saya lambat. Satu buku non-fiksi bisa makan waktu 2-3 minggu, kadang lebih. Tidak apa-apa.
 
 Beberapa kebiasaan yang membantu:
 
-**Baca multiple buku sekaligus.** Kedengarannya counterintuitive, tapi ini bekerja. Saya biasanya punya 2-3 buku aktif: satu non-fiction yang berat (bisnis, psikologi), satu yang lebih ringan (memoir, travel), dan kadang satu fiksi. Ketika otak lelah dengan satu topik, saya pindah ke buku lain. Ini membuat momentum membaca tidak pernah berhenti.
+**Baca beberapa buku sekaligus.** Kedengarannya aneh, tapi jalan. Biasanya ada 2-3 buku aktif. Satu non-fiksi yang berat (bisnis, psikologi), satu yang lebih ringan (memoar, travel), kadang satu fiksi. Kalau otak sudah capek dengan satu topik, saya pindah buku. Jadi saya tidak pernah benar-benar berhenti membaca. Saya cuma pindah kursi.
 
-**Highlight dan catat.** Bukan setiap kalimat — hanya yang benar-benar resonating. Kemudian setiap beberapa hari, saya review catatan itu. Tiago Forte menyebutnya "progressive summarization" — dan ini membuat informasi dari buku benar-benar masuk ke long-term memory.
+**Highlight dan catat.** Tidak setiap kalimat, hanya yang benar-benar kena. Setiap beberapa hari saya baca ulang catatan itu. Tiago Forte menyebutnya "progressive summarization." Dengan cara ini isi buku menempel lebih lama di kepala.
 
-**Baca ulang yang bagus.** Seperti yang Naval bilang, buku yang bagus layak dibaca lebih dari sekali. Saya sudah membaca *Good to Great* tiga kali, dan setiap kali ada insight baru yang terlewat sebelumnya.
+**Baca ulang yang bagus.** Kata Naval, buku bagus layak dibaca lebih dari sekali. Saya sudah membaca *Good to Great* tiga kali. Setiap kali ada insight yang dulu lewat begitu saja, dan saya jadi curiga dengan diri saya sendiri di pembacaan pertama.
 
-**Jangan ragu berhenti.** Tidak semua buku layak diselesaikan. Kalau setelah 50-100 halaman kamu tidak mendapatkan apa-apa, berhenti. Hidup terlalu pendek untuk buku yang membosankan.
+**Jangan ragu berhenti.** Tidak semua buku layak diselesaikan. Kalau setelah 50-100 halaman kamu tidak dapat apa-apa, tutup saja. Hidup terlalu pendek untuk buku yang membosankan.
 
-## Superpower yang Accessible
+## Superpower yang accessible
 
-Kalau kamu tidak bisa mengelilingi dirimu dengan orang hebat — dan kebanyakan dari kita tidak bisa, setidaknya tidak setiap hari — coba kelilingi dirimu dengan buku hebat.
+Tidak semua orang bisa dikelilingi orang hebat. Kebanyakan dari kita tidak bisa, setidaknya tidak setiap hari. Tapi kita masih bisa dikelilingi buku hebat.
 
-It's the cheapest and easiest way to grow. Satu buku bagus harganya 100-200 ribu. Setara dengan 2-3 kali makan di luar. Tapi ROI-nya? Tak terbatas. Ide dari satu buku bisa mengubah cara kamu berpikir, bekerja, dan hidup selama bertahun-tahun.
+It's the cheapest way to grow. Satu buku bagus harganya 100-200 ribu, setara dua atau tiga kali makan di luar. Kalau makannya di KFC, mungkin lebih banyak lagi. Satu ide dari satu buku bisa mengubah cara kamu bekerja selama bertahun-tahun.
 
-Dan yang paling indah dari buku: mereka sabar. Mereka menunggu di rak sampai kamu siap. Tidak ada algoritma yang menghilangkannya dari feed. Tidak ada notifikasi yang mengganggunya. Mereka cuma duduk di sana, siap memberikan wisdom-nya kapan pun kamu membutuhkannya.
+Buku juga sabar. Dia menunggu di rak sampai kamu siap. Tidak ada algoritma yang menghilangkannya dari feed. Tidak ada notifikasi yang memotongnya di tengah kalimat.
 
-Start with one. Finish it. Then pick another. Repeat for the rest of your life.
+Angka di timbangan saya sekarang 68. Masih tiga kilo lagi ke 65. Bedanya, kali ini saya tidak cuma tahu caranya.

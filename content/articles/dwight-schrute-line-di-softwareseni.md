@@ -1,101 +1,101 @@
 ---
 title: "Dwight Schrute Line di SoftwareSeni"
-description: "Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute."
+description: "Tentang dinding kutipan di kantor SoftwareSeni, dan satu kalimat Dwight Schrute yang berhasil saya selipkan di antara Steve Jobs dan Elon Musk."
 cover: images/articles/kid-smiling.jpg
 date: 2017-10-26
-tags: ["work story", "softwareseni", "culture"]
+tags: ["business"]
+style: "lubalin"
+lang_code: "id"
+dek: "Prestasi kantor paling membanggakan saya: satu quote Dwight Schrute di dinding."
+image: "images/og/dwight-schrute-line-di-softwareseni.png"
 ---
 
-Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute.
+Salah satu prestasi paling mengkilat saya di kantor: berhasil menempelkan quote dari karakter TV series favorit saya, Dwight Schrute.
+
+Saya sadar ini daftar prestasi yang agak memprihatinkan.
 
 ---
 
 Biar saya cerita konteksnya.
 
-Di kantor SoftwareSeni, ada satu dinding yang kami sebut — secara tidak resmi — "the wall of wisdom." Ini bukan dinding resmi yang disetujui manajemen melalui rapat formal. Ini lebih mirip proyek gerilya yang terjadi secara organik: seseorang menempelkan satu quote, orang lain menambahkan, dan perlahan dinding itu berubah menjadi galeri kata-kata dari orang-orang yang mungkin tidak pernah menginjak kantor di Jogja ini.
+Di kantor SoftwareSeni ada satu dinding yang secara tidak resmi kami sebut "the wall of wisdom." Dinding ini tidak pernah disetujui manajemen lewat rapat formal. Lebih mirip proyek gerilya. Seseorang menempel satu quote, orang lain menambahkan, dan pelan-pelan dinding itu jadi galeri kata-kata dari orang-orang yang kemungkinan besar tidak pernah menginjak kantor di Jogja ini.
 
-Steve Jobs ada di sana. Elon Musk juga. Beberapa quote motivasi generik yang kamu temukan di Pinterest kalau search "inspirational quotes for office." Standar.
+Steve Jobs ada di sana. Elon Musk juga. Plus beberapa quote motivasi generik yang muncul di Pinterest kalau kamu search "inspirational quotes for office." Standar.
 
-Dan di antara deretan quotes dari tokoh-tokoh yang serius dan terhormat itu, saya berhasil menyelipkan satu dari Dwight Kurt Schrute III.
+Dan di antara deretan tokoh serius dan terhormat itu, saya berhasil menyelipkan satu dari Dwight Kurt Schrute III.
 
-Karakter fiksi. Asisten Regional Manager — maaf, *Assistant to the* Regional Manager — dari Dunder Mifflin, sebuah perusahaan kertas fiksi di Scranton, Pennsylvania. Orang yang percaya bahwa beets, bears, dan Battlestar Galactica adalah tiga pilar peradaban.
+Karakter fiksi. Jabatannya Asisten Regional Manager. Maaf, *Assistant to the* Regional Manager. Di Dunder Mifflin, perusahaan kertas fiksi di Scranton, Pennsylvania. Orang yang percaya bahwa beets, bears, dan Battlestar Galactica adalah tiga pilar peradaban.
 
-Dan quote-nya nempel di dinding kantor kami. Di antara Jobs dan Musk. Tanpa ada yang protes.
+Quote-nya menempel di dinding kantor kami. Di antara Jobs dan Musk. Tidak ada yang protes. Saya tidak pernah tahu apakah itu karena semua orang setuju, atau karena tidak ada yang benar-benar membaca dinding itu.
 
-Ini, menurut saya, adalah salah satu indikator terbaik tentang culture sebuah perusahaan.
+Menurut saya, ini salah satu indikator terbaik tentang culture sebuah perusahaan.
 
-## Kenapa The Office Penting
+## Kenapa The Office penting
 
-Saya tahu ini terdengar berlebihan. Sebuah sitkom tentang kantor — bagaimana bisa relevan dengan manajemen sungguhan?
+Saya tahu ini terdengar berlebihan. Sebuah sitkom tentang kantor, dipakai untuk bicara soal manajemen sungguhan.
 
-Tapi inilah yang membuat The Office jenius. Di balik joke-joke absurd dan momen-momen cringe Michael Scott, show ini adalah studi kasus paling jujur tentang dinamika kantor yang pernah dibuat.
+Tapi di situ jeniusnya The Office. Di balik joke absurd dan momen cringe Michael Scott, show ini studi kasus paling jujur tentang dinamika kantor yang pernah dibuat.
 
-Pikirkan: apa yang sebenarnya terjadi di Dunder Mifflin? Sekelompok orang yang bukan teman pilihan mereka sendiri, dipaksa menghabiskan delapan jam sehari bersama, melakukan pekerjaan yang seringkali membosankan, untuk perusahaan yang sedang sekarat. Dan somehow — entah bagaimana — mereka menemukan joy di dalamnya.
+Lihat apa yang sebenarnya terjadi di Dunder Mifflin. Sekelompok orang yang tidak saling memilih sebagai teman, dipaksa menghabiskan delapan jam sehari bersama, mengerjakan pekerjaan yang sering membosankan, untuk perusahaan yang sedang sekarat. Dan entah bagaimana, mereka menemukan joy di situ.
 
-Jim dan Dwight bertengkar setiap hari, tapi ketika Dwight butuh bantuan, Jim ada. Michael Scott adalah bos terburuk yang bisa kamu bayangkan dalam banyak hal, tapi dia genuinely care tentang "family"-nya. Angela, Stanley, Kevin, Oscar — mereka semua punya quirk yang annoying, tapi mereka juga punya momen-momen kemanusiaan yang unexpected.
+Jim dan Dwight bertengkar setiap hari, tapi ketika Dwight butuh bantuan, Jim datang. Dalam banyak hal Michael Scott adalah bos terburuk yang bisa kamu bayangkan, tapi dia genuinely care pada "family"-nya. Angela, Stanley, Kevin, Oscar punya quirk yang menyebalkan, dan sesekali momen manusiawi yang tidak terduga.
 
-Ini bukan tentang efisiensi. Ini tentang *belonging*.
+Show ini tidak sedang bicara soal efisiensi. Ia bicara soal *belonging*.
 
-Dan belonging — rasa memiliki, rasa menjadi bagian dari sesuatu yang lebih besar dari pekerjaan itu sendiri — adalah fondasi dari culture perusahaan yang sehat. Bukan poster motivasi di dinding. Bukan unlimited PTO. Bukan meja ping-pong.
+Rasa menjadi bagian dari sesuatu yang lebih besar dari pekerjaanmu sendiri. Itu fondasi culture perusahaan yang sehat. Bukan poster motivasi di dinding. Bukan unlimited PTO. Bukan meja ping-pong.
 
-Belonging.
+## Hal-hal kecil
 
-## Hal-Hal Kecil
+Di SoftwareSeni, culture tidak kami desain dari atas ke bawah. Tidak ada retreat perusahaan tempat kami brainstorm "core values" lalu memindahkannya ke slide deck.
 
-Di SoftwareSeni, culture bukan sesuatu yang kami desain dari atas ke bawah. Bukan hasil dari retreat perusahaan di mana kami brainstorm "core values" dan menuliskannya di slide deck. Bukan.
-
-Culture kami terbentuk dari hal-hal kecil. Kecil sekali. Nyaris tak terlihat.
+Culture kami tumbuh dari hal-hal kecil. Kecil sekali.
 
 Seperti quote Dwight Schrute di dinding.
 
-Atau kebiasaan satu developer yang selalu membawa makanan dari rumah dan menawarkan ke semua orang. Atau cara kami memanggil bug yang parah sebagai "kebakaran" dan bug yang kecil sebagai "asap" — terminologi yang entah dimulai siapa, tapi semua orang pakai.
+Atau satu developer yang selalu membawa makanan dari rumah dan menawarkannya ke semua orang. Atau cara kami menyebut bug parah "kebakaran" dan bug kecil "asap". Entah siapa yang mulai, tapi sekarang semua orang pakai.
 
-Atau ritual kopi jam tiga sore, ketika beberapa orang berdiri di dekat mesin kopi bukan karena butuh kafein, tapi karena butuh jeda. Percakapan yang terjadi di sana — tentang film, tentang game, tentang kenapa traffic Jogja makin gila — kadang menghasilkan ide-ide yang tidak muncul di meeting room.
+Atau ritual kopi jam tiga sore, ketika beberapa orang berdiri di dekat mesin kopi, bukan karena butuh kafein, tapi karena butuh jeda. Obrolan di situ, soal film, game, atau kenapa lalu lintas Jogja makin gila, kadang melahirkan ide yang tidak pernah muncul di meeting room.
 
-Edgar Schein, profesor MIT yang mungkin orang paling serius di dunia tentang organizational culture, bilang bahwa culture bukan apa yang tertulis di website perusahaan. Culture adalah asumsi-asumsi tak terucapkan yang menentukan bagaimana orang berperilaku ketika tidak ada aturan eksplisit.
+Edgar Schein, profesor MIT yang mungkin orang paling serius sedunia soal organizational culture, bilang bahwa culture bukan apa yang tertulis di website perusahaan. Culture adalah asumsi tak terucap yang menentukan bagaimana orang berperilaku ketika tidak ada aturan eksplisit.
 
-Quote Dwight di dinding adalah salah satu asumsi tak terucapkan itu. Asumsinya: kita boleh tidak serius. Kita boleh tertawa. Kita boleh menjadi manusia di tempat kerja, bukan robot yang kebetulan bisa ngoding.
+Quote Dwight di dinding itu salah satu asumsi tak terucap kami. Bunyinya kira-kira begini: di sini boleh tidak serius. Boleh tertawa. Boleh jadi manusia di tempat kerja, bukan robot yang kebetulan bisa ngoding.
 
-## Humor Sebagai Indikator
+## Humor sebagai indikator
 
-Saya percaya kamu bisa menilai kesehatan sebuah organisasi dari humor-nya.
+Saya percaya kesehatan sebuah organisasi bisa dinilai dari humornya.
 
-Kantor yang sehat punya inside jokes. Punya referensi yang cuma dimengerti orang dalam. Punya kemampuan untuk menertawakan diri sendiri — termasuk menertawakan bos. Di SoftwareSeni, saya sering jadi bahan joke. Dan saya menganggap itu tanda yang baik. Karena orang hanya bercanda tentang orang yang mereka nyaman di dekatnya.
+Kantor yang sehat punya inside jokes. Punya referensi yang cuma dimengerti orang dalam. Bisa menertawakan diri sendiri, termasuk menertawakan bosnya. Di SoftwareSeni, saya sering jadi bahan joke. Saya memilih menganggap itu tanda baik. Orang cuma bercanda tentang orang yang membuat mereka nyaman. Paling tidak, begitu yang saya katakan pada diri sendiri.
 
-Kantor yang tidak sehat punya humor yang tajam dan melukai — sarkasme yang sebenarnya adalah agresi pasif. Atau lebih buruk lagi, tidak punya humor sama sekali. Semua serius. Semua formal. Semua "professional."
+Kantor yang tidak sehat punya humor yang tajam dan melukai, sarkasme yang sebenarnya agresi pasif. Atau lebih buruk lagi, tidak punya humor sama sekali. Semua serius. Semua formal. Semua "professional."
 
-Professional itu penting. Tapi profesionalisme tanpa kemanusiaan adalah cangkang kosong.
+Profesional itu perlu. Tapi kantor yang cuma profesional itu dingin.
 
-Michael Scott, dengan semua kekurangannya, memahami ini secara intuitif. Caranya salah — *selalu* salah — tapi niatnya benar: dia ingin kantornya menjadi tempat di mana orang ingin datang, bukan tempat yang harus didatangi. Dan buktinya? Ketika dia pergi, semua orang menangis. Bukan karena dia bos yang baik. Karena dia manusia yang peduli.
+Michael Scott, dengan segala kekurangannya, paham ini. Caranya salah, *selalu* salah, tapi niatnya benar. Dia ingin kantornya jadi tempat yang ingin didatangi orang, bukan tempat yang wajib didatangi. Waktu dia pergi, semua orang menangis. Bukan karena dia bos yang baik. Karena dia peduli.
 
-## Dinding dan Identitas
+## Dinding dan identitas
 
 Kembali ke dinding di SoftwareSeni.
 
-Dinding itu, setelah bertahun-tahun, menjadi semacam artefak. Museum mini tentang siapa kami. Ada quote yang serius dari pemikir besar — karena kami memang serius tentang pekerjaan kami. Ada quote yang absurd dari karakter fiksi — karena kami juga tahu bahwa hidup terlalu pendek untuk tidak tertawa.
+Setelah bertahun-tahun, dinding itu jadi semacam museum mini tentang siapa kami. Ada quote serius dari pemikir besar, karena kami memang serius soal pekerjaan. Ada quote absurd dari karakter fiksi, karena hidup terlalu pendek untuk tidak tertawa.
 
-Siapa yang menempelkan quote pertama? Saya tidak ingat. Tidak ada yang ingat. Dan itu indah — karena ini berarti dinding itu bukan proyek seseorang. Ini proyek semua orang.
+Saya tidak ingat siapa yang menempel quote pertama. Tidak ada yang ingat. Dan saya suka itu, karena artinya dinding itu bukan proyek satu orang. Itu proyek semua orang.
 
-Perusahaan-perusahaan besar sering menghabiskan jutaan untuk branding internal. Mereka menyewa konsultan, membuat poster besar dengan foto-foto tim yang tersenyum terlalu lebar, memasang neon sign "INNOVATE" di lobby. Dan semua itu terasa palsu. Karena culture yang didesain dari atas, seperti humor yang di-script, kehilangan hal terpentingnya: spontanitas.
+Perusahaan besar sering menghabiskan jutaan untuk branding internal. Menyewa konsultan, mencetak poster besar berisi foto tim yang tersenyum terlalu lebar, memasang neon sign "INNOVATE" di lobby. Semuanya terasa palsu. Culture yang didesain dari atas itu seperti humor yang di-script. Spontanitasnya hilang sebelum rapat kedua.
 
-Culture terbaik adalah yang tidak disuruh tumbuh. Ia tumbuh karena tanahnya benar — karena orang-orangnya diberi ruang untuk menjadi diri mereka sendiri.
+Culture tumbuh sendiri kalau orang-orangnya diberi ruang untuk jadi diri sendiri.
 
-## Apa yang Saya Pelajari
+## Apa yang saya pelajari
 
-Kalau saya harus meringkas apa yang saya pelajari tentang office culture menjadi satu kalimat: **biarkan orang menjadi aneh.** Biarkan mereka menempelkan quote Dwight Schrute di dinding. Biarkan mereka menamakan ruang meeting dengan nama karakter anime. Biarkan mereka membawa tanaman ke meja kerja. Biarkan mereka jadi manusia.
+Kalau dipaksa meringkas, saya cuma punya satu kalimat, dan itu pun bukan kalimat yang cocok dicetak jadi poster: **biarkan orang menjadi aneh.** Biarkan mereka menempel quote Dwight Schrute di dinding. Biarkan mereka menamai ruang meeting dengan nama karakter anime. Biarkan mereka membawa tanaman ke meja kerja.
 
-Karena orang yang diberi ruang untuk menjadi diri sendiri akan bekerja lebih baik. Bukan karena mereka lebih produktif — mungkin iya, mungkin tidak. Tapi karena mereka lebih *present*. Mereka ada di sana dengan seluruh diri mereka, bukan versi terpotong yang "sesuai aturan kantor."
+Orang yang diberi ruang untuk jadi diri sendiri bekerja lebih baik. Soal lebih produktif atau tidak, saya tidak tahu. Mungkin iya, mungkin tidak. Yang saya lihat, mereka lebih *present*. Mereka datang utuh, bukan versi terpotong yang "sesuai aturan kantor."
 
-Dan ketika orang benar-benar hadir — dengan seluruh keanehan, humor, passion, dan quirk mereka — hal-hal ajaib terjadi. Ide mengalir lebih bebas. Kolaborasi terasa lebih natural. Masalah diselesaikan lebih cepat, bukan karena prosesnya lebih efisien, tapi karena orang-orangnya genuinely peduli satu sama lain.
+Dan kalau orang benar-benar hadir, ide lebih gampang keluar. Masalah selesai lebih cepat. Prosesnya sama saja. Yang berbeda, orang-orangnya saling peduli.
 
-Saya tidak tahu quote Dwight yang mana yang saya tempelkan waktu itu. Mungkin "Identity theft is not a joke, Jim!" Mungkin "Whenever I'm about to do something, I think, would an idiot do that? And if they would, I do not do that thing." Mungkin sesuatu yang lain — memori saya kabur di bagian detail.
+Saya tidak ingat quote Dwight yang mana yang saya tempel waktu itu. Mungkin "Identity theft is not a joke, Jim!" Mungkin "Whenever I'm about to do something, I think, would an idiot do that? And if they would, I do not do that thing." Mungkin yang lain. Untuk sesuatu yang saya sebut prestasi paling mengkilat, ingatan saya soal detailnya cukup memalukan.
 
-Tapi saya ingat dengan jelas perasaannya: berdiri di depan dinding itu, melihat quote dari karakter sitkom favorit saya di antara deretan pemikir besar dunia, dan merasa bahwa kantor ini — dengan segala ketidaksempurnaannya — adalah tempat yang tepat.
+Tapi saya ingat rasanya. Berdiri di depan dinding itu, melihat quote dari karakter sitkom favorit saya di antara deretan pemikir besar dunia, dan merasa kantor ini, dengan segala ketidaksempurnaannya, adalah tempat yang tepat.
 
-Bukan karena pekerjaan kami penting (meskipun kami suka berpikir begitu). Tapi karena cara kami melakukannya — dengan sedikit Dwight Schrute di antara semua keseriusan — membuat semuanya jadi layak dijalani.
+Pekerjaan kami mungkin tidak sepenting yang kami kira (meskipun kami suka berpikir begitu). Tapi kami mengerjakannya dengan sedikit Dwight Schrute di antara semua keseriusan.
 
-Dan bukankah itu inti dari bekerja? Bukan hanya mencari nafkah. Tapi menemukan komunitas. Menemukan humor. Menemukan alasan untuk bangun pagi selain gaji.
-
-Dwight, mungkin, akan mengatakan sesuatu yang jauh lebih dramatis. Mungkin melibatkan bears. Atau beets. Atau kedaulatan pertanian keluarga Schrute.
-
-Tapi intinya sama: tempat kerja terbaik bukan yang paling efisien. Tapi yang paling manusiawi.
+Dwight mungkin akan mengatakan sesuatu yang jauh lebih dramatis. Mungkin melibatkan bears. Atau beets. Atau kedaulatan pertanian keluarga Schrute.

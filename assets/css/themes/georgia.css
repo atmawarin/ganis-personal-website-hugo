@@ -1,0 +1,21 @@
+/* Matthew Carter, Georgia & Verdana, 1996: the early web. No web fonts at all. */
+.theme-georgia { --p-bg:#ffffff; --p-ink:#000; --p-muted:#555; --p-accent:#0000ee; --p-rule:#808080;
+  --p-display:Georgia,'Times New Roman',serif; --p-text:Georgia,'Times New Roman',serif; --p-meta:Verdana,Geneva,sans-serif; --p-measure: 36em; --p-size: clamp(1.04rem,1.15vw,1.12rem); --p-lh:1.6; }
+.theme-georgia .piece__head, .theme-georgia .piece__cover { max-width: var(--p-measure); }
+.theme-georgia .piece__body p { position: relative; }
+.theme-georgia .piece__body strong.ts { font-family: Verdana, Geneva, sans-serif; font-size: .78em; font-weight: 700; color: #800000; }
+@media (min-width: 1000px) { .theme-georgia .piece__body strong.ts { position: absolute; left: -9.5em; width: 8.5em; text-align: right; top: .2em; } }
+.theme-georgia .piece__kicker { text-transform: none; letter-spacing: 0; font-size: .78rem; color: #000; }
+.theme-georgia .piece__title { font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; letter-spacing: 0; }
+.theme-georgia .piece__dek { font-style: italic; color: #000; }
+.theme-georgia .piece__byline { border: 0; border-top: 2px groove #c0c0c0; text-transform: none; letter-spacing: 0; color: #000; font-size: .78rem; }
+.theme-georgia .piece__byline span + span::before { content: "· "; color: #808080; }
+.theme-georgia .piece__body a { color: #0000ee; text-decoration: underline; }
+.theme-georgia .piece__body a:visited { color: #551a8b; }
+.theme-georgia .piece__body hr { border: 0; border-top: 2px groove #c0c0c0; max-width: none; margin: 1.8em 0; }
+.theme-georgia .piece__body hr::after { content: none; }
+.theme-georgia .piece__body h2, .theme-georgia .piece__body h3 { font-family: Verdana, Geneva, sans-serif; font-weight: 700; font-size: 1.15rem; }
+.theme-georgia .piece__body strong { font-family: Verdana, Geneva, sans-serif; font-size: .88em; }
+.theme-georgia .piece__end::after { content: "This page is best viewed in any browser. No fonts were downloaded in the making of it."; display: block; margin-top: 24px; font-family: Verdana, sans-serif; font-size: .72rem; color: #808080; text-align: center; }
+.theme-georgia .specimen-card { border: 2px outset #c0c0c0; background: #c0c0c0; font-family: Verdana, Geneva, sans-serif; font-size: .82rem; }
+.theme-georgia .specimen-card__name { font-family: Georgia, serif; }

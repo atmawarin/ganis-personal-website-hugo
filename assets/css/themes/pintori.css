@@ -1,0 +1,28 @@
+/* Giovanni Pintori, Olivetti 1953: keys as confetti, red and yellow on cream. */
+.theme-pintori { --p-bg:#f6f1e7; --p-ink:#1d1b18; --p-muted:#5e574c; --p-accent:#d7262a; --p-rule:rgba(29,27,24,.18);
+  --p-display:'Bricolage Grotesque','Helvetica Neue',sans-serif; --p-text:'Lora',Georgia,serif; --p-meta:'Bricolage Grotesque',sans-serif; --p-measure: 36em; --p-size: clamp(1.08rem,1.2vw,1.2rem); --p-lh:1.65; }
+.theme-pintori .piece { overflow: hidden; }
+.theme-pintori .piece__ornament { display: block; position: absolute; inset: 0 0 auto 0; height: 560px; pointer-events: none; }
+.theme-pintori .piece__ornament span { position: absolute; display: grid; place-items: center; width: 56px; height: 56px; border-radius: 8px; font: 800 1.6rem 'Bricolage Grotesque', sans-serif; color: #fff; box-shadow: 0 5px 0 rgba(0,0,0,.25); }
+.theme-pintori .piece__ornament span:nth-child(1) { right: 8%; top: 70px; background: #d7262a; transform: rotate(-12deg); }
+.theme-pintori .piece__ornament span:nth-child(1)::before { content: "7"; }
+.theme-pintori .piece__ornament span:nth-child(2) { right: 18%; top: 170px; background: #f2b632; color: #1d1b18; transform: rotate(9deg); }
+.theme-pintori .piece__ornament span:nth-child(2)::before { content: "1"; }
+.theme-pintori .piece__ornament span:nth-child(3) { right: 4%; top: 260px; background: #1b5fa8; transform: rotate(18deg); }
+.theme-pintori .piece__ornament span:nth-child(3)::before { content: "K"; }
+.theme-pintori .piece__ornament span:nth-child(4) { right: 14%; top: 360px; background: #1d1b18; transform: rotate(-6deg); }
+.theme-pintori .piece__ornament span:nth-child(4)::before { content: "⌘"; }
+.theme-pintori .piece__head { position: relative; }
+.theme-pintori .piece__title { font-weight: 800; font-size: clamp(2.8rem, 8vw, 6.6rem); line-height: .9; letter-spacing: -.03em; max-width: 9ch; }
+.theme-pintori .piece__title::first-letter { color: var(--p-accent); }
+.theme-pintori .piece__dek { font-style: italic; max-width: 30ch; }
+.theme-pintori .piece__byline { border-top: 4px solid var(--p-ink); font-weight: 600; }
+.theme-pintori .piece__body h2 { font-weight: 800; font-size: 1.7rem; letter-spacing: -.01em; }
+.theme-pintori .piece__body h2::before { content: ""; display: inline-block; width: .7em; height: .7em; border-radius: 4px; background: var(--p-accent); margin-right: .4em; transform: rotate(-8deg); }
+.theme-pintori .piece__body h2:nth-of-type(3n+2)::before { background: #f2b632; }
+.theme-pintori .piece__body h2:nth-of-type(3n)::before { background: #1b5fa8; }
+.theme-pintori .piece__body figure { margin: 2em -8%; }
+.theme-pintori .piece__body figure img { border: 1px solid var(--p-rule); box-shadow: 8px 8px 0 #f2b632; }
+.theme-pintori .piece__body figcaption { font-family: 'Bricolage Grotesque', sans-serif; font-size: .8rem; margin-top: 14px; color: var(--p-muted); }
+.theme-pintori .piece__body blockquote { border-left: 6px solid #f2b632; font-style: italic; }
+@media (max-width: 760px) { .theme-pintori .piece__ornament { opacity: .3; } .theme-pintori .piece__body figure { margin: 2em 0; } }

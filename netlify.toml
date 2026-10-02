@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify --baseURL $URL"
+  command = "hugo --gc --minify --baseURL https://ganisatmawarin.com/"
   publish = "public"
 
 [build.environment]
@@ -24,3 +24,51 @@
   from = "/running/log/*"
   to = "https://run.ganisatmawarin.com/:splat"
   status = 200
+
+# Race stubs are listed on /running/ now. Must stay below the /running/log proxy.
+[[redirects]]
+  from = "/running/*"
+  to = "/running/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/*"
+  to = "/reading/"
+  status = 301
+
+# Retired essays (2026 redesign): dated tool reviews and a merged draft.
+[[redirects]]
+  from = "/articles/buat-presentasi-dengan-beautiful-ai/"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/rekomendasi-note-taking-app-notion/"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/6-alasan-pindah-dari-wordpress-ke-webflow/"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/three-months-running-my-own-company/"
+  to = "/articles/three-months-a-field-note-from-a-small-company/"
+  status = 301
+
+# Book, race and note stubs are no longer rendered as their own pages (2026).
+[[redirects]]
+  from = "/reading/*"
+  to = "/reading/"
+  status = 301
+
+[[redirects]]
+  from = "/questions-and-ideas/*"
+  to = "/questions-and-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/favourite/*"
+  to = "/favourite/"
+  status = 301

@@ -1,0 +1,14 @@
+/* Jan Tschichold at Penguin, 1947: three bands, centred, honest. */
+.theme-penguin { --p-bg:#fbf8f2; --p-ink:#1a1a1a; --p-muted:#5c5650; --p-accent:#e4632b; --p-rule:rgba(26,26,26,.18);
+  --p-display:'Gill Sans','Gill Sans MT','Lato',sans-serif; --p-text:'Spectral',Georgia,serif; --p-meta:'Gill Sans','Gill Sans MT','Lato',sans-serif; --p-measure: 34em; --p-size: clamp(1.08rem,1.2vw,1.2rem); --p-lh:1.7; }
+.theme-penguin .piece__head { max-width: 640px; text-align: center; border: 0; background: linear-gradient(var(--p-accent) 0 26%, var(--p-bg) 26% 74%, var(--p-accent) 74%); padding: 26px 0; margin-top: 10px; box-shadow: 0 0 0 1px var(--p-rule); }
+.theme-penguin .piece__kicker { justify-content: center; color: #fff; font-weight: 700; letter-spacing: .2em; margin-bottom: 52px; }
+.theme-penguin .piece__no { color: #fff; }
+.theme-penguin .piece__title { font-weight: 400; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; padding: 0 28px; }
+.theme-penguin .piece__dek { font-family: 'Spectral', serif; font-size: 1.1rem; margin: 14px auto 0; padding: 0 28px; }
+.theme-penguin .piece__byline { justify-content: center; border: 0; color: #fff; margin-top: 56px; font-weight: 700; letter-spacing: .14em; }
+.theme-penguin .piece__cover { display: none; }
+.theme-penguin .piece__body p { margin: 0; text-indent: 1.4em; }
+.theme-penguin .piece__body > p:first-child, .theme-penguin .piece__body h2 + p { text-indent: 0; }
+.theme-penguin .piece__body h2 { font-family: 'Gill Sans','Gill Sans MT','Lato',sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: .2em; font-size: 1.05rem; text-align: center; margin: 2.4em 0 1em; }
+.theme-penguin .piece__body ul, .theme-penguin .piece__body ol { margin: .6em 0; }

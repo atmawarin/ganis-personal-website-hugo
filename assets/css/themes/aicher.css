@@ -1,0 +1,14 @@
+/* Otl Aicher, Munich 1972: the cheerful Olympics. Pastel bands, no black. */
+.theme-aicher { --p-bg:#ffffff; --p-ink:#1d3b2a; --p-muted:#4e6a5c; --p-accent:#2c8c4a; --p-rule:rgba(29,59,42,.18);
+  --p-display:'Barlow','Univers',sans-serif; --p-text:'Barlow','Univers',sans-serif; --p-meta:'Barlow',sans-serif; --p-measure: 36em; --p-size: clamp(1.08rem,1.2vw,1.2rem); --p-lh:1.65; }
+.theme-aicher .piece__ornament { display: block; height: 72px; margin: 0 auto 28px; max-width: 980px;
+  background: linear-gradient(90deg, #6fb7e6 0 20%, #2c8c4a 0 40%, #f39a2d 0 60%, #c0c0c0 0 80%, #a8d5f0 0); border-radius: 0; }
+.theme-aicher .piece__ornament span { display: none; }
+.theme-aicher .piece__title { font-weight: 800; text-transform: lowercase; font-size: clamp(2.6rem, 7vw, 5.6rem); line-height: .95; letter-spacing: -.02em; color: #2c8c4a; }
+.theme-aicher .piece__dek { font-style: normal; color: #3b7fb0; }
+.theme-aicher .piece__byline { border-top: 6px solid #6fb7e6; color: var(--p-ink); }
+.theme-aicher .piece__byline span:nth-child(2) { color: #f39a2d; }
+.theme-aicher .piece__cover img { filter: grayscale(.2) saturate(.6) contrast(1.05); }
+.theme-aicher .piece__body h2 { font-weight: 800; text-transform: lowercase; color: #3b7fb0; font-size: 1.8rem; }
+.theme-aicher .piece__body h2::before { content: ""; display: inline-block; width: .7em; height: .7em; border-radius: 50%; background: #f39a2d; margin-right: .4em; }
+.theme-aicher .piece__body blockquote { border-left: 6px solid #2c8c4a; color: #2c8c4a; font-style: normal; font-weight: 600; }

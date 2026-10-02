@@ -1,0 +1,16 @@
+/* Peter Saville, Factory Records FACT 10, 1979: black sleeve, no title, a pulse. */
+.theme-saville { --p-bg:#000; --p-ink:#efefef; --p-muted:#8f8f8f; --p-accent:#ffffff; --p-rule:rgba(255,255,255,.18);
+  --p-display:'Archivo Narrow','Helvetica Neue Condensed',sans-serif; --p-text:'Archivo Narrow','Helvetica Neue',sans-serif; --p-meta:'Archivo Narrow',sans-serif; --p-measure: 34em; --p-size: clamp(1.1rem,1.25vw,1.22rem); --p-lh:1.65; color-scheme: dark; }
+.theme-saville .piece__ornament { display: block; width: min(520px, 86vw); aspect-ratio: 600 / 520; margin: 0 auto 40px; background: url("/images/pulsar.svg") center / contain no-repeat; }
+.theme-saville .piece__ornament span { display: none; }
+.theme-saville .piece__head { text-align: center; max-width: 640px; }
+.theme-saville .piece__kicker { justify-content: center; letter-spacing: .3em; }
+.theme-saville .piece__no { color: var(--p-muted); }
+.theme-saville .piece__title { font-weight: 600; text-transform: uppercase; font-size: clamp(1.4rem, 3vw, 2rem); letter-spacing: .3em; line-height: 1.4; }
+.theme-saville .piece__dek { margin: 18px auto 0; font-style: normal; font-size: 1.05rem; }
+.theme-saville .piece__byline { justify-content: center; border-top: 0; }
+.theme-saville .piece__cover img { filter: grayscale(1) contrast(1.4) brightness(.7); }
+.theme-saville .piece__body h2 { font-weight: 600; text-transform: uppercase; letter-spacing: .25em; font-size: 1rem; text-align: center; margin: 3em 0 1.2em; }
+.theme-saville .piece__body blockquote { border-left: 1px solid #fff; color: #fff; font-style: normal; }
+.theme-saville .piece__body a { color: #fff; }
+.theme-saville .specimen-card { background: #0d0d0d; border-color: var(--p-rule); }

@@ -1,0 +1,13 @@
+/* Herb Lubalin, Avant Garde 1968: letters close enough to kiss. */
+.theme-lubalin { --p-bg:#ffffff; --p-ink:#111; --p-muted:#5a5a5a; --p-accent:#d0021b; --p-rule:rgba(17,17,17,.2);
+  --p-display:'Playfair Display','Didot',serif; --p-text:'Questrial','Avenir',sans-serif; --p-meta:'Questrial',sans-serif; --p-measure: 36em; --p-size: clamp(1.08rem,1.2vw,1.18rem); --p-lh:1.7; }
+.theme-lubalin .piece__head { max-width: 1100px; }
+.theme-lubalin .piece__title { font-weight: 900; font-style: italic; font-size: clamp(3rem, 9.4vw, 8.4rem); line-height: .8; letter-spacing: -.055em; }
+.theme-lubalin .piece__title::first-letter { color: var(--p-accent); font-size: 1.25em; }
+.theme-lubalin .piece__dek { font-family: 'Playfair Display', serif; font-weight: 700; font-style: italic; color: var(--p-ink); font-size: 1.5rem; margin-top: 28px; }
+.theme-lubalin .piece__byline { border-top: 4px solid var(--p-ink); }
+.theme-lubalin .piece__cover img { filter: grayscale(1) contrast(1.35); }
+.theme-lubalin .piece__body h2 { font-weight: 900; font-style: italic; font-size: clamp(2rem, 4vw, 2.8rem); line-height: .9; letter-spacing: -.04em; }
+.theme-lubalin .piece__body blockquote { border: 0; position: relative; padding: 0 0 0 0; margin: 1.6em 0; font-family: 'Playfair Display', serif; font-style: italic; font-weight: 700; font-size: 1.8rem; line-height: 1.1; letter-spacing: -.02em; color: var(--p-ink); }
+.theme-lubalin .piece__body blockquote::before { content: "“"; position: absolute; left: -.5em; top: -.35em; font-size: 4em; color: var(--p-accent); line-height: 1; }
+.theme-lubalin .piece__body > p:first-child::first-letter { font-family: 'Playfair Display', serif; font-weight: 900; font-style: italic; float: left; font-size: 5em; line-height: .75; margin: .05em .06em 0 -.04em; color: var(--p-accent); }

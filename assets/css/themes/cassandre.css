@@ -1,0 +1,14 @@
+/* A.M. Cassandre, Paris 1927: the travel poster. Vanishing points, gold on night. */
+.theme-cassandre { --p-bg:#13223a; --p-ink:#efe6d2; --p-muted:#b8ac92; --p-accent:#c7962f; --p-rule:rgba(239,230,210,.2);
+  --p-display:'Limelight','Josefin Sans',sans-serif; --p-text:'Josefin Sans','Futura',sans-serif; --p-meta:'Josefin Sans',sans-serif; --p-measure: 36em; --p-size: clamp(1.1rem,1.25vw,1.24rem); --p-lh:1.7; color-scheme: dark; }
+.theme-cassandre .piece__head { text-align: center; position: relative; padding: clamp(40px,8vw,100px) 16px clamp(30px,5vw,60px);
+  background: repeating-conic-gradient(from 0deg at 50% 120%, rgba(199,150,47,.16) 0 3deg, transparent 3deg 9deg); border-bottom: 2px solid var(--p-accent); }
+.theme-cassandre .piece__kicker { justify-content: center; letter-spacing: .4em; font-weight: 600; }
+.theme-cassandre .piece__title { font-weight: 400; color: var(--p-accent); font-size: clamp(2.3rem, 6.4vw, 5.2rem); letter-spacing: .08em; text-transform: uppercase; line-height: 1.05; text-shadow: 0 2px 0 #0a1322, 0 0 40px rgba(199,150,47,.25); }
+.theme-cassandre .piece__dek { margin: 22px auto 0; font-style: normal; letter-spacing: .04em; font-weight: 300; }
+.theme-cassandre .piece__byline { justify-content: center; border: 0; letter-spacing: .3em; }
+.theme-cassandre .piece__cover img { filter: grayscale(1) sepia(.6) hue-rotate(185deg) saturate(1.4) brightness(.8) contrast(1.2); }
+.theme-cassandre .piece__body { font-weight: 400; }
+.theme-cassandre .piece__body h2 { font-family: 'Limelight', serif; font-weight: 400; color: var(--p-accent); letter-spacing: .06em; text-transform: uppercase; font-size: 1.7rem; }
+.theme-cassandre .piece__body > p:first-child::first-letter { font-family: 'Limelight', serif; float: left; font-size: 3.8em; line-height: .85; margin: .04em .1em 0 0; color: var(--p-accent); }
+.theme-cassandre .specimen-card { background: rgba(0,0,0,.25); }

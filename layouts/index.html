@@ -1,64 +1,85 @@
+{{ define "bodyclass" }}page page--home{{ end }}
 {{ define "main" }}
-{{ $articlesPage := .Site.GetPage "section" "articles" }}
-{{ $articles := where .Site.RegularPages.ByDate.Reverse "Section" "articles" }}
-<div class="page-wrapper nav-left">
-    {{ $articleHero := "images/dev/articles-hero.jpg" | relURL }}
-    <div id="Hero" class="section article-hero-bg article-bg-her" style='background-image: linear-gradient(#24446480, #24446480), url("{{ $articleHero }}");'>
-        <div class="wrapper">
-            <div class="section-intro left no-margin">
-                <h1 class="heading-10">Writing</h1>
-                {{ with $articlesPage.Params.description }}
-                <div class="text-block-7">{{ . | safeHTML }}</div>
-                {{ else }}
-                <div class="text-block-7">Essays, project notes, recommendations, and small ideas in progress.</div>
-                {{ end }}
-            </div>
-        </div>
+{{- $all := where site.RegularPages.ByDate "Section" "articles" }}
+{{- $nos := dict }}{{ range $i, $p := $all }}{{ $nos = merge $nos (dict $p.File.UniqueID (add $i 1)) }}{{ end }}
+{{- $byStyle := dict }}{{ range $p := $all }}{{ with $p.Params.style }}{{ $byStyle = merge $byStyle (dict . $p) }}{{ end }}{{ end }}
+{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" $v.display_name "d" (partial "smart.html" $v.designer) "y" $v.year) }}{{ end }}
+{{- $h := hugo.Data.home }}
+<section class="titlepage">
+    <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Set by hand</span></p>
+    <h1 class="titlepage__name">
+        <button type="button" class="namesetter" data-faces="{{ $faces | jsonify }}" aria-label="Ganis. Press to set the name in another typeface." aria-describedby="namesetter-caption">Ganis</button>
+        <span class="titlepage__rest">Angger Atmawarin</span>
+    </h1>
+    <p class="titlepage__caption" id="namesetter-caption" aria-live="polite">Set in <em>Fraunces</em>, Undercase Type, 2020. <span class="titlepage__hint">Press the name to set it in another face. There are {{ len $faces }} more.</span></p>
+    <details class="proof">
+        <summary>See all {{ len $faces }} at once</summary>
+        <ul class="proof__grid">
+            {{- range $k, $v := hugo.Data.styles }}{{ $p := index $byStyle $k }}
+            <li><a href="{{ with $p }}{{ .RelPermalink }}{{ end }}"><span class="proof__name" style="{{ partial "face.html" $v | safeCSS }}" aria-hidden="true">Ganis</span><span class="proof__meta">{{ $v.display_name }} · {{ partial "smart.html" $v.designer }}, {{ $v.year }}{{ with $p }}<span class="proof__essay">{{ partial "smart.html" .Title }} →</span>{{ end }}</span></a></li>
+            {{- end }}
+        </ul>
+    </details>
+    <div class="titlepage__intro">
+        {{ $h.intro | markdownify }}
     </div>
-    <div class="section article-hero">
-        <div class="wrapper">
-            <div class="side-header">
-                <div class="blog-categories-wrapper">
-                    <a href='{{ "articles" | relURL }}' class="link-v2 category-link right">All Articles</a>
-                    <div class="w-dyn-list">
-                        <div role="list" class="blog-categories w-dyn-items">
-                            {{ range .Site.Taxonomies.tags }}
-                            <div role="listitem" class="w-dyn-item">
-                                <a href='{{ .Page.RelPermalink }}' class="link-v2 category-link right">{{ .Page.Title }}</a>
-                            </div>
-                            {{ end }}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            {{ with $articles }}
-            <div class="w-dyn-list">
-                <div role="list" class="blog-posts-v2 w-dyn-items">
-                    {{ range first 8 . }}
-                    <div role="listitem" class="blog-post-v2 w-dyn-item">
-                        <div class="post-card-v2">
-                            <img alt="{{ .Title }}" src="{{ .Params.cover | relURL }}" class="post-card-v2-image {{ if not .Params.cover }}w-dyn-bind-empty{{ end }}"/>
-                            <div class="post-card-v2-info">
-                                {{ range first 1 .Params.tags }}
-                                {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}
-                                <a style="background-color: #fb406c;" href='{{ $url }}' class="badge post-card-v2-badge">{{ . }}</a>
-                                {{ end }}
-                                <a href="{{ .RelPermalink }}" class="article-header-link w-inline-block">
-                                    <h4 class="heading-11">{{ .Title | safeHTML }}</h4>
-                                </a>
-                                <p class="paragraph-small grey-text">{{ .Params.description | safeHTML }}</p>
-                                <a href="{{ .RelPermalink }}" class="link-v2">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
+</section>
+
+{{ $featured := where $all "Params.featured" true }}
+{{ with $featured }}
+<section class="block">
+    <h2 class="block__h"><span class="slug">Start here</span></h2>
+    <div class="featured">
+        {{ range first 2 .Reverse }}{{ $s := index hugo.Data.styles (.Params.style | default "") }}
+        <a class="featured__card featured__card--{{ .Params.style }}" href="{{ .RelPermalink }}">
+            <span class="featured__no">No. {{ printf "%02d" (index $nos .File.UniqueID) }}{{ with $s }} · after {{ partial "smart.html" .designer }}, {{ .year }}{{ end }}</span>
+            <span class="featured__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ partial "smart.html" .Title }}</span>
+            <span class="featured__dek">{{ partial "smart.html" .Params.description }}</span>
+            <span class="featured__go">{{ .ReadingTime }} min · {{ if eq .Params.lang_code "en" }}English{{ else }}Bahasa{{ end }}</span>
+        </a>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+
+<section class="block">
+    <h2 class="block__h"><span class="slug">Latest specimens</span><a href="{{ "articles/" | relURL }}">All {{ len $all }} essays →</a></h2>
+    <ol class="specimen-index home-latest">
+        {{ range first 8 (complement $featured $all.Reverse) }}{{ partial "specimen-row.html" (dict "p" . "no" (index $nos .File.UniqueID)) }}{{ end }}
+    </ol>
+</section>
+
+{{ with $h.truths }}
+<section class="block truths">
+    <h2 class="block__h"><span class="slug">{{ len . }} things that are true</span></h2>
+    <ol class="truths__list">
+        {{ range . }}<li>{{ . | markdownify }}</li>{{ end }}
+    </ol>
+</section>
+{{ end }}
+
+<section class="block home-letters">
+    <p class="slug">Letters</p>
+    <p class="home-letters__ask">When there&rsquo;s a new essay I send a short letter. No schedule, no spam, and I write it by hand first.</p>
+    {{ partial "subscribe.html" (dict "id" "home") }}
+</section>
+
+<section class="block split">
+    <div>
+        <h2 class="block__h"><span class="slug">On the shelf</span><a href="{{ "reading/" | relURL }}">The whole shelf →</a></h2>
+        {{- $books := where site.RegularPages "Section" "reading" }}
+        <ul class="spines">
+            {{ range first 7 ($books.ByPublishDate.Reverse) }}
+            <li class="spine" style="--h: {{ add 70 (mod (len .Title) 30) }}%"><span>{{ replaceRE "^[^A-Za-z0-9]+" "" .Title }}</span></li>
             {{ end }}
-            <div class="home-articles-cta">
-                <a href='{{ "articles" | relURL }}' class="button center">See All Articles</a>
-            </div>
-        </div>
+        </ul>
+        <p class="muted">{{ len $books }} books logged since 2018. Some of them twice, on purpose.</p>
     </div>
-</div>
+    <div>
+        <h2 class="block__h"><span class="slug">Now</span><span class="muted">{{ $h.now_date }}</span></h2>
+        <dl class="now">
+            {{ range $h.now }}<dt>{{ .k }}</dt><dd>{{ .v | markdownify }}</dd>{{ end }}
+        </dl>
+    </div>
+</section>
 {{ end }}

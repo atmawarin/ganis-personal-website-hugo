@@ -3,7 +3,7 @@ title: "Be Yourself at Work"
 description: "On experimentation, authenticity, and why Thom Yorke's advice about working off-picture applies to more than just music."
 cover: images/articles/toy-car-and-boy.jpg
 date: 2019-07-17
-tags: ["note"]
+tags: ["business"]
 ---
 
 > Don't work too much to picture, because you'll find yourself drying up. Work off-picture, and then put it onto it. Work as much as you can from impressions. And be selfish about your own experiments that you want to do. - Thom Yorke, Interview with Variety.

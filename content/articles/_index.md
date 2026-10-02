@@ -1,4 +1,4 @@
 ---
 title: "Articles"
-description: "Kumpulan essay, jejak project, note, rekomendasi dan lala."
+description: "Essays on business, design, and life."
 ---

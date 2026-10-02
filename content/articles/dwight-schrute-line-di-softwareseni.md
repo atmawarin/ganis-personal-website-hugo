@@ -3,7 +3,7 @@ title: "Dwight Schrute Line di SoftwareSeni"
 description: "Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute."
 cover: images/articles/kid-smiling.jpg
 date: 2017-10-26
-tags: ["work story", "softwareseni", "culture"]
+tags: ["business"]
 ---
 
 Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute.

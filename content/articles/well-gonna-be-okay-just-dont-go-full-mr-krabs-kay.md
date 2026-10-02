@@ -3,7 +3,7 @@ title: "We'll Gonna Be Okay, Just Don't Go Full Mr. Krabs, Kay?"
 description: "Growing too fast can feel like winning, but it's often just a Mr. Krabs-style disaster waiting to happen. Don't let greed screw over your team—or your conscience. Grow smarter, not faster, and leave the corporate gluttony behind."
 cover: images/articles/crab-drawing.png
 date: 2024-11-20
-tags: ["service business"]
+tags: ["business"]
 ---
 
 If you're a tech worker, let's face it—2024 has probably been a shit year for you. Massive waves of layoffs have rolled through the industry worldwide, and Indonesia hasn't been spared. It's brutal out there.

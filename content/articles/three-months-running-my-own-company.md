@@ -10,7 +10,7 @@ tribute:
   description: "This piece wears the Bauhaus, after László Moholy-Nagy's experiments at the school (1923–1928). Moholy-Nagy believed in the unity of art and technology long before anyone called it 'design thinking' — geometric form, primary colour, and typography as visual architecture. A fitting lens for a note about building something from raw parts. Fun fact: he once ordered paintings by telephone, dictating coordinates to a sign factory, then exhibited them as art."
   typography: "Jost (after Futura) + geometric forms"
   mainColor: "#E1402A"
-tags: ["note", "business"]
+tags: ["business"]
 ---
 
 Three months is not enough time to know whether a decision was right.
@@ -342,4 +342,3 @@ Right does not mean I become a better person automatically just because the stak
 Right means this is the struggle I choose.
 
 And for now, that is enough.
-

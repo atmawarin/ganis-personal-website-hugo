@@ -19,9 +19,9 @@
             {{ with .Params.tags }}
             <div class="div-block-3">
                 {{ if eq (len .) 1 }}
-                <div class="grey-text tag-label">Tag: </div>
+                <div class="grey-text tag-label">Category: </div>
                 {{ else if gt (len .) 1 }}
-                <div class="grey-text tag-label">Tags: </div>
+                <div class="grey-text tag-label">Categories: </div>
                 {{ end }}
                 {{ range . }}
                 {{ $url := (printf "%s%s/" ("tags/" | relURL) (. | urlize)) }}

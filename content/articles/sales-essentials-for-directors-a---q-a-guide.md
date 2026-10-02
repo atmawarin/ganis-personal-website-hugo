@@ -2,7 +2,7 @@
 title: "Sales Essentials for Directors"
 description: "Dress sharp, price smarter than your competitors, and charm clients like your team paychecks depends on it—because it does."
 date: 2024-11-21
-tags: ["service business"]
+tags: ["business"]
 cover: /images/website-struktur.png
 ---
 

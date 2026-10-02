@@ -110,3 +110,12 @@ params:
     copyright:
       credits: "Typography: The <b>majestic <a href='https://fonts.google.com/specimen/Abril+Fatface' target='_blank'>Abril Fatface</a></b> by Veronika Burian and José Scaglione & the <b>effortlessly versatile <a href='https://fonts.google.com/specimen/Karla' target='_blank'>Karla</a></b> by Jonathan Pinhorn"
       text: "All contents created by me, unless otherwise noted. You are allowed to copy, distribute, or display your derivative copy of my works without my permission"
+
+# Local dev only: `hugo server` ignores netlify.toml, so the /running/log proxy
+# 404s locally. Send it to the dashboard's own domain instead. Production builds
+# don't use this block.
+server:
+  redirects:
+    - from: "/running/log/**"
+      to: "https://run.ganisatmawarin.com/"
+      status: 302

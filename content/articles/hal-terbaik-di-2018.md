@@ -3,7 +3,8 @@ title: "Hal Terbaik di 2018"
 description: "Hal baik, event, pengalaman dan orang yang saya temukan, pelajari, dan temui di 2018. Sebuah curation dari tahun yang penuh eksperimen."
 cover: images/articles/custom-calender.jpg
 date: 2018-12-31
-tags: ["note"]
+tags: ["life"]
+draft: true
 ---
 
 Hal baik, event, pengalaman dan orang yang saya temukan, pelajari, ketemu, dan lain-lain di 2018. List ini tidak dibuat dengan ordering, dan tidak semua hal adalah hal yang baru.

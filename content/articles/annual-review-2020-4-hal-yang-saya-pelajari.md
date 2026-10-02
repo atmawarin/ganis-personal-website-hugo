@@ -2,7 +2,8 @@
 title: "Annual Review 2020: 4 Hal Yang Saya Pelajari"
 description: "Apa yang saya pelajari di tahun pandemi kemarin."
 cover: images/articles/drawing.png
-tags: ["note"]
+tags: ["life"]
+draft: true
 ---
 
 Waktu saya mengetik artikel ini, kalendar menunjukkan bulan Maret. Dan biarpun 2020 sudah lewat 3 bulan yang lalu, residu dari wabah COVID masih pekat. Wajar memang sih, karena hingga detik ini saya masih menghabiskan hampir semua jatah 24 jam saya di rumah, rinse and repeat, mirip adegan film Groundhog Day.

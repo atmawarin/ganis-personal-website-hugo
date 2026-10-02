@@ -3,7 +3,7 @@ title: "Why I Keep Coming Back to Yogyakarta"
 description: "On bridges, memory, and a city that refuses to change — which is exactly why it feels like home."
 cover: images/articles/line-drawing.jpeg
 date: 2020-03-04
-tags: ["note"]
+tags: ["life"]
 ---
 
 The bridge. That's what I want to say when a friend asked why I choose to stay here.

@@ -3,7 +3,8 @@ title: "Rekomendasi Note Taking App : Notion"
 description: "Menulis dan membuat rencana sangat menyenangkan untuk dilakukan di aplikasi ini."
 cover: images/articles/computer-screen.png
 date: 2018-06-08
-tags: ["recommendation", "tools", "productivity"]
+tags: ["design"]
+draft: true
 ---
 
 Salah satu tool yang sering nongol di desktop saya akhir-akhir ini adalah [Notion](http://notion.so/). Notion didesain untuk membantu kamu menyimpan informasi dan mengorganise informasi, membuat rencana, serta berkolaborasi dengan tim di kantor atau teman.

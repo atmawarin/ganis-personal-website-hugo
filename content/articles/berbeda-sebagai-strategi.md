@@ -3,7 +3,7 @@ title: "Berbeda Sebagai Strategi"
 description: "Strategi yang kamu punyai kosong kalau ia tidak lulus di dua test. Pertama, yang kamu rencanakan harus berguna untuk customer kamu; dan kedua, itu membedakanmu dari kompetitor."
 cover: images/articles/chess-board.jpg
 date: 2019-08-04
-tags: ["note", "strategy", "softwareseni"]
+tags: ["business"]
 ---
 
 > Strategi yang kamu punyai kosong kalau ia tidak lulus di dua test. Pertama, yang kamu rencanakan harus berguna untuk customer kamu; dan kedua, itu membedakanmu dari kompetitor. – *Gary Hamel*

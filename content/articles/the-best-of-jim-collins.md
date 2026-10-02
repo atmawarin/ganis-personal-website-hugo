@@ -3,7 +3,7 @@ title: "The Best of Jim Collins"
 description: “How can I thank you?” Collins asked. Drucker answers “just go out and make yourself useful” before getting out of the car, and strolling back to his house.
 cover: images/articles/man-talking.jpg
 date: 2019-12-04
-tags: ["service business"]
+tags: ["business"]
 ---
 
 It was someday in European Summer 1994, and Peter Drucker (the greatest management thinker of all time), pulled up to his home after a long day conversation with Jim Collins. Collins, 36 at that time, just back from the corporate world, teaching at Stanford, and become an aspiring writer. 

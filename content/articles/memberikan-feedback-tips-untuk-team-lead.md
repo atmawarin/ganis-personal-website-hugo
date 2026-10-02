@@ -3,7 +3,7 @@ title: "Memberikan Feedback - Tips Untuk Team Lead"
 description: "Tidak punya waktu untuk bertemu dengan tim, seminggu sekali? Ya jangan jadi team lead."
 cover: images/articles/two-birds.jpg
 date: 2018-04-26
-tags: ["work story"]
+tags: ["business"]
 ---
 
 Paul Green menulis dalam [Giving Negative Feedback](https://hbr.org/2018/01/negative-feedback-rarely-leads-to-improvement?autocomplete=true):

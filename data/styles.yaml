@@ -339,3 +339,17 @@ gerobak:
   display_name: "Bungee"
   ink: "#e0262a"
   note: "No design school taught the people who paint BAKSO MAS GENDUT in red and yellow on a pushcart, and their work sells more soup than most agencies sell anything. Shadowed caps, a dropped stroke, and a phone number painted bigger than the menu."
+pintori:
+  designer: "Giovanni Pintori"
+  work: "Olivetti Lettera 22 posters"
+  place: "Ivrea & Milan"
+  year: 1953
+  faces: "Bricolage Grotesque & Lora"
+  fonts: "Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Lora:ital,wght@0,400;0,600;1,400"
+  display: "Bricolage+Grotesque:wght@800"
+  weight: 800
+  italic: false
+  stack: "'Bricolage Grotesque', 'Helvetica Neue', sans-serif"
+  display_name: "Bricolage Grotesque"
+  ink: "#d7262a"
+  note: "Pintori ran Olivetti's advertising for more than twenty years. He sold typewriters without showing much of the typewriter: numbers tumbling across the page, letters in red and yellow, a machine reduced to the joy of pressing keys. Olivetti also hired poets and architects. Their theory was that a machine for writing deserved to be beautiful."

@@ -59,11 +59,9 @@ Mobile Legends isn't my only offence. For a while, during the pandemic, it was m
 
 I ended up with, to use the technical term from my own notes, a "bajillion" of them. The real number is seventy-one. I know because there's a database. It's called Browntosaurus, it has a dinosaur emoji, and every keyboard gets a score built from aesthetics, typing feel, build quality, customisation and sound. Sound counts twice. I decided that, and I don't remember why.
 
-Sixty-six of the seventy-one have the status "Sold/Returned". Five are still in the house. The two highest-scoring keyboards I've ever owned, both at 26, are among the sixty-six I let go. One of the five I kept has never been scored at all, so the spreadsheet gives it a zero. I keep it anyway. I have no idea what that says about me.
-
 I also gave out medals, and the medals don't agree with the scores. There are two golds. One of them went to a keyboard scoring 20, which is lower than my silver (22) and my bronze (23). The IBM Model F, from 1981, the keyboard people in this hobby talk about the way monks talk about the Gutenberg Bible, scores 24 and didn't get a medal at all.
 
-I can't explain any of this. I built the system myself, with nobody watching, and I still couldn't keep it consistent. The biggest source of stress in my 2021 annual review, above work and the pandemic, was "keyboard-related debt."
+I can't explain any of this. I built the system myself, with nobody watching, and I still couldn't keep it consistent. (The whole sorry database is [here](/articles/seventy-one-keyboards/).) The biggest source of stress in my 2021 annual review, above work and the pandemic, was "keyboard-related debt."
 
 I'd like you to read that phrase again, slowly, and then picture me at a family dinner explaining it.
 

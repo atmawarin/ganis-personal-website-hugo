@@ -44,7 +44,7 @@ It's not the only joke in the family. My father had one he was very proud of, an
 
 It's a pun. *Buah* is fruit, and *bapakmu* is "your father", so "the fruit with money" is your dad. It doesn't translate, and to be honest it doesn't fully work in Indonesian either. I once put it on my list of jokes for Novemberfest, our company party, with a stage direction in brackets: *(insert smug face)*. Two hundred people, one pun, one face. I'd like to say it brought the house down. What it did was get passed on, which is what fathers' jokes are for.
 
-My father also gave me the habit of writing everything down. He kept notes. I keep notes about the notes. My journal for one ordinary Thursday in November 2025 has an entry, timestamped 8:50, that reads, in full, *Buy pen*. When people ask how I remember so much about my own life, the truthful answer is that I don't. It's all in a file.
+My father also gave me the habit of writing everything down. He kept notes. I keep notes about the notes. My journal has a line for almost every hour of almost every day, including the ones where nothing happened, which is most of them. When people ask how I remember so much about my own life, the truthful answer is that I don't. It's all in a file.
 
 ---
 

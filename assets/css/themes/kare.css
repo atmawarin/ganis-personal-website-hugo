@@ -1,6 +1,6 @@
 /* Susan Kare, Macintosh 1984: a window, a dither, a happy little machine. */
 .theme-kare { --p-bg:#c9c9c9; --p-ink:#000; --p-muted:#333; --p-accent:#000; --p-rule:rgba(0,0,0,.3);
-  --p-display:'Pixelify Sans','Chicago',monospace; --p-text:'Atkinson Hyperlegible','Geneva',sans-serif; --p-meta:'Pixelify Sans',monospace; --p-measure: 38em; --p-size: clamp(1.04rem,1.15vw,1.12rem); --p-lh:1.6;
+  --p-display:'Pixelify Sans','Chicago',monospace; --p-text:'Source Sans 3','Geneva',sans-serif; --p-meta:'Pixelify Sans',monospace; --p-measure: 38em; --p-size: clamp(1.04rem,1.15vw,1.12rem); --p-lh:1.6;
   background-image: repeating-conic-gradient(#b4b4b4 0 25%, #d6d6d6 0 50%); background-size: 4px 4px; }
 .theme-kare .piece { max-width: 900px; }
 .theme-kare .piece__head, .theme-kare .piece__body, .theme-kare .piece__end .specimen-card { background: #fff; border: 2px solid #000; box-shadow: 4px 4px 0 #000; }

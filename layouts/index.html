@@ -2,28 +2,29 @@
 {{ define "main" }}
 {{- $all := where site.RegularPages.ByDate "Section" "articles" }}
 {{- $nos := dict }}{{ range $i, $p := $all }}{{ $nos = merge $nos (dict $p.File.UniqueID (add $i 1)) }}{{ end }}
-{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ if $v.display }}{{ $faces = $faces | append (dict "f" $v.stack "d" $v.designer "y" $v.year) }}{{ end }}{{ end }}
+{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" (index (split $v.faces " & ") 0 | replaceRE " \\(.*\\)" "" | replaceRE ",.*" "") "d" $v.designer "y" $v.year) }}{{ end }}
 {{- $h := hugo.Data.home }}
 <section class="titlepage">
     <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Est. 1984</span></p>
     <h1 class="titlepage__name">
-        <button type="button" class="namesetter" data-faces="{{ $faces | jsonify }}" aria-describedby="namesetter-caption">Ganis</button>
+        <button type="button" class="namesetter" data-faces="{{ $faces | jsonify }}" aria-label="Ganis. Press to set the name in another typeface." aria-describedby="namesetter-caption">Ganis</button>
         <span class="titlepage__rest">Angger Atmawarin</span>
     </h1>
-    <p class="titlepage__caption" id="namesetter-caption" aria-live="polite">Set in Fraunces, 2018. <span class="titlepage__hint">Tap the name to reset it in another face.</span></p>
+    <p class="titlepage__caption" id="namesetter-caption" aria-live="polite">Set in <em>Fraunces</em>, Undercase Type, 2020. <span class="titlepage__hint">Press the name to set it in another face. There are {{ len $faces }} more.</span></p>
     <div class="titlepage__intro">
         {{ $h.intro | markdownify }}
     </div>
 </section>
 
-{{ with where $all "Params.featured" true }}
+{{ $featured := where $all "Params.featured" true }}
+{{ with $featured }}
 <section class="block">
     <h2 class="block__h"><span class="slug">Start here</span></h2>
     <div class="featured">
         {{ range first 2 .Reverse }}{{ $s := index hugo.Data.styles (.Params.style | default "") }}
         <a class="featured__card featured__card--{{ .Params.style }}" href="{{ .RelPermalink }}">
             <span class="featured__no">No. {{ printf "%02d" (index $nos .File.UniqueID) }}{{ with $s }} · after {{ .designer }}, {{ .year }}{{ end }}</span>
-            <span class="featured__title" {{ with $s }}style="font-family: {{ .stack | safeCSS }}"{{ end }}>{{ .Title }}</span>
+            <span class="featured__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ .Title }}</span>
             <span class="featured__dek">{{ .Params.description }}</span>
             <span class="featured__go">{{ .ReadingTime }} min · {{ if eq .Params.lang_code "en" }}English{{ else }}Bahasa{{ end }}</span>
         </a>
@@ -35,7 +36,7 @@
 <section class="block">
     <h2 class="block__h"><span class="slug">Latest specimens</span><a href="{{ "articles/" | relURL }}">All {{ len $all }} essays →</a></h2>
     <ol class="specimen-index">
-        {{ range first 8 $all.Reverse }}{{ partial "specimen-row.html" (dict "p" . "no" (index $nos .File.UniqueID)) }}{{ end }}
+        {{ range first 8 (complement $featured $all.Reverse) }}{{ partial "specimen-row.html" (dict "p" . "no" (index $nos .File.UniqueID)) }}{{ end }}
     </ol>
 </section>
 
@@ -47,6 +48,12 @@
     </ol>
 </section>
 {{ end }}
+
+<section class="block home-letters">
+    <p class="slug">Letters</p>
+    <p class="home-letters__ask">When there's a new essay I send a short letter. No schedule, no spam, and I write it by hand first.</p>
+    {{ partial "subscribe.html" (dict "id" "home") }}
+</section>
 
 <section class="block split">
     <div>

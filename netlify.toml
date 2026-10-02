@@ -1,5 +1,5 @@
 [build]
-  command = "hugo --gc --minify --baseURL $URL"
+  command = "hugo --gc --minify --baseURL https://ganisatmawarin.com/"
   publish = "public"
 
 [build.environment]
@@ -44,4 +44,20 @@
 [[redirects]]
   from = "/articles/three-months-running-my-own-company/"
   to = "/articles/three-months-a-field-note-from-a-small-company/"
+  status = 301
+
+# Book, race and note stubs are no longer rendered as their own pages (2026).
+[[redirects]]
+  from = "/reading/*"
+  to = "/reading/"
+  status = 301
+
+[[redirects]]
+  from = "/questions-and-ideas/*"
+  to = "/questions-and-ideas/"
+  status = 301
+
+[[redirects]]
+  from = "/favourite/*"
+  to = "/favourite/"
   status = 301

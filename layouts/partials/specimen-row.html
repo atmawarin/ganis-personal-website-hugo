@@ -3,7 +3,7 @@
 <li class="specimen-row" data-lang="{{ $p.Params.lang_code | default "id" }}">
     <a href="{{ $p.RelPermalink }}">
         <span class="specimen-row__no">{{ printf "%02d" .no }}</span>
-        <span class="specimen-row__title" {{ with $s }}style="font-family: {{ .stack | safeCSS }}"{{ end }}>{{ $p.Title }}</span>
+        <span class="specimen-row__body"><span class="specimen-row__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ $p.Title }}</span>{{ with $p.Params.description }}<span class="specimen-row__dek">{{ . | plainify | truncate 120 }}</span>{{ end }}</span>
         <span class="specimen-row__meta">
             {{- with $s }}<span>{{ .designer }}, {{ .year }}</span>{{ end -}}
             <span>{{ $p.Date.Format "2006" }} · {{ if eq $p.Params.lang_code "en" }}EN{{ else }}ID{{ end }}</span>

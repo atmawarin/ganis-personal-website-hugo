@@ -1,6 +1,6 @@
 /* Rodchenko, Moscow 1924: red, black, diagonals, a typeface made with a ruler. */
 .theme-rodchenko { --p-bg:#efe6d2; --p-ink:#111; --p-muted:#4b4336; --p-accent:#d1261b; --p-rule:rgba(17,17,17,.3);
-  --p-display:'Rubik Mono One','Oswald',sans-serif; --p-text:'PT Sans','Helvetica Neue',sans-serif; --p-meta:'Oswald',sans-serif; --p-measure: 36em; --p-size: clamp(1.08rem,1.2vw,1.2rem); --p-lh:1.6; }
+  --p-display:'Big Shoulders Display','Oswald',sans-serif; --p-text:'PT Sans','Helvetica Neue',sans-serif; --p-meta:'Oswald',sans-serif; --p-measure: 36em; --p-size: clamp(1.08rem,1.2vw,1.2rem); --p-lh:1.6; }
 .theme-rodchenko .piece { overflow: hidden; }
 .theme-rodchenko .piece__ornament { display: block; position: absolute; inset: 0 0 auto 0; height: 640px; pointer-events: none; }
 .theme-rodchenko .piece__ornament span:nth-child(1) { position: absolute; inset: 0; background: var(--p-accent); clip-path: polygon(55% 0, 100% 0, 100% 70%, 20% 100%); }
@@ -8,7 +8,7 @@
 .theme-rodchenko .piece__head { position: relative; }
 .theme-rodchenko .piece__kicker { font-size: 1rem; letter-spacing: .14em; }
 .theme-rodchenko .piece__kicker span { background: var(--p-ink); color: var(--p-bg); padding: 2px 8px; }
-.theme-rodchenko .piece__title { font-weight: 400; text-transform: uppercase; font-size: clamp(1.9rem, 5.2vw, 4.2rem); line-height: 1.02; max-width: 15ch; background: var(--p-bg); padding: 14px 18px; box-shadow: 10px 10px 0 var(--p-ink); transform: rotate(-3deg); transform-origin: left; }
+.theme-rodchenko .piece__title { font-weight: 900; text-transform: uppercase; font-size: clamp(2.4rem, 6.6vw, 5.6rem); line-height: .92; letter-spacing: .01em; max-width: 15ch; background: var(--p-bg); padding: 14px 18px; box-shadow: 10px 10px 0 var(--p-ink); transform: rotate(-3deg); transform-origin: left; }
 .theme-rodchenko .piece__dek { font-family: 'Oswald', sans-serif; font-style: normal; text-transform: uppercase; color: var(--p-ink); background: var(--p-bg); display: inline-block; padding: 6px 10px; margin-top: 30px; font-size: 1.3rem; }
 .theme-rodchenko .piece__byline { border-top: 4px solid var(--p-ink); font-size: .9rem; background: var(--p-bg); padding: 10px; }
 .theme-rodchenko .piece__cover { position: relative; }

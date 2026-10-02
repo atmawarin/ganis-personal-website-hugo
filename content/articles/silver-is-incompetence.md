@@ -39,6 +39,8 @@ I was asked once why I bothered. My answer, which I wrote down because I was hon
 
 *I find silver or bronze as incompetence.*
 
+*Mobile Legends* doesn't have a silver rank, or a bronze one. I brought my own. That's how deep it goes.
+
 ## Terce
 
 Let me look at that sentence for a moment, the way you'd look at a mole that has changed shape.

@@ -13,7 +13,7 @@
     {{ range sort $rows "y" }}{{ $s := .s }}
         <li>
             <span class="specimens__who">{{ $s.year }} · {{ $s.place }}</span>
-            <span class="specimens__sample" style="font-family: {{ $s.stack | safeCSS }}">{{ $s.designer }}</span>
+            <span class="specimens__sample" style="{{ partial "face.html" $s | safeCSS }}">{{ $s.designer }}</span>
             <p>{{ $s.note }}</p>
             <p><a href="{{ .p.RelPermalink }}">Read the essay set this way: {{ .p.Title }} →</a></p>
         </li>

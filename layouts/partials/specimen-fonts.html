@@ -1,8 +1,8 @@
 {{- /* Index pages show each essay title in its own display face. Load every
        display face in one request, subset to only the glyphs those titles use. */ -}}
-{{- if true -}}
+{{- if or .IsHome (eq .Section "articles") (eq .Kind "term") (eq .Section "colophon") -}}
 {{- $fams := slice -}}
 {{- range $k, $v := hugo.Data.styles }}{{ with $v.display }}{{ $fams = $fams | append . }}{{ end }}{{ end -}}
-{{- $text := "GanisAtmawrABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,:;!?'’-–—&()" -}}
+{{- $text := "GanisAtmawrABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,:;!?'’‘“”-–—&()é" -}}
 <link href="https://fonts.googleapis.com/css2?family={{ delimit (uniq $fams) "&family=" | safeURL }}&text={{ $text | urlquery }}&display=swap" rel="stylesheet">
 {{- end -}}

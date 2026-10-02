@@ -38,7 +38,7 @@ Tahun ini saya menyelesaikan 14 buku non-fiction. Yang paling menonjol: *High Ou
 
 ## Amazing Products
 
-- [Beautiful AI](https://www.beautiful.ai/). App yang membantu membuat presentasi tanpa terlalu banyak effort. Limitasinya justru jadi kelebihannya — kamu dipaksa fokus ke konten, bukan layout. Saya sudah [menulis lebih detail tentang ini](/articles/buat-presentasi-dengan-beautiful-ai/).
+- [Beautiful AI](https://www.beautiful.ai/). App yang membantu membuat presentasi tanpa terlalu banyak effort. Limitasinya justru jadi kelebihannya — kamu dipaksa fokus ke konten, bukan layout.
 
 - [Bear](https://bear.app/). Note taking app yang sekarang menggantikan Evernote, IA Writer, dan Ulysses. Sederhana, cantik, dan Markdown-first. Bear punya satu fitur yang membuatnya unggul: hashtag-based organization. Tidak ada folder, tidak ada nested hierarchy yang complicated. Cuma hashtag. Minimalis dan efektif.
 

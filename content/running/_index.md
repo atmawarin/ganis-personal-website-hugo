@@ -11,6 +11,12 @@ stats:
     l: "best 10K, which I will now defend forever"
   - n: "5:17"
     l: "the time I keep promising to start"
+cascade:
+  - build:
+      render: never
+      list: always
+    target:
+      kind: page
 ---
 
 I run alone, early, while the city is still quiet. Not for performance and not really for health, though I'll take it. Running is just running. It's easy and it's hard. It's the one thing I look forward to when I close my eyes at night, and the first thing I negotiate my way out of when the alarm goes.

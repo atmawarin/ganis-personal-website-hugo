@@ -1,6 +1,6 @@
 ---
 title: "Teknologi Bukan Kompetitif Advantage untuk Perusahaan Software"
-description: "Don't fall in love with your technology. Fall in love with your customer. – Ian Burges, Validere"
+description: "Klien tidak memilih kamu karena tech stack-mu. Catatan dari perusahaan software yang hampir jatuh cinta pada teknologinya sendiri."
 cover: "images/articles/men-with-knife.jpg"
 date: 2019-07-30
 tags: ["business"]

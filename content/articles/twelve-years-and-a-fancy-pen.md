@@ -5,16 +5,15 @@ date: 2026-09-30
 tags: ["business", "life"]
 style: "caslon"
 lang_code: "en"
-featured: true
 ---
 
 In my last week at SoftwareSeni, I wrote this in my journal:
 
 *Take a note of what Davo does. Buy fancy pen to sign. It shows power.*
 
-The next entry, timestamped the following morning, reads: *8:50: Buy pen.*
+A few lines further down the same page, timestamped, it says: *8:50: Buy pen.*
 
-That's the whole entry. No reflection or follow-up, nothing about whether the pen worked. After twelve years of watching one man run a company, the lesson I'd chosen to act on, with three days to spare, was stationery.
+That's the whole entry. No reflection or follow-up, nothing about whether the pen worked. After twelve years of watching one man run a company, the lesson I'd chosen to act on, with one day to spare, was stationery.
 
 I'd like to say there was more to it, and there was. But I did buy the pen.
 
@@ -40,7 +39,7 @@ My journals from those years are full of one recurring task, timestamped like a 
 
 Davo wrote short emails. Very short. Sometimes one line, sometimes a question with no question mark. For years I read them the way people read poetry they suspect is about them. What does he mean by "ok"? Is "ok" good? Is "ok?" worse?
 
-It took me an embarrassingly long time to learn that Davo didn't care very much about what was going on. He cared about the plan. If I walked into a meeting with a story, I got questions. If I walked in with a plan, I got almost nothing, which I eventually understood was the highest praise available. When I was well prepared, he had a tendency not to comment much at all. I spent about a decade trying to earn his silence.
+It took me an embarrassingly long time to learn that Davo didn't care much for the story. He cared about the plan. If I walked into a meeting with a story, I got questions. If I walked in with a plan, I got almost nothing, which I eventually understood was the highest praise available. When I was well prepared, he had a tendency not to comment much at all. I spent about a decade trying to earn his silence.
 
 He also had a word I stole. When he talked to clients he never said "we hope", "we'll try" or "we think". He said *confident*. "We are confident this will be at the level you need." I started using it in 2016 and haven't stopped. It's a dangerous word if you don't mean it, which I think was his point.
 
@@ -52,7 +51,7 @@ There was a ping-pong table in a room so narrow you couldn't step backwards, onl
 
 That year Davo and Ryan asked me to forecast how many people we'd need. I drew a graph. Two years later I showed them the same graph and we'd hit it every year. I don't think anyone was more surprised than I was.
 
-We moved to a former car dealership on Jl Magelang, and then to a house in Sagan. I became a director in 2019. We grew from fifty people to a hundred and forty to two hundred. We built a KPI system for airport directors, apps for companies whose logos I'd grown up seeing on television, and a lot of software you'll never hear about that quietly keeps a payroll running somewhere.
+In 2019 I became a director and we moved to a former car dealership on Jl Magelang, and in 2022 to a house in Sagan. By 2021 we'd gone from ninety people to a hundred and forty to two hundred. We built software for public institutions and household names, and a lot of software you'll never hear about that quietly keeps a payroll running somewhere.
 
 We also made mistakes. In 2020 we let go of ten good people, and that's still the hardest thing I've done at work. In 2024 I [wrote](/articles/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay/) about how our whole industry, us included, grew too fast during COVID. I said that in public. I stand by it. I learned it at SoftwareSeni, which is to its credit: it was the kind of company where you were allowed to say so.
 
@@ -62,7 +61,7 @@ I wrote this in my journal once, years ago, about the two men I worked for:
 
 *I have Davo, who is unusually ethical. And Ryan, who is unusually crafty.*
 
-Between them I learned most of what I know. From Ryan, how to find the shortest way through. From Davo, that the shortest way through doesn't count if you have to wash your hands afterwards.
+I meant both as the highest compliment. Between them I learned most of what I know. Ryan could see a way through a problem before the rest of us had finished describing it, and he taught me that resourcefulness is a kind of respect for other people's money. Davo taught me that how you get through matters as much as getting through.
 
 I've tried to describe Davo's integrity to people who never met him and it always comes out sounding like a eulogy, which he'd hate. So here's how I wrote it to myself: *Thank you, Davo, for having an irrationally high integrity. That is one thing that somehow I have as well.* "Irrationally" is the right word. As far as I could ever tell, he did the honest thing even when it was going to cost him and nobody would have noticed. I've been around business long enough to know how rare that is. It's rarer than talent and rarer than money, and much rarer than people who say they have it.
 
@@ -84,17 +83,15 @@ At 22:00, on the way home, I stopped for a *jasuke*: corn, cheese and a heroic a
 
 *I hope he finds confidence in life. And will be able to get a lucky break.*
 
-I knew where that sentence came from. In 2013 I was a man with an economics degree, very few prospects and a great deal of confidence about websites, and somebody gave me a lucky break. Then an Australian who wrote one-line emails, kept giving it to me every year for twelve years.
+I knew where that sentence came from. In 2013 I was a man with an economics degree, very few prospects and a great deal of confidence about websites, and somebody gave me a lucky break. Then an Australian who wrote one-line emails kept giving it to me every year for twelve years.
 
 At 22:16 I got home. *Surprised that everyone is still at home,* I wrote. Gita and the two little civets had stayed up to congratulate me.
 
 ## Roll call
 
-Four days later, on my first free weekday in twelve years, I went for a thirty-minute run around UGM while everyone else was at work or school. I ran without guilt. Afterwards, at home alone, I drank a glass of water and wrote that it was suddenly extra delicious. I stand by that too.
+A few days later I sat down and wrote Davo and Ryan a thank-you email. This essay is a longer version of it.
 
-Then I sat down and wrote Davo and Ryan a thank-you email. This essay is a longer version of it.
-
-There are too many people to thank, and I'm bad with names, which everyone who worked with me already knows. I'm going to try anyway, because remembering a name is the cheapest form of love and I owe a lot of it. To Mas Surya, who opened the door. To Ryan, for the shortcuts. To Dion, who is still putting up with me, now at Synetica. To Heryno, Adryn, Kartika, Riana, Mel and Ariefah. To the people who were there before I knew what I was doing: Eeng, Lutvi, Andy Khen. To everyone who shared a desk with five other people and never once complained to me directly, which I now realise was its own act of kindness.
+There are too many people to thank, and I'm bad with names, which everyone who worked with me already knows. I'm going to try anyway, because remembering a name is the cheapest form of love and I owe a lot of it. To Mas Surya, who opened the door. To Ryan, for always seeing the way through. To Dion, who is still putting up with me, now at [Synetica](https://synetica.co). To Heryno, Adryn, Kartika, Riana, Mel and Ariefah. To the people who were there before I knew what I was doing: Eeng, Lutvi, Andy Khen. To everyone who shared a desk with five other people and never once complained to me directly, which I now realise was its own act of kindness.
 
 And to Davo.
 

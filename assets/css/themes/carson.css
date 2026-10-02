@@ -6,7 +6,7 @@
 .theme-carson .piece__kicker { position: absolute; left: -6px; top: 100%; transform: rotate(-90deg); transform-origin: left top; white-space: nowrap; z-index: 2; }
 .theme-carson .piece__title { font-weight: 400; text-transform: uppercase; font-size: clamp(2.6rem, 8.6vw, 7.4rem); line-height: .84; letter-spacing: -.01em; transform: rotate(-2.5deg); margin-left: 24px; mix-blend-mode: multiply; }
 .theme-carson .piece__title::after { content: ""; display: block; height: 18px; width: 70%; background: var(--p-accent); margin-top: -0.55em; mix-blend-mode: multiply; transform: rotate(1deg); }
-.theme-carson .piece__dek { margin-left: auto; text-align: right; font-family: 'Courier Prime', monospace; font-style: italic; color: var(--p-ink); }
+.theme-carson .piece__dek { position: relative; z-index: 3; background: var(--p-bg); padding: 6px 10px; margin-top: 2.4rem; margin-left: auto; text-align: right; font-family: 'Courier Prime', monospace; font-style: italic; color: var(--p-ink); }
 .theme-carson .piece__byline { border-top: 0; justify-content: flex-end; }
 .theme-carson .piece__byline span:nth-child(2) { transform: rotate(4deg); background: var(--p-ink); color: var(--p-bg); padding: 0 6px; }
 .theme-carson .piece__cover img { filter: grayscale(1) contrast(1.8); mix-blend-mode: multiply; transform: rotate(1.5deg) scale(1.02); }

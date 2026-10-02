@@ -1,11 +1,17 @@
 /* William Morris, Kelmscott Press 1891: vines, black type, red initials, a whole book. */
 .theme-morris { --p-bg:#f2ead8; --p-ink:#1d1712; --p-muted:#5f5140; --p-accent:#8a2b1d; --p-rule:rgba(29,23,18,.3);
-  --p-display:'IM Fell English SC','IM Fell English',serif; --p-text:'IM Fell English',Georgia,serif; --p-meta:'IM Fell English SC',serif; --p-measure: 36em; --p-size: clamp(1.15rem,1.35vw,1.3rem); --p-lh:1.55; }
-.theme-morris .piece { max-width: 900px; margin-top: 28px; border: 14px solid transparent; padding: clamp(36px,6vw,72px) clamp(18px,5vw,64px);
-  border-image: repeating-linear-gradient(45deg, #2e4a2a 0 6px, #8a2b1d 6px 9px, #2e4a2a 9px 15px, #f2ead8 15px 18px) 14; }
+  --p-display:'Goudy Bookletter 1911','IM Fell English',serif; --p-text:'IM Fell English',Georgia,serif; --p-meta:'Goudy Bookletter 1911',serif; --p-measure: 36em; --p-size: clamp(1.15rem,1.35vw,1.3rem); --p-lh:1.55; }
+.theme-morris .piece { max-width: 900px; margin-top: 28px; border: 3px solid var(--p-ink); outline: 1px solid var(--p-ink); outline-offset: -10px; padding: clamp(40px,6vw,76px) clamp(22px,5vw,68px); }
+.theme-morris .piece__ornament { display: block; }
+.theme-morris .piece__ornament span { position: absolute; font-size: 1.6rem; line-height: 1; color: #2e4a2a; }
+.theme-morris .piece__ornament span::before { content: "❦"; }
+.theme-morris .piece__ornament span:nth-child(1) { top: 16px; left: 18px; }
+.theme-morris .piece__ornament span:nth-child(2) { top: 16px; right: 18px; transform: scaleX(-1); }
+.theme-morris .piece__ornament span:nth-child(3) { bottom: 16px; left: 18px; transform: scaleY(-1); }
+.theme-morris .piece__ornament span:nth-child(4) { bottom: 16px; right: 18px; transform: scale(-1); }
 .theme-morris .piece__head { text-align: center; }
 .theme-morris .piece__kicker { justify-content: center; text-transform: none; letter-spacing: .06em; font-size: 1rem; }
-.theme-morris .piece__title { font-weight: 400; font-size: clamp(2rem, 4.6vw, 3.4rem); line-height: 1.15; }
+.theme-morris .piece__title { font-weight: 400; text-transform: uppercase; letter-spacing: .04em; font-size: clamp(2rem, 4.6vw, 3.4rem); line-height: 1.15; }
 .theme-morris .piece__dek { margin: 16px auto 0; }
 .theme-morris .piece__byline { justify-content: center; text-transform: none; letter-spacing: .04em; font-size: .95rem; border-top: 0; }
 .theme-morris .piece__byline::before { content: "❦"; color: #2e4a2a; }
@@ -13,6 +19,6 @@
 .theme-morris .piece__body p { margin: 0 0 .2em; text-align: justify; hyphens: auto; }
 .theme-morris .piece__body p + p::before { content: "❧ "; color: var(--p-accent); }
 .theme-morris .piece__body > p:first-child::first-letter {
-  float: left; font-family: 'IM Fell English SC', serif; font-size: 3.6em; line-height: .9; padding: .12em .14em .02em; margin: .08em .12em 0 0;
+  float: left; font-family: 'Goudy Bookletter 1911', serif; font-size: 3.6em; line-height: .9; padding: .12em .14em .02em; margin: .08em .12em 0 0;
   color: #f2ead8; background: var(--p-accent); outline: 3px double var(--p-accent); outline-offset: 3px; }
 .theme-morris .piece__body h2 { text-align: center; font-weight: 400; color: var(--p-accent); }

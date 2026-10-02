@@ -86,7 +86,7 @@ Lupa siapa yang bilang, tapi mata uang utama bisnis adalah **trust**. Kalau calo
 
 Be transparent soal strength, dan jelaskan upfront limitasi produk/jasa—bahkan sebelum ditanya. Share struggle dan ceritakan bagaimana kamu menyelesaikannya. 
 
-![](/images/website-talking-point.png)
+![Talking points for a sales conversation](/images/website-talking-point.png)
 
 *Yes, ini contoh contekan. Selalu siapkan talking points. Ditato di tangan lebih oke lagi.*
 

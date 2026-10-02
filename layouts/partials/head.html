@@ -1,15 +1,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {{- $desc := or .Params.description .Summary site.Params.description | plainify | htmlUnescape | strings.TrimSpace | truncate 200 }}
-{{- $title := cond .IsHome (printf "%s: essays, books and miles from Yogyakarta" site.Title) (printf "%s · %s" (.Title | plainify) site.Title) }}
+{{- $t := .Params.seo_title | default (.Title | plainify) }}
+{{- $title := cond .IsHome (printf "%s: essays, books and miles from Yogyakarta" site.Title) (cond (gt (len $t) 55) $t (printf "%s · %s" $t site.Title)) }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <meta name="author" content="{{ site.Params.author }}">
 <link rel="canonical" href="{{ .Permalink }}">
+{{- if .Params.noindex }}<meta name="robots" content="noindex,follow">{{ end }}
 <meta name="theme-color" content="#f4efe6">
 <link rel="icon" href='{{ "images/favicon.png" | relURL }}' type="image/png">
-{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}
-{{- if not .IsHome }}{{ with site.Home.OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .Permalink }}" title="{{ site.Title }}">{{ end }}{{ end }}
+<link rel="alternate" type="application/rss+xml" href="{{ "index.xml" | absURL }}" title="{{ site.Title }}: essays">
 
 {{- /* Open Graph: absolute image URL, article metadata */}}
 {{- $img := or .Params.image .Params.cover site.Params.image }}
@@ -18,7 +19,7 @@
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
-<meta property="og:locale" content="{{ if eq (.Params.lang_code | default "id") "en" }}en_US{{ else }}id_ID{{ end }}">
+<meta property="og:locale" content="{{ if eq (.Params.lang_code | default "en") "id" }}id_ID{{ else }}en_US{{ end }}">
 {{- with $img }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
 {{- if .IsPage }}{{ with .Date }}<meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}{{ end }}
 <meta name="twitter:card" content="summary_large_image">
@@ -29,14 +30,16 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..900,0..100,0..1;1,9..144,300..900,0..100,0..1&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+{{- partial "specimen-fonts.html" . }}
 {{- $style := "" }}
 {{- if and .IsPage (eq .Section "articles") }}{{ $style = .Params.style }}{{ end }}
 {{- with $style }}{{ with index hugo.Data.styles . }}{{ with .fonts }}
 <link href="https://fonts.googleapis.com/css2?family={{ . | safeURL }}&display=swap" rel="stylesheet">
 {{- end }}{{ end }}{{ end }}
-{{- partial "specimen-fonts.html" . }}
+
 
 {{- $css := resources.Get "css/main.css" }}
 {{- with $style }}{{ with resources.Get (printf "css/themes/%s.css" .) }}{{ $css = slice $css . | resources.Concat (printf "css/site-%s.css" $style) }}{{ end }}{{ end }}
 {{- $css = $css | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+{{ partial "analytics.html" . }}

@@ -32,9 +32,9 @@ ttol:
 
 I'm Ganis. I was born in 1984, the same year as the Macintosh, and I have been trying to live up to both ever since.
 
-For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a colonial house to a couple of hundred across three offices. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
+For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a borrowed office to a couple of hundred across four. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
 
-In late 2025 I started **[Synetica](https://synetica.co)**. We help teams find out whether a product will work before they spend a fortune building it: two weeks to a tested prototype, then eight weeks to build the real thing if it deserves to exist. It's the company I wish my clients had had before they met me.
+In late 2025 I started **[Synetica](https://synetica.co)**. We help teams find out whether a product will work before they spend a fortune building it: two weeks to a tested prototype, then eight weeks to build the real thing if it deserves to exist. It's the company I wish had existed when those clients first walked in.
 
 Outside of work I am a husband to Gita and a father to Zen and Zia, who are better negotiators than most executives I've sat across from. Between six and nine in the evening my phone goes in a drawer. It doesn't always stay there.
 

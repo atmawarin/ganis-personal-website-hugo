@@ -1,10 +1,17 @@
 <footer class="colophon-foot">
+    {{- if not (or (and .IsPage (eq .Section "articles")) (eq .Section "newsletter")) }}
     <div class="colophon-foot__letters">
         <p class="slug">Letters</p>
         <h2 class="colophon-foot__title">An occasional letter, written by hand first.</h2>
         <p>New essays, the books that ruined my weekend, and whatever I learned while running too slowly. No schedule, no spam. Unsubscribe whenever you like; I won't take it personally, much.</p>
         {{ partial "subscribe.html" (dict "id" "foot") }}
     </div>
+    {{- else }}
+    <div class="colophon-foot__letters">
+        <p class="slug">Elsewhere</p>
+        <p>This is a personal site. The company is <a href="https://synetica.co">Synetica</a>, and the running is <a href="/running/log/">logged live</a>. The rest of the essays are <a href="/articles/">here</a>.</p>
+    </div>
+    {{- end }}
     <div class="colophon-foot__about">
         <p class="slug">Who</p>
         <p>Ganis Angger Atmawarin. Born 1984. Yogyakarta. Slightly blurry vision, five foot six, black hair. Chicken at parties, lion at ping-pong. Runs <a href="https://synetica.co">Synetica</a>, a small product company that helps teams prove an idea before they build it.</p>

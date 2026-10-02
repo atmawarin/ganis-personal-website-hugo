@@ -51,7 +51,7 @@
         <p class="slug">Another specimen</p>
         <ol class="mini-index">
         {{ range $related }}{{ $rs := index hugo.Data.styles (.Params.style | default "") }}
-            <li><a href="{{ .RelPermalink }}"><span class="mini-index__title" {{ with $rs }}style="font-family: {{ .stack | safeCSS }}"{{ end }}>{{ .Title }}</span><span class="mini-index__meta">{{ with $rs }}{{ .designer }}, {{ .year }}{{ end }}</span></a></li>
+            <li><a href="{{ .RelPermalink }}"><span class="mini-index__title" {{ with $rs }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ .Title }}</span><span class="mini-index__meta">{{ with $rs }}{{ .designer }}, {{ .year }}{{ end }}</span></a></li>
         {{ end }}
         </ol>
         <nav class="prevnext" aria-label="Essays">

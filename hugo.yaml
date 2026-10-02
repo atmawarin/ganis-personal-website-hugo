@@ -75,6 +75,10 @@ params:
   location: "Yogyakarta, Indonesia"
   image: "images/og-default.png"
   newsletter_action: "https://atmawarin.us4.list-manage.com/subscribe/post?u=14e57e1e8c6e66dc0fd26741c&id=1ea4f07034"
+  # Set one of these to switch analytics on (production builds only).
+  analytics:
+    ga4: ""
+    plausible: ""
   sameAs:
     - "https://synetica.co"
 

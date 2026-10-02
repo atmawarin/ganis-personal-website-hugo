@@ -1,0 +1,2 @@
+{{- /* Inline font declaration for a style registry entry: family, weight, italic. */ -}}
+{{- with . -}}font-family: {{ .stack }}; font-weight: {{ .weight | default 400 }}; font-style: {{ if .italic }}italic{{ else }}normal{{ end }};{{- end -}}

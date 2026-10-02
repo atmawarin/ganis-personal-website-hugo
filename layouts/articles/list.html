@@ -7,11 +7,14 @@
     <h1 class="title-block__h">Specimens</h1>
     <p class="title-block__dek">Essays from 2011 to now, about building companies, books, running, family and the gap between the plan and what actually happened. Each one is set in the manner of a different designer from a different century, because I could not pick a favourite. About half are in Bahasa Indonesia.</p>
 </section>
-<div class="filters" role="group" aria-label="Filter essays">
-    <button type="button" data-filter="all" aria-pressed="true">All</button>
-    <button type="button" data-filter="en" aria-pressed="false">English</button>
-    <button type="button" data-filter="id" aria-pressed="false">Bahasa</button>
-    {{ range site.Taxonomies.tags.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}
+<div class="filters">
+    <div class="filters__lang" role="group" aria-label="Filter essays by language">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="en" aria-pressed="false">English</button>
+        <button type="button" data-filter="id" aria-pressed="false">Bahasa</button>
+    </div>
+    <nav class="topics" aria-label="Topics">{{ range site.Taxonomies.tags.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}</nav>
+    <p class="filters__count" aria-live="polite">{{ len $all }} of {{ len $all }}</p>
 </div>
 <ol class="specimen-index">
     {{ range $all.Reverse }}

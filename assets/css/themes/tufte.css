@@ -2,7 +2,8 @@
 .theme-tufte { --p-bg:#fffff8; --p-ink:#111; --p-muted:#555; --p-accent:#a00000; --p-rule:rgba(17,17,17,.2);
   --p-display:'Crimson Pro','ET Book',Palatino,serif; --p-text:'Crimson Pro','ET Book',Palatino,serif; --p-meta:'Crimson Pro',serif; --p-measure: 34em; --p-size: clamp(1.18rem,1.4vw,1.38rem); --p-lh:1.55; }
 .theme-tufte .piece { max-width: 1180px; }
-.theme-tufte .piece__head, .theme-tufte .piece__body, .theme-tufte .piece__end, .theme-tufte .piece__cover { margin-left: clamp(0px, 8vw, 120px); }
+.theme-tufte .piece__head { max-width: var(--p-measure); }
+@media (min-width: 1100px) { .theme-tufte .piece__head, .theme-tufte .piece__body, .theme-tufte .piece__end, .theme-tufte .piece__cover { transform: translateX(-8em); } }
 .theme-tufte .piece__kicker { text-transform: none; font-style: italic; letter-spacing: 0; font-size: 1.05rem; }
 .theme-tufte .piece__title { font-weight: 400; font-style: italic; font-size: clamp(2.4rem, 5.4vw, 3.8rem); line-height: 1.08; }
 .theme-tufte .piece__dek { font-size: 1.4rem; }

@@ -8,10 +8,12 @@ gutenberg:
   work: "The 42-line Bible"
   place: "Mainz"
   year: 1455
-  faces: "UnifrakturMaguntia & EB Garamond"
-  fonts: "UnifrakturMaguntia&family=EB+Garamond:ital,wght@0,400;0,600;1,400"
-  display: "UnifrakturMaguntia"
-  stack: "'UnifrakturMaguntia', 'EB Garamond', serif"
+  faces: "Texturina & EB Garamond"
+  fonts: "Texturina:opsz,wght@12..72,400..900&family=EB+Garamond:ital,wght@0,400;0,600;1,400"
+  display: "Texturina:wght@700"
+  weight: 700
+  italic: false
+  stack: "'Texturina', 'EB Garamond', serif"
   ink: "#b3261e"
   note: "Movable type, black ink cooked from lampblack and linseed oil, and a red rubricator going over the capitals by hand afterwards. Gutenberg went broke doing it and his investor took the shop. Every book since owes him something; nobody paid him."
 aldus:
@@ -22,6 +24,8 @@ aldus:
   faces: "Cardo"
   fonts: "Cardo:ital,wght@0,400;0,700;1,400"
   display: "Cardo:ital@1"
+  weight: 400
+  italic: true
   stack: "'Cardo', Georgia, serif"
   ink: "#7a1f1f"
   note: "Aldus had Francesco Griffo cut the first italic so he could fit Virgil into a book small enough to carry. The paperback, the anchor-and-dolphin colophon and the semicolon as we use it all came out of his Venetian shop."
@@ -30,10 +34,12 @@ morris:
   work: "Kelmscott Press"
   place: "Hammersmith"
   year: 1891
-  faces: "IM Fell English"
-  fonts: "IM+Fell+English:ital@0;1&family=IM+Fell+English+SC"
-  display: "IM+Fell+English+SC"
-  stack: "'IM Fell English SC', 'IM Fell English', serif"
+  faces: "Goudy Bookletter 1911 (for the Golden Type) & IM Fell English"
+  fonts: "Goudy+Bookletter+1911&family=IM+Fell+English:ital@0;1"
+  display: "Goudy+Bookletter+1911"
+  weight: 400
+  italic: false
+  stack: "'Goudy Bookletter 1911', 'IM Fell English', serif"
   ink: "#8a2b1d"
   note: "Morris looked at Victorian printing and hated it, so at 57 he started his own press: handmade paper, thick black type and vines climbing up every margin. He believed a book should be a whole object and that ugly things wear people down."
 caslon:
@@ -44,6 +50,8 @@ caslon:
   faces: "Libre Caslon Text & Libre Caslon Display"
   fonts: "Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Caslon+Display"
   display: "Libre+Caslon+Display"
+  weight: 400
+  italic: false
   stack: "'Libre Caslon Display', 'Libre Caslon Text', Georgia, serif"
   ink: "#6b1d1d"
   note: "Printers had a saying: when in doubt, use Caslon. It is the type of the first printing of the American Declaration of Independence, and it was chosen because it was trusted, not because it was clever. Good for a letter of thanks."
@@ -51,10 +59,12 @@ woodtype:
   designer: "The wood-type poster printers"
   work: "Playbills & circus broadsides"
   place: "Two Rivers, Wisconsin"
-  year: 1870
+  year: 1880
   faces: "Rye, Alfa Slab One & Libre Baskerville"
   fonts: "Rye&family=Alfa+Slab+One&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400"
   display: "Rye"
+  weight: 400
+  italic: false
   stack: "'Rye', 'Alfa Slab One', serif"
   ink: "#b22a1c"
   note: "Metal type was too heavy for big posters, so in the 19th century people cut letters out of end-grain maple. Showmen set five typefaces on one sheet and shouted in every one. Taste had nothing to do with it. The type had to stop you in the street."
@@ -63,9 +73,11 @@ bauhaus:
   work: "Bauhausbücher"
   place: "Dessau"
   year: 1925
-  faces: "Jost (after Futura)"
+  faces: "Jost (after Futura, 1927)"
   fonts: "Jost:ital,wght@0,300..800;1,400..600"
   display: "Jost:wght@800"
+  weight: 800
+  italic: false
   stack: "'Jost', 'Futura', sans-serif"
   ink: "#e1402a"
   note: "Moholy-Nagy said typography is communication in its most intense form. He once ordered paintings by telephone, reading coordinates to a sign factory, to prove the idea mattered more than the hand. Primary colours, thick rules, and type as architecture."
@@ -74,10 +86,12 @@ rodchenko:
   work: "Lengiz poster, 'Books!'"
   place: "Moscow"
   year: 1924
-  faces: "Oswald, Rubik Mono One & PT Sans"
-  fonts: "Oswald:wght@500;700&family=Rubik+Mono+One&family=PT+Sans:ital,wght@0,400;0,700;1,400"
-  display: "Rubik+Mono+One"
-  stack: "'Rubik Mono One', 'Oswald', sans-serif"
+  faces: "Big Shoulders Display, Oswald & PT Sans"
+  fonts: "Big+Shoulders+Display:wght@700;900&family=Oswald:wght@500;700&family=PT+Sans:ital,wght@0,400;0,700;1,400"
+  display: "Big+Shoulders+Display:wght@900"
+  weight: 900
+  italic: false
+  stack: "'Big Shoulders Display', 'Oswald', sans-serif"
   ink: "#d1261b"
   note: "Constructivism: red, black, diagonals and a typeface built from ruler and compass. Rodchenko wanted art that worked for the people doing the work. His poster of Lilya Brik shouting 'Books!' is still the loudest page anyone has printed."
 cassandre:
@@ -88,9 +102,11 @@ cassandre:
   faces: "Limelight & Josefin Sans"
   fonts: "Limelight&family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,400"
   display: "Limelight"
+  weight: 400
+  italic: false
   stack: "'Limelight', 'Josefin Sans', sans-serif"
   ink: "#c7962f"
-  note: "Cassandre painted trains and ocean liners as pure geometry: vanishing points, long shadows and gold lettering. His posters sold travel as a feeling. Thirty years later he drew the Yves Saint Laurent monogram, which is still on the bags."
+  note: "Cassandre painted trains and ocean liners as pure geometry: vanishing points, long shadows and gold lettering. His posters sold travel as a feeling. Thirty-four years later he drew the Yves Saint Laurent monogram, which is still on the bags."
 kr1945:
   designer: "The compositors of Kedaulatan Rakyat"
   work: "Daily newspaper, first issue 27 September 1945"
@@ -99,9 +115,11 @@ kr1945:
   faces: "Old Standard TT & Playfair Display SC"
   fonts: "Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Playfair+Display+SC:wght@700;900"
   display: "Playfair+Display+SC:wght@900"
+  weight: 900
+  italic: false
   stack: "'Playfair Display SC', 'Old Standard TT', serif"
   ink: "#1f1b16"
-  note: "Kedaulatan Rakyat was founded in Yogyakarta six weeks after independence and set by hand in hot-metal letterpress. The people who set it did not sign their work. This page is for them and for the city that has been reading them ever since."
+  note: "Kedaulatan Rakyat was founded in Yogyakarta six weeks after independence set in metal type and printed letterpress. The people who set it did not sign their work. This page is for them and for the city that has been reading them ever since."
 penguin:
   designer: "Jan Tschichold"
   work: "The Penguin Composition Rules"
@@ -110,9 +128,11 @@ penguin:
   faces: "Gill Sans (Lato on most screens) & Spectral"
   fonts: "Lato:wght@400;700;900&family=Spectral:ital,wght@0,400;0,600;1,400"
   display: "Lato:wght@900"
+  weight: 900
+  italic: false
   stack: "'Gill Sans', 'Gill Sans MT', 'Lato', sans-serif"
   ink: "#e4632b"
-  note: "In 1928 Tschichold wrote that symmetry was dead. Twenty years later he went to Penguin, redesigned some 500 paperbacks and put the symmetry back. The orange-white-orange band is the reason a whole country associates cheap books with good taste."
+  note: "In 1928 Tschichold wrote that symmetry was dead. Twenty years later he went to Penguin, redesigned some 500 paperbacks and put the symmetry back. He kept and refined Edward Young's orange-white-orange band from 1935, which is why a whole country associates cheap books with good taste."
 swiss:
   designer: "Josef Müller-Brockmann"
   work: "Tonhalle concert posters"
@@ -121,17 +141,21 @@ swiss:
   faces: "Inter Tight (for Akzidenz-Grotesk)"
   fonts: "Inter+Tight:ital,wght@0,400;0,500;0,700;0,800;1,400"
   display: "Inter+Tight:wght@800"
+  weight: 800
+  italic: false
   stack: "'Inter Tight', 'Helvetica Neue', Helvetica, Arial, sans-serif"
   ink: "#e2231a"
   note: "Müller-Brockmann thought a grid was a moral position: objective, ordered, useful. He also said the grid is an aid, not a guarantee. Flush left, ragged right, sizes that move by ratio, and nothing on the page without a reason to be there."
 rams:
   designer: "Dieter Rams"
   work: "Braun SK 4 & the ten principles"
-  place: "Kronberg"
-  year: 1961
+  place: "Frankfurt"
+  year: 1956
   faces: "Manrope (for Akzidenz-Grotesk)"
   fonts: "Manrope:wght@300;400;600;800"
   display: "Manrope:wght@300"
+  weight: 300
+  italic: false
   stack: "'Manrope', 'Helvetica Neue', sans-serif"
   ink: "#e8611a"
   note: "Weniger, aber besser: less, but better. Rams put radios in white boxes with one orange switch, and spent forty years telling people that good design is as little design as possible. Apple's calculator app borrowed from his Braun ET 66, and he said he took it as a compliment."
@@ -143,6 +167,8 @@ rand:
   faces: "Zilla Slab (for City Medium)"
   fonts: "Zilla+Slab:ital,wght@0,400;0,600;0,700;1,400"
   display: "Zilla+Slab:wght@700"
+  weight: 700
+  italic: false
   stack: "'Zilla Slab', 'Rockwell', serif"
   ink: "#1f5fbf"
   note: "Rand gave IBM stripes, gave UPS a bow on a parcel, and showed Steve Jobs a 100-page book with one logo in it and no alternatives. He believed design is the method of putting form and content together, and that playfulness is serious work."
@@ -154,6 +180,8 @@ lubalin:
   faces: "Playfair Display & Questrial"
   fonts: "Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Questrial"
   display: "Playfair+Display:ital,wght@1,900"
+  weight: 900
+  italic: true
   stack: "'Playfair Display', 'Didot', serif"
   ink: "#111111"
   note: "Lubalin set letters so close that they kissed, then let them overlap. He called it 'typographics': type that does not just say the word but acts it out. For him a headline was a picture you could read."
@@ -165,6 +193,8 @@ crouwel:
   faces: "Major Mono Display & Archivo"
   fonts: "Major+Mono+Display&family=Archivo:wght@400;600;800"
   display: "Major+Mono+Display"
+  weight: 400
+  italic: false
   stack: "'Major Mono Display', 'Archivo', monospace"
   ink: "#0d6efd"
   note: "Crouwel left the grid visible on his posters, like scaffolding nobody took down. His New Alphabet (1967) was drawn for early computer screens and was nearly unreadable, which Crouwel thought was an acceptable price for the future. People called him Mr. Gridnik."
@@ -176,9 +206,11 @@ aicher:
   faces: "Barlow (for Univers)"
   fonts: "Barlow:ital,wght@0,300;0,400;0,600;0,800;1,400"
   display: "Barlow:wght@800"
+  weight: 800
+  italic: false
   stack: "'Barlow', 'Univers', sans-serif"
   ink: "#2c8c4a"
-  note: "Aicher designed the 1972 Olympics to be the opposite of 1936: no red, no black, no gold, only sky blue, green, silver and a cheerful orange. He also drew the stick-figure sport pictograms every airport and stadium still uses."
+  note: "Aicher designed the 1972 Olympics to be the opposite of 1936: no red, no black, no gold, only sky blue, green, silver and a cheerful orange. He also drew the definitive set of stick-figure sport pictograms, the ones airports and stadiums still borrow."
 vignelli:
   designer: "Massimo Vignelli"
   work: "The Unigrid for the US National Park Service"
@@ -187,9 +219,11 @@ vignelli:
   faces: "Bodoni Moda & Helvetica"
   fonts: "Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900"
   display: "Bodoni+Moda:wght@700"
+  weight: 700
+  italic: false
   stack: "'Bodoni Moda', 'Bodoni 72', Didot, serif"
   ink: "#000000"
-  note: "Vignelli said you need maybe five typefaces in a lifetime, and he mostly used two. The black band across the top of every National Park brochure is his. He hated vulgarity, loved discipline, and wanted everything designed from a spoon to a city."
+  note: "Vignelli said you need maybe five typefaces in a lifetime, and he mostly used two. The black band across the top of every National Park brochure is his. He hated vulgarity, loved discipline, and borrowed Ernesto Rogers' line that design runs from the spoon to the city."
 saville:
   designer: "Peter Saville"
   work: "Factory Records, FACT 10 'Unknown Pleasures'"
@@ -198,6 +232,8 @@ saville:
   faces: "Archivo Narrow"
   fonts: "Archivo+Narrow:ital,wght@0,400;0,600;0,700;1,400"
   display: "Archivo+Narrow:wght@700"
+  weight: 700
+  italic: false
   stack: "'Archivo Narrow', 'Helvetica Neue Condensed', sans-serif"
   ink: "#f2f2f2"
   note: "Saville put radio-pulsar data on a black sleeve with no band name and no title, and it became one of the most worn images in the world. Factory gave catalogue numbers to records, posters, a nightclub and eventually its founder's coffin."
@@ -206,9 +242,11 @@ kare:
   work: "The original Macintosh icons & Chicago"
   place: "Cupertino"
   year: 1984
-  faces: "Pixelify Sans & Atkinson Hyperlegible"
-  fonts: "Pixelify+Sans:wght@400;700&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400"
+  faces: "Pixelify Sans & Source Sans 3 (for Geneva)"
+  fonts: "Pixelify+Sans:wght@400;700&family=Source+Sans+3:ital,wght@0,400;0,700;1,400"
   display: "Pixelify+Sans:wght@700"
+  weight: 700
+  italic: false
   stack: "'Pixelify Sans', 'Chicago', monospace"
   ink: "#000000"
   note: "Kare drew the happy Mac, the trash can and the command key on graph paper, 32 by 32 squares at a time. She proved a computer could have a sense of humour. The Macintosh shipped in 1984, the year I was born, which I choose to take personally."
@@ -220,6 +258,8 @@ carson:
   faces: "Anton & Courier Prime"
   fonts: "Anton&family=Courier+Prime:ital,wght@0,400;0,700;1,400"
   display: "Anton"
+  weight: 400
+  italic: false
   stack: "'Anton', 'Impact', sans-serif"
   ink: "#ff3b1f"
   note: "Carson once found a Bryan Ferry interview so dull that he set the whole thing in Zapf Dingbats. Ray Gun broke every rule Müller-Brockmann wrote, and people read it anyway. He was a pro surfer before he was a designer. Don't mistake legibility for communication, he said."
@@ -231,6 +271,8 @@ georgia:
   faces: "Georgia & Verdana (no web fonts, on purpose)"
   fonts: ""
   display: ""
+  weight: 400
+  italic: false
   stack: "Georgia, 'Times New Roman', serif"
   ink: "#0000ee"
   note: "Microsoft asked Carter for typefaces that would survive low-resolution screens. He drew the pixels first and the outlines second. Georgia and Verdana ended up on every computer on earth, so this page loads no fonts at all. It is set in what you already have."
@@ -242,6 +284,8 @@ tufte:
   faces: "Crimson Pro (for ET Bembo)"
   fonts: "Crimson+Pro:ital,wght@0,400;0,600;1,400"
   display: "Crimson+Pro:ital@1"
+  weight: 400
+  italic: true
   stack: "'Crimson Pro', 'ET Book', Palatino, serif"
   ink: "#a00000"
   note: "Tufte self-published his book because publishers would not print it to his standard. He asks for the most data with the least ink, notes in the margin rather than at the bottom, and no chartjunk. Wide margins are where a careful reader thinks."
@@ -253,6 +297,8 @@ muji:
   faces: "Shippori Mincho & Zen Kaku Gothic New"
   fonts: "Shippori+Mincho:wght@400;600&family=Zen+Kaku+Gothic+New:wght@300;400;700"
   display: "Shippori+Mincho:wght@600"
+  weight: 600
+  italic: false
   stack: "'Shippori Mincho', 'Hiragino Mincho ProN', serif"
   ink: "#7f0019"
   note: "Hara photographed a man standing alone on the salt flats of Bolivia and called it an advertisement. For him emptiness is not nothing. It is a vessel the viewer fills. Muji means 'no brand', which turned out to be a very strong brand."
@@ -264,6 +310,8 @@ gerobak:
   faces: "Bungee & Rubik"
   fonts: "Bungee&family=Bungee+Shade&family=Rubik:ital,wght@0,400;0,600;0,800;1,400"
   display: "Bungee"
+  weight: 400
+  italic: false
   stack: "'Bungee', 'Rubik', sans-serif"
   ink: "#e0262a"
   note: "No design school taught the people who paint BAKSO MAS GENDUT in red and yellow on a pushcart, and their work sells more soup than most agencies sell anything. Shadowed caps, a dropped stroke, and a phone number painted bigger than the menu."

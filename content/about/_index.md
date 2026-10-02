@@ -24,7 +24,7 @@ timeline:
     t: "Year theme: *Prove*. Still running, still reading, still uninstalling Mobile Legends."
 ttol:
   options:
-    - "I have visited nine countries."
+    - "I have reached Mythic rank in Mobile Legends."
     - "I studied Economics, not Computer Science."
     - "I have run a 42 km marathon."
   verdict: "Trick question. All three are true. I've done this at new-hire meetings for years, and nobody has ever enjoyed it as much as I do."

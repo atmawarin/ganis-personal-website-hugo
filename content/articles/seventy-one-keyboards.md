@@ -1,7 +1,7 @@
 ---
 title: "Seventy-One Keyboards"
-description: "During the pandemic I bought, borrowed, built, scored and let go of seventy-one mechanical keyboards. I kept five. None of them is the best one."
-dek: "I scored seventy-one keyboards in a database, let the two best go, and kept the ones that don't hurt."
+description: "During the pandemic I bought, borrowed, built, scored and let go of seventy-one mechanical keyboards. I kept five. The best one only scored 23."
+dek: "I scored seventy-one keyboards in a database. My favourite came third, from a maker I don't like."
 seo_title: "Seventy-One Keyboards"
 date: 2026-10-02
 tags: ["life", "design"]
@@ -20,7 +20,7 @@ I meant it as a joke. I'd like that on the record.
 
 ## The database
 
-Eventually there were seventy-one of them. Not all of them were mine. People in the Indonesian keyboard community lend each other boards the way other people lend each other books, so some of the seventy-one came to stay for a few weeks and then went home.
+Eventually there were seventy-one of them. Not all of them were mine. People in the Indonesian keyboard community lend each other boards the way other people lend each other books, so some of the seventy-one came to stay for a few weeks and then went home. Three of the names in the database end in "Tsara", which is the community nickname of the person who lent them, and who trusted me with them. Another came from a kid in Solo who lent me one of his own boards. I've been in a lot of communities. This is one of the kind ones, as long as you choose your corner. There are keyboard warriors here too, people who will explain at length why your switches are wrong. You learn which group chats to leave.
 
 I know the number because I built a database. It's called Browntosaurus. It has a dinosaur emoji, and it has tabs: one for keyboards, one for keycaps, one for switches, one called "Experience" and one called "Build Goal". Every keyboard has a photo, a status, and a score made from five columns: aesthetics, build quality, typing feel, features and sound. Sound counts double. I decided that at some point and wrote it into the column name, "Sound Pref (2x)", so that future me couldn't argue.
 
@@ -52,7 +52,7 @@ That's the pattern, and it took me a long time to notice it. Sixty-six of the se
 
 {{< figure src="images/articles/keyboards/browntosaurus-ranked.jpg" alt="Browntosaurus master view: a ranked table of keyboards with star ratings for aesthetics, build quality, sound, typing and features" caption="The master view. Count the orange 'Sold/Returned' tags. Then count the green ones." >}}
 
-The two highest-scoring keyboards I've ever had on my desk are both on that list. One is the Matrix 1.2OG, about which I wrote, *Might be board paling ganteng yang pernah dipegang*: maybe the most handsome board I've ever held. It scored 26. The other is the Jaguar, which I described as having *near damn perfect keyboard sound* and weighing so much that *if you keep moving board all around, this is just ridiculously heavy.* It also scored 26. The Jaguar was never mine. It belongs to Sarah, who lent it to me, and I gave it back, which is the correct thing to do with a perfect keyboard that belongs to someone else, and which I did slowly.
+The two highest-scoring keyboards I've ever had on my desk are both on that list. One is the Matrix 1.2OG, about which I wrote, *Might be board paling ganteng yang pernah dipegang*: maybe the most handsome board I've ever held. It scored 26. The other is the Jaguar, which I described as having *near damn perfect keyboard sound* and weighing so much that *if you keep moving board all around, this is just ridiculously heavy.* It also scored 26. The Jaguar was never mine. It belongs to Tsara, who lent it to me, and I gave it back, which is the correct thing to do with a perfect keyboard that belongs to someone else, and which I did slowly.
 
 The Matrix I let go myself.
 
@@ -64,7 +64,7 @@ There's a line in another build note that I think explains the whole hobby: *Rep
 
 So what did I keep?
 
-I kept a numpad that, in my own words, *can seem like a meme*. I kept a heavy board called Sagittarius, which weighs *3.1 or 3.2 kg* and about which I wrote that it *feels like a keyboard that you can still use 10 years in the future.* I kept the Alice Copper, the Mother of Thocc. I kept an Alice in polycarbonate. And I kept one called Libra40, which has never been scored at all. The spreadsheet gives it a zero.
+I kept a numpad that, in my own words, *can seem like a meme*. I kept a heavy board called Sagittarius, which weighs *3.1 or 3.2 kg* and about which I wrote that it *feels like a keyboard that you can still use 10 years in the future.* I kept the Alice Copper, the Mother of Thocc. I kept an Alice in polycarbonate called the Aquila, and I'll come back to it. And I kept one called Libra40, which has never been scored at all. The spreadsheet gives it a zero.
 
 Four of the five are Alices. An Alice is a keyboard bent in the middle, its two halves angled apart, so that your hands sit the way hands actually want to sit, a little apart, wrists turned in. It's not a beautiful idea at first. It looks like a keyboard that has been dropped.
 
@@ -78,8 +78,20 @@ The most comfortable to use. You can use it for hours without worrying that your
 
 That's it. That's the review. After seventy-one keyboards and a five-column scoring system with sound counted double, the ones I kept aren't the ones that scored highest. They're the ones that took a week to learn and then never hurt.
 
+## The Aquila
+
+There's one more thing the database gets wrong.
+
+If you ask me which keyboard is my best, I won't say the Matrix or the Jaguar, the two 26s. I'll say the Aquila, the polycarbonate Alice, which scored 23 and got a bronze medal. Its maker built a few Aquilas, but only one in polycarbonate, and it's on my desk.
+
+I should be honest about the maker. I don't like him very much. He's a little snobbish, and in a community that's mostly kind, it shows. He is also, and I say this through my teeth, one of the best keyboard builders I've come across. The Aquila is god damn great. It doesn't care what I think of the man who made it, and I've had to accept that it's possible to love the work and not the worker, which is a thing I'd been told about artists and never believed until it happened to me with a keyboard.
+
+So the best keyboard I own came third in my own ranking, from a man I'd rather not have coffee with, and I would not sell it for anything.
+
+---
+
 I think I knew this about other things before I knew it about keyboards. I just needed to spend a pandemic and an amount of money I'm not going to tell you to find it out with my hands.
 
-My 2021 annual review lists the biggest source of stress that year. It wasn't work, and it wasn't the pandemic. It was "keyboard-related debt." The database is still there, and it still says seventy-one. The Matrix and the Jaguar are still at the top of it, with their photos, sounding perfect in my memory.
+My 2021 annual review lists the biggest source of stress that year. It wasn't work, and it wasn't the pandemic. It was "keyboard-related debt." The database is still there, and it still says seventy-one, with the two 26s at the top, sounding perfect in my memory. One went back to Tsara. One went somewhere I don't remember.
 
-Neither of them is here. One went back to Sarah and one went somewhere I don't remember. What's here are the ones that don't hurt.
+The best one I own scored 23.

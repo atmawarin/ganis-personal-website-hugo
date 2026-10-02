@@ -55,3 +55,12 @@
   - Buffett's "25-5 rule" is now marked as apocryphal.
 - **Keyboards:** *Silver Is Incompetence* now uses the real Browntosaurus figures: 71 keyboards, and medals that disagree with the rankings.
 - **Left for Ganis:** in the 180-hours essay, "8 + 104 + 60" adds up to 172, not 180. It's your original text, so it hasn't been changed.
+
+## After ship: two additions Ganis asked for
+- **Seventy-One Keyboards** (No. 25, set after Giovanni Pintori, Olivetti, 1953).
+  - Written from the Browntosaurus Airtable exports, with two screenshots of the shared view.
+  - Some keyboards were borrowed from the community. The Jaguar is Sarah's.
+- **Indonesian voice pass.** All 13 Bahasa essays were rewritten to one voice, "Ganis in Bahasa".
+  - The voice draws on Umar Kayam's warmth, Mojok's self-mockery, and Ganis's own code-switching.
+  - The guide is in `04-indonesian-voice-guide.md`.
+  - Facts, quotes and structure are unchanged. One anachronism was removed: Zia appeared in a 2019 essay.

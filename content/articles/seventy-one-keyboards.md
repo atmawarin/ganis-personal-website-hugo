@@ -1,7 +1,7 @@
 ---
 title: "Seventy-One Keyboards"
-description: "During the pandemic I bought, built, scored and sold seventy-one mechanical keyboards. I kept five. None of them is the best one."
-dek: "I scored seventy-one keyboards in a database, sold the two best, and kept the one that doesn't hurt."
+description: "During the pandemic I bought, borrowed, built, scored and let go of seventy-one mechanical keyboards. I kept five. None of them is the best one."
+dek: "I scored seventy-one keyboards in a database, let the two best go, and kept the ones that don't hurt."
 seo_title: "Seventy-One Keyboards"
 date: 2026-10-02
 tags: ["life", "design"]
@@ -20,7 +20,7 @@ I meant it as a joke. I'd like that on the record.
 
 ## The database
 
-Eventually there were seventy-one of them.
+Eventually there were seventy-one of them. Not all of them were mine. People in the Indonesian keyboard community lend each other boards the way other people lend each other books, so some of the seventy-one came to stay for a few weeks and then went home.
 
 I know the number because I built a database. It's called Browntosaurus. It has a dinosaur emoji, and it has tabs: one for keyboards, one for keycaps, one for switches, one called "Experience" and one called "Build Goal". Every keyboard has a photo, a status, and a score made from five columns: aesthetics, build quality, typing feel, features and sound. Sound counts double. I decided that at some point and wrote it into the column name, "Sound Pref (2x)", so that future me couldn't argue.
 
@@ -44,19 +44,19 @@ Of the 60% layout: this is the layout that drags people into the deepest valley 
 
 Of the IBM Model M, the beige 1980s keyboard that weighs about as much as a small dog and that people in this hobby speak of the way monks speak of the Gutenberg Bible: *Keyboard alien. Cockpit.*
 
-Of the IBM Model F, which is older and more revered: *rugged.* One word. I had nothing else to say. It scored 24, which is very high, and I sold it.
+Of the IBM Model F, which is older and more revered: *rugged.* One word. I had nothing else to say. It scored 24, which is very high, and it's gone.
 
 ## The sixty-six
 
-That's the pattern, and it took me a long time to notice it. Sixty-six of the seventy-one keyboards have the status "Sold/Returned".
+That's the pattern, and it took me a long time to notice it. Sixty-six of the seventy-one keyboards have the status "Sold/Returned". Some I sold. Some I gave back to the friends who lent them.
 
 {{< figure src="images/articles/keyboards/browntosaurus-ranked.jpg" alt="Browntosaurus master view: a ranked table of keyboards with star ratings for aesthetics, build quality, sound, typing and features" caption="The master view. Count the orange 'Sold/Returned' tags. Then count the green ones." >}}
 
-The two highest-scoring keyboards I've ever owned are both on that list. One is the Matrix 1.2OG, about which I wrote, *Might be board paling ganteng yang pernah dipegang*: maybe the most handsome board I've ever held. It scored 26. The other is the Jaguar, which I described as having *near damn perfect keyboard sound* and weighing so much that *if you keep moving board all around, this is just ridiculously heavy.* It also scored 26.
+The two highest-scoring keyboards I've ever had on my desk are both on that list. One is the Matrix 1.2OG, about which I wrote, *Might be board paling ganteng yang pernah dipegang*: maybe the most handsome board I've ever held. It scored 26. The other is the Jaguar, which I described as having *near damn perfect keyboard sound* and weighing so much that *if you keep moving board all around, this is just ridiculously heavy.* It also scored 26. The Jaguar was never mine. It belongs to Sarah, who lent it to me, and I gave it back, which is the correct thing to do with a perfect keyboard that belongs to someone else, and which I did slowly.
 
-I sold them both.
+The Matrix I let go myself.
 
-I've tried to work out why. They were perfect, and perfect turned out to be a strange thing to own. You stop typing on it and start guarding it. You notice the one key that's a little scratchy. You write in the build notes, *Rebuild to fix the scratchiness*, and the best keyboard you've ever owned becomes a project with an open ticket.
+I've tried to work out why. It was perfect, and perfect turned out to be a strange thing to own. You stop typing on it and start guarding it. You notice the one key that's a little scratchy. You write in the build notes, *Rebuild to fix the scratchiness*, and the best keyboard you've ever owned becomes a project with an open ticket.
 
 There's a line in another build note that I think explains the whole hobby: *Reprint the Browntosaurus logo and make it more centered.* That's a note about the sticker I made for my own database.
 
@@ -82,4 +82,4 @@ I think I knew this about other things before I knew it about keyboards. I just 
 
 My 2021 annual review lists the biggest source of stress that year. It wasn't work, and it wasn't the pandemic. It was "keyboard-related debt." The database is still there, and it still says seventy-one. The Matrix and the Jaguar are still at the top of it, with their photos, sounding perfect in my memory.
 
-I don't own either of them. I own the ones that don't hurt.
+Neither of them is here. One went back to Sarah and one went somewhere I don't remember. What's here are the ones that don't hurt.

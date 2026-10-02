@@ -57,9 +57,11 @@ I don't think that about anyone else, only about me, and only, apparently, in ga
 
 Mobile Legends isn't my only offence. For a while, during the pandemic, it was mechanical keyboards.
 
-I ended up with, to use the technical term from my own notes, a "bajillion" of them. The real number is seventy-one. I know because there's a database. It's called Browntosaurus, it has a dinosaur emoji, and it has tabs for keycaps, for switches, for "Experience" and for "Build Goal". Seventy-one keyboards are in there, ranked from one to seventy-one, each with a status column. Of the top seventeen, three are still in the house.
+I ended up with, to use the technical term from my own notes, a "bajillion" of them. The real number is seventy-one. I know because there's a database. It's called Browntosaurus, it has a dinosaur emoji, and every keyboard gets a score built from aesthetics, typing feel, build quality, customisation and sound. Sound counts twice. I decided that, and I don't remember why.
 
-The rankings are where it gets interesting. I gave out medals as well as numbers, and the medals don't agree with the numbers. The keyboard ranked first has a silver medal. The gold medal went to the one ranked third. At number six is the IBM Model F, a keyboard from 1981 that people in this hobby talk about the way monks talk about the Gutenberg Bible, and it didn't get a medal at all.
+Sixty-six of the seventy-one have the status "Sold/Returned". Five are still in the house. The two highest-scoring keyboards I've ever owned, both at 26, are among the sixty-six I let go. One of the five I kept has never been scored at all, so the spreadsheet gives it a zero. I keep it anyway. I have no idea what that says about me.
+
+I also gave out medals, and the medals don't agree with the scores. There are two golds. One of them went to a keyboard scoring 20, which is lower than my silver (22) and my bronze (23). The IBM Model F, from 1981, the keyboard people in this hobby talk about the way monks talk about the Gutenberg Bible, scores 24 and didn't get a medal at all.
 
 I can't explain any of this. I built the system myself, with nobody watching, and I still couldn't keep it consistent. The biggest source of stress in my 2021 annual review, above work and the pandemic, was "keyboard-related debt."
 

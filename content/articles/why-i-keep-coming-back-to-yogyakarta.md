@@ -13,13 +13,13 @@ featured_order: 4
 
 The bridge. That's what I want to say when a friend asked why I choose to stay here.
 
-I was four at that time.
+I was four at that time. My aunt, Tante Tiwik, was a student in Yogyakarta, and she had brought me along to the city where she was studying.
 
 The sky started to darken, the lights on the sideways flickering and the rickshaw transport us lazily crawling through the empty street. Few pools of water splashed, emitting a pleasant sound as we crossed that bridge. The scent of the after rain is so strong in the air and there is a stoic patience of the city. "Easy," it says. Like I don't need to worry about my destination.
 
 That simple frame of the bridge somehow imprinted in my brain and never leave. I left the city a week later and carry on, hearing the story here and there from the distance, moved from one island to the other island within the country.
 
-What I remember most clearly, more clearly than the bridge itself, is the sound. Not the picture, which memory has overwritten and rebuilt so many times that I can't trust it anymore. The sound of water against stone, the rickshaw's creak, and my father's breathing next to me, even and unhurried. Nobody was in a hurry.
+What I remember most clearly, more clearly than the bridge itself, is the sound. Not the picture, which memory has overwritten and rebuilt so many times that I can't trust it anymore. The sound of water against stone, the rickshaw's creak, and Tante Tiwik next to me, breathing evenly, in no hurry at all. Nobody was in a hurry.
 
 Four-year-olds don't understand cities. They understand feelings. And the feeling of Yogyakarta, compressed into that single crossing of a bridge on a wet evening, was this: *you can slow down here.* The city will wait.
 

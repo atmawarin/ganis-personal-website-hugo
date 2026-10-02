@@ -3,8 +3,8 @@
   --p-display:Georgia,'Times New Roman',serif; --p-text:Georgia,'Times New Roman',serif; --p-meta:Verdana,Geneva,sans-serif; --p-measure: 36em; --p-size: clamp(1.04rem,1.15vw,1.12rem); --p-lh:1.6; }
 .theme-georgia .piece__head, .theme-georgia .piece__cover { max-width: var(--p-measure); }
 .theme-georgia .piece__body p { position: relative; }
-.theme-georgia .piece__body p > strong:first-child { font-family: Verdana, Geneva, sans-serif; font-size: .78em; font-weight: 700; color: #800000; }
-@media (min-width: 1000px) { .theme-georgia .piece__body p > strong:first-child { position: absolute; left: -9.5em; width: 8.5em; text-align: right; top: .2em; } }
+.theme-georgia .piece__body strong.ts { font-family: Verdana, Geneva, sans-serif; font-size: .78em; font-weight: 700; color: #800000; }
+@media (min-width: 1000px) { .theme-georgia .piece__body strong.ts { position: absolute; left: -9.5em; width: 8.5em; text-align: right; top: .2em; } }
 .theme-georgia .piece__kicker { text-transform: none; letter-spacing: 0; font-size: .78rem; color: #000; }
 .theme-georgia .piece__title { font-weight: 700; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; letter-spacing: 0; }
 .theme-georgia .piece__dek { font-style: italic; color: #000; }

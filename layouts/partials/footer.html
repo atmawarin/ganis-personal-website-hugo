@@ -3,7 +3,7 @@
     <div class="colophon-foot__letters">
         <p class="slug">Letters</p>
         <h2 class="colophon-foot__title">An occasional letter, written by hand first.</h2>
-        <p>New essays, the books that ruined my weekend, and whatever I learned while running too slowly. No schedule, no spam. Unsubscribe whenever you like; I won't take it personally, much.</p>
+        <p>New essays, the books that ruined my weekend, and whatever I learned while running too slowly. No schedule, no spam. Unsubscribe whenever you like; I won&rsquo;t take it personally, much.</p>
         {{ partial "subscribe.html" (dict "id" "foot") }}
     </div>
     {{- else }}
@@ -23,6 +23,6 @@
     </nav>
     <p class="colophon-foot__imprint">
         {{- $s := false }}{{ if and .IsPage (eq .Section "articles") }}{{ $s = index hugo.Data.styles (.Params.style | default "") }}{{ end -}}
-        {{- with $s }}This essay is set after {{ .designer }}, {{ .year }}. The rest of the site is{{ else }}This site is{{ end }} set in Fraunces, Newsreader &amp; IBM Plex Mono. Composed in Yogyakarta, 1984–{{ now.Year }}. Everything here is mine unless I say otherwise; copy it if it helps you, and tell me if it did. <a href="{{ "colophon/" | relURL }}">About the type&nbsp;→</a>
+        {{- with $s }}This essay is set after {{ partial "smart.html" .designer }}, {{ .year }}. The rest of the site is{{ else }}This site is{{ end }} set in Fraunces, Newsreader &amp; IBM Plex Mono. Composed in Yogyakarta, 1984–{{ now.Year }}. Everything here is mine unless I say otherwise; copy it if it helps you, and tell me if it did. <a href="{{ "colophon/" | relURL }}">About the type&nbsp;→</a>
     </p>
 </footer>

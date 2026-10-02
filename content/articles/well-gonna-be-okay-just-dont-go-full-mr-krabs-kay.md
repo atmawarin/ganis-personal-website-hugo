@@ -1,13 +1,13 @@
 ---
-title: "We’re Gonna Be Okay, Just Don’t Go Full Mr. Krabs, Kay?"
-description: "Growing too fast feels like winning until someone else pays for it. On 2024, layoffs, and why I’d rather grow slower than go full Mr. Krabs."
+title: "We're Gonna Be Okay, Just Don't Go Full Mr. Krabs, Kay?"
+description: "Growing too fast feels like winning until someone else pays for it. On 2024, layoffs, and why I'd rather grow slower than go full Mr. Krabs."
 cover: images/articles/crab-drawing.png
 date: 2024-11-20
 tags: ["business"]
 style: "rodchenko"
 lang_code: "en"
 dek: "Our industry grew too fast and other people paid for it. Me included."
-seo_title: "We’re Gonna Be Okay, Just Don’t Go Full Mr. Krabs"
+seo_title: "We're Gonna Be Okay, Just Don't Go Full Mr. Krabs"
 image: "images/og/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay.png"
 ---
 

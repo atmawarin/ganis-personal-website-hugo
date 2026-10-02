@@ -9,7 +9,7 @@
     <header class="piece__head">
         <p class="piece__kicker">
             <span class="piece__no">No.&nbsp;{{ printf "%02d" $no }}</span>
-            {{ with $s }}<span class="piece__after">After {{ .designer }}, {{ .year }}</span>{{ end }}
+            {{ with $s }}<span class="piece__after">After {{ partial "smart.html" .designer }}, {{ .year }}</span>{{ end }}
         </p>
         <h1 class="piece__title">{{ .Title | markdownify }}</h1>
         {{ with .Params.description }}<p class="piece__dek">{{ . | markdownify }}</p>{{ end }}
@@ -23,17 +23,17 @@
     <figure class="piece__cover"><img src="{{ . | relURL }}" alt="" loading="eager" decoding="async"></figure>
     {{ end }}
     <div class="piece__body prose">
-        {{ .Content | replaceRE " — " " – " | safeHTML }}
+        {{ .Content | replaceRE `<p><strong>(\d\d:\d\d[^<]*)</strong>` `<p><strong class="ts">$1</strong>` | safeHTML }}
     </div>
     <footer class="piece__end">
         <p class="piece__sign">— Ganis</p>
         {{ with $s }}
         <aside class="specimen-card" aria-label="About this typography">
             <p class="specimen-card__kicker">Set in the manner of</p>
-            <p class="specimen-card__name">{{ .designer }}</p>
-            <p class="specimen-card__work">{{ .work }} · {{ .place }}, {{ .year }}</p>
-            <p class="specimen-card__note">{{ .note }}</p>
-            <p class="specimen-card__faces">Typefaces: {{ .faces }}</p>
+            <p class="specimen-card__name">{{ partial "smart.html" .designer }}</p>
+            <p class="specimen-card__work">{{ partial "smart.html" .work }} · {{ .place }}, {{ .year }}</p>
+            <p class="specimen-card__note">{{ partial "smart.html" .note }}</p>
+            <p class="specimen-card__faces">Typefaces: {{ partial "smart.html" .faces }}</p>
         </aside>
         {{ end }}
     </footer>
@@ -42,7 +42,7 @@
 <section class="after-piece" aria-label="Keep reading">
     <div class="after-piece__letters">
         <p class="slug">If that was any good</p>
-        <p class="after-piece__ask">I send a letter when there's a new essay. That's the whole deal.</p>
+        <p class="after-piece__ask">I send a letter when there&rsquo;s a new essay. That&rsquo;s the whole deal.</p>
         {{ partial "subscribe.html" (dict "id" "essay") }}
     </div>
     {{- $related := partialCached "related.html" . .Permalink }}
@@ -50,7 +50,7 @@
         <p class="slug">Another specimen</p>
         <ol class="mini-index">
         {{ range $related }}{{ $rs := index hugo.Data.styles (.Params.style | default "") }}
-            <li><a href="{{ .RelPermalink }}"><span class="mini-index__title" {{ with $rs }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ .Title }}</span><span class="mini-index__meta">{{ with $rs }}{{ .designer }}, {{ .year }}{{ end }}</span></a></li>
+            <li><a href="{{ .RelPermalink }}"><span class="mini-index__title" {{ with $rs }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ partial "smart.html" .Title }}</span><span class="mini-index__meta">{{ with $rs }}{{ partial "smart.html" .designer }}, {{ .year }}{{ end }}</span></a></li>
         {{ end }}
         </ol>
         <nav class="prevnext" aria-label="Essays">

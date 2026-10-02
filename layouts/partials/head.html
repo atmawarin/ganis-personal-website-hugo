@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{{- $desc := or .Params.description .Summary site.Params.description | plainify | htmlUnescape | strings.TrimSpace | truncate 200 }}
-{{- $t := .Params.seo_title | default (.Title | plainify) }}
+{{- $desc := partial "smart.html" (or .Params.description .Summary site.Params.description) | strings.TrimSpace | truncate 200 }}
+{{- $t := partial "smart.html" (.Params.seo_title | default .Title) }}
 {{- $title := cond .IsHome (printf "%s: essays, books and miles from Yogyakarta" site.Title) (cond (gt (len $t) 55) $t (printf "%s · %s" $t site.Title)) }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
@@ -15,7 +15,7 @@
 {{- /* Open Graph: absolute image URL, article metadata */}}
 {{- $img := or .Params.image .Params.cover site.Params.image }}
 <meta property="og:site_name" content="{{ site.Title }}">
-<meta property="og:title" content="{{ .Title | plainify }}">
+<meta property="og:title" content="{{ $t }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">

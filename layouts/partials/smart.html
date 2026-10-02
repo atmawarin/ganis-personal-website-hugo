@@ -1,0 +1,2 @@
+{{- /* Plain text in, typographer's text out: curly quotes and dashes, no tags. */ -}}
+{{- return (. | markdownify | plainify | htmlUnescape) -}}

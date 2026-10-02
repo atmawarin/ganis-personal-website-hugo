@@ -15,13 +15,13 @@
             <p class="slug">A game I play with new hires</p>
             <h2>Two truths and a lie. Pick the lie.</h2>
             <div class="ttol__opts">
-                {{ range .options }}<button type="button" data-verdict="{{ $.Params.ttol.verdict }}">{{ . }}</button>{{ end }}
+                {{ range .options }}<button type="button" data-verdict="{{ partial "smart.html" $.Params.ttol.verdict }}">{{ . }}</button>{{ end }}
             </div>
             <p class="ttol__verdict" aria-live="polite"></p>
         </div>
         {{ end }}
         <p class="slug" style="margin-top:32px">Write to me</p>
-        <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>. I answer most letters, slowly. If it's about building a product, write to <a href="https://synetica.co">Synetica</a> instead; it's the same person, but with a calendar.</p>
+        <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>. I answer most letters, slowly. If it&rsquo;s about building a product, write to <a href="https://synetica.co">Synetica</a> instead; it&rsquo;s the same person, but with a calendar.</p>
     </aside>
 </section>
 {{ end }}

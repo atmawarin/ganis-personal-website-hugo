@@ -2,8 +2,8 @@
 {{ define "main" }}
 {{- $all := where site.RegularPages.ByDate "Section" "articles" }}
 {{- $nos := dict }}{{ range $i, $p := $all }}{{ $nos = merge $nos (dict $p.File.UniqueID (add $i 1)) }}{{ end }}
-{{- $byStyle := dict }}{{ range $all }}{{ with .Params.style }}{{ $byStyle = merge $byStyle (dict . $) }}{{ end }}{{ end }}
-{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" $v.display_name "d" $v.designer "y" $v.year) }}{{ end }}
+{{- $byStyle := dict }}{{ range $p := $all }}{{ with $p.Params.style }}{{ $byStyle = merge $byStyle (dict . $p) }}{{ end }}{{ end }}
+{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" $v.display_name "d" (partial "smart.html" $v.designer) "y" $v.year) }}{{ end }}
 {{- $h := hugo.Data.home }}
 <section class="titlepage">
     <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Est. 1984</span></p>
@@ -16,7 +16,7 @@
         <summary>See all {{ len $faces }} at once</summary>
         <ul class="proof__grid">
             {{- range $k, $v := hugo.Data.styles }}{{ $p := index $byStyle $k }}
-            <li><a href="{{ with $p }}{{ .RelPermalink }}{{ end }}"><span class="proof__name" style="{{ partial "face.html" $v | safeCSS }}">Ganis</span><span class="proof__meta">{{ $v.display_name }} · {{ $v.designer }}, {{ $v.year }}</span></a></li>
+            <li><a href="{{ with $p }}{{ .RelPermalink }}{{ end }}"><span class="proof__name" style="{{ partial "face.html" $v | safeCSS }}" aria-hidden="true">Ganis</span><span class="proof__meta">{{ $v.display_name }} · {{ partial "smart.html" $v.designer }}, {{ $v.year }}{{ with $p }}<span class="proof__essay">{{ partial "smart.html" .Title }} →</span>{{ end }}</span></a></li>
             {{- end }}
         </ul>
     </details>
@@ -32,9 +32,9 @@
     <div class="featured">
         {{ range first 2 .Reverse }}{{ $s := index hugo.Data.styles (.Params.style | default "") }}
         <a class="featured__card featured__card--{{ .Params.style }}" href="{{ .RelPermalink }}">
-            <span class="featured__no">No. {{ printf "%02d" (index $nos .File.UniqueID) }}{{ with $s }} · after {{ .designer }}, {{ .year }}{{ end }}</span>
-            <span class="featured__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ .Title }}</span>
-            <span class="featured__dek">{{ .Params.description }}</span>
+            <span class="featured__no">No. {{ printf "%02d" (index $nos .File.UniqueID) }}{{ with $s }} · after {{ partial "smart.html" .designer }}, {{ .year }}{{ end }}</span>
+            <span class="featured__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ partial "smart.html" .Title }}</span>
+            <span class="featured__dek">{{ partial "smart.html" .Params.description }}</span>
             <span class="featured__go">{{ .ReadingTime }} min · {{ if eq .Params.lang_code "en" }}English{{ else }}Bahasa{{ end }}</span>
         </a>
         {{ end }}
@@ -60,7 +60,7 @@
 
 <section class="block home-letters">
     <p class="slug">Letters</p>
-    <p class="home-letters__ask">When there's a new essay I send a short letter. No schedule, no spam, and I write it by hand first.</p>
+    <p class="home-letters__ask">When there&rsquo;s a new essay I send a short letter. No schedule, no spam, and I write it by hand first.</p>
     {{ partial "subscribe.html" (dict "id" "home") }}
 </section>
 

@@ -1,12 +1,12 @@
 ---
 title: "Garnisun"
-description: "Other people are named after saints, grandparents or a feeling their mother had. I’m named after a military patrol car."
+description: "Other people are named after saints, grandparents or a feeling their mother had. I'm named after a military patrol car."
 date: 2026-07-18
 tags: ["life"]
 style: "woodtype"
 lang_code: "en"
 featured: true
-dek: "Other people are named after saints. I’m named after a military patrol car."
+dek: "Other people are named after saints. I'm named after a military patrol car."
 image: "images/og/garnisun.png"
 ---
 

@@ -13,9 +13,9 @@
     {{ range sort $rows "y" }}{{ $s := .s }}
         <li>
             <span class="specimens__who">{{ $s.year }} · {{ $s.place }}</span>
-            <span class="specimens__sample" style="{{ partial "face.html" $s | safeCSS }}">{{ $s.designer }}</span>
-            <p>{{ $s.note }}</p>
-            <p><a href="{{ .p.RelPermalink }}">Read the essay set this way: {{ .p.Title }} →</a></p>
+            <span class="specimens__sample" style="{{ partial "face.html" $s | safeCSS }}">{{ partial "smart.html" $s.designer }}</span>
+            <p>{{ partial "smart.html" $s.note }}</p>
+            <p><a href="{{ .p.RelPermalink }}">Read the essay set this way: {{ partial "smart.html" .p.Title }} →</a></p>
         </li>
     {{ end }}
     </ul>

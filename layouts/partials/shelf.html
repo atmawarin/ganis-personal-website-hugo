@@ -2,7 +2,7 @@
 <section class="title-block">
     <p class="slug">Reading · {{ len (where site.RegularPages "Section" "reading") }} books</p>
     <h1 class="title-block__h">{{ if eq $page.Kind "term" }}{{ $page.Title | title }}{{ else }}The shelf{{ end }}</h1>
-    <p class="title-block__dek">{{ with site.GetPage "/reading" }}{{ .Params.description }}{{ end }} A ★ means I've read it more than once on purpose.</p>
+    <p class="title-block__dek">{{ with site.GetPage "/reading" }}{{ .Params.description }}{{ end }} A ★ means I&rsquo;ve read it more than once on purpose.</p>
 </section>
 <div class="filters shelf-filters" role="navigation" aria-label="Shelf categories">
     <a href="{{ "reading/" | relURL }}"{{ if eq $page.Kind "section" }} aria-current="page"{{ end }}>All</a>

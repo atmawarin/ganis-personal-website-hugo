@@ -3,9 +3,9 @@
 <li class="specimen-row" data-lang="{{ $p.Params.lang_code | default "id" }}">
     <a href="{{ $p.RelPermalink }}">
         <span class="specimen-row__no">{{ printf "%02d" .no }}</span>
-        <span class="specimen-row__body"><span class="specimen-row__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ $p.Title }}</span>{{ with or $p.Params.dek $p.Params.description }}<span class="specimen-row__dek">{{ . | plainify }}</span>{{ end }}</span>
+        <span class="specimen-row__body"><span class="specimen-row__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ partial "smart.html" $p.Title }}</span>{{ with or $p.Params.dek $p.Params.description }}<span class="specimen-row__dek">{{ partial "smart.html" . }}</span>{{ end }}</span>
         <span class="specimen-row__meta">
-            {{- with $s }}<span>{{ .designer }}, {{ .year }}</span>{{ end -}}
+            {{- with $s }}<span>{{ partial "smart.html" .designer }}, {{ .year }}</span>{{ end -}}
             <span>{{ if not (and $s (eq (string $s.year) ($p.Date.Format "2006"))) }}{{ $p.Date.Format "2006" }} · {{ end }}{{ if eq $p.Params.lang_code "en" }}EN{{ else }}ID{{ end }}</span>
         </span>
     </a>

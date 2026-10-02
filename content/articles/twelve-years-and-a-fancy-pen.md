@@ -7,6 +7,8 @@ style: "caslon"
 lang_code: "en"
 dek: "Employee number thirteen says thank you to SoftwareSeni, and to Davo."
 image: "images/og/twelve-years-and-a-fancy-pen.png"
+featured: true
+featured_order: 1
 ---
 
 In my last week at SoftwareSeni, I wrote this in my journal:

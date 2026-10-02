@@ -210,7 +210,10 @@ main > * { width: min(100% - 2 * var(--gutter), var(--wide) - 2 * var(--gutter))
   text-decoration: none;
   border-bottom: 1px solid var(--rule);
 }
-@media (min-width: 900px) { .featured__card + .featured__card { border-left: 1px solid var(--rule); padding-left: 28px; } }
+@media (min-width: 900px) {
+  .featured { grid-template-columns: 1fr 1fr; }
+  .featured__card:nth-child(even) { border-left: 1px solid var(--rule); padding-left: 28px; }
+}
 .featured__no { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--red); }
 .featured__title { font-size: clamp(2rem, 4.4vw, 3.4rem); line-height: 1.02; letter-spacing: -0.01em; }
 .featured__dek { font-size: 1.15rem; color: var(--ink-2); max-width: 36ch; }

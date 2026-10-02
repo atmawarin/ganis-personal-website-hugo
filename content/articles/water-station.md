@@ -5,9 +5,10 @@ date: 2026-08-22
 tags: ["running", "life"]
 style: "georgia"
 lang_code: "en"
-featured: true
 dek: "No races in 2021, so I ran a marathon alone. My car was the water station."
 image: "images/og/water-station.png"
+featured: true
+featured_order: 2
 ---
 
 In August 2021 there were no races. The pandemic had cancelled all of them, or postponed them to dates nobody believed in, and I had trained for months for something that wasn't going to happen. So I decided to run a marathon by myself.

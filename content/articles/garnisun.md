@@ -5,9 +5,10 @@ date: 2026-07-18
 tags: ["life"]
 style: "woodtype"
 lang_code: "en"
-featured: true
 dek: "Other people are named after saints. I'm named after a military patrol car."
 image: "images/og/garnisun.png"
+featured: true
+featured_order: 3
 ---
 
 Other children are named after saints, or grandfathers, or a feeling their mother had one afternoon in the second trimester. I'm named after a car.

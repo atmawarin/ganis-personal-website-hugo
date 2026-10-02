@@ -37,7 +37,7 @@ In *Mobile Legends* you start at the bottom and climb: Warrior, Elite, Master, G
 
 I reached Mythic. I'm not going to pretend I'm not proud of it, because I'm writing this essay, and that would be a lie, and I've tried to give up lying.
 
-I was asked once why I bothered. My answer, which I wrote down because I was honestly surprised to hear myself say it, was this:
+I was asked once why I bothered. My answer, which I wrote down because I was surprised to hear myself say it, was this:
 
 *I find silver or bronze as incompetence.*
 
@@ -47,7 +47,7 @@ I was asked once why I bothered. My answer, which I wrote down because I was hon
 
 Let me look at that sentence for a moment, the way you'd look at a mole that has changed shape.
 
-I've written a list of principles for my life. It's on this website, set in Bodoni with a big black band across the top, and near the end it says, in Indonesian, *jangan judge*. Don't judge. Not all success comes from hard work. Not all failure comes from laziness. I believe that. I've hired by it, managed by it, forgiven by it. When someone on my team misses a deadline, my first question is about what happened, not about their character.
+I've written a list of principles for my life. It's on this website, set in Bodoni with a big black band across the top, and near the end it says, in Indonesian, *jangan judge*. Don't judge. Not all success comes from hard work. Not all failure comes from laziness. I believe that. I've hired and managed by it. When someone on my team misses a deadline, my first question is about what happened, not about their character.
 
 And then at eleven o'clock at night, on a game for children, I look at my rank and think: silver is incompetence.
 
@@ -57,17 +57,21 @@ I don't think that about anyone else, only about me, and only, apparently, in ga
 
 Mobile Legends isn't my only offence. For a while, during the pandemic, it was mechanical keyboards.
 
-I ended up with, to use the technical term from my own notes, a "bajillion" of them. I built a ranking system in a spreadsheet: every keyboard, its switches and keycaps, its sound, its feel and its overall score. It's ranked and medalled and its audience is one. The biggest source of stress in my 2021 annual review, above work and the pandemic, was "keyboard-related debt."
+I ended up with, to use the technical term from my own notes, a "bajillion" of them. The real number is seventy-one. I know because there's a database. It's called Browntosaurus, it has a dinosaur emoji, and it has tabs for keycaps, for switches, for "Experience" and for "Build Goal". Seventy-one keyboards are in there, ranked from one to seventy-one, each with a status column. Of the top seventeen, three are still in the house.
+
+The rankings are where it gets interesting. I gave out medals as well as numbers, and the medals don't agree with the numbers. The keyboard ranked first has a silver medal. The gold medal went to the one ranked third. At number six is the IBM Model F, a keyboard from 1981 that people in this hobby talk about the way monks talk about the Gutenberg Bible, and it didn't get a medal at all.
+
+I can't explain any of this. I built the system myself, with nobody watching, and I still couldn't keep it consistent. The biggest source of stress in my 2021 annual review, above work and the pandemic, was "keyboard-related debt."
 
 I'd like you to read that phrase again, slowly, and then picture me at a family dinner explaining it.
 
-It was the same machinery each time. Something with levels. Something you could rank. A ladder, any ladder, and a voice in my head telling me that the bottom rungs are for people who aren't trying.
+It was the same machinery each time. There was something with levels that I could rank, and a voice in my head telling me that the bottom rungs are for people who aren't trying.
 
 ## None
 
 Here's the worst thing I've ever done in a game, and I wrote it down at the time, laughing.
 
-My son Zen and I were playing *Mario Party*. If you don't know *Mario Party*: it's a board game on a screen, full of luck, built so that families can play together and nobody can be too good at it. Zen was winning. Zen *should* have won. He had played better all evening. And then, in the last turn, I landed on a space that let me steal his stars.
+My son Zen and I were playing *Mario Party*. If you don't know *Mario Party*, it's a board game on a screen, full of luck, built so that families can play together and nobody can be too good at it. Zen was winning. Zen *should* have won. He had played better all evening. And then, in the last turn, I landed on a space that let me steal his stars.
 
 I took them. I won.
 
@@ -89,7 +93,7 @@ This is where an essay like this is supposed to end with a resolution. I uninsta
 
 What I can tell you is smaller. I've uninstalled *Mobile Legends* again. I don't know for how long. I've written this down, which is how I usually try to make things stick, and the record shows that it usually doesn't.
 
-But I've started saying something to the judge. When I see a number next to my name, any number (a rank, a pace, a revenue figure, a weight), I try to say to myself the thing I'd say to anyone on my team.
+But I've started saying something to the judge. When I see a number next to my name, any number, whether it's a rank, a pace, a revenue figure or a weight, I try to say to myself the thing I'd say to anyone on my team.
 
 Silver isn't incompetence. Silver is a man who went to bed on time. Silver is a father who let his son win at *Mario Party*, or would have, if he were a better man.
 

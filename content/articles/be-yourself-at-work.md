@@ -16,88 +16,88 @@ Itu Thom Yorke di interview [dengan Variety](https://variety.com/2019/music/news
 
 ---
 
-I have been thinking about this quote for weeks now, the way certain sentences lodge themselves into the soft tissue of your brain and refuse to leave. *Don't work too much to picture.* Six words that carry the weight of an entire philosophy about creative work.
+I have been thinking about this quote for weeks now. *Don't work too much to picture.* Six words, and they cover most of what I believe about creative work.
 
-Here is the thing about Radiohead. They made *The Bends* in 1995. A perfectly competent, critically acclaimed rock album. The kind of album that secures your place in the industry. The kind of album that makes your label happy. The kind of album that, if you are not careful, becomes a prison.
+Here is the thing about Radiohead. They made *The Bends* in 1995. A competent, critically acclaimed rock album. The kind of album that secures your place in the industry and makes your label happy. The kind of album that, if you are not careful, becomes a prison.
 
-Most bands would have made *The Bends* again. And again. And again. Each time with slightly different lyrics and a new album cover. The machine rewards repetition. The audience rewards familiarity. Your manager rewards predictability. Every incentive in the known universe points toward making the same thing twice.
+Most bands would have made *The Bends* again. And again. Each time with slightly different lyrics and a new album cover. The label wants repetition, the audience wants familiarity, and your manager wants predictability. Every incentive points toward making the same thing twice.
 
-Instead they made *OK Computer*. An album that sounded like the future having a nervous breakdown. Guitar textures that nobody had heard before. Song structures that abandoned verse-chorus-verse for something more architectural, more spatial. Critics did not know what to call it. They just knew it mattered.
+Instead they made *OK Computer*. An album that sounded like the future having a nervous breakdown. Guitar textures nobody had heard before. Songs that dropped verse-chorus-verse for longer, stranger structures. Critics did not know what to call it. They just knew it mattered.
 
 And then, when *OK Computer* made them the biggest band in the world, they made *Kid A*. An album so aggressively experimental that their own fans booed at concerts. Thom Yorke was having panic attacks. The band nearly broke up. Critics called it career suicide.
 
-It sold millions. Changed the trajectory of popular music. Influenced a generation of artists who had not even picked up instruments yet.
+It sold millions. It changed the direction of popular music and influenced artists who had not even picked up instruments yet.
 
-This is what working off-picture looks like. It is not comfortable. It is not strategic in the way MBA programs teach strategy. It is the deeply irrational act of following your curiosity into a dark room and trusting that your eyes will adjust.
-
----
-
-I work in tech. Software, specifically. And I can tell you that the parallel between Radiohead's creative process and building products is uncomfortably precise.
-
-Every company I have worked with faces the same temptation. You ship something that works. Users like it. Revenue comes in. And then the gravitational pull begins. The pull toward optimization. Toward incremental improvement. Toward making *The Bends* again with a different album cover.
-
-The roadmap fills up with features that are safe. Features that customers asked for. Features that competitors already have. Each one individually reasonable. Together, they form a slow march toward irrelevance.
-
-Because here is what nobody tells you in the sprint planning meeting: the features your customers ask for are solutions to yesterday's problems. The real breakthroughs come from working off-picture. From the engineer who spends Friday afternoons tinkering with a technology nobody asked about. From the designer who prototypes an interaction pattern that does not fit any existing user story. From the PM who cancels a meeting to think.
-
-I have seen this play out at SoftwareSeni. The projects that became our best case studies, the ones clients still talk about years later, almost always started with someone going slightly off-script. Not in a reckless way. In a *curious* way. The way Jonny Greenwood brings experiments to the studio because he wants to try something sonically, and then discovers it fits with whatever the band is working on.
-
-The experiment precedes the application. Always.
+This is what working off-picture looks like. It is not comfortable. It is not strategy the way MBA programs teach it. You follow your curiosity into a dark room and trust that your eyes will adjust.
 
 ---
 
-There is a deeper layer to Yorke's advice, though, and it has nothing to do with music or software. It is about the exhausting performance of being someone you are not.
+I work in tech. Software, specifically. And the parallel between Radiohead's process and building products is uncomfortably close.
 
-Working to picture, in the context of a career, a team, an office, means shaping yourself to match expectations. Speaking in the approved vocabulary. Caring about the approved metrics. Expressing enthusiasm at the approved volume. It is the corporate equivalent of a cover band: technically proficient, emotionally hollow.
+Every company I have worked with faces the same temptation. You ship something that works. Users like it. Revenue comes in. And then the pull begins, toward optimization and small improvements. Toward making *The Bends* again with a different album cover.
 
-I spent years doing this. My first real job, I watched how the senior people behaved and reverse-engineered their mannerisms. I adopted their frameworks. Used their buzzwords. Nodded at the right moments. I was, by all external measures, doing well. Promotions came. Responsibilities grew.
+The roadmap fills up with safe features. Features that customers asked for, or that competitors already have. Each one is reasonable on its own. Together, they march you slowly toward irrelevance.
 
-And I was drying up. Exactly like Yorke described.
+Nobody says this in the sprint planning meeting, but the features your customers ask for solve yesterday's problems. The breakthroughs come from working off-picture. From the engineer who spends Friday afternoons tinkering with a technology nobody asked about. From the designer who prototypes an interaction that does not fit any existing user story. From the PM who cancels a meeting to think.
 
-The drying up does not happen suddenly. It is gradual. You stop having ideas in the shower. You stop scribbling in notebooks. The work becomes competent but lifeless. You can feel it, this slow evaporation of the thing that made you interesting in the first place.
+I have seen this play out at SoftwareSeni. The projects that became our best case studies, the ones clients still talk about years later, almost always started with someone going slightly off-script. Not recklessly. Curiously. The way Jonny Greenwood brings experiments to the studio because he wants to try something sonically, and then discovers it fits with whatever the band is working on.
 
-The turning point, for me, was watching someone else be authentically weird in a meeting. I do not even remember what they said. I remember the *energy* in the room shifting. The way people leaned forward instead of checking their phones. The way the conversation suddenly had texture instead of being another smooth, frictionless exchange of corporate pleasantries.
-
-That person was working off-picture. And the room could feel it.
+The experiment comes first. The use for it comes later.
 
 ---
 
-Constraint is the other piece of this puzzle. People misunderstand authenticity as the absence of constraint. Be yourself! Do whatever you want! Express your truth!
+There is another side to Yorke's advice, and it has nothing to do with music or software. It is about the exhausting performance of being someone you are not.
 
-No. That is not how creative work functions.
+Working to picture, in a career, means shaping yourself to match expectations. Speaking in the approved vocabulary. Caring about the approved metrics. Showing enthusiasm at the approved volume. It is the office version of a cover band: technically good, emotionally hollow.
 
-Radiohead recorded *Kid A* with deliberate constraints. Thom Yorke cut up lyrics and pulled them from a hat. The band agreed not to use conventional rock arrangements. They worked with limited technology, early synthesizers, primitive sampling equipment, because the limitation forced them to think differently.
+I spent years doing this. In my first real job, I watched how the senior people behaved and copied them. I adopted their frameworks. Used their buzzwords. Nodded at the right moments. By every outside measure, I was doing well. Promotions came. Responsibilities grew.
 
-Brian Eno understood this decades ago with his Oblique Strategies cards. Stuck on a creative problem? Draw a card. "Use an unacceptable color." "Emphasize the flaws." "What would your closest friend do?" The constraint does not limit creativity. It *channels* it. Gives it edges. Turns formless potential energy into something with shape.
+And I was drying up, exactly like Yorke described.
 
-The same principle applies at work. Authenticity without constraint is just chaos. The person who shows up and does whatever they feel like is not being authentic. They are being self-indulgent. Real authenticity operates within constraints and finds its expression *through* them.
+It does not happen suddenly. You stop having ideas in the shower. You stop scribbling in notebooks. The work becomes competent but lifeless, and you can feel the thing that made you interesting slowly going away.
 
-The best developers I know are the ones who take a rigid specification and find elegant solutions that nobody anticipated. The best designers take brand guidelines and make something that feels both consistent and surprising. The best leaders take organizational structure and create pockets of freedom within it.
+The turning point, for me, was watching someone else be openly weird in a meeting. I do not even remember what they said. I remember the room changing. People leaned forward instead of checking their phones. The conversation stopped being another polite exchange and turned into an actual argument.
 
-They are all working off-picture. But the picture is still there. It provides the frame. The tension between the frame and the impulse to exceed it, that is where the interesting work lives.
-
----
-
-Yorke says to be selfish about your experiments. I think about this word, *selfish*, and how much it cuts against the grain of modern work culture, where everything must be justified, aligned, and approved.
-
-Selfish experiments are the ones you cannot explain in a status update. They are the side project that has no clear ROI. The book you are reading that has nothing to do with your industry. The conversation with someone in a completely different field. The afternoon you spend staring at the ceiling because something is not clicking and you refuse to force it.
-
-These experiments are not waste. They are inventory. They are the raw material that, months or years later, suddenly fits with whatever you are working on. Exactly like Greenwood bringing his sonic experiments to the studio.
-
-The catch is that you have to protect them. Nobody else will. Your calendar will not. Your manager will not. Your quarterly objectives certainly will not. You have to carve out the space yourself, defend it against the relentless pressure to be productive in measurable ways, and trust that the compounding returns of curiosity will eventually justify the investment.
-
-I am getting better at this. Not good. Better. I still feel the guilt of spending time on things that do not have an immediate payoff. I still catch myself working to picture more often than I would like.
-
-But I keep Yorke's words somewhere accessible. A reminder that the alternative to experimentation is not safety. It is drying up. And drying up is the one professional risk that nobody puts on the risk register.
+That person was working off-picture, and the room could feel it.
 
 ---
 
-The last thing I will say is this: being yourself at work is not a personality trait. It is a practice. Some days you will nail it. Some days you will default to the cover band version of yourself because the meeting is long and your energy is low and it is just easier.
+Constraint is the other half of this. People think authenticity means no constraints. Be yourself! Do whatever you want! Express your truth!
 
-That is fine. Radiohead did not make *Kid A* every day. Most days they probably argued about tea and complained about the weather. The experiments happened in the margins. In the spaces between the obligations.
+No. Creative work does not run like that.
+
+Radiohead recorded *Kid A* with deliberate constraints. Thom Yorke cut up lyrics and pulled them from a hat. The band agreed not to use conventional rock arrangements. They worked with limited technology, early synthesizers and crude sampling equipment, because the limits forced them to think differently.
+
+Brian Eno understood this decades ago with his Oblique Strategies cards. Stuck on a creative problem? Draw a card. "Use an unacceptable color." "Emphasize the flaws." "What would your closest friend do?" The card does not limit you. It gives you something to push against.
+
+The same goes for work. Authenticity without constraint is just chaos. The person who shows up and does whatever they feel like is being self-indulgent, not authentic. The real thing happens inside the constraints.
+
+The best developers I know take a rigid specification and find solutions nobody expected. The best designers take brand guidelines and make something consistent that still surprises you. The best leaders take an org chart and make room for freedom inside it.
+
+They are all working off-picture. But the picture is still there, and it gives them a frame. The interesting work happens where the frame and the urge to break it meet.
+
+---
+
+Yorke says to be selfish about your experiments. That word, *selfish*, cuts against modern work culture, where everything has to be justified, aligned, and approved.
+
+Selfish experiments are the ones you cannot explain in a status update. The side project with no clear ROI. The book that has nothing to do with your industry. The conversation with someone in a completely different field. The afternoon you spend staring at the ceiling because something is not clicking and you refuse to force it.
+
+These experiments are not waste. They are inventory. Months or years later, one of them suddenly fits with whatever you are working on, the way Greenwood's sonic experiments fit in the studio.
+
+The catch is that you have to protect them. Nobody else will. Not your calendar, not your manager, and certainly not your quarterly objectives. You have to make the space yourself, defend it against the pressure to be productive in measurable ways, and trust that curiosity pays off eventually.
+
+I am getting better at this. Not good. Better. I still feel guilty spending time on things with no immediate payoff. I still catch myself working to picture more often than I would like.
+
+But I keep Yorke's words close. The alternative to experimenting is not safety. It is drying up. And nobody puts drying up on the risk register.
+
+---
+
+One last thing. Being yourself at work is not a personality trait. It is a practice. Some days you will nail it. Some days you will default to the cover band version of yourself because the meeting is long, your energy is low, and it is just easier.
+
+That is fine. Radiohead did not make *Kid A* every day. Most days they probably argued about tea and complained about the weather. The experiments happened in the margins, between the obligations.
 
 Find your margins. Protect them. Be selfish about them.
 
-And when someone asks why you are spending time on something that does not fit the picture, you can tell them: that is the point.
+And when someone asks why you are spending time on something that does not fit the picture, you can tell them that is the point.
 
 Photo by [Steinar Engeland](https://unsplash.com/@steinart?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/search/photos/fake?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

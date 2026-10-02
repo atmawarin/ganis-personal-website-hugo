@@ -30,7 +30,7 @@ I tell this story at new-hire meetings. When you run a company long enough, you 
 
 Then I'd ask the new engineers to pick the lie. They'd look at me, a soft man of five foot six with slightly blurry vision, and most of them would pick the marathon. I've never decided whether to be offended.
 
-Then I'd tell them they were all true. There's no lie. I'd say this is an important lesson about assumptions in product development, which it is, a little. Mostly it's an important lesson about me, which is that I'll make up a game for the pleasure of watching people lose it.
+Then I'd tell them they were all true. There's no lie. I'd say this is a lesson about assumptions in product development, which it is, a little. Mostly it's a lesson about me, which is that I'll make up a game for the pleasure of watching people lose it.
 
 The patrol car came later in the session, once the room had relaxed. It usually got a laugh. It's the only part of my biography that gets a laugh without me trying.
 
@@ -74,7 +74,7 @@ My mother, whom I call Mamak, finished high school and never went further, and s
 
 For a long time I thought of myself as a late starter. I have an idea in my notebook for an essay called "I Was a Failure Until Thirty", and I'm still not sure whether the title is a joke. A patrol car doesn't get anywhere fast. It goes around and around the same streets, slowly, looking at everything, until it knows them by heart.
 
-That turned out to be my method for most things. Running, mostly the same loops. Business, mostly the same lessons, relearned. People, mostly the same faces, whose names I write down because I'm afraid of losing them.
+That turned out to be my method for most things. I run mostly the same loops. In business I relearn mostly the same lessons. And I keep mostly the same people, whose names I write down because I'm afraid of losing them.
 
 ---
 

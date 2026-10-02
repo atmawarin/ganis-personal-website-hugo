@@ -14,7 +14,7 @@
     {{- end }}
     <div class="colophon-foot__about">
         <p class="slug">Who</p>
-        <p>Ganis Angger Atmawarin. Born 1984. Yogyakarta. Slightly blurry vision, five foot six, black hair. Chicken at parties, lion at ping-pong. Runs <a href="https://synetica.co">Synetica</a>, a small product company that helps teams prove an idea before they build it.</p>
+        <p>Ganis Angger Atmawarin. Yogyakarta. Slightly blurry vision, five foot six, black hair. Chicken at parties, lion at ping-pong. Runs <a href="https://synetica.co">Synetica</a>, a small product company that helps teams prove an idea before they build it.</p>
         <p><a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a></p>
     </div>
     <nav class="colophon-foot__nav" aria-label="Footer">
@@ -23,6 +23,6 @@
     </nav>
     <p class="colophon-foot__imprint">
         {{- $s := false }}{{ if and .IsPage (eq .Section "articles") }}{{ $s = index hugo.Data.styles (.Params.style | default "") }}{{ end -}}
-        {{- with $s }}This essay is set after {{ partial "smart.html" .designer }}, {{ .year }}. The rest of the site is{{ else }}This site is{{ end }} set in Fraunces, Newsreader &amp; IBM Plex Mono. Composed in Yogyakarta, 1984–{{ now.Year }}. Everything here is mine unless I say otherwise; copy it if it helps you, and tell me if it did. <a href="{{ "colophon/" | relURL }}">About the type&nbsp;→</a>
+        {{- with $s }}This essay is set after {{ partial "smart.html" .designer }}, {{ .year }}. The rest of the site is{{ else }}This site is{{ end }} set in Fraunces, Newsreader &amp; IBM Plex Mono. Composed in Yogyakarta. Everything here is mine unless I say otherwise; copy it if it helps you, and tell me if it did. <a href="{{ "colophon/" | relURL }}">About the type&nbsp;→</a>
     </p>
 </footer>

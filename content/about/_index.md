@@ -1,12 +1,12 @@
 ---
 title: About
 heading: "I was named after a military patrol car."
-description: "About Ganis Angger Atmawarin: born 1984, named after a patrol car, twelve years at SoftwareSeni, now running Synetica in Yogyakarta. Runner, reader, typography nerd."
+description: "About Ganis Angger Atmawarin: named after a patrol car, twelve years at SoftwareSeni, now running Synetica in Yogyakarta. Runner, reader, typography nerd."
 location: "Yogyakarta, Indonesia"
 timeline:
-  - y: "1984"
+  - y: "Day one"
     t: "Born in Papua. Driven home from the hospital in a military patrol vehicle called a *Garnisun*. Shortened, it became my name."
-  - y: "1986"
+  - y: "Age two"
     t: "Shipped west on the KM Rinjani, five days and four nights, to be raised by my grandparents in Malang."
   - y: "2008"
     t: "First blog, on Multiply. It's gone. So is Multiply."
@@ -30,7 +30,7 @@ ttol:
   verdict: "Trick question. All three are true. I've done this at new-hire meetings for years, and nobody has ever enjoyed it as much as I do."
 ---
 
-I'm Ganis. I was born in 1984, the same year as the Macintosh, and I have been trying to live up to both ever since.
+I'm Ganis. I was named after a military patrol car, which is the only detail of my birth I'm willing to put on the internet.
 
 For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a borrowed office to a couple of hundred across four. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
 

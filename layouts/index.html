@@ -6,7 +6,7 @@
 {{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" $v.display_name "d" (partial "smart.html" $v.designer) "y" $v.year) }}{{ end }}
 {{- $h := hugo.Data.home }}
 <section class="titlepage">
-    <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Est. 1984</span></p>
+    <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Set by hand</span></p>
     <h1 class="titlepage__name">
         <button type="button" class="namesetter" data-faces="{{ $faces | jsonify }}" aria-label="Ganis. Press to set the name in another typeface." aria-describedby="namesetter-caption">Ganis</button>
         <span class="titlepage__rest">Angger Atmawarin</span>

@@ -12,7 +12,7 @@ image: "images/og/garnisun.png"
 
 Other children are named after saints, or grandfathers, or a feeling their mother had one afternoon in the second trimester. I'm named after a car.
 
-I was born in Papua in 1984. There weren't many vehicles around, and when it was time to take my mother and me home from the hospital, my grandfather found one. It was a military patrol vehicle, the kind they called a *Garnisun*, after the garrison. I've never seen a photograph of it. I picture something green and square with a canvas roof, a soldier at the wheel who did not sign up for this, and my grandfather in the passenger seat looking very pleased with himself.
+I was born in Papua. There weren't many vehicles around, and when it was time to take my mother and me home from the hospital, my grandfather found one. It was a military patrol vehicle, the kind they called a *Garnisun*, after the garrison. I've never seen a photograph of it. I picture something green and square with a canvas roof, a soldier at the wheel who did not sign up for this, and my grandfather in the passenger seat looking very pleased with himself.
 
 Somebody in the family liked the word. They cut it down, the way Javanese families cut everything down, and it became *Ganis*.
 

@@ -1,0 +1,15 @@
+/* Wim Crouwel, Amsterdam 1968: leave the scaffolding up. */
+.theme-crouwel { --p-bg:#f4f4f0; --p-ink:#111; --p-muted:#555; --p-accent:#0d6efd; --p-rule:rgba(17,17,17,.2);
+  --p-display:'Major Mono Display','Archivo',monospace; --p-text:'Archivo','Helvetica Neue',sans-serif; --p-meta:'Major Mono Display',monospace; --p-measure: 38em; --p-size: clamp(1.04rem,1.15vw,1.14rem); --p-lh:1.6;
+  background-image: linear-gradient(rgba(13,110,253,.14) 1px, transparent 1px), linear-gradient(90deg, rgba(13,110,253,.14) 1px, transparent 1px); background-size: 24px 24px; }
+.theme-crouwel .piece__head { background: var(--p-bg); outline: 1px solid var(--p-accent); padding: 24px; }
+.theme-crouwel .piece__kicker { text-transform: lowercase; letter-spacing: 0; font-size: .9rem; }
+.theme-crouwel .piece__title { font-weight: 400; text-transform: lowercase; font-size: clamp(2.4rem, 6.6vw, 5.4rem); line-height: 1; letter-spacing: -.02em; }
+.theme-crouwel .piece__dek { font-style: normal; }
+.theme-crouwel .piece__byline { text-transform: lowercase; letter-spacing: 0; font-size: .85rem; border-top-color: var(--p-accent); }
+.theme-crouwel .piece__cover img { filter: grayscale(1) contrast(1.2); }
+.theme-crouwel .piece__body { background: var(--p-bg); padding: 0 20px 10px; outline: 1px solid var(--p-rule); }
+.theme-crouwel .piece__body h2, .theme-crouwel .piece__body h3 { font-family: 'Major Mono Display', monospace; font-weight: 400; text-transform: lowercase; color: var(--p-accent); }
+.theme-crouwel .piece__body ul { list-style: none; padding-left: 0; }
+.theme-crouwel .piece__body ul li { padding-left: 1.4em; position: relative; }
+.theme-crouwel .piece__body ul li::before { content: ""; position: absolute; left: 0; top: .5em; width: .6em; height: .6em; background: var(--p-accent); }

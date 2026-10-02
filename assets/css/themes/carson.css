@@ -1,0 +1,18 @@
+/* David Carson, Ray Gun 1994: don't mistake legibility for communication. */
+.theme-carson { --p-bg:#f2efe8; --p-ink:#111; --p-muted:#555; --p-accent:#ff3b1f; --p-rule:rgba(17,17,17,.25);
+  --p-display:'Anton','Impact',sans-serif; --p-text:'Courier Prime','Courier New',monospace; --p-meta:'Courier Prime',monospace; --p-measure: 38em; --p-size: clamp(1rem,1.1vw,1.08rem); --p-lh:1.7; }
+.theme-carson .piece { overflow: hidden; }
+.theme-carson .piece__head { position: relative; max-width: 1200px; }
+.theme-carson .piece__kicker { position: absolute; left: -6px; top: 100%; transform: rotate(-90deg); transform-origin: left top; white-space: nowrap; z-index: 2; }
+.theme-carson .piece__title { font-weight: 400; text-transform: uppercase; font-size: clamp(2.6rem, 8.6vw, 7.4rem); line-height: .84; letter-spacing: -.01em; transform: rotate(-2.5deg); margin-left: 24px; mix-blend-mode: multiply; }
+.theme-carson .piece__title::after { content: ""; display: block; height: 18px; width: 70%; background: var(--p-accent); margin-top: -0.55em; mix-blend-mode: multiply; transform: rotate(1deg); }
+.theme-carson .piece__dek { margin-left: auto; text-align: right; font-family: 'Courier Prime', monospace; font-style: italic; color: var(--p-ink); }
+.theme-carson .piece__byline { border-top: 0; justify-content: flex-end; }
+.theme-carson .piece__byline span:nth-child(2) { transform: rotate(4deg); background: var(--p-ink); color: var(--p-bg); padding: 0 6px; }
+.theme-carson .piece__cover img { filter: grayscale(1) contrast(1.8); mix-blend-mode: multiply; transform: rotate(1.5deg) scale(1.02); }
+.theme-carson .piece__body p:nth-of-type(5n+3) { text-align: right; }
+.theme-carson .piece__body p:nth-of-type(7n+4) { margin-left: 18%; font-size: .92em; }
+.theme-carson .piece__body strong { font-family: 'Anton', sans-serif; font-weight: 400; font-size: 1.6em; text-transform: uppercase; line-height: 1; letter-spacing: .01em; }
+.theme-carson .piece__body h2 { font-family: 'Anton', sans-serif; font-weight: 400; text-transform: uppercase; font-size: clamp(2rem, 5vw, 3.6rem); line-height: .9; transform: rotate(-3deg); color: var(--p-accent); }
+.theme-carson .piece__body blockquote { border: 0; margin: 1.6em -6%; font-family: 'Anton', sans-serif; font-style: normal; text-transform: uppercase; font-size: clamp(1.4rem, 3vw, 2.2rem); line-height: 1; color: var(--p-ink); transform: rotate(1.5deg); }
+@media (max-width: 760px) { .theme-carson .piece__kicker { position: static; transform: none; } .theme-carson .piece__body blockquote { margin: 1.6em 0; } }

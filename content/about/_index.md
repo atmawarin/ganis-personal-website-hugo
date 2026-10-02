@@ -1,54 +1,45 @@
 ---
 title: About
-heading: "hi, i 'm ganis, and I think you are looking amazing today!"
+heading: "I was named after a military patrol car."
+description: "About Ganis Angger Atmawarin: born 1984, named after a patrol car, twelve years at SoftwareSeni, now running Synetica in Yogyakarta. Runner, reader, typography nerd."
 location: "Yogyakarta, Indonesia"
-description: "Builder, runner, reader, writer. Founder of Synetica. Based in Yogyakarta, Indonesia. Slightly blurry vision, five foot six, black hair. Chicken at party."
-sponsers:
-    enable: true
-    icons:
-        - icon: "images/traveloka-logo.png"
-          url: "https://www.traveloka.com"
-        - icon: "images/angkasapura-logo.png"
-          url: "https://www.angkasapura2.co.id"
-        - icon: "images/astra-logo.png"
-          url: "https://www.astra.co.id"
-        - icon: "images/redballoon-logo.svg"
-          url: "https://www.redballoon.com.au"
-
-project_interest:
-    enable: true
-    section:
-        - image: "images/team.jpeg"
-          main_heading: "current projects & interest"
-          heading: "Building Synetica"
-          text: "After 12 years helping build SoftwareSeni from 20 people to 200+, I started Synetica in early 2026. We turn fuzzy ideas into build-ready product blueprints, then actually build them. <br><br> Small team, sharp focus. We call ourselves the Musang team — named after the civet cat. Resourceful, independent, gets things done in the shadows. The opposite of a committee."
-          button: 
-            label: "Work with Synetica"
-            url: "https://synetica.co"
-        - image: "images/man-running.jpeg"
-          heading: "Running"
-          text: "Run early in the morning while the city is still silent — that is the closest thing I know to meditation. I trade my computer for my shoes whenever I can. <br><br> Currently training for my first marathon in April 2026. The goal is absurd and the timeline is tight. But that is sort of the point."
-          button: 
-            label: "read my running stories"
-            url: "/running/"
-        - image: "images/two-kids-smiling.jpeg"
-          heading: "Zen & Zia"
-          text: "Two small humans who are significantly better at negotiation than most executives I have met. They teach me patience, presence, and the strategic importance of ice cream. <br><br> The 6-9 PM window is sacred — screens down, full attention. Everything else can wait."
-          button: 
-            label: "back to reading"
-            url: "/reading/"
-        - image: "images/track-drawing.png"
-          heading: "Writing"
-          text: "I have been trying to write for years now. It still does not come naturally — every paragraph feels like pulling teeth. But I keep showing up because writing is how half-formed ideas become real. <br><br> I write about building products, running a business, and occasionally about running actual miles. Mostly in Bahasa, sometimes in English when the mood strikes."
-          button: 
-            label: "read my writing"
-            url: "/articles/"
+timeline:
+  - y: "1984"
+    t: "Born in Papua. Driven home from the hospital in a military patrol vehicle called a *Garnisun*. Shortened, it became my name."
+  - y: "1986"
+    t: "Shipped west on the KM Rinjani, five days and four nights, to be raised by my grandparents in Malang."
+  - y: "2008"
+    t: "First blog, on Multiply. It's gone. So is Multiply."
+  - y: "2013"
+    t: "Employee #13 at SoftwareSeni, hired as Product Manager for Villalet."
+  - y: "2016"
+    t: "General Manager. Ninety people, Pakuningratan No.15, one desk for every six of us."
+  - y: "2019"
+    t: "Director. Moved into a former car dealership on Jl Magelang."
+  - y: "2021"
+    t: "Ran 42 km around the Kraton with the family car as a water station. Most of it in the morning, the last 11 km after dinner."
+  - y: "2025"
+    t: "Left SoftwareSeni after twelve years. Started [Synetica](https://synetica.co)."
+  - y: "2026"
+    t: "Year theme: *Prove*. Still running, still reading, still uninstalling Mobile Legends."
+ttol:
+  options:
+    - "I have visited nine countries."
+    - "I studied Economics, not Computer Science."
+    - "I have run a 42 km marathon."
+  verdict: "Trick question. All three are true. I've done this at new-hire meetings for years, and nobody has ever enjoyed it as much as I do."
 ---
 
-I'm an interweb enthusiast from Indonesia. Born, raised, and probably drinking too much sun in the country of sixteen thousand islands.
+I'm Ganis. I was born in 1984, the same year as the Macintosh, and I have been trying to live up to both ever since.
 
-I love trees and typography. Although generally a calm presence in life, I'm notoriously brutal at Pingpong and unreasonably opinionated about coffee.
+For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a colonial house to a couple of hundred across three offices. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
 
-I spent 12 years building SoftwareSeni — from a small colonial house on Jl Pakuningratan to a team of 200+. In 2026, I started Synetica to do things differently: smaller, sharper, more intentional.
+In late 2025 I started **[Synetica](https://synetica.co)**. We help teams find out whether a product will work before they spend a fortune building it: two weeks to a tested prototype, then eight weeks to build the real thing if it deserves to exist. It's the company I wish my clients had had before they met me.
 
-I write about product development, service businesses, and the messy art of building things that work.
+Outside of work I am a husband to Gita and a father to Zen and Zia, who are better negotiators than most executives I've sat across from. Between six and nine in the evening my phone goes in a drawer. It doesn't always stay there.
+
+I run in the mornings, slowly. I have finished one marathon, most of it in the morning and the rest after dinner. I read a lot, and I keep a [shelf](/reading/) of everything since 2018 so I can be embarrassed by it later.
+
+I love trees, typography and single-origin coffee, and I can't find a decent café in Yogyakarta that opens before eight. I keep a note on my phone to remember the baristas' names. I'm a calm person, mostly. I'm a chicken at parties and a lion at ping-pong.
+
+This site is where I write. Every essay is set in the style of a different designer from a different era, because typography is the closest thing I have to a religion and I couldn't pick one saint. The [colophon](/colophon/) explains who's who.

@@ -1,9 +1,11 @@
 ---
 title: "Three Months: A Field Note From a Small Company"
-description: "A quieter variation on the first months of Synetica: coffee tables, late follow-ups, morning runs, and the small evidence that a company is becoming real."
+description: "Coffee tables, late follow-ups, morning runs, and the small evidence that a company is becoming real. Notes from the first three months of Synetica."
 cover: images/articles/line-drawing.jpeg
 date: 2026-06-22
 tags: ["business"]
+style: "bauhaus"
+lang_code: "en"
 ---
 
 There is a table at KopiO that I keep remembering.

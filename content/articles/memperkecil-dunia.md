@@ -4,6 +4,8 @@ description: "Di era di mana semua orang bisa menjadi apapun, punya dunia yang k
 cover: images/articles/satellite-view.jpg
 date: 2019-07-15
 tags: ["life"]
+style: "rams"
+lang_code: "id"
 ---
 
 Mei itu, ketika Jogja mulai menjadi dingin, muncul pesan di hp saya dari dua orang teman lama. "Yuk bikin startup." Hmm. Saya membalas pesan itu dan masuk ke dalam grup Whatsapp yang ia buat.

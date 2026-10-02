@@ -24,3 +24,24 @@
   from = "/running/log/*"
   to = "https://run.ganisatmawarin.com/:splat"
   status = 200
+
+# Retired essays (2026 redesign): dated tool reviews and a merged draft.
+[[redirects]]
+  from = "/articles/buat-presentasi-dengan-beautiful-ai/"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/rekomendasi-note-taking-app-notion/"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/6-alasan-pindah-dari-wordpress-ke-webflow/"
+  to = "/articles/"
+  status = 301
+
+[[redirects]]
+  from = "/articles/three-months-running-my-own-company/"
+  to = "/articles/three-months-a-field-note-from-a-small-company/"
+  status = 301

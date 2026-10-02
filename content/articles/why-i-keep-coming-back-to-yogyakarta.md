@@ -4,6 +4,8 @@ description: "On bridges, memory, and a city that refuses to change — which is
 cover: images/articles/line-drawing.jpeg
 date: 2020-03-04
 tags: ["life"]
+style: "cassandre"
+lang_code: "en"
 ---
 
 The bridge. That's what I want to say when a friend asked why I choose to stay here.

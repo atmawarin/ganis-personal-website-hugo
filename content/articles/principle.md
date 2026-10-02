@@ -4,6 +4,8 @@ description: "Lakukan dan hindari. Tulis dan langgar. Consistent, tapi jangan ta
 cover: images/articles/ruler.jpg
 date: 2019-08-03
 tags: ["life"]
+style: "vignelli"
+lang_code: "id"
 ---
 
 ## Lakukan

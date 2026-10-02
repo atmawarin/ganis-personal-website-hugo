@@ -4,6 +4,8 @@ description: “How can I thank you?” Collins asked. Drucker answers “just g
 cover: images/articles/man-talking.jpg
 date: 2019-12-04
 tags: ["business"]
+style: "aldus"
+lang_code: "en"
 ---
 
 It was someday in European Summer 1994, and Peter Drucker (the greatest management thinker of all time), pulled up to his home after a long day conversation with Jim Collins. Collins, 36 at that time, just back from the corporate world, teaching at Stanford, and become an aspiring writer. 

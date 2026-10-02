@@ -1,9 +1,8 @@
 {{ define "main" }}
-<div class="page-wrapper nav-left">
-    <div class="section no-bottom-padding">
-        <div class="wrapper">
-            <h1 class="post-heading">404 :(<br> <span>Page Not Found!</span></h1>
-        </div>
-    </div>
-</div>
+<section class="title-block">
+    <p class="slug">Error 404 · page not found</p>
+    <h1 class="title-block__h">Pied.</h1>
+    <p class="title-block__dek">In letterpress, when a tray of hand-set type gets dropped and the letters scatter, the printer calls it <em>pie</em>. Whatever was on this page has been pied. The good news is the rest of the type is still in the case.</p>
+    <p><a class="cta-line" href="{{ "articles/" | relURL }}">Back to the essays →</a></p>
+</section>
 {{ end }}

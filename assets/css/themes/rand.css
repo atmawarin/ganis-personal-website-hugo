@@ -1,0 +1,19 @@
+/* Paul Rand, IBM 1972: eight stripes, primary shapes, serious play. */
+.theme-rand { --p-bg:#fdfaf3; --p-ink:#1a1a1a; --p-muted:#55524c; --p-accent:#1f5fbf; --p-rule:rgba(26,26,26,.18);
+  --p-display:'Zilla Slab','Rockwell',serif; --p-text:'Zilla Slab','Rockwell',serif; --p-meta:'Zilla Slab',serif; --p-measure: 36em; --p-size: clamp(1.1rem,1.25vw,1.24rem); --p-lh:1.6; }
+.theme-rand .piece__ornament { display: block; position: absolute; top: 40px; right: 5%; width: 200px; height: 200px; pointer-events: none; }
+.theme-rand .piece__ornament span { position: absolute; display: block; }
+.theme-rand .piece__ornament span:nth-child(1) { width: 110px; height: 110px; border-radius: 50%; background: #e94f2e; top: 0; right: 0; }
+.theme-rand .piece__ornament span:nth-child(2) { width: 90px; height: 90px; background: var(--p-accent); top: 70px; right: 80px; mix-blend-mode: multiply; }
+.theme-rand .piece__ornament span:nth-child(3) { width: 0; height: 0; border-left: 50px solid transparent; border-right: 50px solid transparent; border-bottom: 86px solid #f2b705; top: 110px; right: 10px; mix-blend-mode: multiply; }
+.theme-rand .piece__title { font-weight: 700; font-size: clamp(2.6rem, 7.4vw, 6rem); line-height: .98; max-width: 13ch; color: var(--p-accent);
+  background: repeating-linear-gradient(180deg, var(--p-accent) 0 0.075em, transparent 0.075em 0.125em); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.theme-rand .piece__dek { font-style: italic; }
+.theme-rand .piece__byline { border-top: 0; }
+.theme-rand .piece__byline span { border: 2px solid var(--p-ink); border-radius: 999px; padding: 2px 10px; }
+.theme-rand .piece__cover img { filter: grayscale(1) contrast(1.1); mix-blend-mode: multiply; }
+.theme-rand .piece__body h2 { font-weight: 700; color: var(--p-accent); font-size: 1.9rem; }
+.theme-rand .piece__body h2::after { content: ""; display: block; height: 10px; margin-top: 8px; width: 3em; background: repeating-linear-gradient(180deg, var(--p-accent) 0 2px, transparent 2px 4px); }
+.theme-rand .piece__body blockquote { border-left: 0; position: relative; padding-left: 1.6em; font-size: 1.3rem; }
+.theme-rand .piece__body blockquote::before { content: ""; position: absolute; left: 0; top: .3em; width: .9em; height: .9em; border-radius: 50%; background: #e94f2e; }
+@media (max-width: 760px) { .theme-rand .piece__ornament { opacity: .35; } }

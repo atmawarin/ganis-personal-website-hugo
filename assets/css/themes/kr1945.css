@@ -1,0 +1,20 @@
+/* Kedaulatan Rakyat, Yogyakarta 1945: the hand-set daily. Flag, columns, halftone. */
+.theme-kr1945 { --p-bg:#ece6d6; --p-ink:#1f1b16; --p-muted:#5a5248; --p-accent:#1f1b16; --p-rule:rgba(31,27,22,.4);
+  --p-display:'Playfair Display SC','Old Standard TT',serif; --p-text:'Old Standard TT',Georgia,serif; --p-meta:'Old Standard TT',serif; --p-measure: 1080px; --p-size: clamp(1.02rem,1.1vw,1.1rem); --p-lh:1.55; }
+.theme-kr1945 .piece { max-width: 1160px; }
+.theme-kr1945 .piece__head { max-width: none; text-align: center; border-top: 6px solid var(--p-ink); border-bottom: 6px double var(--p-ink); padding: 16px 0 18px; }
+.theme-kr1945 .piece__kicker { justify-content: space-between; border-bottom: 1px solid var(--p-ink); padding-bottom: 8px; text-transform: uppercase; font-size: .78rem; letter-spacing: .14em; }
+.theme-kr1945 .piece__title { font-weight: 900; font-size: clamp(2.6rem, 8vw, 6.4rem); line-height: 1; letter-spacing: -.01em; }
+.theme-kr1945 .piece__dek { margin: 14px auto 0; font-family: 'Old Standard TT', serif; max-width: 46em; color: var(--p-ink); font-size: 1.15rem; }
+.theme-kr1945 .piece__byline { justify-content: center; border-top: 1px solid var(--p-ink); text-transform: uppercase; color: var(--p-ink); }
+.theme-kr1945 .piece__cover { max-width: 1080px; position: relative; }
+.theme-kr1945 .piece__cover::after { content: ""; position: absolute; inset: 0; background-image: radial-gradient(rgba(31,27,22,.55) 30%, transparent 32%); background-size: 4px 4px; mix-blend-mode: multiply; pointer-events: none; }
+.theme-kr1945 .piece__cover img { filter: grayscale(1) contrast(1.6) brightness(1.1); max-height: 420px; }
+.theme-kr1945 .piece__body { text-align: justify; hyphens: auto; }
+@media (min-width: 760px) { .theme-kr1945 .piece__body { columns: 2; column-gap: 32px; column-rule: 1px solid var(--p-rule); } }
+@media (min-width: 1100px) { .theme-kr1945 .piece__body { columns: 3; } }
+.theme-kr1945 .piece__body p { margin: 0 0 .5em; text-indent: 1em; }
+.theme-kr1945 .piece__body h2 { font-family: 'Old Standard TT', serif; font-weight: 700; text-transform: uppercase; text-align: center; font-size: 1.15rem; letter-spacing: .08em; border-top: 1px solid var(--p-ink); border-bottom: 1px solid var(--p-ink); padding: 4px 0; margin: 1em 0 .6em; break-after: avoid; }
+.theme-kr1945 .piece__body blockquote { break-inside: avoid; font-style: italic; border-left: 0; border-top: 2px solid var(--p-ink); border-bottom: 2px solid var(--p-ink); padding: 8px 0; text-align: center; color: var(--p-ink); }
+.theme-kr1945 .piece__body img { break-inside: avoid; filter: grayscale(1) contrast(1.3); }
+.theme-kr1945 .piece__end { max-width: 640px; }

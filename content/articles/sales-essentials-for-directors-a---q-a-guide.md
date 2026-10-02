@@ -4,6 +4,8 @@ description: "Dress sharp, price smarter than your competitors, and charm client
 date: 2024-11-21
 tags: ["business"]
 cover: /images/website-struktur.png
+style: "gerobak"
+lang_code: "id"
 ---
 
 **Outcome:** Fokus ke input yang bisa kamu kontrol, pilih input yang benar‑benar terhubung ke output, tampil rapi‑premium‑bersih, dan jaga keautentikan untuk bangun trust jangka panjang.

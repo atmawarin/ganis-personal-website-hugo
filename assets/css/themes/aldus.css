@@ -1,0 +1,18 @@
+/* Aldus Manutius, Venice 1501: the pocket classic. Narrow page, italic, indents. */
+.theme-aldus { --p-bg:#f6f0e1; --p-ink:#2a1f14; --p-muted:#6d5a43; --p-accent:#7a1f1f; --p-rule:rgba(42,31,20,.22);
+  --p-display:'Cardo',Georgia,serif; --p-text:'Cardo',Georgia,serif; --p-meta:'Cardo',serif; --p-measure: 33em; --p-size: clamp(1.12rem,1.3vw,1.26rem); --p-lh:1.6; }
+.theme-aldus .piece__head { text-align: center; max-width: 40em; }
+.theme-aldus .piece__kicker { justify-content: center; text-transform: none; font-style: italic; letter-spacing: .02em; font-size: 1rem; }
+.theme-aldus .piece__title { font-weight: 400; font-size: clamp(2.2rem,5.4vw,4rem); text-transform: uppercase; letter-spacing: .12em; line-height: 1.15; }
+.theme-aldus .piece__dek { margin: 18px auto 0; font-size: 1.35rem; }
+.theme-aldus .piece__byline { justify-content: center; border-top: 0; text-transform: none; font-style: italic; letter-spacing: 0; font-size: 1rem; }
+.theme-aldus .piece__byline span + span::before { content: "· "; }
+.theme-aldus .piece__cover img { filter: sepia(.5) grayscale(.6) contrast(1.05); max-height: 48vh; }
+.theme-aldus .piece__body p { margin: 0; text-indent: 1.5em; text-align: justify; hyphens: auto; }
+.theme-aldus .piece__body > p:first-child { text-indent: 0; }
+.theme-aldus .piece__body > p:first-child::first-line { font-variant: small-caps; letter-spacing: .05em; }
+.theme-aldus .piece__body h2 { font-style: italic; font-weight: 400; text-align: center; font-size: 1.6rem; margin: 1.8em 0 .6em; }
+.theme-aldus .piece__body h2::before { content: "❦ "; color: var(--p-accent); font-style: normal; }
+.theme-aldus .piece__body blockquote { border: 0; font-style: italic; text-align: center; padding: 0 1em; margin: 1.4em 0; }
+.theme-aldus .piece__end::before { content: "⚓"; display: block; text-align: center; font-size: 2rem; color: var(--p-accent); margin-bottom: 28px; }
+.theme-aldus .piece__sign { text-align: center; }

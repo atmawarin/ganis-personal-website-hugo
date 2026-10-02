@@ -4,7 +4,8 @@ description: "Hal baik, event, pengalaman dan orang yang saya temukan, pelajari,
 cover: images/articles/custom-calender.jpg
 date: 2018-12-31
 tags: ["life"]
-draft: true
+style: "crouwel"
+lang_code: "id"
 ---
 
 Hal baik, event, pengalaman dan orang yang saya temukan, pelajari, ketemu, dan lain-lain di 2018. List ini tidak dibuat dengan ordering, dan tidak semua hal adalah hal yang baru.

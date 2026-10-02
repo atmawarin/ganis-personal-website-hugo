@@ -4,6 +4,8 @@ description: "Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil 
 cover: images/articles/kid-smiling.jpg
 date: 2017-10-26
 tags: ["business"]
+style: "lubalin"
+lang_code: "id"
 ---
 
 Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute.

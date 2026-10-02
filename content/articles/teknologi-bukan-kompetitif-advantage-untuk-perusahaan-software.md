@@ -4,6 +4,8 @@ description: "Don't fall in love with your technology. Fall in love with your cu
 cover: "images/articles/men-with-knife.jpg"
 date: 2019-07-30
 tags: ["business"]
+style: "kare"
+lang_code: "id"
 ---
 
 > Don't fall in love with your technology. Fall in love with your customer. – Ian Burges, Validere

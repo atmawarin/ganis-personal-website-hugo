@@ -1,0 +1,17 @@
+/* Edward Tufte, 1983: wide margins, notes beside the text, no chartjunk. */
+.theme-tufte { --p-bg:#fffff8; --p-ink:#111; --p-muted:#555; --p-accent:#a00000; --p-rule:rgba(17,17,17,.2);
+  --p-display:'Crimson Pro','ET Book',Palatino,serif; --p-text:'Crimson Pro','ET Book',Palatino,serif; --p-meta:'Crimson Pro',serif; --p-measure: 34em; --p-size: clamp(1.18rem,1.4vw,1.38rem); --p-lh:1.55; }
+.theme-tufte .piece { max-width: 1180px; }
+.theme-tufte .piece__head, .theme-tufte .piece__body, .theme-tufte .piece__end, .theme-tufte .piece__cover { margin-left: clamp(0px, 8vw, 120px); }
+.theme-tufte .piece__kicker { text-transform: none; font-style: italic; letter-spacing: 0; font-size: 1.05rem; }
+.theme-tufte .piece__title { font-weight: 400; font-style: italic; font-size: clamp(2.4rem, 5.4vw, 3.8rem); line-height: 1.08; }
+.theme-tufte .piece__dek { font-size: 1.4rem; }
+.theme-tufte .piece__byline { border: 0; text-transform: none; font-style: italic; letter-spacing: 0; font-size: 1rem; }
+.theme-tufte .piece__cover { max-width: 34em; }
+.theme-tufte .piece__cover img { filter: grayscale(1); max-height: 40vh; }
+.theme-tufte .piece__body h2 { font-weight: 400; font-style: italic; font-size: 1.9rem; }
+.theme-tufte .piece__body h3 { font-weight: 400; font-style: italic; }
+@media (min-width: 1100px) {
+  .theme-tufte .piece__body blockquote { float: right; clear: right; width: 15em; margin: 0 -18em 1em 0; padding: 0; border: 0; font-size: .95rem; line-height: 1.4; font-style: normal; color: var(--p-muted); }
+  .theme-tufte .piece__body blockquote::before { content: "◆ "; color: var(--p-accent); }
+}

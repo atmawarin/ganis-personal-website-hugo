@@ -4,6 +4,8 @@ description: "Tidak punya waktu untuk bertemu dengan tim, seminggu sekali? Ya ja
 cover: images/articles/two-birds.jpg
 date: 2018-04-26
 tags: ["business"]
+style: "swiss"
+lang_code: "id"
 ---
 
 Paul Green menulis dalam [Giving Negative Feedback](https://hbr.org/2018/01/negative-feedback-rarely-leads-to-improvement?autocomplete=true):

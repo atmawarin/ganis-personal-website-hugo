@@ -4,6 +4,8 @@ description: "Saya selalu berpikir rumah adalah tempat, lokasi, dan tanah. Tapi 
 cover: images/articles/office-crowd.png
 date: 2019-07-29
 tags: ["business"]
+style: "kr1945"
+lang_code: "id"
 ---
 
 Di usia 2 tahun, saya sudah pindah kota. Dengan menggunakan kapal Pelni Rinjani yang juga berumur sama, bapak membawa saya 5 hari 4 malam ke barat untuk tinggal dengan kakek nenek di Malang. Sejak itu, dilecut oleh kebutuhan dan janji, pindah dari satu nama kota ke kota lain adalah konstanta. Hidup saya hingga umur 18 tidak terikat kepada lokalitas manapun, tidak peduli terhadap rumah.

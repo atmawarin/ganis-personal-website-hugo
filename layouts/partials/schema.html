@@ -1,89 +1,15 @@
-<script type="application/ld+json">
-{{ if .IsPage }}
-{{- $ISO8601 := "2006-01-02T15:04:05-07:00" }}
-{
-    "@context": "https://schema.org/",
-    "@type": "BlogPosting",
-    "@id": "{{ .Permalink }}",
-    "headline": "{{ .Title }}",
-    "name": "{{ .Title }}",
-    {{ with .Params.description }}
-    "description": "{{ . }}",
-    {{ end }}
-    {{ with .PublishDate }}
-    "datePublished": "{{ .Format $ISO8601 }}",
-    {{ end }}
-    {{ with .Date }}
-    "dateModified": "{{ .Format $ISO8601 }}",
-    {{ end }}
-    "author": {
-        "@type": "Person",
-        "name": "Ganis Angger Atmawarin",
-        "url": "{{ site.BaseURL }}"
-    },
-    "availableLanguage": {
-        "@type": "Language",
-        "name": "{{ site.Language.Label }}",
-        "alternateName": "{{ site.Language.Locale }}"
-    },
-    "publisher": {
-        "@type": "Person",
-        "@id": "{{ site.BaseURL }}",
-        "name": "{{ site.Title }}",
-        "logo": {
-            "@type": "ImageObject",
-            "@id": "{{ $.Site.Params.logo | relURL }}",
-            "url": "{{ $.Site.Params.logo | relURL }}"
-        }
-    },
-    {{ with .Params.cover }}
-    "image": {
-        "@type": "ImageObject",
-        "@id": "{{ . | relURL }}",
-        "url": "{{ . | relURL }}"
-    },
-    {{ end }}
-    "url": "{{ .Permalink }}",
-    "isPartOf": {
-        "@type" : "Blog",
-        "@id": "{{ site.BaseURL }}articles",
-        "name": "{{ site.Title }} Blog",
-        "publisher": {
-            "@type": "Person",
-            "@id": "{{ site.BaseURL }}",
-            "name": "{{ site.Title }}"
-        }
-    },
-    "wordCount": "{{ .WordCount }}"
-    {{- $keywords := slice -}}
-    {{- with .Params.tags }}
-    {{- range . }}
-        {{- $keywords = $keywords | append . }}
-    {{- end }}
-    {{- end }}
-    {{- with $keywords }},
-    "keywords": [
-        {{ delimit . `,` }}
-    ]
-    {{- end }}
-}
-{{ else }}
-{
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "{{ .Title }}",
-    {{ with or .Page.Params.description .Page.Params.subtitle }}
-    "description": "{{ . }}",
-    {{ end }}
-    "availableLanguage": {
-        "@type": "Language",
-        "name": "{{ site.Language.Label }}",
-        "alternateName": "{{ site.Language.Locale }}"
-    },
-    "publisher": {
-        "@type": "Person",
-        "name": "{{ site.Title }}"
-    }
-}
-{{ end }}
-</script>
+{{- $person := dict "@type" "Person" "@id" (printf "%s#me" site.BaseURL) "name" site.Params.author "url" site.BaseURL "jobTitle" "Founder & Managing Director" "worksFor" (dict "@type" "Organization" "name" "Synetica" "url" "https://synetica.co") "alumniOf" (dict "@type" "Organization" "name" "SoftwareSeni") "homeLocation" (dict "@type" "Place" "name" site.Params.location) "sameAs" site.Params.sameAs }}
+{{- if and .IsPage (eq .Section "articles") }}
+{{- $d := dict "@context" "https://schema.org" "@type" "BlogPosting" "headline" (.Title | plainify) "description" (.Params.description | default .Summary | plainify) "datePublished" (.Date.Format "2006-01-02") "dateModified" (.Lastmod.Format "2006-01-02") "inLanguage" (.Params.lang_code | default "id") "wordCount" .WordCount "url" .Permalink "mainEntityOfPage" .Permalink "author" $person "publisher" $person }}
+{{- with (or .Params.cover site.Params.image) }}{{ $d = merge $d (dict "image" (. | absURL)) }}{{ end }}
+{{- with .Params.tags }}{{ $d = merge $d (dict "keywords" (delimit . ", ")) }}{{ end }}
+<script type="application/ld+json">{{ $d | jsonify | safeJS }}</script>
+{{- else if .IsHome }}
+{{- $d := dict "@context" "https://schema.org" "@type" "WebSite" "name" site.Title "url" site.BaseURL "description" site.Params.description "author" $person "inLanguage" (slice "id" "en") }}
+<script type="application/ld+json">{{ $d | jsonify | safeJS }}</script>
+<script type="application/ld+json">{{ merge $person (dict "@context" "https://schema.org" "description" site.Params.description) | jsonify | safeJS }}</script>
+{{- else }}
+{{- $d := dict "@context" "https://schema.org" "@type" (cond (eq .Section "about") "ProfilePage" "CollectionPage") "name" (.Title | plainify) "url" .Permalink "isPartOf" (dict "@type" "WebSite" "url" site.BaseURL "name" site.Title) }}
+{{- if eq .Section "about" }}{{ $d = merge $d (dict "mainEntity" $person) }}{{ end }}
+<script type="application/ld+json">{{ $d | jsonify | safeJS }}</script>
+{{- end }}

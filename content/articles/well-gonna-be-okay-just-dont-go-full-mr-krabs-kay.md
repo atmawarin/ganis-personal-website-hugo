@@ -4,6 +4,8 @@ description: "Growing too fast can feel like winning, but it's often just a Mr. 
 cover: images/articles/crab-drawing.png
 date: 2024-11-20
 tags: ["business"]
+style: "rodchenko"
+lang_code: "en"
 ---
 
 If you're a tech worker, let's face it—2024 has probably been a shit year for you. Massive waves of layoffs have rolled through the industry worldwide, and Indonesia hasn't been spared. It's brutal out there.

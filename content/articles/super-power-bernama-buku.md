@@ -4,6 +4,8 @@ description: "Kamu akan jadi orang yang sama 5 tahun lagi, seperti sekarang, kec
 cover: images/articles/books-wall.jpg
 date: 2019-10-27
 tags: ["life"]
+style: "penguin"
+lang_code: "id"
 ---
 
 Ini mungkin kedengaran seperti klise ya. Tapi menurut saya buku itu underrated di Indonesia. Coba check dan tanya teman kerja di kiri dan kanan. Seberapa banyak dari mereka yang habis baca 1 buku, dalam 1 bulan terakhir? Gak banyak kan? Buat mereka, buku itu mungkin meminta pengorbanan yang gak semua orang punya. Waktu.

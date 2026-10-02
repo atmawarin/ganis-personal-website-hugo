@@ -4,6 +4,8 @@ description: "I wave hello, and she grins back."
 cover: images/articles/trees.jpg
 date: 2011-03-23
 tags: ["life"]
+style: "morris"
+lang_code: "en"
 ---
 
 I OPENED MY EYES AND CLOSED IT AGAIN, really compelled to stay on the bed for the next few hours. But sensing the awfully cold morning air on my face, I cringed and felt betrayed. Looks like I forgot to close the window last night. I woke up slowly, and stop. It took me about 5 minutes to kill the nauseating sleepy haze that lurch in my head. Feeling better, I stepped out the bed lazily, walked across the room and opened the door.

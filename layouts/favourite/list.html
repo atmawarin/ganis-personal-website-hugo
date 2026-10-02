@@ -1,30 +1,17 @@
 {{ define "main" }}
-<div class="page-wrapper nav-left">
-    <div class="section">
-        <div class="wrapper side-padding">
-            <div class="work-top">
-                <div class="work-info">
-                    <h1 class="work-heading">{{ .Title | safeHTML }}</h1>
-                    {{ range .Pages.ByWeight }}
-                    <div class="section-fav">
-                        <h4>
-                            {{ with .Params.type }}
-                            <strong>{{ . | safeHTML }}</strong>
-                            {{ end }}
-                            : <a href="{{ .Params.link | safeURL }}" target="_blank">{{ .Title | safeHTML }}</a>
-                        </h4>
-                        {{ with .Params.image }}
-                        <img src="{{ . | relURL }}" alt="{{ $.Title }}" loading="lazy" class="image-10"/>
-                        {{ end }}
-                        {{ with .Content }}
-                        <div class="grey-text-2">{{ . }}</div>
-                        {{ end }}
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
+<section class="title-block">
+    <p class="slug">Favourite things</p>
+    <h1 class="title-block__h">{{ .Title }}</h1>
+    {{ with .Content }}<div class="title-block__dek">{{ . }}</div>{{ end }}
+</section>
+<div class="notes">
+    {{ range .Pages.ByWeight }}
+    <article class="note">
+        <span class="note__kind">{{ .Params.type }}</span>
+        <h2>{{ with .Params.link }}<a href="{{ . }}" rel="noopener">{{ end }}{{ .Title }}{{ with .Params.link }}</a>{{ end }}</h2>
+        {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+        <div class="note__body">{{ .Content }}</div>
+    </article>
+    {{ end }}
 </div>
-
 {{ end }}

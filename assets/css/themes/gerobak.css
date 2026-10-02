@@ -1,0 +1,15 @@
+/* Indonesia's gerobak sign painters: shadowed caps, red and yellow, a phone number. */
+.theme-gerobak { --p-bg:#fff6dc; --p-ink:#1d1a14; --p-muted:#5c5341; --p-accent:#e0262a; --p-rule:rgba(29,26,20,.2);
+  --p-display:'Bungee','Rubik',sans-serif; --p-text:'Rubik','Helvetica Neue',sans-serif; --p-meta:'Rubik',sans-serif; --p-measure: 36em; --p-size: clamp(1.05rem,1.15vw,1.15rem); --p-lh:1.7; }
+.theme-gerobak .piece__head { background: var(--p-accent); color: #ffd200; border-radius: 18px; padding: clamp(24px,4vw,44px); border: 6px solid #ffd200; outline: 4px solid var(--p-accent); box-shadow: 0 12px 0 #0a7f5a; text-align: center; }
+.theme-gerobak .piece__kicker { justify-content: center; color: #fff; font-weight: 800; letter-spacing: .2em; }
+.theme-gerobak .piece__no { color: #ffd200; }
+.theme-gerobak .piece__title { font-weight: 400; color: #ffd200; font-size: clamp(2.2rem, 6.6vw, 5rem); line-height: 1.02; text-shadow: 4px 4px 0 #1d1a14; }
+.theme-gerobak .piece__dek { color: #fff; font-style: normal; font-weight: 600; margin: 18px auto 0; }
+.theme-gerobak .piece__byline { justify-content: center; color: #ffd200; border-top: 3px dashed #ffd200; font-weight: 800; }
+.theme-gerobak .piece__byline::after { content: "ASLI · ENAK · MURAH"; color: #fff; }
+.theme-gerobak .piece__cover img { border-radius: 18px; filter: saturate(1.3) contrast(1.05); }
+.theme-gerobak .piece__body h2 { font-family: 'Bungee', sans-serif; font-weight: 400; color: var(--p-accent); text-shadow: 2px 2px 0 #ffd200; font-size: 1.7rem; }
+.theme-gerobak .piece__body blockquote { background: #ffd200; color: var(--p-ink); border: 0; border-radius: 12px; padding: 14px 18px; font-style: normal; font-weight: 600; }
+.theme-gerobak .piece__body strong { background: linear-gradient(transparent 55%, #ffd200 55%); }
+.theme-gerobak .piece__sign { font-family: 'Bungee', sans-serif; font-style: normal; color: var(--p-accent); }

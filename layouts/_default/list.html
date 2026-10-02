@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section class="title-block">
+    <h1 class="title-block__h">{{ .Title }}</h1>
+</section>
+<div class="prose page-body">{{ .Content }}
+<ul>{{ range .Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+</div>
+{{ end }}

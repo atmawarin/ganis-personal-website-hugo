@@ -1,0 +1,26 @@
+/* Susan Kare, Macintosh 1984: a window, a dither, a happy little machine. */
+.theme-kare { --p-bg:#c9c9c9; --p-ink:#000; --p-muted:#333; --p-accent:#000; --p-rule:rgba(0,0,0,.3);
+  --p-display:'Pixelify Sans','Chicago',monospace; --p-text:'Atkinson Hyperlegible','Geneva',sans-serif; --p-meta:'Pixelify Sans',monospace; --p-measure: 38em; --p-size: clamp(1.04rem,1.15vw,1.12rem); --p-lh:1.6;
+  background-image: repeating-conic-gradient(#b4b4b4 0 25%, #d6d6d6 0 50%); background-size: 4px 4px; }
+.theme-kare .piece { max-width: 900px; }
+.theme-kare .piece__head, .theme-kare .piece__body, .theme-kare .piece__end .specimen-card { background: #fff; border: 2px solid #000; box-shadow: 4px 4px 0 #000; }
+.theme-kare .piece__head { padding: 0 0 24px; }
+.theme-kare .piece__kicker { margin: 0 0 22px; padding: 8px 12px; justify-content: center; position: relative; text-transform: none; letter-spacing: 0; font-size: 1rem; color: #000;
+  background: repeating-linear-gradient(#000 0 1px, #fff 1px 3px); border-bottom: 2px solid #000; }
+.theme-kare .piece__kicker span { background: #fff; padding: 0 10px; }
+.theme-kare .piece__kicker::before { content: ""; position: absolute; left: 12px; top: 50%; width: 16px; height: 16px; transform: translateY(-50%); background: #fff; border: 2px solid #000; }
+.theme-kare .piece__no { color: #000; }
+.theme-kare .piece__title, .theme-kare .piece__dek, .theme-kare .piece__byline { padding-left: 24px; padding-right: 24px; }
+.theme-kare .piece__title { font-weight: 700; font-size: clamp(2rem, 5.4vw, 3.8rem); line-height: 1.05; letter-spacing: 0; }
+.theme-kare .piece__dek { font-style: normal; color: #000; }
+.theme-kare .piece__byline { border-top: 0; text-transform: none; letter-spacing: 0; font-size: .95rem; color: #000; }
+.theme-kare .piece__byline span::before { content: "▪ "; }
+.theme-kare .piece__cover { border: 2px solid #000; box-shadow: 4px 4px 0 #000; max-width: 900px; }
+.theme-kare .piece__cover img { filter: grayscale(1) contrast(2) brightness(1.1); image-rendering: pixelated; }
+.theme-kare .piece__body { padding: 28px clamp(18px,4vw,40px); max-width: 900px; }
+.theme-kare .piece__body h2 { font-family: 'Pixelify Sans', monospace; font-weight: 700; font-size: 1.7rem; }
+.theme-kare .piece__body blockquote { border-left: 4px solid #000; color: #000; font-style: normal; }
+.theme-kare .piece__body a { color: #000; background: #000; color: #fff; text-decoration: none; padding: 0 3px; }
+.theme-kare .piece__end { max-width: 900px; }
+.theme-kare .piece__sign { background: #fff; display: inline-block; padding: 4px 12px; border: 2px solid #000; }
+.theme-kare .after-piece { background: #fff; border: 2px solid #000; padding: 24px; }

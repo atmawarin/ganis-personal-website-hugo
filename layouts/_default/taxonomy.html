@@ -1,0 +1,8 @@
+{{ define "main" }}
+<section class="title-block">
+    <h1 class="title-block__h">{{ .Title | title }}</h1>
+</section>
+<ul class="plain-list">
+    {{ range .Data.Terms.ByCount }}<li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a> <span class="muted">{{ .Count }}</span></li>{{ end }}
+</ul>
+{{ end }}

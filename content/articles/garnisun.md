@@ -22,13 +22,13 @@ So that's my name. It's short for a patrol car.
 
 I tell this story at new-hire meetings. When you run a company long enough, you end up doing a lot of new-hire meetings, and you need material. For years mine was a game called Two Truths and a Lie. I'd stand at the front of the room and say:
 
-*I have visited nine countries.*
+*I have reached Mythic rank in Mobile Legends.*
 
 *I studied economics, not computer science.*
 
 *I have run a 42 km marathon.*
 
-Then I'd ask the new engineers to pick the lie. They'd look at me, a soft man of five foot six with slightly blurry vision, and most of them would pick the marathon. I've never decided whether to be offended.
+Then I'd ask the new engineers to pick the lie. They'd look at me, a soft man of five foot six with slightly blurry vision, and most of them would pick the marathon. The rest picked Mobile Legends, on the grounds that no managing director would admit to it. I've never decided which group to be offended by.
 
 Then I'd tell them they were all true. There's no lie. I'd say this is a lesson about assumptions in product development, which it is, a little. Mostly it's a lesson about me, which is that I'll make up a game for the pleasure of watching people lose it.
 

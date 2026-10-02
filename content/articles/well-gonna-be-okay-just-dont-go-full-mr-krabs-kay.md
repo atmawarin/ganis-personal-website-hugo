@@ -1,11 +1,14 @@
 ---
-title: "We're Gonna Be Okay, Just Don't Go Full Mr. Krabs, Kay?"
-description: "Growing too fast can feel like winning, but it's often just a Mr. Krabs-style disaster waiting to happen. Don't let greed screw over your team—or your conscience. Grow smarter, not faster, and leave the corporate gluttony behind."
+title: "We’re Gonna Be Okay, Just Don’t Go Full Mr. Krabs, Kay?"
+description: "Growing too fast feels like winning until someone else pays for it. On 2024, layoffs, and why I’d rather grow slower than go full Mr. Krabs."
 cover: images/articles/crab-drawing.png
 date: 2024-11-20
 tags: ["business"]
 style: "rodchenko"
 lang_code: "en"
+dek: "Our industry grew too fast and other people paid for it. Me included."
+seo_title: "We’re Gonna Be Okay, Just Don’t Go Full Mr. Krabs"
+image: "images/og/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay.png"
 ---
 
 If you're a tech worker, let's face it—2024 has probably been a shit year for you. Massive waves of layoffs have rolled through the industry worldwide, and Indonesia hasn't been spared. It's brutal out there.

@@ -1,6 +1,6 @@
 /* William Morris, Kelmscott Press 1891: vines, black type, red initials, a whole book. */
 .theme-morris { --p-bg:#f2ead8; --p-ink:#1d1712; --p-muted:#5f5140; --p-accent:#8a2b1d; --p-rule:rgba(29,23,18,.3);
-  --p-display:'Goudy Bookletter 1911','IM Fell English',serif; --p-text:'IM Fell English',Georgia,serif; --p-meta:'Goudy Bookletter 1911',serif; --p-measure: 36em; --p-size: clamp(1.15rem,1.35vw,1.3rem); --p-lh:1.55; }
+  --p-display:'Goudy Bookletter 1911','IM Fell English',serif; --p-text:'Goudy Bookletter 1911','IM Fell English',Georgia,serif; --p-meta:'Goudy Bookletter 1911',serif; --p-measure: 36em; --p-size: clamp(1.15rem,1.35vw,1.3rem); --p-lh:1.55; }
 .theme-morris .piece { max-width: 900px; margin-top: 28px; border: 3px solid var(--p-ink); outline: 1px solid var(--p-ink); outline-offset: -10px; padding: clamp(40px,6vw,76px) clamp(22px,5vw,68px); }
 .theme-morris .piece__ornament { display: block; }
 .theme-morris .piece__ornament span { position: absolute; font-size: 1.6rem; line-height: 1; color: #2e4a2a; }
@@ -22,3 +22,4 @@
   float: left; font-family: 'Goudy Bookletter 1911', serif; font-size: 3.6em; line-height: .9; padding: .12em .14em .02em; margin: .08em .12em 0 0;
   color: #f2ead8; background: var(--p-accent); outline: 3px double var(--p-accent); outline-offset: 3px; }
 .theme-morris .piece__body h2 { text-align: center; font-weight: 400; color: var(--p-accent); }
+.theme-morris .piece__body em { font-family: 'IM Fell English', serif; font-style: italic; }

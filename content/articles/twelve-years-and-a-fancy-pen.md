@@ -5,6 +5,8 @@ date: 2026-09-30
 tags: ["business", "life"]
 style: "caslon"
 lang_code: "en"
+dek: "Employee number thirteen says thank you to SoftwareSeni, and to Davo."
+image: "images/og/twelve-years-and-a-fancy-pen.png"
 ---
 
 In my last week at SoftwareSeni, I wrote this in my journal:
@@ -49,9 +51,9 @@ By 2016 I was general manager and we were in Pakuningratan No.15, a small coloni
 
 There was a ping-pong table in a room so narrow you couldn't step backwards, only sideways. This is how I became notoriously brutal at ping-pong. When you can't retreat, you learn to attack. There was also Mario Kart, a PlayStation, and later, God help us, Mobile Legends. Someone stuck a quote from Dwight Schrute on the office wall. It was me. I've [written about it](/articles/dwight-schrute-line-di-softwareseni/).
 
-That year Davo and Ryan asked me to forecast how many people we'd need. I drew a graph. Two years later I showed them the same graph and we'd hit it every year. I don't think anyone was more surprised than I was.
+That year Davo and Ryan asked me to forecast how many people we'd need. I drew a graph. Two years later I showed them the same graph. We'd hit it every year since. I don't think anyone was more surprised than I was.
 
-In 2019 I became a director and we moved to a former car dealership on Jl Magelang, and in 2022 to a house in Sagan. By 2021 we'd gone from ninety people to a hundred and forty to two hundred. We built software for public institutions and household names, and a lot of software you'll never hear about that quietly keeps a payroll running somewhere.
+By 2019 I was a director, the office was a former car dealership on Jl Magelang, and we were building a lot of software you'll never hear about that quietly keeps a payroll running somewhere.
 
 We also made mistakes. In 2020 we let go of ten good people, and that's still the hardest thing I've done at work. In 2024 I [wrote](/articles/well-gonna-be-okay-just-dont-go-full-mr-krabs-kay/) about how our whole industry, us included, grew too fast during COVID. I said that in public. I stand by it. I learned it at SoftwareSeni, which is to its credit: it was the kind of company where you were allowed to say so.
 

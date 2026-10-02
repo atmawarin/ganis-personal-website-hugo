@@ -6,6 +6,9 @@ date: 2011-03-23
 tags: ["life"]
 style: "morris"
 lang_code: "en"
+dek: "A 2011 morning walk, a tree, and the first thing I ever wrote about the planet."
+seo_title: "And By Our Hands: A Morning Walk, 2011"
+image: "images/og/and-by-our-hands-did-millions-of-her-fading-and-only-did-we-begin-to-think-then-mourn-for-ourselves.png"
 ---
 
 I OPENED MY EYES AND CLOSED IT AGAIN, really compelled to stay on the bed for the next few hours. But sensing the awfully cold morning air on my face, I cringed and felt betrayed. Looks like I forgot to close the window last night. I woke up slowly, and stop. It took me about 5 minutes to kill the nauseating sleepy haze that lurch in my head. Feeling better, I stepped out the bed lazily, walked across the room and opened the door.

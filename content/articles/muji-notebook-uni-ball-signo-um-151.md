@@ -6,6 +6,8 @@ date: 2017-10-26
 tags: ["design"]
 style: "muji"
 lang_code: "id"
+dek: "Satu buku, satu pulpen, dan alasan saya masih menulis tangan."
+image: "images/og/muji-notebook-uni-ball-signo-um-151.png"
 ---
 
 Saya tidak biasanya membuat tulisan tentang hal yang saya miliki, tapi untuk yang satu ini saya ingin membuat pengecualian. Muji Dotted Notebook + Uniball Signo UM-151 adalah surga.

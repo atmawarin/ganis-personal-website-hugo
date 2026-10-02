@@ -1,11 +1,13 @@
 ---
 title: "Tidak Gagal Bangun Pagi"
-description: "Keep your face always toward the sunshine – and shadows will fall behind you."
+description: "Saya kelelawar yang memutuskan jadi ayam. Catatan dari dua tahun belajar bangun pagi: demi marathon, demi tenang, dan demi kopi pertama."
 cover: images/articles/grass.jpg
 date: 2019-07-16
 tags: ["life"]
 style: "aicher"
 lang_code: "id"
+dek: "Saya kelelawar yang memutuskan jadi ayam. Catatan dari dua tahun bangun pagi."
+image: "images/og/tidak-gagal-bangun-pagi.png"
 ---
 
 > "Keep your face always toward the sunshine – and shadows will fall behind you." – Walt Whitman

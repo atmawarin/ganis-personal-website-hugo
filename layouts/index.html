@@ -2,7 +2,8 @@
 {{ define "main" }}
 {{- $all := where site.RegularPages.ByDate "Section" "articles" }}
 {{- $nos := dict }}{{ range $i, $p := $all }}{{ $nos = merge $nos (dict $p.File.UniqueID (add $i 1)) }}{{ end }}
-{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" (index (split $v.faces " & ") 0 | replaceRE " \\(.*\\)" "" | replaceRE ",.*" "") "d" $v.designer "y" $v.year) }}{{ end }}
+{{- $byStyle := dict }}{{ range $all }}{{ with .Params.style }}{{ $byStyle = merge $byStyle (dict . $) }}{{ end }}{{ end }}
+{{- $faces := slice }}{{ range $k, $v := hugo.Data.styles }}{{ $faces = $faces | append (dict "f" $v.stack "w" ($v.weight | default 400) "i" $v.italic "n" $v.display_name "d" $v.designer "y" $v.year) }}{{ end }}
 {{- $h := hugo.Data.home }}
 <section class="titlepage">
     <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Est. 1984</span></p>
@@ -11,6 +12,14 @@
         <span class="titlepage__rest">Angger Atmawarin</span>
     </h1>
     <p class="titlepage__caption" id="namesetter-caption" aria-live="polite">Set in <em>Fraunces</em>, Undercase Type, 2020. <span class="titlepage__hint">Press the name to set it in another face. There are {{ len $faces }} more.</span></p>
+    <details class="proof">
+        <summary>See all {{ len $faces }} at once</summary>
+        <ul class="proof__grid">
+            {{- range $k, $v := hugo.Data.styles }}{{ $p := index $byStyle $k }}
+            <li><a href="{{ with $p }}{{ .RelPermalink }}{{ end }}"><span class="proof__name" style="{{ partial "face.html" $v | safeCSS }}">Ganis</span><span class="proof__meta">{{ $v.display_name }} · {{ $v.designer }}, {{ $v.year }}</span></a></li>
+            {{- end }}
+        </ul>
+    </details>
     <div class="titlepage__intro">
         {{ $h.intro | markdownify }}
     </div>
@@ -35,7 +44,7 @@
 
 <section class="block">
     <h2 class="block__h"><span class="slug">Latest specimens</span><a href="{{ "articles/" | relURL }}">All {{ len $all }} essays →</a></h2>
-    <ol class="specimen-index">
+    <ol class="specimen-index home-latest">
         {{ range first 8 (complement $featured $all.Reverse) }}{{ partial "specimen-row.html" (dict "p" . "no" (index $nos .File.UniqueID)) }}{{ end }}
     </ol>
 </section>

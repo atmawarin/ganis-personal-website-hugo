@@ -6,6 +6,8 @@ date: 2018-04-26
 tags: ["business"]
 style: "swiss"
 lang_code: "id"
+dek: "Tidak sempat bertemu tim seminggu sekali? Jangan jadi team lead."
+image: "images/og/memberikan-feedback-tips-untuk-team-lead.png"
 ---
 
 Paul Green menulis dalam [Giving Negative Feedback](https://hbr.org/2018/01/negative-feedback-rarely-leads-to-improvement?autocomplete=true):

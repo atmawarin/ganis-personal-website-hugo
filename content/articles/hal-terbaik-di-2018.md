@@ -6,6 +6,8 @@ date: 2018-12-31
 tags: ["life"]
 style: "crouwel"
 lang_code: "id"
+dek: "Buku, aplikasi, podcast dan orang terbaik dari tahun penuh eksperimen."
+image: "images/og/hal-terbaik-di-2018.png"
 ---
 
 Hal baik, event, pengalaman dan orang yang saya temukan, pelajari, ketemu, dan lain-lain di 2018. List ini tidak dibuat dengan ordering, dan tidak semua hal adalah hal yang baru.

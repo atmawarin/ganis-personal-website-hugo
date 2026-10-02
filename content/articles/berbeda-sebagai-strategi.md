@@ -1,11 +1,13 @@
 ---
 title: "Berbeda Sebagai Strategi"
-description: "Strategi yang kamu punyai kosong kalau ia tidak lulus di dua test. Pertama, yang kamu rencanakan harus berguna untuk customer kamu; dan kedua, itu membedakanmu dari kompetitor."
+description: "Seringkali lebih baik menjadi berbeda daripada menjadi lebih baik. Catatan tentang strategi produk, sebuah coffee shop di Jogja, dan dua tes dari Gary Hamel."
 cover: images/articles/chess-board.jpg
 date: 2019-08-04
 tags: ["business"]
 style: "rand"
 lang_code: "id"
+dek: "Lebih baik berbeda daripada lebih baik. Dua tes untuk setiap strategi."
+image: "images/og/berbeda-sebagai-strategi.png"
 ---
 
 > Strategi yang kamu punyai kosong kalau ia tidak lulus di dua test. Pertama, yang kamu rencanakan harus berguna untuk customer kamu; dan kedua, itu membedakanmu dari kompetitor. – *Gary Hamel*

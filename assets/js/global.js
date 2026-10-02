@@ -37,7 +37,7 @@ if (setter) {
     setter.style.letterSpacing = "0";
     setter.style.fontVariationSettings = "normal";
     fit();
-    caption.innerHTML = `Set in <em>${f.n}</em>, after <strong>${f.d}</strong>, ${f.y}. <span class="titlepage__hint">${i + 1} of ${faces.length - 1}.</span>`;
+    caption.innerHTML = `Set in <em>${f.n}</em>, after <strong>${f.d.replace(/^The /, "the ")}</strong>, ${f.y}. <span class="titlepage__hint">${i + 1} of ${faces.length - 1}.</span>`;
   });
   // fonts arrive late on slow connections; re-fit when they do
   if (document.fonts) document.fonts.addEventListener("loadingdone", () => i >= 0 && !faces[i].home && fit());
@@ -55,10 +55,11 @@ if (filters.length) {
       row.hidden = want !== "all" && row.dataset.lang !== want;
       if (!row.hidden) shown++;
     });
-    if (count) count.textContent = `${shown} of ${rows.length}`;
+    if (count) count.textContent = `${shown} of ${rows.length} essays`;
   };
-  const fromHash = { "#english": "en", "#bahasa": "id" }[location.hash] || "all";
-  apply(fromHash);
+  const fromHash = () => ({ "#english": "en", "#bahasa": "id" })[location.hash] || "all";
+  apply(fromHash());
+  window.addEventListener("hashchange", () => apply(fromHash()));
   filters.forEach((btn) =>
     btn.addEventListener("click", () => {
       const want = btn.dataset.filter;

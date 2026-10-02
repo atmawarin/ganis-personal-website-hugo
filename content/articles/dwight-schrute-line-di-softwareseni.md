@@ -6,6 +6,8 @@ date: 2017-10-26
 tags: ["business"]
 style: "lubalin"
 lang_code: "id"
+dek: "Prestasi kantor paling membanggakan saya: satu quote Dwight Schrute di dinding."
+image: "images/og/dwight-schrute-line-di-softwareseni.png"
 ---
 
 Salah satu prestasi mengkilat kebanggaan saya di kantor. Berhasil meletakkan quote dari karakter tv series favorit saya, Dwight Schrute.

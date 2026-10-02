@@ -25,6 +25,17 @@
   to = "https://run.ganisatmawarin.com/:splat"
   status = 200
 
+# Race stubs are listed on /running/ now. Must stay below the /running/log proxy.
+[[redirects]]
+  from = "/running/*"
+  to = "/running/"
+  status = 301
+
+[[redirects]]
+  from = "/categories/*"
+  to = "/reading/"
+  status = 301
+
 # Retired essays (2026 redesign): dated tool reviews and a merged draft.
 [[redirects]]
   from = "/articles/buat-presentasi-dengan-beautiful-ai/"

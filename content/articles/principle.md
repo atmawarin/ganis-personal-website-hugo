@@ -6,6 +6,8 @@ date: 2019-08-03
 tags: ["life"]
 style: "vignelli"
 lang_code: "id"
+dek: "Tujuh hal yang saya lakukan, dua yang saya hindari. Ditulis untuk dilanggar."
+image: "images/og/principle.png"
 ---
 
 ## Lakukan

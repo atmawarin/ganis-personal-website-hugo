@@ -6,6 +6,8 @@ date: 2019-07-30
 tags: ["business"]
 style: "kare"
 lang_code: "id"
+dek: "Klien tidak memilih kamu karena tech stack-mu. Saya hampir lupa itu."
+image: "images/og/teknologi-bukan-kompetitif-advantage-untuk-perusahaan-software.png"
 ---
 
 > Don't fall in love with your technology. Fall in love with your customer. – Ian Burges, Validere

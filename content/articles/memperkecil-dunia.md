@@ -6,6 +6,8 @@ date: 2019-07-15
 tags: ["life"]
 style: "rams"
 lang_code: "id"
+dek: "Ketika semua orang bisa jadi apa saja, punya dunia yang kecil itu enak."
+image: "images/og/memperkecil-dunia.png"
 ---
 
 Mei itu, ketika Jogja mulai menjadi dingin, muncul pesan di hp saya dari dua orang teman lama. "Yuk bikin startup." Hmm. Saya membalas pesan itu dan masuk ke dalam grup Whatsapp yang ia buat.

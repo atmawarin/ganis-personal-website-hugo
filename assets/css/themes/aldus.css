@@ -16,3 +16,5 @@
 .theme-aldus .piece__body blockquote { border: 0; font-style: italic; text-align: center; padding: 0 1em; margin: 1.4em 0; }
 .theme-aldus .piece__end::before { content: "⚓"; display: block; text-align: center; font-size: 2rem; color: var(--p-accent); margin-bottom: 28px; }
 .theme-aldus .piece__sign { text-align: center; }
+.theme-aldus .piece__body h3 { font-family: 'Cardo', serif; font-style: italic; font-weight: 400; font-size: 1.3rem; text-align: center; }
+.theme-aldus .piece__dek { font-style: italic; }

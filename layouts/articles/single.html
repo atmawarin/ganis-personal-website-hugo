@@ -23,7 +23,7 @@
     <figure class="piece__cover"><img src="{{ . | relURL }}" alt="" loading="eager" decoding="async"></figure>
     {{ end }}
     <div class="piece__body prose">
-        {{ .Content }}
+        {{ .Content | replaceRE " — " " – " | safeHTML }}
     </div>
     <footer class="piece__end">
         <p class="piece__sign">— Ganis</p>
@@ -45,8 +45,7 @@
         <p class="after-piece__ask">I send a letter when there's a new essay. That's the whole deal.</p>
         {{ partial "subscribe.html" (dict "id" "essay") }}
     </div>
-    {{- $related := .Site.RegularPages.Related . | first 3 }}
-    {{- if lt (len $related) 3 }}{{ $related = where (where site.RegularPages "Section" "articles") "Permalink" "ne" .Permalink | shuffle | first 3 }}{{ end }}
+    {{- $related := partialCached "related.html" . .Permalink }}
     <div class="after-piece__next">
         <p class="slug">Another specimen</p>
         <ol class="mini-index">

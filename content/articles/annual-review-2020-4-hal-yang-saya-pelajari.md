@@ -6,6 +6,8 @@ date: 2021-03-14
 tags: ["life"]
 style: "tufte"
 lang_code: "id"
+dek: "Empat pelajaran dari tahun di mana saya hampir tidak keluar rumah."
+image: "images/og/annual-review-2020-4-hal-yang-saya-pelajari.png"
 ---
 
 Waktu saya mengetik artikel ini, kalendar menunjukkan bulan Maret. Dan biarpun 2020 sudah lewat 3 bulan yang lalu, residu dari wabah COVID masih pekat. Wajar memang sih, karena hingga detik ini saya masih menghabiskan hampir semua jatah 24 jam saya di rumah, rinse and repeat, mirip adegan film Groundhog Day.

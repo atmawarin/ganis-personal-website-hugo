@@ -6,6 +6,9 @@ date: 2023-10-12
 tags: ["design"]
 style: "carson"
 lang_code: "en"
+dek: "On staying anchored while every button on your phone asks for you."
+seo_title: "The 180-Hour Tether"
+image: "images/og/the-180-hours-tether-that-binds-everything-so-you-can-ignore-that-relentless-button-nudges.png"
 ---
 
 **You are will and substance.**

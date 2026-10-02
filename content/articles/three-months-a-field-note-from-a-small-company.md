@@ -5,6 +5,9 @@ date: 2026-06-22
 tags: ["business"]
 style: "bauhaus"
 lang_code: "en"
+dek: "A café table, late follow-ups, and the first signs that a company is real."
+seo_title: "Three Months: A Field Note From Synetica"
+image: "images/og/three-months-a-field-note-from-a-small-company.png"
 ---
 
 There is a table at KopiO that I keep remembering.

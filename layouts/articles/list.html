@@ -14,7 +14,7 @@
         <button type="button" data-filter="id" aria-pressed="false">Bahasa</button>
     </div>
     <nav class="topics" aria-label="Topics">{{ range site.Taxonomies.tags.ByCount }}<a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>{{ end }}</nav>
-    <p class="filters__count" aria-live="polite">{{ len $all }} of {{ len $all }}</p>
+    <p class="filters__count" aria-live="polite">{{ len $all }} of {{ len $all }} essays</p>
 </div>
 <ol class="specimen-index">
     {{ range $all.Reverse }}

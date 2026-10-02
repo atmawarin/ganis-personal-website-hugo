@@ -1,6 +1,6 @@
 ---
 title: "Colophon"
-description: "Every essay on this site is set in the manner of a different designer, from Gutenberg's Mainz in 1455 to a gerobak painter on a Yogyakarta street. Here's who, and why."
+description: "Every essay on this site is set in the manner of a different designer, from Gutenberg’s Mainz in 1455 to a gerobak painter on a Yogyakarta street. Here’s who, and why."
 ---
 
 A colophon is the note at the back of a book that tells you how it was made: the typeface, the paper, the printer, sometimes a little prayer. I've always read them first.

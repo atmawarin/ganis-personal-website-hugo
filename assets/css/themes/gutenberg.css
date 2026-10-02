@@ -1,12 +1,12 @@
 /* Gutenberg, Mainz 1455: blackletter, two columns, a red rubricator. */
 .theme-gutenberg { --p-bg:#f3ead3; --p-ink:#1c140c; --p-muted:#6a5a44; --p-accent:#b3261e; --p-rule:rgba(28,20,12,.25);
-  --p-display:'Texturina','EB Garamond',serif; --p-text:'EB Garamond',Georgia,serif; --p-meta:'EB Garamond',serif;
+  --p-display:'Grenze Gotisch','Texturina',serif; --p-text:'EB Garamond',Georgia,serif; --p-meta:'EB Garamond',serif;
   --p-measure: 980px; --p-size: clamp(1.1rem,1.3vw,1.28rem); --p-lh:1.5;
   background-image: radial-gradient(ellipse at 50% 0%, rgba(255,250,235,.7), transparent 60%), radial-gradient(ellipse at 0% 100%, rgba(150,110,60,.12), transparent 50%); }
 .theme-gutenberg .piece { max-width: 1060px; outline: 1px solid var(--p-rule); outline-offset: -12px; padding: clamp(40px,7vw,90px) clamp(26px,6vw,80px) 40px; margin-top: 24px; }
 .theme-gutenberg .piece__head { text-align: center; }
 .theme-gutenberg .piece__kicker { justify-content: center; font-variant: small-caps; text-transform: none; letter-spacing: .08em; font-size: 1rem; }
-.theme-gutenberg .piece__title { font-weight: 700; font-variation-settings: 'opsz' 72; font-size: clamp(3.2rem, 10vw, 7.5rem); line-height: .95; color: var(--p-ink); }
+.theme-gutenberg .piece__title { font-weight: 700; font-size: clamp(3.2rem, 10vw, 7.5rem); line-height: .95; color: var(--p-ink); }
 .theme-gutenberg .piece__title::first-letter { color: var(--p-accent); }
 .theme-gutenberg .piece__dek { margin-left:auto; margin-right:auto; max-width: 34ch; }
 .theme-gutenberg .piece__byline { justify-content: center; text-transform: none; font-variant: small-caps; font-size: .95rem; letter-spacing: .06em; border-top: 0; }

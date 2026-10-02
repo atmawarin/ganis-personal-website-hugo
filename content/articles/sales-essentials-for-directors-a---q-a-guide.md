@@ -1,11 +1,13 @@
 ---
 title: "Sales Essentials for Directors"
-description: "Dress sharp, price smarter than your competitors, and charm clients like your team paychecks depends on it—because it does."
+description: "Apa yang ingin saya dengar tentang jualan jasa sebelum jadi direktur: kontrol input, tampil rapi, dan jangan pernah banting harga."
 date: 2024-11-21
 tags: ["business"]
 cover: /images/website-struktur.png
 style: "gerobak"
 lang_code: "id"
+dek: "Apa yang ingin saya dengar tentang jualan, sebelum saya terpaksa belajar sendiri."
+image: "images/og/sales-essentials-for-directors-a---q-a-guide.png"
 ---
 
 **Outcome:** Fokus ke input yang bisa kamu kontrol, pilih input yang benar‑benar terhubung ke output, tampil rapi‑premium‑bersih, dan jaga keautentikan untuk bangun trust jangka panjang.

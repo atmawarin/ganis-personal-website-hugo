@@ -6,6 +6,8 @@ tags: ["running", "life"]
 style: "georgia"
 lang_code: "en"
 featured: true
+dek: "No races in 2021, so I ran a marathon alone. My car was the water station."
+image: "images/og/water-station.png"
 ---
 
 In August 2021 there were no races. The pandemic had cancelled all of them, or postponed them to dates nobody believed in, and I had trained for months for something that wasn't going to happen. So I decided to run a marathon by myself.
@@ -62,21 +64,13 @@ Later, people asked whether it counts.
 
 I've thought about this a lot. My answer, as of today, is that it counts because I've decided it counts. I see now that this is also how I run a company.
 
-In my journal at the end of that year I wrote the total: **1,123 kilometres in 2021**, the most I've ever run. Underneath it, in Indonesian, I wrote that every good thing I got that year came from running. Then I wrote a practical note to myself about chafing, which I'll spare you, but which I'd like future me to know I was right about.
+In my journal at the end of that year I wrote the total: 1,123 kilometres in 2021, the most I've ever run. Underneath it, in Indonesian, I wrote that every good thing I got that year came from running. Then I wrote a practical note to myself about chafing, which I'll spare you, but which I'd like future me to know I was right about.
 
 ---
 
-**Five years later**, the water station has been replaced by software.
+Five years later, the water station has been replaced by software.
 
-I now have an AI assistant that I set up myself, called Musmus, and among other things Musmus manages my training. In the spring of 2026 it built me a twelve-week marathon plan. It was a beautiful plan, with periodisation and taper weeks and everything.
-
-Then it started writing to me in my weekly review.
-
-*🚨 Critical. 0 runs for 2 consecutive weeks.*
-
-There's a particular feeling that comes with being told off by a piece of software you configured yourself. It's the feeling of having hired a personal trainer and then, out of some deep wish to be punished, written his lines. Musmus wasn't wrong. Musmus is rarely wrong. That's the trouble with good systems: they're immune to charm.
-
-I'd like to report a happy ending to the 2026 plan. What I can report is that I'm still running, a bit, and Musmus still sends me red sirens, a bit, and we've reached the kind of understanding that long marriages reach, where both parties know exactly what the other is going to say and say it anyway, out of love.
+In 2026 my AI assistant, Musmus, which I set up myself, built me a twelve-week marathon plan, and then wrote to me in my weekly review: *🚨 Critical. 0 runs for 2 consecutive weeks.* Being told off by software you configured yourself is like hiring a personal trainer and then, out of some deep wish to be punished, writing his lines.
 
 ---
 

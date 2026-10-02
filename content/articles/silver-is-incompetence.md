@@ -5,6 +5,8 @@ date: 2026-09-12
 tags: ["life"]
 style: "gutenberg"
 lang_code: "en"
+dek: "A managing director uninstalls Mobile Legends, again, and meets his inner judge."
+image: "images/og/silver-is-incompetence.png"
 ---
 
 ## Matins
@@ -89,8 +91,6 @@ What I can tell you is smaller. I've uninstalled *Mobile Legends* again. I don't
 
 But I've started saying something to the judge. When I see a number next to my name, any number (a rank, a pace, a revenue figure, a weight), I try to say to myself the thing I'd say to anyone on my team.
 
-Silver isn't incompetence. Silver is a man who went to bed on time. Silver is a father who let his son win at *Mario Party*, or would have if he were a better man, and might be next time.
-
-Silver is what you get when you have a life.
+Silver isn't incompetence. Silver is a man who went to bed on time. Silver is a father who let his son win at *Mario Party*, or would have, if he were a better man.
 
 I'm not sure I believe it yet. But I've set it here in the most serious typeface I could find, the one they used for Bibles, and I'm hoping some of that rubs off.

@@ -11,7 +11,9 @@ taxonomies:
 
 outputs:
   home: ["HTML", "RSS"]
-  section: ["HTML", "RSS"]
+  section: ["HTML"]
+  taxonomy: ["HTML"]
+  term: ["HTML"]
 
 markup:
   goldmark:

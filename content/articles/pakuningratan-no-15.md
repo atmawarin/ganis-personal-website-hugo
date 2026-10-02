@@ -6,6 +6,8 @@ date: 2019-07-29
 tags: ["business"]
 style: "kr1945"
 lang_code: "id"
+dek: "Saya kira rumah itu tempat. Ternyata rumah itu sebuah kantor kecil di Jogja."
+image: "images/og/pakuningratan-no-15.png"
 ---
 
 Di usia 2 tahun, saya sudah pindah kota. Dengan menggunakan kapal Pelni Rinjani yang juga berumur sama, bapak membawa saya 5 hari 4 malam ke barat untuk tinggal dengan kakek nenek di Malang. Sejak itu, dilecut oleh kebutuhan dan janji, pindah dari satu nama kota ke kota lain adalah konstanta. Hidup saya hingga umur 18 tidak terikat kepada lokalitas manapun, tidak peduli terhadap rumah.

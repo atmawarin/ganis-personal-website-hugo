@@ -6,6 +6,8 @@ date: 2019-12-04
 tags: ["business"]
 style: "aldus"
 lang_code: "en"
+dek: "What Drucker told Collins in a parked car, and six books that followed."
+image: "images/og/the-best-of-jim-collins.png"
 ---
 
 It was someday in European Summer 1994, and Peter Drucker (the greatest management thinker of all time), pulled up to his home after a long day conversation with Jim Collins. Collins, 36 at that time, just back from the corporate world, teaching at Stanford, and become an aspiring writer. 
@@ -25,7 +27,7 @@ For all his management book, perhaps his greatest contribution is how to approac
 > Part of the Jim Collins method borrows from other hyper-successful people. He approaches every aspect of his life with purpose and intensity.
 
 # Jim Collins Advice on How to be Successful 
-###     First, Manage Thyself
+### First, Manage Thyself
 If you want the average performance of those around you to go up, you must first improve your own performance.
 
 ### Do what you're made for

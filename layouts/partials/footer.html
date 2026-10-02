@@ -1,5 +1,5 @@
 <footer class="colophon-foot">
-    {{- if not (or (and .IsPage (eq .Section "articles")) (eq .Section "newsletter")) }}
+    {{- if not (or .IsHome (and .IsPage (eq .Section "articles")) (eq .Section "newsletter")) }}
     <div class="colophon-foot__letters">
         <p class="slug">Letters</p>
         <h2 class="colophon-foot__title">An occasional letter, written by hand first.</h2>
@@ -22,7 +22,7 @@
         {{ range site.Menus.footer }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
     </nav>
     <p class="colophon-foot__imprint">
-        {{- if and .IsPage (eq .Section "articles") }}{{ with index hugo.Data.styles (.Params.style | default "") }}This essay is set after {{ .designer }}, {{ .year }}. {{ end }}{{ end -}}
-        The rest is set in Fraunces, Newsreader &amp; IBM Plex Mono. Composed in Yogyakarta, 1984–{{ now.Year }}. Everything here is mine unless I say otherwise; copy it if it helps you, and tell me if it did. <a href="{{ "colophon/" | relURL }}">About the type&nbsp;→</a>
+        {{- $s := false }}{{ if and .IsPage (eq .Section "articles") }}{{ $s = index hugo.Data.styles (.Params.style | default "") }}{{ end -}}
+        {{- with $s }}This essay is set after {{ .designer }}, {{ .year }}. The rest of the site is{{ else }}This site is{{ end }} set in Fraunces, Newsreader &amp; IBM Plex Mono. Composed in Yogyakarta, 1984–{{ now.Year }}. Everything here is mine unless I say otherwise; copy it if it helps you, and tell me if it did. <a href="{{ "colophon/" | relURL }}">About the type&nbsp;→</a>
     </p>
 </footer>

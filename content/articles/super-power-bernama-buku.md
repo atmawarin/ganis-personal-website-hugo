@@ -6,6 +6,8 @@ date: 2019-10-27
 tags: ["life"]
 style: "penguin"
 lang_code: "id"
+dek: "Lima tahun lagi kamu orang yang sama, kecuali dua hal: orang dan buku."
+image: "images/og/super-power-bernama-buku.png"
 ---
 
 Ini mungkin kedengaran seperti klise ya. Tapi menurut saya buku itu underrated di Indonesia. Coba check dan tanya teman kerja di kiri dan kanan. Seberapa banyak dari mereka yang habis baca 1 buku, dalam 1 bulan terakhir? Gak banyak kan? Buat mereka, buku itu mungkin meminta pengorbanan yang gak semua orang punya. Waktu.

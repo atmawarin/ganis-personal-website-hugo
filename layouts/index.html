@@ -30,7 +30,7 @@
 <section class="block">
     <h2 class="block__h"><span class="slug">Start here</span></h2>
     <div class="featured">
-        {{ range first 2 .Reverse }}{{ $s := index hugo.Data.styles (.Params.style | default "") }}
+        {{ range first 4 (sort . "Params.featured_order") }}{{ $s := index hugo.Data.styles (.Params.style | default "") }}
         <a class="featured__card featured__card--{{ .Params.style }}" href="{{ .RelPermalink }}">
             <span class="featured__no">No. {{ printf "%02d" (index $nos .File.UniqueID) }}{{ with $s }} · after {{ partial "smart.html" .designer }}, {{ .year }}{{ end }}</span>
             <span class="featured__title" {{ with $s }}style="{{ partial "face.html" . | safeCSS }}"{{ end }}>{{ partial "smart.html" .Title }}</span>

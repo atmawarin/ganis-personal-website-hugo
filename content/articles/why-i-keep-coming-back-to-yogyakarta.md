@@ -7,6 +7,8 @@ style: "cassandre"
 lang_code: "en"
 dek: "A bridge, a rickshaw at four years old, and a city that refuses to hurry."
 image: "images/og/why-i-keep-coming-back-to-yogyakarta.png"
+featured: true
+featured_order: 4
 ---
 
 The bridge. That's what I want to say when a friend asked why I choose to stay here.

@@ -8,4 +8,4 @@ Every so often I write a letter. It has the newest essay, the book that ruined m
 
 There's no schedule. I write when I have something worth your time and not before, which, as I've learned from twelve years of client work, is also the secret to never missing a deadline.
 
-No spam, no tracking pixels I know about, no "just checking in". Unsubscribe whenever you like.
+No spam, no tracking pixels I know about, no "just checking in". The next letter goes out with the next essay. Unsubscribe whenever you like.

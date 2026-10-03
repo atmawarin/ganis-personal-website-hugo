@@ -32,7 +32,7 @@ ttol:
 
 I'm Ganis. I was named after a military patrol car, which is the only detail of my birth I'm willing to put on the internet.
 
-For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a borrowed office to a couple of hundred across four. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
+For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a borrowed office to a couple of hundred people. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
 
 In late 2025 I started **[Synetica](https://synetica.co)**. We help teams find out whether a product will work before they spend a fortune building it: two weeks to a tested prototype, then eight weeks to build the real thing if it deserves to exist. It's the company I wish had existed for the clients I met at SoftwareSeni.
 

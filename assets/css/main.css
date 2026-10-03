@@ -578,10 +578,26 @@ main > * { width: min(100% - 2 * var(--gutter), var(--wide) - 2 * var(--gutter))
 .piece__body hr + p, .piece__body h2 + p, .piece__body h3 + p, .piece__body > p:first-child { text-indent: 0 !important; }
 .home-latest .specimen-row__no { visibility: hidden; }
 .proof { margin-top: 14px; font-family: var(--f-mono); font-size: 0.8rem; }
-.proof summary { cursor: pointer; color: var(--red); letter-spacing: .06em; text-transform: uppercase; display: inline-block; padding: 8px 0; }
-.proof__grid { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 190px), 1fr)); border-top: 1px solid var(--rule); border-left: 1px solid var(--rule); }
+.proof summary { cursor: pointer; color: var(--red); letter-spacing: .06em; text-transform: uppercase; display: inline-block; padding: 10px 0; list-style: none; }
+.proof summary::-webkit-details-marker { display: none; }
+.proof summary::before { content: "+ "; }
+.proof[open] summary::before { content: "\2013  "; }
+.proof__essay { display: block; margin-top: 4px; color: var(--ink-2); }
+.proof__grid { list-style: none; margin: 12px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr)); border-top: 1px solid var(--rule); border-left: 1px solid var(--rule); }
 .proof__grid li { border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
 .proof__grid a { display: flex; flex-direction: column; gap: 8px; padding: 16px 14px 12px; text-decoration: none; height: 100%; }
-.proof__name { font-size: 2.9rem; line-height: 1; color: var(--ink); font-synthesis: none; white-space: nowrap; overflow: hidden; }
+.proof__grid a { container-type: inline-size; }
+.proof__name { font-size: min(2.9rem, 22cqi); line-height: 1; color: var(--ink); font-synthesis: none; white-space: nowrap; }
+@media (max-width: 720px) { .proof__name { font-size: min(2.2rem, 22cqi); } }
 .proof__meta { font-size: 0.66rem; line-height: 1.4; color: var(--muted); letter-spacing: .02em; }
 @media (hover: hover) { .proof__grid a:hover { background: var(--paper-2); } .proof__grid a:hover .proof__name { color: var(--red); } }
+
+/* ---------- portraits ---------- */
+.titlepage { position: relative; }
+.frontispiece { float: right; width: clamp(150px, 21vw, 280px); margin: clamp(18px, 4vw, 40px) 0 16px 32px; }
+.frontispiece img, .about-portrait img { width: 100%; filter: grayscale(1) contrast(1.05); box-shadow: 0 0 0 1px var(--rule), 10px 10px 0 var(--paper-2); }
+.frontispiece figcaption, .about-portrait figcaption { font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); margin-top: 12px; letter-spacing: .02em; }
+.titlepage__intro { clear: both; }
+@media (max-width: 760px) { .frontispiece { display: none; } }
+.about-portrait { margin: 0 0 28px; }
+.theme-caslon .piece__body figure img { filter: grayscale(1) sepia(.15) contrast(1.05); }

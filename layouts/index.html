@@ -7,6 +7,10 @@
 {{- $h := hugo.Data.home }}
 <section class="titlepage">
     <p class="slug titlepage__slug"><span>A specimen book of one person</span><span>Yogyakarta</span><span>Set by hand</span></p>
+    <figure class="frontispiece">
+        <img src="{{ "images/ganis-portrait.jpg" | relURL }}" alt="Ganis Angger Atmawarin, frowning at the camera over a laptop with a Bowser sticker" width="714" height="1000" fetchpriority="high">
+        <figcaption>Frontispiece. The author, and Bowser.</figcaption>
+    </figure>
     <h1 class="titlepage__name">
         <button type="button" class="namesetter" data-faces="{{ $faces | jsonify }}" aria-label="Ganis. Press to set the name in another typeface." aria-describedby="namesetter-caption">Ganis</button>
         <span class="titlepage__rest">Angger Atmawarin</span>

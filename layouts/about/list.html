@@ -6,6 +6,10 @@
 <section class="about-grid">
     <div class="prose">{{ .Content }}</div>
     <aside>
+        <figure class="about-portrait">
+            <img src="{{ "images/ganis-portrait.jpg" | relURL }}" alt="Ganis Angger Atmawarin, frowning at the camera over a laptop with a Bowser sticker" width="714" height="1000" loading="lazy">
+            <figcaption>The author, being told the deadline has moved.</figcaption>
+        </figure>
         <h2 class="block__h"><span class="slug">The short version</span></h2>
         <ol class="timeline">
             {{ range .Params.timeline }}<li><b>{{ .y }}</b><span>{{ .t | markdownify }}</span></li>{{ end }}

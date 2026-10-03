@@ -1,7 +1,6 @@
 ---
 title: "The Best of Jim Collins"
 description: '"How can I thank you?" Collins asked. Drucker answers "just go out and make yourself useful" before getting out of the car, and strolling back to his house.'
-cover: images/articles/man-talking.jpg
 date: 2019-12-04
 tags: ["business"]
 style: "aldus"

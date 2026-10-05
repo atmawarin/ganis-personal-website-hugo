@@ -65,7 +65,7 @@ Later, people asked whether it counts.
 
 I've thought about this a lot. My answer, as of today, is that it counts because I've decided it counts. I see now that this is also how I run a company.
 
-I've since finished a real one too, the official kind, with a start line, a finish line and several thousand other people. I'd like to report that it settled the question. It didn't. Now when people ask how many marathons I've run, I say two, quickly, and change the subject before anyone asks which one had the car.
+I've since finished a real one too, the official kind, with a start line, a finish line and other people. I'd like to report that it settled the question. It didn't. Now when people ask how many marathons I've run, I say two, quickly, and change the subject before anyone asks which one had the car.
 
 In my journal at the end of that year I wrote the total: 1,123 kilometres in 2021, the most I've ever run. Underneath it, in Indonesian, I wrote that every good thing I got that year came from running. Then I wrote a practical note to myself about chafing, which I'll spare you, but which I'd like future me to know I was right about.
 

@@ -38,7 +38,7 @@ In late 2025 I started **[Synetica](https://synetica.co)**. We help teams find o
 
 Outside of work I am a husband to Gita and a father to Zen and Zia, who are better negotiators than most executives I've sat across from. Between six and nine in the evening my phone goes in a drawer. It doesn't always stay there.
 
-I run in the mornings, slowly. I have finished one marathon, most of it in the morning and the rest after dinner. I read a lot, and I keep a [shelf](/reading/) of everything since 2018 so I can be embarrassed by it later.
+I run in the mornings, slowly. I have finished two marathons. One was a proper race, with a start line, a finish line and strangers handing out water. The other I ran alone, most of it in the morning and the rest after dinner, and I count it with exactly the same confidence. I read a lot, and I keep a [shelf](/reading/) of everything since 2018 so I can be embarrassed by it later.
 
 I love trees, typography and single-origin coffee, and I can't find a decent café in Yogyakarta that opens before eight. I keep a note on my phone to remember the baristas' names. I'm a calm person, mostly. I'm a chicken at parties and a lion at ping-pong.
 

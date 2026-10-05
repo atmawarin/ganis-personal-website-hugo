@@ -79,6 +79,6 @@ That turned out to be my method for most things. I run mostly the same loops. In
 
 ---
 
-Tomorrow morning I'll go to Tekoff. If I'm lucky it will be open; this is Yogyakarta and it's before eight, so I won't be lucky. When it opens I'll walk in and say, "Morning, Mas Imbu," and I won't need to look at his hair to check.
+Tomorrow morning I'll go to Tekoff. A few years ago that would have meant waiting, because nothing decent in Yogyakarta opened before eight and I had put a formal complaint about it in my notes. Now the city has more coffee shops than it knows what to do with, and some of them open at seven. I'll walk in and say, "Morning, Mas Imbu," and I won't need to look at his hair to check.
 
 It isn't much of a patrol. But it's my route, and I know it by heart.

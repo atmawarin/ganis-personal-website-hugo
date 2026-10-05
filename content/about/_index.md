@@ -40,6 +40,6 @@ Outside of work I am a husband to Gita and a father to Zen and Zia, who are bett
 
 I run in the mornings, slowly. I have finished two marathons. One was a proper race, with a start line, a finish line and strangers handing out water. The other I ran alone, most of it in the morning and the rest after dinner, and I count it with exactly the same confidence. I read a lot, and I keep a [shelf](/reading/) of everything since 2018 so I can be embarrassed by it later.
 
-I love trees, typography and single-origin coffee, and I can't find a decent café in Yogyakarta that opens before eight. I keep a note on my phone to remember the baristas' names. I'm a calm person, mostly. I'm a chicken at parties and a lion at ping-pong.
+I love trees, typography and single-origin coffee. For years I couldn't find a decent café in Yogyakarta that opened before eight, and I complained about it in writing. Then the city filled up with coffee shops, and now I can get a good flat white at seven, which has cost me one of my favourite complaints. I keep a note on my phone to remember the baristas' names. I'm a calm person, mostly. I'm a chicken at parties and a lion at ping-pong.
 
 This site is where I write. Every essay is set in the style of a different designer from a different era, because typography is the closest thing I have to a religion and I couldn't pick one saint. The [colophon](/colophon/) explains who's who.

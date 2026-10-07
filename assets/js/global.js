@@ -346,3 +346,24 @@ if (shelf) {
     } else return;
   });
 }
+
+// The about page: Press start loads Baseline, the runner, only when asked.
+// Nothing about the game is downloaded until someone hovers or presses.
+const play = document.querySelector('[data-play="start"]');
+if (play) {
+  play.closest(".play-start").hidden = false;
+  let warm = null;
+  const preload = () => (warm = warm || import(play.dataset.src).catch((e) => { warm = null; throw e; }));
+  ["pointerenter", "focus", "touchstart"].forEach((e) => play.addEventListener(e, () => preload().catch(() => {}), { once: true, passive: true }));
+  play.addEventListener("click", async () => {
+    play.setAttribute("aria-busy", "true");
+    try {
+      const game = await preload();
+      await game.start(play);
+    } catch {
+      // The game didn't load; the page is all still here.
+    } finally {
+      play.removeAttribute("aria-busy");
+    }
+  });
+}

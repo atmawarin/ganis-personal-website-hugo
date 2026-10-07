@@ -1,0 +1,7 @@
+{
+  "source": "running-log data/stats.json, refreshed by hand. Update these when you update the as-of date.",
+  "as_of": "2026-09-27",
+  "ytd_2026": { "km": 341.9, "runs": 90 },
+  "ytd_2025_same_period": { "km": 127.6 },
+  "best_year": { "year": 2021, "km": 944.4 }
+}

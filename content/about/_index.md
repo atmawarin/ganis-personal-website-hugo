@@ -1,27 +1,69 @@
 ---
 title: About
+seo_title: "About Ganis"
 heading: "Hi, I'm Ganis, and I think you're looking amazing today."
-description: "About Ganis Angger Atmawarin: named after a patrol car, twelve years at SoftwareSeni, now running Synetica in Yogyakarta. Runner, reader, typography nerd."
+description: "Ganis Angger Atmawarin: named after a patrol car, twelve years at SoftwareSeni, now building Synetica in Yogyakarta. The journey so far, in nine levels."
 location: "Yogyakarta, Indonesia"
-timeline:
-  - y: "Day one"
-    t: "Born in Papua. Driven home from the hospital in a military patrol vehicle called a *Garnisun*. Shortened, it became my name."
-  - y: "Age two"
-    t: "Shipped west on the KM Rinjani, five days and four nights, to be raised by my grandparents in Malang."
-  - y: "2008"
-    t: "First blog, on Multiply. It's gone. So is Multiply."
-  - y: "2013"
-    t: "Employee #13 at SoftwareSeni, hired as Product Manager for Villalet."
-  - y: "2016"
-    t: "General Manager. Ninety people, Pakuningratan No.15, one desk for every six of us."
-  - y: "2019"
-    t: "Director. Moved into a former car dealership on Jl Magelang."
-  - y: "2021"
-    t: "Ran 42 km around the Kraton with the family car as a water station. Most of it in the morning, the last 11 km after dinner."
-  - y: "2025"
-    t: "Left SoftwareSeni after twelve years. Started [Synetica](https://synetica.co)."
-  - y: "2026"
-    t: "Year theme: *Prove*. Still running, still reading, still uninstalling Mobile Legends."
+lede: "Nine levels so far. Still playing."
+portrait:
+  src: "images/ganis-thumbs-up.jpg"
+  width: 960
+  height: 720
+  alt: "Ganis Angger Atmawarin at his desk, grinning with both thumbs up at the camera."
+  caption: "The author, agreeing with you."
+player:
+  - k: "Player"
+    v: "Ganis"
+  - k: "Home"
+    v: "Yogyakarta"
+  - k: "Party"
+    v: "Gita, Zen and Zia"
+  - k: "Daily quest"
+    v: "A slow morning run"
+  - k: "Loadout"
+    v: "Trees, typography, single-origin coffee"
+  - k: "Save point"
+    v: "Phone in a drawer, 6&nbsp;to&nbsp;9&nbsp;PM"
+  - k: "Stats"
+    v: "Chicken at parties, lion at ping-pong"
+levels:
+  - id: "papua"
+    label: "Day one"
+    title: "Papua"
+    t: "Driven home from the hospital in a military patrol vehicle called a *Garnisun*. Shortened, it became my name."
+  - id: "malang"
+    label: "Age two"
+    title: "Malang"
+    t: "Shipped west on the KM Rinjani, five days and four nights, to be raised by my grandparents."
+  - id: "on-the-move"
+    label: "Growing up"
+    title: "On the move"
+    t: "Back and forth between Papua and Jakarta. High school in Malang, at SMA 2 and SMA 3."
+  - id: "yogyakarta"
+    label: "2002"
+    title: "Yogyakarta"
+    t: "Came to study. Found the [bridge](/articles/why-i-keep-coming-back-to-yogyakarta/) my aunt, Tante Tiwik, had taken me across in a becak when I was four. It hadn't changed."
+  - id: "jakarta"
+    label: "2010 to 2013"
+    title: "Jakarta"
+    t: "Circle Indonesia, an NGO, then Akubu, a software company, where I met Mas Surya. I owe him a lot."
+  - id: "softwareseni"
+    label: "2013 to 2025"
+    title: "SoftwareSeni"
+    t: "Back in Yogyakarta. Employee #13, hired as Product Manager for Villalet. General Manager at ninety people, one desk for every six. Director by the end. [The full story](/articles/twelve-years-and-a-fancy-pen/)."
+  - id: "the-long-run"
+    label: "2021"
+    title: "The long run"
+    t: "42&nbsp;km around the Kraton, the family car as a water station, the last 11&nbsp;km after dinner."
+  - id: "synetica"
+    label: "2025"
+    title: "Synetica"
+    t: "Left SoftwareSeni after twelve years. Started [Synetica](https://synetica.co), to test products before anyone builds them."
+  - id: "prove"
+    label: "2026"
+    title: "Prove"
+    t: "The year's theme. Still running, still reading, still uninstalling Mobile Legends."
+    here: true
 ttol:
   options:
     - "I have reached Mythic rank in Mobile Legends."
@@ -29,17 +71,3 @@ ttol:
     - "I have run a 42 km marathon."
   verdict: "Trick question. All three are true. I've done this at new-hire meetings for years, and nobody has ever enjoyed it as much as I do."
 ---
-
-I was named after a military patrol car, which is the only detail of my birth I'm willing to put on the internet.
-
-For twelve years I helped build [SoftwareSeni](/articles/twelve-years-and-a-fancy-pen/), a software company in Yogyakarta that grew from about twenty people in a borrowed office to a couple of hundred people. I joined as employee number thirteen and left as a director, which sounds like a straight line. It wasn't. There were six jobs in between and most of them I learned by googling.
-
-In late 2025 I started **[Synetica](https://synetica.co)**. We help teams find out whether a product will work before they spend a fortune building it: two weeks to a tested prototype, then eight weeks to build the real thing if it deserves to exist. It's the company I wish had existed for the clients I met at SoftwareSeni.
-
-Outside of work I am a husband to Gita and a father to Zen and Zia, who are better negotiators than most executives I've sat across from. Between six and nine in the evening my phone goes in a drawer. It doesn't always stay there.
-
-I run in the mornings, slowly. I have finished two marathons. One was a proper race, with a start line, a finish line and strangers handing out water. The other I ran alone, most of it in the morning and the rest after dinner, and I count it with exactly the same confidence. I read a lot, and I keep a [shelf](/reading/) of everything since 2018 so I can be embarrassed by it later.
-
-I love trees, typography and single-origin coffee. For years I couldn't find a decent café in Yogyakarta that opened before eight, and I complained about it in writing. Then the city filled up with coffee shops, and now I can get a good flat white at seven, which has cost me one of my favourite complaints. I keep a note on my phone to remember the baristas' names. I'm a calm person, mostly. I'm a chicken at parties and a lion at ping-pong.
-
-This site is where I write. Every essay is set in the style of a different designer from a different era, because typography is the closest thing I have to a religion and I couldn't pick one saint. The [colophon](/colophon/) explains who's who.

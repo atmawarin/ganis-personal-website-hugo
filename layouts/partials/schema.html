@@ -10,7 +10,16 @@
 <script type="application/ld+json">{{ merge $person (dict "@context" "https://schema.org" "description" site.Params.description) | jsonify | safeJS }}</script>
 {{- else }}
 {{- $d := dict "@context" "https://schema.org" "@type" (cond (eq .Section "about") "ProfilePage" "CollectionPage") "name" (.Title | plainify) "url" .Permalink "isPartOf" (dict "@type" "WebSite" "url" site.BaseURL "name" site.Title) }}
-{{- if eq .Section "about" }}{{ $d = merge $d (dict "mainEntity" $person) }}{{ end }}
+{{- if eq .Section "about" }}{{ $p := merge $person (dict "alternateName" "Ganis" "description" (.Params.description | plainify)) }}{{ $d = merge $d (dict "description" (.Params.description | plainify)) }}{{ with .Params.portrait }}{{ $p = merge $p (dict "image" (.src | absURL)) }}{{ end }}{{ $d = merge $d (dict "mainEntity" $p) }}{{ end }}
+{{- if and (eq .Section "running") (eq .Kind "section") }}
+{{- $races := slice }}{{ $i := 0 }}
+{{- range .Pages.ByDate.Reverse }}
+{{- $i = add $i 1 }}
+{{- $ev := dict "@type" "SportsEvent" "name" (.Title | plainify) "startDate" (.Date.Format "2006-01") "location" (dict "@type" "Place" "name" .Params.location) }}
+{{- $races = $races | append (dict "@type" "ListItem" "position" $i "item" $ev) }}
+{{- end }}
+{{- $d = merge $d (dict "description" (.Params.description | plainify) "inLanguage" "en" "dateModified" (.Lastmod.Format "2006-01-02") "author" (dict "@id" (printf "%s#me" site.BaseURL)) "mainEntity" (dict "@type" "ItemList" "numberOfItems" (len $races) "itemListElement" $races)) }}
+{{- end }}
 {{- if and (eq .Section "reading") (eq .Kind "section") }}
 {{- $items := slice }}{{ $i := 0 }}
 {{- range (where site.RegularPages "Section" "reading").ByPublishDate.Reverse }}

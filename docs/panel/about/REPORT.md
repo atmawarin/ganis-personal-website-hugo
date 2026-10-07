@@ -233,3 +233,11 @@ Eight a play; stamps `Filed`, `Still open` or `Skipped`; each card links to its 
 - **Approve journal thoughts** you'd like added (THOUGHTS.md rows 23 to 28: 1 km running, making Mobile Legends matter, writing as thinking, the car at UGM, cursive, LONG LEGS). Each becomes a round only with your yes on the exact line.
 - **New game strings to approve:** prompts ("Make a name out of this.", "Who's proud of the 20-year-old?", "Everything is shared. Hide what you must."), and the props (Bank PIN, Password, coffee prices).
 - Post-ship (IxD): a "no timer" switch independent of the OS setting; a two-press hold in calm mode.
+
+---
+
+# Decision: back to Baseline
+
+Ganis played Hmm. and preferred the runner: "kind of like a wheel mash-up, not really easy to understand." Commit `a957ea0` reverts the Hmm. code (`d7c3e68`): `data/thoughts.yaml`, the deck and the question anchors go; Baseline is restored byte for byte. The mind-round memos, `THOUGHTS.md` and screens stay here as a record.
+
+**Lesson for the panel:** eight seats agreed on a microgame deck, and the person it was for found it hard to read. Twelve rules in two minutes is variety for a designer and noise for a visitor. One verb that deepens (Baseline) beat twelve verbs that each need explaining. Next time an idea is this far from the last one, show Ganis a clickable sketch before the full build.

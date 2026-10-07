@@ -328,6 +328,8 @@ main > * { width: min(100% - 2 * var(--gutter), var(--wide) - 2 * var(--gutter))
 .spine:nth-child(3n) { background: var(--paper-2); color: var(--ink); outline: 1px solid var(--ink); outline-offset: -1px; }
 .spine:nth-child(4) { transform: rotate(186deg) translateX(-6px); }
 .spine span { overflow: hidden; text-overflow: ellipsis; }
+.spine a { display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; color: inherit; text-decoration: none; overflow: hidden; }
+@media (hover: hover) { .spine a:hover { color: var(--red); } .spine:nth-child(3n+2) a:hover { color: var(--paper); text-decoration: underline; } }
 .now { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0; margin: 12px 0 0; }
 .now dt, .now dd { padding: 14px 0; border-bottom: 1px solid var(--rule); margin: 0; }
 .now dt { font-family: var(--f-mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding-top: 18px; }
@@ -491,18 +493,145 @@ main > * { width: min(100% - 2 * var(--gutter), var(--wide) - 2 * var(--gutter))
 .prevnext a { text-decoration: none; }
 @media (max-width: 800px) { .after-piece { grid-template-columns: 1fr; } }
 
-/* ---------- reading shelf ---------- */
-.shelf { list-style: none; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 32px 22px; padding-top: 24px; }
-.shelf__year { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 14px; border-bottom: 2px solid var(--ink); padding-bottom: 6px; margin-top: 24px; }
-.shelf__year h2 { font-family: var(--f-display); font-weight: 800; font-size: 2.6rem; margin: 0; line-height: 1; }
-.book { display: flex; flex-direction: column; gap: 6px; }
-.book__cover { aspect-ratio: 2 / 3; background: var(--paper-2); overflow: hidden; box-shadow: 0 1px 0 var(--rule), 4px 4px 0 var(--ink); }
-.book__cover img { width: 100%; height: 100%; object-fit: cover; }
-.book__title { font-family: var(--f-display); font-weight: 600; font-size: 1.05rem; line-height: 1.2; margin: 8px 0 0; }
-.book__author { font-family: var(--f-mono); font-size: 0.7rem; color: var(--muted); }
-.book__quote { font-size: 0.92rem; font-style: italic; color: var(--ink-2); margin: 2px 0 0; line-height: 1.4; }
-.book__star { color: var(--red); }
-.shelf-filters { margin-top: 0; }
+[hidden] { display: none !important; }
+
+/* ---------- reading shelf: a library lending card ----------
+   One card per year, one ruled row per book. At rest the only red is the
+   favourite stars; every other mark is a stamp the visitor lands (global.js). */
+.shelf-head { padding-bottom: 12px; }
+.shelf-star { color: var(--red); }
+.shelf-hint { margin-top: 18px; text-transform: none; letter-spacing: 0.04em; }
+kbd { font-family: var(--f-mono); font-size: 0.72em; font-weight: 500; padding: 1px 5px; border: 1px solid currentColor; border-radius: 3px; line-height: 1.2; }
+.shelf-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 18px; }
+.shelf-btn {
+  font-family: var(--f-mono); font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase;
+  min-height: 44px; padding: 10px 16px; border: 1px solid var(--ink); background: transparent; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 10px;
+}
+.shelf-btn[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+@media (hover: hover) { .shelf-btn:hover { border-color: var(--red); color: var(--red); } .shelf-btn[aria-pressed="true"]:hover { color: var(--paper); background: var(--red); } }
+.shelf-tally { min-width: 7rem; }
+
+/* the stamp: live mono text, a red box, slightly crooked */
+.stamp, .shelf-tally.is-on::before, .row__ink::before {
+  font-family: var(--f-mono); font-weight: 500; font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase;
+  font-variant-numeric: tabular-nums lining-nums; line-height: 1; white-space: nowrap;
+  color: var(--stamp); border: 1.5px solid var(--stamp); border-radius: 2px; padding: 5px 7px 4px;
+  mix-blend-mode: var(--stamp-blend);
+}
+:root { --stamp: var(--red); --stamp-blend: multiply; --ink-soft: var(--muted); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --stamp: #ff7a5c; --stamp-blend: normal; } }
+:root[data-theme="dark"] { --stamp: #ff7a5c; --stamp-blend: normal; }
+.shelf-tally.is-on::before { content: attr(data-tally); display: inline-block; transform: rotate(-3deg); animation: shelf-stamp 120ms cubic-bezier(.2, .9, .3, 1); }
+
+/* the year rail: plain anchors, bars sized by count, 2023 a visible zero */
+.shelf-rail { display: grid; grid-template-columns: repeat(auto-fit, minmax(44px, 1fr)); gap: 0 6px; align-items: end; padding: 18px 0 0; border-bottom: 2px solid var(--ink); }
+.shelf-rail__year { display: grid; justify-items: start; gap: 4px; text-decoration: none; padding: 6px 0 10px; min-height: 44px; }
+.shelf-rail__bar { width: 100%; height: max(2px, calc(var(--n) / var(--most) * 28px)); background: var(--ink); }
+.shelf-rail__year.is-empty .shelf-rail__bar { background: var(--rule); }
+.shelf-rail__year[aria-disabled="true"] { opacity: 0.35; pointer-events: none; }
+.shelf-rail__y { font-family: var(--f-mono); font-size: 0.72rem; font-variant-numeric: tabular-nums lining-nums; }
+.shelf-rail__n { font-family: var(--f-mono); font-size: 0.6875rem; color: var(--muted); font-variant-numeric: tabular-nums lining-nums; }
+@media (hover: hover) { .shelf-rail__year:hover .shelf-rail__bar { background: var(--red); } }
+
+.shelf-subjects { padding-top: 18px; }
+
+/* the cards */
+.shelf-cards { position: relative; padding-top: 8px; }
+.card { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 0 28px; border-bottom: 2px solid var(--ink); padding: 26px 0 30px; scroll-margin-top: 16px; }
+.card[hidden] { display: none; }
+.card__year { margin: 0; position: relative; }
+.card__roller {
+  display: block; position: sticky; top: 16px;
+  font-family: var(--f-display); font-weight: 800; font-size: clamp(2.6rem, 5vw, 4.4rem); line-height: 0.9; letter-spacing: -0.03em;
+  font-variant-numeric: lining-nums; font-variation-settings: "opsz" 144, "SOFT" 30;
+}
+.is-enhanced .card__roller { cursor: ns-resize; touch-action: none; user-select: none; -webkit-user-select: none; }
+.is-enhanced .card__roller::after { content: "drag ↓"; display: block; margin-top: 8px; font-family: var(--f-mono); font-size: 0.6875rem; font-weight: 500; letter-spacing: 0.1em; color: var(--muted); }
+.card--empty .card__roller::after { content: none !important; }
+.card__meta { display: flex; align-items: center; gap: 12px 16px; flex-wrap: wrap; min-height: 44px; border-bottom: 1px solid var(--ink); padding-bottom: 6px; }
+.card__stamp { font: inherit; letter-spacing: inherit; text-transform: inherit; color: var(--ink); background: none; border: 1px dashed var(--ink); padding: 8px 12px; min-height: 40px; cursor: pointer; display: inline-flex; gap: 8px; align-items: center; }
+@media (hover: hover) { .card__stamp:hover { color: var(--red); border-color: var(--red); } }
+.card__count { font-variant-numeric: tabular-nums lining-nums; color: var(--stamp); }
+.card__nil { font-family: var(--f-display); font-style: italic; font-size: 1.4rem; color: var(--muted); margin: 18px 0 0; }
+.card__rows { list-style: none; margin: 0; padding: 0; }
+
+/* a row: text | date + stamp slot | card pocket */
+.row {
+  position: relative; display: grid; grid-template-columns: minmax(0, 1fr) 9rem 76px; gap: 0 18px;
+  padding: 14px 0 12px; border-bottom: 1px solid var(--rule); min-height: 92px; scroll-margin: 30vh 0;
+}
+.row[hidden] { display: none; }
+.row__title { margin: 0; font-family: var(--f-display); font-weight: 500; font-style: italic; font-size: 1.28rem; line-height: 1.2; letter-spacing: -0.005em; }
+.row__title cite { font-style: inherit; }
+.row__toggle { all: unset; cursor: pointer; display: inline; }
+.row__toggle:focus-visible { outline: 2px solid var(--red); outline-offset: 4px; }
+.row__favs { display: inline-flex; margin-left: 10px; vertical-align: 0.18em; }
+.fav {
+  font-style: normal; font-size: 0.62rem; line-height: 1; color: var(--stamp); border: 1.5px solid var(--stamp); border-radius: 2px;
+  padding: 3px 4px 2px; mix-blend-mode: var(--stamp-blend); transform: rotate(var(--r, -3deg)) translateY(var(--dy, 0));
+}
+.fav + .fav { margin-left: -9px; }
+.fav:nth-child(2) { --r: 4deg; --dy: 2px; opacity: 0.9; }
+.fav:nth-child(3) { --r: -6deg; --dy: -2px; opacity: 0.82; }
+.fav:nth-child(4) { --r: 2deg; --dy: 3px; opacity: 0.76; }
+.fav:nth-child(5) { --r: -1deg; --dy: -1px; opacity: 0.72; }
+.row__author { margin: 4px 0 0; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-2); font-synthesis: none; }
+.row__line { margin: 8px 0 0; max-width: 64ch; font-size: 1rem; line-height: 1.5; color: var(--ink-2); }
+.row__line--quote { font-style: italic; }
+.row__sub { margin: 4px 0 0; font-size: 0.95rem; color: var(--muted); }
+.is-enhanced .row__more, .is-enhanced .row__sub { display: none; }
+.is-enhanced .row.is-open .row__more { display: inline; }
+.is-enhanced .row.is-open .row__sub { display: block; order: -1; }
+.row__more::before { content: " "; }
+
+.row__date { position: relative; font-family: var(--f-mono); font-size: 0.78rem; color: var(--muted); font-variant-numeric: tabular-nums lining-nums; padding-top: 6px; }
+.row__status { display: block; margin-top: 2px; font-size: 0.6875rem; letter-spacing: 0.08em; text-transform: uppercase; }
+.row__ink { position: absolute; left: -4px; top: 30px; width: 0; height: 0; pointer-events: none; }
+.row__ink::before { content: attr(data-stamp); position: absolute; left: 0; top: 0; opacity: 0; transform: rotate(var(--tilt, -2deg)) scale(1.2); }
+.stamp { position: absolute; left: 0; top: 0; transform: translate(var(--sx, 0), var(--sy, 0)) rotate(var(--tilt, -2deg)); opacity: var(--ink-left, 1); animation: shelf-stamp 120ms cubic-bezier(.2, .9, .3, 1); }
+.stamp--enough { font-size: 0.6875rem; }
+@keyframes shelf-stamp { from { transform: translate(var(--sx, 0), var(--sy, 0)) rotate(var(--tilt, -2deg)) scale(1.2); opacity: 0; } }
+.row__strike { position: absolute; left: -8px; top: 18px; width: 9rem; height: 44px; background: none; border: 0; padding: 0; cursor: crosshair; }
+.row__strike:focus-visible { outline: 2px solid var(--red); outline-offset: 0; }
+
+/* the card pocket: the cover sits tucked in, only its head showing */
+.row__pocket { position: relative; clip-path: inset(-400px -40px 0 -40px); }
+.row__pocket::after { content: ""; position: absolute; inset: auto 0 0 0; height: 40px; background: var(--paper-2); border: 1px solid var(--ink); border-bottom: 0; z-index: 2; }
+.row__pocket img {
+  position: absolute; left: 6px; bottom: 26px; z-index: 1; width: 64px; height: auto; aspect-ratio: 2 / 3; object-fit: cover;
+  outline: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); background: var(--paper-2);
+  transition: transform 220ms cubic-bezier(.2, .8, .2, 1);
+}
+.is-enhanced .row__pocket img { transform: translateY(calc(100% - 34px)); }
+.is-enhanced .row.is-preview .row__pocket img, .is-enhanced .row.is-open .row__pocket img { transform: translateY(0); }
+.row.is-preview .row__ink::before { opacity: 1; transform: rotate(var(--tilt, -2deg)) scale(1); transition: transform 120ms cubic-bezier(.2, .9, .3, 1), opacity 60ms; }
+.row.is-stamped .row__ink::before { opacity: 0; }
+.row.is-open { min-height: 150px; }
+.row.is-preview, .row.is-open { z-index: 3; }
+
+/* favourites pass: the red pen down the margin */
+.shelf-pen { position: absolute; left: calc(9.5rem + 10px); top: 0; bottom: 0; width: 2px; background: var(--stamp); transform: scaleY(0); transform-origin: top; pointer-events: none; z-index: 4; }
+.favs-on .shelf-pen { transform: scaleY(1); transition: transform 450ms cubic-bezier(.4, 0, .2, 1); }
+.favs-on .row:not([data-favs="0"]) cite { text-decoration: underline 2px var(--stamp); text-underline-offset: 0.2em; }
+.favs-on .row[data-favs="0"] .row__author, .favs-on .row[data-favs="0"] .row__line, .favs-on .row[data-favs="0"] .row__date { color: var(--ink-soft); }
+.favs-on .row[data-favs="0"] .row__pocket { opacity: 0.55; }
+
+@media (max-width: 760px) {
+  .card { grid-template-columns: 1fr; padding-top: 18px; }
+  .card__roller { position: static; display: flex; align-items: baseline; gap: 12px; }
+  .is-enhanced .card__roller::after { margin: 0; }
+  .shelf-pen { left: -10px; }
+  .row { grid-template-columns: minmax(0, 1fr) 64px; grid-template-rows: auto auto; gap: 0 14px; }
+  .row__date { grid-column: 1; grid-row: 2; padding-top: 10px; min-height: 44px; }
+  .row__pocket { grid-column: 2; grid-row: 1 / span 2; }
+  .row__pocket img { width: 54px; left: 4px; }
+  .row__strike { width: 100%; }
+  .row__title { font-size: 1.16rem; }
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .row__pocket::after { background: #efe8da; } }
+:root[data-theme="dark"] .row__pocket::after { background: #efe8da; }
+@media (prefers-reduced-motion: reduce) { .stamp, .shelf-tally.is-on::before { animation: none; } }
 
 /* ---------- running ---------- */
 .races { list-style: none; margin: 0; padding-top: 12px; }

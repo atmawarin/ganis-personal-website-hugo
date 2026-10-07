@@ -74,7 +74,7 @@
         {{- $books := where site.RegularPages "Section" "reading" }}
         <ul class="spines">
             {{ range first 7 ($books.ByPublishDate.Reverse) }}
-            <li class="spine" style="--h: {{ add 70 (mod (len .Title) 30) }}%"><span>{{ replaceRE "^[^A-Za-z0-9]+" "" .Title }}</span></li>
+            <li class="spine" style="--h: {{ add 70 (mod (len .Title) 30) }}%"><a href="{{ "reading/" | relURL }}#{{ .File.ContentBaseName | anchorize }}"><span>{{ replaceRE "^[^A-Za-z0-9]+" "" .Title }}</span></a></li>
             {{ end }}
         </ul>
         <p class="muted">{{ len $books }} books logged since 2018. Some of them twice, on purpose.</p>

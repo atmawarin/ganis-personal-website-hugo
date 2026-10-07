@@ -6,7 +6,7 @@
 </section>
 <div class="notes">
     {{ range .Pages.ByDate.Reverse }}
-    <article class="note" id="{{ .File.ContentBaseName }}">
+    <article class="note">
         <span class="note__kind">{{ if eq .Type "question" }}Question{{ else }}Idea{{ end }} · {{ .Date.Format "Jan 2006" }}</span>
         <h2>{{ replaceRE "^[^A-Za-z0-9]+" "" .Title }}</h2>
         <div class="note__body">{{ .Content }}</div>

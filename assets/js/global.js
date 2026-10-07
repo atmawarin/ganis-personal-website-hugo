@@ -361,8 +361,7 @@ if (play) {
       const game = await preload();
       await game.start(play);
     } catch {
-      // The game didn't load. The page is all still here, so the button goes.
-      play.closest(".play-start").hidden = true;
+      // The game didn't load; the page is all still here.
     } finally {
       play.removeAttribute("aria-busy");
     }

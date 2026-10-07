@@ -23,8 +23,7 @@
         {{- $game := resources.Get "js/about-game.js" | js.Build (dict "minify" hugo.IsProduction "format" "esm") | fingerprint }}
         <div class="play-start" hidden>
             <button type="button" class="play-btn" data-play="start" data-src="{{ $game.RelPermalink }}">Press start</button>
-            <span class="play-hint">Hmm. Two minutes inside a head that asks why.</span>
-            <script type="application/json" id="thoughts">{{ hugo.Data.thoughts | jsonify | safeJS }}</script>
+            <span class="play-hint">Baseline: a short run through the story so far.</span>
         </div>
         <ol class="levels">
             {{ range $i, $l := .Params.levels }}

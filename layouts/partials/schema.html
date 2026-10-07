@@ -10,7 +10,7 @@
 <script type="application/ld+json">{{ merge $person (dict "@context" "https://schema.org" "description" site.Params.description) | jsonify | safeJS }}</script>
 {{- else }}
 {{- $d := dict "@context" "https://schema.org" "@type" (cond (eq .Section "about") "ProfilePage" "CollectionPage") "name" (.Title | plainify) "url" .Permalink "isPartOf" (dict "@type" "WebSite" "url" site.BaseURL "name" site.Title) }}
-{{- if eq .Section "about" }}{{ $d = merge $d (dict "mainEntity" $person) }}{{ end }}
+{{- if eq .Section "about" }}{{ $p := merge $person (dict "alternateName" "Ganis" "description" (.Params.description | plainify)) }}{{ $d = merge $d (dict "description" (.Params.description | plainify)) }}{{ with .Params.portrait }}{{ $p = merge $p (dict "image" (.src | absURL)) }}{{ end }}{{ $d = merge $d (dict "mainEntity" $p) }}{{ end }}
 {{- if and (eq .Section "reading") (eq .Kind "section") }}
 {{- $items := slice }}{{ $i := 0 }}
 {{- range (where site.RegularPages "Section" "reading").ByPublishDate.Reverse }}

@@ -175,3 +175,61 @@ Press start → a full-screen paper overlay grows from the button. Tap / Space /
 - **Play it:** http://localhost:1316/about/ → Press start. Tell me if the hop feels right; every number is in one `TUNE` object.
 - **Test it on your phone** once it's on a Netlify preview: headless tests can't judge touch feel.
 - Still open: photo approval, the framing lines, and the new game strings ("Jump twice.", "Back and forth", "Ouch.").
+
+---
+
+# Round 4: Hmm., a game made of how Ganis thinks
+
+Ganis: "is that going to good to tell story about me. Its kinda boring yes? Should we create a game where it would think all the weird thing I thought or I think? You can use my Obsidian." A privacy-limited sweep of his vault and published questions produced `THOUGHTS.md` (30 thoughts, three patterns: friction as a design problem, his own mind as the puzzle, shrink the unit and flip the default). All eight seats then backed the same shape: **a deck of microgames, one thought per round** (`PLAN-mind.md`). It replaces Baseline.
+
+<svg viewBox="0 0 680 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mind round scores per seat, loop 2 and final">
+  <style>text { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: #1b1a17; } .a { fill: #c9c2b4; } .b { fill: #b5341f; } .r { stroke: #1b1a17; } .n { stroke: #b5341f; stroke-dasharray: 3 3; }</style>
+  <rect width="680" height="230" fill="#f3eee6"/>
+  <line class="r" x1="60" y1="190" x2="660" y2="190"/><line class="n" x1="60" y1="28" x2="660" y2="28"/><text x="8" y="32">9 bar</text>
+  <rect class="a" x="70" y="55" width="20" height="135"/><rect class="b" x="92" y="28" width="20" height="162"/><text x="78" y="208">GD</text>
+  <rect class="a" x="145" y="55" width="20" height="135"/><rect class="b" x="167" y="28" width="20" height="162"/><text x="153" y="208">SD</text>
+  <rect class="a" x="220" y="55" width="20" height="135"/><rect class="b" x="242" y="28" width="20" height="162"/><text x="228" y="208">TY</text>
+  <rect class="a" x="295" y="55" width="20" height="135"/><rect class="b" x="317" y="28" width="20" height="162"/><text x="299" y="208">IxD</text>
+  <rect class="a" x="370" y="37" width="20" height="153"/><rect class="b" x="392" y="28" width="20" height="162"/><text x="378" y="208">PM</text>
+  <rect class="a" x="445" y="37" width="20" height="153"/><rect class="b" x="467" y="28" width="20" height="162"/><text x="449" y="208">SEO</text>
+  <rect class="a" x="520" y="28" width="20" height="162"/><rect class="b" x="542" y="28" width="20" height="162"/><text x="528" y="208">BB</text>
+  <rect class="a" x="595" y="37" width="20" height="153"/><rect class="b" x="617" y="28" width="20" height="162"/><text x="606" y="208">V</text>
+  <rect class="a" x="60" y="216" width="10" height="10"/><text x="76" y="225">n2</text><rect class="b" x="110" y="216" width="10" height="10"/><text x="126" y="225">final (n3, TY/IxD/SEO n4)</text>
+</svg>
+
+| Seat | n2 | Final | Sign-off |
+|---|---|---|---|
+| GD | 7.5 | 9 | yes |
+| SD | 7.5 | 9 | yes |
+| TY | 7.5 | 9 (n4) | yes |
+| IxD | 7.5 | 9 (n4) | yes |
+| PM | 8.5 | 9 | yes |
+| SEO | 8.5 | 9 (n4) | yes |
+| BB | 9 | 9 | yes |
+| V | 8.5 | 9 | yes |
+
+## The twelve rounds
+| Round | You… | Thought (as published) |
+|---|---|---|
+| 8:33 (always first) | set the meeting to 8:33 | If 15 is too short, 30 is boring and 60 just too much, try 23. |
+| Librarian | serve until 5 PM, then apologise and go home | To be relaxed with inbox. Imagine you are a librarian. |
+| Typewriter | find the monospace line | Why do the typography in notary or legal court try to mimic the ancient typewriter mode? |
+| Default share | hide the Bank PIN and Password | Is default share would be a good idea? |
+| Keyboards | hold to let go of 71, land on five | …seventy-one mechanical keyboards. I kept five. The best one only scored 23. |
+| Garnisun | drop R, U, N to make GANIS | Other people are named after saints. I'm named after a military patrol car. |
+| Cafe | try every cafe at 7:40 (always still open) | Why it's hard to find a cafe that open early in the morning? |
+| 20 / 25 / 35 | pick who's proud | My 25 angry with my 20 while my 35 beaming proudly at him. |
+| Doctor | strike knowledge, motivation, willpower; the ? stays | Why there is an obese doctor? |
+| Tiga alarm (id) | catch three alarms | Saya kelelawar yang memutuskan jadi ayam… |
+| Berbeda (id) | pick the different cup, not the cheaper | Lebih baik berbeda daripada lebih baik… |
+| Uninstall (always last) | hold to uninstall; it comes back | A managing director uninstalls Mobile Legends, again, and meets his inner judge. |
+
+Eight a play; stamps `Filed`, `Still open` or `Skipped`; each card links to its source (new tab). End: "That was eight.", the eight linked, `Mostly: friction / myself / smaller`, `Met n of 12`, questions page and newsletter.
+
+**How it's built:** words live in `data/thoughts.yaml`, emitted as JSON on /about/; question items on /questions-and-ideas/ gained anchor ids. DOM only, no canvas; dynamic import on Press start. Calm mode removes every timer (the librarian becomes turn-based). Journal lines (rows 23 to 28) are not in the source at all.
+
+## Left for Ganis
+- **Play it** at http://localhost:1316/about/, then on a phone via the Netlify preview.
+- **Approve journal thoughts** you'd like added (THOUGHTS.md rows 23 to 28: 1 km running, making Mobile Legends matter, writing as thinking, the car at UGM, cursive, LONG LEGS). Each becomes a round only with your yes on the exact line.
+- **New game strings to approve:** prompts ("Make a name out of this.", "Who's proud of the 20-year-old?", "Everything is shared. Hide what you must."), and the props (Bank PIN, Password, coffee prices).
+- Post-ship (IxD): a "no timer" switch independent of the OS setting; a two-press hold in calm mode.

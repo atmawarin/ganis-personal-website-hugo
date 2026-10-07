@@ -1,6 +1,6 @@
 ---
 title: "⭐️ Coaching Coversation"
-description: '44% karyawan bilang kalau mereka gak pernah dapet constructive feedback. Jangan mau ada di braket manajar itu. Terus memberikan feedback loop yang konstan, dan dorong tim untuk berkembang, kemudian "get out of the way"!'
+description: "Menurut buku ini, 44% karyawan mengaku tidak pernah dapat feedback yang membangun. Jangan mau jadi manajer di angka itu. Kasih feedback terus, bantu tim tumbuh, lalu, ini bagian tersulitnya, minggir."
 cover: "images/reading/coaching-conversation.jpeg"
 publishDate: 2021-04-12
 authors: "Brian Souza"

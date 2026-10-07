@@ -1,6 +1,6 @@
 ---
 title: "Why We Die"
-description: "A Nobel laureate explains the science of aging — why our bodies break down and what cutting-edge research says about slowing the clock."
+description: "Three years after Outlive told me how to live longer, a Nobel laureate explained why that is harder than it sounds. I read them in that order, which felt right."
 cover: "images/reading/why-we-die.jpeg"
 publishDate: 2026-01-20
 authors: "Venki Ramakrishnan"

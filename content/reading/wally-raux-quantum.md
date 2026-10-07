@@ -1,6 +1,6 @@
 ---
 title: "Wally Roux Quantum Mechanics"
-description: 'Coming of the age book. Wally Roux adalah jenius cilik yang tidak pernah fit in dengan lingkungannya dan menemukan pelarian di memperbaiki lubang di kuantum fisik.'
+description: "Novel coming-of-age. Wally Roux, jenius cilik yang tidak pernah cocok dengan sekitarnya, menemukan pelarian dengan menambal lubang di fisika kuantum. Semua anak butuh hobi."
 cover: "images/reading/wally-roux-quantum.jpeg"
 publishDate: 2019-11-11
 authors: "Nick Carr"

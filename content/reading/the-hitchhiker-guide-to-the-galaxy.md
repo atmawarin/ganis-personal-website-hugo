@@ -1,6 +1,6 @@
 ---
 title: "⭐️⭐️⭐️ The Hitchhiker's Guide to the Galaxy"
-description: "Don't Panic! Saya baru membacakan buku ini 42 tahun sejak buku ini pertama kali diterbitkan dan masih tertawa terpingkal-pingkal dengan humor dan komedi di dalamnya. Penuh dengan guyonan comic kering khas Inggris, Douglas Adams membawa pembacanya ke dalam petualangan alien, manusia bumi, dan peran tikus dalam menjawab pertanyaan paling penting dalam sejarah kosmos. Membaca buku ini mirip dengan Roller coaster komedi."
+description: "Don't Panic. Saya membaca buku ini kira-kira 42 tahun setelah terbit, dan masih tertawa terpingkal-pingkal. Humor kering khas Inggris, alien, manusia bumi, dan tikus yang ternyata memegang kunci pertanyaan paling penting di kosmos. Tiga bintang, karena angka 42 sudah dipakai."
 cover: "images/reading/the-hitchhiker-guide.jpeg"
 publishDate: 2020-08-14
 authors: "Douglas Adams"

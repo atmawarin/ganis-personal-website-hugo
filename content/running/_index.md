@@ -2,15 +2,7 @@
 title: Running
 pretitle: "The one thing that holds the day together"
 description: "Slow miles, mostly before six in the morning, mostly around Yogyakarta. Not for performance, not really for health. Running is just running."
-stats:
-  - n: "1,123"
-    l: "km in 2021, my best year"
-  - n: "99"
-    l: "runs, January to July 2019"
-  - n: "1:02"
-    l: "best 10K, which I will now defend forever"
-  - n: "5:17"
-    l: "the time I keep promising to start"
+lastmod: 2026-09-27
 cascade:
   - build:
       render: never
@@ -23,7 +15,7 @@ I run alone, early, while the city is still quiet. Not for performance and not r
 
 When the run happens, the whole day works. When I start with the phone instead, everything goes downhill from there. I have known this for about ten years. It hasn't stopped me checking the phone first.
 
-**What I wanted in 2022**, kept here as a public record of my optimism:
+**What I wanted in 2022**, kept as a public record of my optimism:
 
 - Run earlier: 5:17 in the morning.
 - Never get injured.
@@ -34,4 +26,4 @@ When the run happens, the whole day works. When I start with the phone instead, 
 
 I managed some of these. I'm not saying which.
 
-The live log, where my phone posts every run as it happens, is linked below. It's very honest, which is more than I can say for my memory.
+The live log is where my phone posts every run as it happens. It's very honest, which is more than I can say for my memory.

@@ -1,28 +1,36 @@
 {{ define "main" }}
+{{ $r := hugo.Data.running }}
 <section class="title-block">
     <p class="slug">{{ .Params.pretitle }}</p>
     <h1 class="title-block__h">{{ .Title }}</h1>
     <p class="title-block__dek">{{ .Params.description }}</p>
 </section>
-{{ with .Params.stats }}
-<section class="block"><div class="bignum">{{ range . }}<div><b>{{ .n }}</b><span>{{ .l }}</span></div>{{ end }}</div></section>
-{{ end }}
-<section class="block about-grid">
-    <div class="prose">{{ .Content }}
-        <a class="cta-line" href="/running/log/">Open the live running log →</a>
+<section class="block">
+    <div class="bignum">
+        <div><b>{{ printf "%.1f" $r.ytd_2026.km }}</b><span>km so far in {{ time.Format "2006" $r.as_of }}, over {{ $r.ytd_2026.runs }} runs</span></div>
+        <div><b>{{ printf "%.1f" $r.ytd_2025_same_period.km }}</b><span>km in the same stretch of {{ sub (int (time.Format "2006" $r.as_of)) 1 }}</span></div>
+        <div><b>{{ printf "%.0f" $r.best_year.km }}</b><span>km in {{ $r.best_year.year }}, my best year</span></div>
+        <div><b>1:02</b><span>best 10K, which I will now defend forever</span></div>
     </div>
-    <div>
-        <h2 class="block__h"><span class="slug">Race log</span></h2>
-        <ol class="races">
-        {{ range .Pages.ByDate.Reverse }}
-            <li class="race">
-                <span class="race__date">{{ .Date.Format "Jan 2006" }}</span>
-                <div><p class="race__name">{{ .Title }}</p><span class="race__where">{{ .Params.location }}</span></div>
-                <span class="race__dist">{{ .Params.subtitle }}</span>
-                <div class="race__body">{{ .Content }}</div>
-            </li>
-        {{ end }}
-        </ol>
+    <p class="asof">As of <time datetime="{{ $r.as_of }}">{{ time.Format "2 Jan 2006" $r.as_of }}</time>, from the log.</p>
+</section>
+<section class="block">
+    <div class="prose run-prose">{{ .Content }}
+        <a class="cta-line" href="/running/log/">See every run in the live log →</a>
     </div>
+</section>
+<section class="block">
+    <h2 class="block__h"><span class="slug">Race log</span></h2>
+    <ol class="races">
+    {{ range .Pages.ByDate.Reverse }}
+        <li class="race">
+            <time class="race__date" datetime="{{ .Date.Format "2006-01" }}">{{ .Date.Format "Jan 2006" }}</time>
+            <p class="race__name">{{ .Title }}</p>
+            <span class="race__dist">{{ replaceRE `K$` " km" .Params.subtitle }}</span>
+            <span class="race__where">{{ .Params.location }}</span>
+            <div class="race__body">{{ .Content }}</div>
+        </li>
+    {{ end }}
+    </ol>
 </section>
 {{ end }}

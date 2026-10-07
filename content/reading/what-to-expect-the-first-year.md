@@ -1,6 +1,6 @@
 ---
 title: "What to Expect the First Year"
-description: "Oh what a god send book for amateur dad. Jadi orang tua pemula artinya akan banyak hal yang kita tidak pahami tentang Dedek bayi, Buku ini sangat membantu saya, terutama untuk menjadi pihak yang lebih kalem bagi istri. Penuh dengan hal penting yang perlu dipahami tentang perkembangan bayi, apa yang akan mungkin terjadi, dan apa yang harus kita perhatikan dan persiapkan."
+description: "Buku penyelamat untuk ayah amatir. Jadi orang tua baru berarti banyak hal tentang dedek bayi yang tidak saya pahami, dan buku ini menjelaskan hampir semuanya. Manfaat terbesarnya ternyata bukan untuk bayinya. Buku ini membuat saya jadi pihak yang lebih kalem untuk istri."
 cover: "images/reading/what-to-expect-first-year.jpeg"
 publishDate: 2017-12-11
 authors: "Heidi Murkoff"

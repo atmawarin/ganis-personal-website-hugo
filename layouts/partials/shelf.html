@@ -1,24 +1,98 @@
+{{- /*
+  The shelf as a library lending card: one card per year, one ruled row per
+  book. Everything is in the HTML; assets/js/global.js adds the stamp.
+*/ -}}
 {{- $page := .page }}
-<section class="title-block">
-    <p class="slug">Reading · {{ len (where site.RegularPages "Section" "reading") }} books</p>
-    <h1 class="title-block__h">{{ if eq $page.Kind "term" }}{{ $page.Title | title }}{{ else }}The shelf{{ end }}</h1>
-    <p class="title-block__dek">{{ with site.GetPage "/reading" }}{{ .Params.description }}{{ end }} A ★ means I&rsquo;ve read it more than once on purpose.</p>
+{{- $books := where site.RegularPages "Section" "reading" }}
+{{- $favs := 0 }}{{ range $books }}{{ if findRE "⭐" .Title 1 }}{{ $favs = add $favs 1 }}{{ end }}{{ end }}
+{{- $years := slice }}{{ range $books }}{{ $years = $years | append (.PublishDate.Format "2006" | int) }}{{ end }}
+{{- $years = $years | uniq | sort }}
+{{- $first := index $years 0 }}{{ $last := index $years (sub (len $years) 1) }}
+{{- $most := 0 }}{{ range $books.GroupByPublishDate "2006" }}{{ if gt (len .Pages) $most }}{{ $most = len .Pages }}{{ end }}{{ end }}
+{{- $cats := slice }}{{ range $books }}{{ range .Params.categories }}{{ $cats = $cats | append . }}{{ end }}{{ end }}
+{{- $cats = $cats | uniq | sort }}
+{{- $seen := 0 }}
+
+<section class="title-block shelf-head">
+    <p class="slug">Reading · {{ len $books }} books</p>
+    <h1 class="title-block__h">The shelf</h1>
+    <p class="title-block__dek">{{ with site.GetPage "/reading" }}{{ .Params.description }}{{ end }} A <span class="shelf-star">★</span> marks a favourite.</p>
+    <p class="shelf-hint slug" hidden>Touch a row · drag a year down its card · <kbd>F</kbd> favourites · <kbd>N</kbd> a favourite for me · <kbd>S</kbd> stamp the year</p>
+    <div class="shelf-tools" hidden>
+        <button type="button" class="shelf-btn" data-act="favs" aria-pressed="false" aria-keyshortcuts="F">Show my favourites <kbd>F</kbd></button>
+        <button type="button" class="shelf-btn" data-act="pick" aria-keyshortcuts="N">Stamp me a favourite <kbd>N</kbd></button>
+        <span class="shelf-tally" aria-live="polite" data-tally="★ {{ $favs }} / {{ len $books }}"></span>
+    </div>
 </section>
-<div class="filters shelf-filters" role="navigation" aria-label="Shelf categories">
-    <a href="{{ "reading/" | relURL }}"{{ if eq $page.Kind "section" }} aria-current="page"{{ end }}>All</a>
-    {{ range site.Taxonomies.categories.ByCount }}<a href="{{ .Page.RelPermalink }}"{{ if eq .Page.RelPermalink $page.RelPermalink }} aria-current="page"{{ end }}>{{ .Page.Title }}</a>{{ end }}
+
+<nav class="shelf-rail" aria-label="Years">
+    {{- range seq $last -1 $first }}
+    {{- $y := . }}{{ $n := len (where $books ".PublishDate.Year" $y) }}
+    <a href="#y{{ $y }}" class="shelf-rail__year{{ if eq $n 0 }} is-empty{{ end }}" style="--n: {{ $n }}; --most: {{ $most }}">
+        <span class="shelf-rail__bar" aria-hidden="true"></span>
+        <span class="shelf-rail__y">{{ $y }}</span>
+        <span class="shelf-rail__n">{{ $n }}<span class="visually-hidden"> books</span></span>
+    </a>
+    {{- end }}
+</nav>
+
+<div class="filters shelf-subjects" role="group" aria-label="Subjects" hidden>
+    <span class="slug">Subjects</span>
+    <button type="button" data-cat="" aria-pressed="true">All</button>
+    {{- range $cats }}<button type="button" data-cat="{{ . | anchorize }}" aria-pressed="false">{{ . }}</button>{{ end }}
+    <span class="filters__count" aria-live="polite"></span>
 </div>
-<ul class="shelf">
-{{ range .pages.GroupByPublishDate "2006" }}
-    <li class="shelf__year"><h2>{{ .Key }}</h2><span class="slug">{{ len .Pages }} books</span></li>
-    {{ range .Pages }}
-    {{- $star := hasPrefix .Title "⭐" }}{{ $name := replaceRE "^[^A-Za-z0-9]+" "" .Title }}
-    <li class="book">
-        <div class="book__cover">{{ with .Params.cover }}<img src="{{ . | relURL }}" alt="Cover of {{ $name }}" loading="lazy" decoding="async">{{ end }}</div>
-        <p class="book__title">{{ if $star }}<span class="book__star" title="Read more than once">★ </span>{{ end }}{{ $name }}</p>
-        <span class="book__author">{{ .Params.authors }}</span>
-        {{ with .Params.description }}<p class="book__quote">{{ . | plainify | truncate 140 }}</p>{{ end }}
-    </li>
-    {{ end }}
-{{ end }}
-</ul>
+
+<div class="shelf-cards">
+    <span class="shelf-pen" aria-hidden="true"></span>
+    {{- range seq $last -1 $first }}
+    {{- $y := . }}{{ $rows := (where $books ".PublishDate.Year" $y).ByPublishDate }}
+    <section class="card{{ if not $rows }} card--empty{{ end }}" id="y{{ $y }}" aria-labelledby="y{{ $y }}-h">
+        <h2 class="card__year" id="y{{ $y }}-h"><span class="card__roller">{{ $y }}</span></h2>
+        <div class="card__body">
+            <p class="card__meta slug">
+                <span>Date due · {{ len $rows }} {{ if eq (len $rows) 1 }}book{{ else }}books{{ end }}</span>
+                {{- if $rows }}<button type="button" class="card__stamp" aria-keyshortcuts="S" hidden>Stamp the year <kbd>S</kbd></button><span class="card__count" aria-hidden="true"></span>{{ end }}
+            </p>
+            {{- if $rows }}
+            <ol class="card__rows">
+            {{- range $rows }}
+                {{- $stars := len (findRE "⭐" .Title) }}
+                {{- $full := replaceRE `^[\x{2B50}\x{FE0F}\x{1F4A9}\s]+` "" .Title | strings.TrimSpace }}
+                {{- $parts := split (replace $full " - " ": ") ": " }}
+                {{- $main := index $parts 0 }}
+                {{- $sub := "" }}{{ if gt (len $parts) 1 }}{{ $sub = delimit (after 1 $parts) ": " }}{{ end }}
+                {{- $id := .File.ContentBaseName | anchorize }}
+                {{- $desc := .Params.description | default "" | plainify | strings.TrimSpace }}
+                {{- $quote := findRE `^[“"]` $desc 1 }}
+                {{- $isID := ge (len (findRE `(?i)\b(yang|dan|di|ini|untuk|dengan|tidak|saya|buku|benar|membuat|seperti)\b` $desc)) 3 }}
+                {{- $lead := $desc }}{{ $rest := "" }}
+                {{- if gt (len $desc) 170 }}
+                    {{- with findRE `^.{50,170}?[.!?…][”"’]?\s` $desc 1 }}{{ $lead = strings.TrimSpace (index . 0) }}{{ $rest = strings.TrimPrefix (index . 0) $desc }}{{ end }}
+                {{- end }}
+                {{- $reading := eq (.Params.status | default "") "🟡" }}
+                {{- $cat := "" }}{{ with .Params.categories }}{{ $cat = index . 0 | anchorize }}{{ end }}
+                <li class="row" id="{{ $id }}" data-cat="{{ $cat }}" data-favs="{{ $stars }}" data-stamp="{{ if $reading }}Reading{{ else }}Read{{ end }} · {{ $y }}">
+                    <div class="row__text">
+                        <h3 class="row__title"><cite>{{ $main }}</cite>{{ if $stars }}<span class="row__favs" role="img" aria-label="{{ if eq $stars 1 }}A favourite{{ else }}A favourite, {{ $stars }} stars{{ end }}">{{ range seq $stars }}<span class="fav" aria-hidden="true">★</span>{{ end }}</span>{{ end }}</h3>
+                        <p class="row__author">{{ .Params.authors }}</p>
+                        {{- with $desc }}
+                        <p class="row__line{{ if $quote }} row__line--quote{{ end }}"{{ if $isID }} lang="id"{{ end }}>{{ $lead }}{{ with $rest }}<span class="row__more">{{ . }}</span>{{ end }}</p>
+                        {{- end }}
+                        {{- with $sub }}<p class="row__sub">{{ . }}</p>{{ end }}
+                    </div>
+                    <div class="row__date"><span class="row__y">{{ $y }}</span>{{ if $reading }} <span class="row__status">reading</span>{{ end }}<span class="row__ink" aria-hidden="true"></span></div>
+                    <div class="row__pocket">
+                        {{- $seen = add $seen 1 }}{{ $by := .Params.authors }}
+                        {{- with .Params.cover }}<img src="{{ . | relURL }}" alt="Cover of {{ $full }}{{ with $by }} by {{ . }}{{ end }}" width="120" height="180" loading="{{ if le $seen 6 }}eager{{ else }}lazy{{ end }}" decoding="async">{{ end }}
+                    </div>
+                </li>
+            {{- end }}
+            </ol>
+            {{- else }}
+            <p class="card__nil">No dated entries.</p>
+            {{- end }}
+        </div>
+    </section>
+    {{- end }}
+</div>

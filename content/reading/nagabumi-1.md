@@ -1,6 +1,6 @@
 ---
 title: "Nagabumi I: Jurus Tanpa Bentuk Seno Gumira Ajidarma"
-description: "A really different reading experience. Seno Gumira di buku ini bekerja benar-benar sangat keras untuk membuat pembaca bisa mendapatkan gambaran akurat tentang apa yang terjadi di Jawa pada abad ke 7-9.  Penuh dengan citation, istilah jawa kuno, dan referensi prasasti dan penelitian yang membuat buku ini seperti fisi arkeologi dan fiksi."
+description: "Pengalaman membaca yang lain dari biasanya. Seno Gumira bekerja keras sekali supaya pembaca bisa melihat Jawa abad ke-7 sampai ke-9 dengan akurat: istilah Jawa kuno, kutipan prasasti, rujukan penelitian. Kadang saya lupa sedang membaca cerita silat. Rasanya seperti fiksi yang diam-diam mengerjakan skripsi arkeologi."
 cover: "images/reading/nagabumi-1.jpeg"
 publishDate: 2022-03-15
 authors: "Seno Gumira Ajidarma"

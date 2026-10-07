@@ -11,5 +11,17 @@
 {{- else }}
 {{- $d := dict "@context" "https://schema.org" "@type" (cond (eq .Section "about") "ProfilePage" "CollectionPage") "name" (.Title | plainify) "url" .Permalink "isPartOf" (dict "@type" "WebSite" "url" site.BaseURL "name" site.Title) }}
 {{- if eq .Section "about" }}{{ $d = merge $d (dict "mainEntity" $person) }}{{ end }}
+{{- if and (eq .Section "reading") (eq .Kind "section") }}
+{{- $items := slice }}{{ $i := 0 }}
+{{- range (where site.RegularPages "Section" "reading").ByPublishDate.Reverse }}
+{{- $i = add $i 1 }}
+{{- $name := replaceRE `^[\x{2B50}\x{FE0F}\x{1F4A9}\s]+` "" .Title | strings.TrimSpace }}
+{{- $authors := slice }}{{ range split (.Params.authors | default "") ", " }}{{ with strings.TrimSpace . }}{{ $authors = $authors | append (dict "@type" "Person" "name" .) }}{{ end }}{{ end }}
+{{- $book := dict "@type" "Book" "name" $name "author" $authors }}
+{{- with .Params.cover }}{{ $book = merge $book (dict "image" (. | absURL)) }}{{ end }}
+{{- $items = $items | append (dict "@type" "ListItem" "position" $i "item" $book) }}
+{{- end }}
+{{- $d = merge $d (dict "mainEntity" (dict "@type" "ItemList" "numberOfItems" (len $items) "itemListElement" $items)) }}
+{{- end }}
 <script type="application/ld+json">{{ $d | jsonify | safeJS }}</script>
 {{- end }}

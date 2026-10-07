@@ -346,3 +346,261 @@ if (shelf) {
     } else return;
   });
 }
+
+// The about page: a red pawn on the level spine. Every word is already in
+// the HTML; this only adds the piece, the ink and the stamps. Nothing moves
+// on load or scroll, only when someone presses start, a key or a level.
+const board = document.querySelector(".board");
+if (board) {
+  const still = matchMedia("(prefers-reduced-motion: reduce)");
+  const levels = [...board.querySelectorAll(".levels > li")];
+  const ol = board.querySelector(".levels");
+  const pawn = board.querySelector(".board__pawn");
+  const route = board.querySelector(".board__route");
+  const hud = board.querySelector(".hud");
+  const hudAt = hud.querySelector(".hud__at");
+  const hudNote = hud.querySelector(".hud__note");
+  const back = hud.querySelector('[data-play="back"]');
+  const next = hud.querySelector('[data-play="next"]');
+  const start = document.querySelector(".play-start");
+  const live = document.querySelector("[data-play-live]");
+  const cont = document.querySelector(".continue");
+  const slug = cont.querySelector(".continue__slug");
+  const again = cont.querySelector('[data-play="again"]');
+  const last = levels.length - 1;
+  let at = -1;
+  let playing = false;
+  let countdown = 0;
+
+  start.hidden = false;
+
+  // Words get their own spans the first time someone plays, so a level's
+  // text can set word by word. Text nodes only: links and italics stay put.
+  let wrapped = false;
+  const unStamp = document.createElement("span");
+  let mlbb = null;
+  function wrapWords() {
+    if (wrapped) return;
+    wrapped = true;
+    levels.forEach((li) => {
+      const text = li.querySelector(".levels__text");
+      const walker = document.createTreeWalker(text, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      let i = 0;
+      nodes.forEach((node) => {
+        const frag = document.createDocumentFragment();
+        node.textContent.split(/(\s+)/).forEach((part) => {
+          if (!part) return;
+          if (/^\s+$/.test(part)) return frag.append(part);
+          const w = document.createElement("span");
+          w.className = "w";
+          // "Legends." splits so the hidden code's strike stops at the word.
+          const stop = part === "Legends." ? "." : "";
+          if (part === "Mobile" || stop) w.dataset.mlbb = "";
+          w.style.transitionDelay = `${Math.min(i++ * 22, 900)}ms`;
+          w.textContent = stop ? "Legends" : part;
+          frag.append(w);
+          if (stop) {
+            const dot = w.cloneNode();
+            delete dot.dataset.mlbb;
+            dot.textContent = stop;
+            frag.append(dot);
+          }
+        });
+        node.replaceWith(frag);
+      });
+    });
+    // "Mobile Legends" becomes one span so the hidden code can strike it.
+    const ml = board.querySelectorAll("[data-mlbb]");
+    if (ml.length === 2) {
+      mlbb = document.createElement("span");
+      mlbb.className = "mlbb";
+      ml[0].nextSibling.remove();
+      ml[0].before(mlbb);
+      mlbb.append(ml[0], " ", ml[1]);
+      mlbb.closest(".levels__text").append(" ", unStamp);
+    }
+  }
+
+  levels.forEach((li, n) => {
+    li.style.setProperty("--tilt", `${[-3, 2, -1, 3, -2, 1, -3, 2][n % 8]}deg`);
+    const go = document.createElement("button");
+    go.type = "button";
+    go.className = "levels__go";
+    go.hidden = true;
+    go.setAttribute("aria-label", `Go to level ${n + 1}, ${li.querySelector(".levels__title").textContent}`);
+    go.addEventListener("click", () => move(n));
+    li.prepend(go);
+  });
+
+  unStamp.className = "levels__stamp levels__stamp--un";
+  unStamp.setAttribute("aria-hidden", "true");
+  unStamp.textContent = "Uninstalling";
+  unStamp.hidden = true;
+
+  const nodeY = (li) => li.offsetTop + parseFloat(getComputedStyle(li, "::before").top) + 6;
+  const speak = (msg) => { live.textContent = msg; };
+  const title = (n) => levels[n].querySelector(".levels__title").textContent;
+
+  function place(snap) {
+    if (at < 0) return;
+    if (snap) board.classList.add("is-snap");
+    const y = nodeY(levels[at]);
+    board.style.setProperty("--pawn-y", `${y - 8}px`);
+    board.style.setProperty("--route-h", `${ol.offsetHeight}px`);
+    board.style.setProperty("--route-s", (y / ol.offsetHeight).toFixed(4));
+    if (snap) { void board.offsetWidth; board.classList.remove("is-snap"); }
+  }
+
+  function setText(li) {
+    if (still.matches) return;
+    li.classList.remove("is-set-now");
+    li.classList.add("is-setting");
+    void li.offsetWidth;
+    li.classList.remove("is-setting");
+  }
+
+  function finishText() {
+    levels.forEach((li) => li.classList.add("is-set-now"));
+  }
+
+  function move(n) {
+    n = Math.max(0, Math.min(last, n));
+    if (n === at) return;
+    const from = at;
+    at = n;
+    board.style.setProperty("--dur", `${Math.min(260 + 60 * Math.abs(n - Math.max(from, 0)), 700)}ms`);
+    finishText();
+    levels.forEach((li, i) => {
+      const stamp = li.querySelector(".levels__stamp:not(.levels__stamp--un)");
+      li.classList.toggle("is-current", i === n);
+      if (i === n) li.setAttribute("aria-current", "step");
+      else li.removeAttribute("aria-current");
+      if (!stamp) return;
+      const cleared = i < n;
+      stamp.classList.toggle("is-new", cleared && stamp.hidden);
+      stamp.hidden = !cleared;
+    });
+    const li = levels[n];
+    setText(li);
+    place(false);
+    pawn.classList.remove("is-land");
+    setTimeout(() => pawn.classList.add("is-land"), still.matches ? 0 : parseFloat(board.style.getPropertyValue("--dur")));
+    back.disabled = n === 0;
+    next.textContent = n === last ? "Continue?" : "Next level";
+    hudNote.hidden = n !== last;
+    hudAt.textContent = `Level ${n + 1} of ${levels.length}`;
+    speak(`Level ${n + 1} of ${levels.length}: ${title(n)}`);
+    history.replaceState(null, "", `#${li.id}`);
+    li.tabIndex = -1;
+    li.focus({ preventScroll: true });
+    li.scrollIntoView({ block: "center", behavior: still.matches ? "auto" : "smooth" });
+  }
+
+  function begin(n = 0) {
+    wrapWords();
+    clearInterval(countdown);
+    slug.textContent = "Continue?";
+    playing = true;
+    board.classList.add("is-playing");
+    start.hidden = true;
+    pawn.hidden = route.hidden = hud.hidden = false;
+    again.hidden = true;
+    levels.forEach((li) => (li.querySelector(".levels__go").hidden = false));
+    // Drop the pawn in from just above the first square.
+    at = -1;
+    board.classList.add("is-snap");
+    board.style.setProperty("--pawn-y", `${nodeY(levels[0]) - 48}px`);
+    pawn.style.opacity = "0";
+    void board.offsetWidth;
+    board.classList.remove("is-snap");
+    pawn.style.opacity = "";
+    move(n);
+  }
+
+  function end(keepAgain) {
+    playing = false;
+    clearInterval(countdown);
+    slug.textContent = "Continue?";
+    board.classList.remove("is-playing");
+    pawn.hidden = route.hidden = hud.hidden = true;
+    start.hidden = false;
+    if (!keepAgain) again.hidden = true;
+    levels.forEach((li) => {
+      li.classList.remove("is-current", "is-setting");
+      li.removeAttribute("aria-current");
+      li.querySelector(".levels__go").hidden = true;
+      const stamp = li.querySelector(".levels__stamp:not(.levels__stamp--un)");
+      if (stamp) { stamp.hidden = true; stamp.classList.remove("is-new"); }
+    });
+    finishText();
+    at = -1;
+    history.replaceState(null, "", location.pathname);
+    if (!keepAgain) start.querySelector("button").focus({ preventScroll: true });
+  }
+
+  function continueScreen() {
+    end(true);
+    start.hidden = true;
+    again.hidden = false;
+    again.focus({ preventScroll: true });
+    cont.scrollIntoView({ block: "center", behavior: still.matches ? "auto" : "smooth" });
+    speak("That's as far as the map goes. Contact details are below.");
+    if (still.matches) return;
+    let n = 5;
+    slug.textContent = `Continue? ${n}`;
+    countdown = setInterval(() => {
+      n -= 1;
+      if (n > 0) slug.textContent = `Continue? ${n}`;
+      else { clearInterval(countdown); slug.textContent = "Continue?"; }
+    }, 1000);
+  }
+
+  start.querySelector('[data-play="start"]').addEventListener("click", () => begin(0));
+  back.addEventListener("click", () => move(at - 1));
+  next.addEventListener("click", () => (at === last ? continueScreen() : move(at + 1)));
+  hud.querySelector('[data-play="exit"]').addEventListener("click", () => end(false));
+  again.addEventListener("click", () => {
+    board.scrollIntoView({ block: "start", behavior: still.matches ? "auto" : "smooth" });
+    begin(0);
+  });
+  board.addEventListener("pointerdown", finishText);
+
+  let typed = "";
+  document.addEventListener("keydown", (e) => {
+    if (e.metaKey || e.ctrlKey || e.altKey) return;
+    const t = e.target;
+    if (t.closest && t.closest("input, textarea, select, [contenteditable]")) return;
+    if (e.key.length === 1) {
+      typed = (typed + e.key.toLowerCase()).slice(-4);
+      if (typed === "mlbb") wrapWords();
+      if (typed === "mlbb" && mlbb) {
+        const struck = mlbb.classList.toggle("is-struck");
+        unStamp.classList.toggle("is-new", struck);
+        unStamp.hidden = !struck;
+        speak(struck ? "Mobile Legends, struck through. Still uninstalling." : "Mobile Legends, strike lifted.");
+        typed = "";
+      }
+    }
+    if (!playing) return;
+    finishText();
+    const k = e.key.length === 1 ? e.key.toLowerCase() : e.key;
+    if (k === "ArrowRight" || k === "j") { e.preventDefault(); at === last ? continueScreen() : move(at + 1); }
+    else if (k === "ArrowLeft" || k === "k") { e.preventDefault(); move(at - 1); }
+    else if (/^[1-9]$/.test(k) && +k <= levels.length) move(+k - 1);
+    else if (k === "Escape") end(false);
+  });
+
+  // Only a real width change moves the board; a phone's address bar
+  // sliding away changes the height and must not snap the pawn.
+  let resizing = 0;
+  let width = innerWidth;
+  addEventListener("resize", () => {
+    if (innerWidth === width) return;
+    width = innerWidth;
+    clearTimeout(resizing);
+    resizing = setTimeout(() => place(true), 150);
+  });
+  document.fonts?.ready.then(() => place(true));
+}

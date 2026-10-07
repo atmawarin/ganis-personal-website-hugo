@@ -20,19 +20,36 @@
     </aside>
     <div class="journey__main">
         <p class="journey__lede">{{ .Params.lede | markdownify }}</p>
-        <ol class="levels">
-            {{ range $i, $l := .Params.levels }}
-            <li id="{{ .id }}"{{ if .here }} class="is-here"{{ end }}>
-                <p class="levels__label">Level {{ add $i 1 }} · {{ .label }}{{ if .here }} <span class="levels__here">You are here</span>{{ end }}</p>
-                <h2 class="levels__title">{{ .title }}</h2>
-                <p class="levels__text">{{ .t | markdownify }}</p>
-            </li>
-            {{ end }}
-        </ol>
+        <div class="play-start" hidden>
+            <button type="button" class="play-btn" data-play="start">Press start</button>
+            <span class="play-hint">Arrow keys work. So does tapping a level.</span>
+        </div>
+        <div class="board">
+            <span class="board__route" aria-hidden="true" hidden></span>
+            <span class="board__pawn" aria-hidden="true" hidden></span>
+            <ol class="levels">
+                {{ range $i, $l := .Params.levels }}
+                <li id="{{ .id }}"{{ if .here }} class="is-here"{{ end }}>
+                    <p class="levels__label">Level {{ add $i 1 }} · {{ .label }}{{ if .here }} <span class="levels__here">You are here</span>{{ else }}<span class="levels__stamp" aria-hidden="true" hidden>Cleared</span>{{ end }}</p>
+                    <h2 class="levels__title">{{ .title }}</h2>
+                    <p class="levels__text">{{ .t | markdownify }}</p>
+                </li>
+                {{ end }}
+            </ol>
+            <div class="hud" role="group" aria-label="Game controls" hidden>
+                <button type="button" data-play="back">Back</button>
+                <span class="hud__at">Level 1 of {{ len .Params.levels }}</span>
+                <button type="button" data-play="next">Next level</button>
+                <button type="button" data-play="exit">Exit</button>
+                <span class="hud__note" hidden>That&rsquo;s as far as the map goes.</span>
+            </div>
+        </div>
+        <p class="visually-hidden" aria-live="polite" data-play-live></p>
         <div class="continue">
-            <p class="slug">Continue?</p>
+            <p class="slug continue__slug">Continue?</p>
             <p>Write to me at <a href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>. I answer most letters, slowly. If it&rsquo;s about building a product, write to <a href="https://synetica.co">Synetica</a> instead; it&rsquo;s the same person, but with a calendar.</p>
             <p class="continue__menu"><span>Pause menu:</span> <a href="{{ "reading/" | relURL }}">the shelf</a> <a href="{{ "colophon/" | relURL }}">the colophon</a> <a href="{{ "newsletter/" | relURL }}">Letters</a></p>
+            <button type="button" class="play-btn" data-play="again" hidden>Play again</button>
         </div>
     </div>
     {{ with .Params.ttol }}

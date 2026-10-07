@@ -668,42 +668,39 @@ kbd { font-family: var(--f-mono); font-size: 0.72em; font-weight: 500; padding: 
 .levels__here { margin-left: 8px; padding: 1px 6px; border: 1.5px solid var(--red); letter-spacing: 0.1em; white-space: nowrap; }
 .levels__title { font-family: var(--f-display); font-weight: 600; font-synthesis: none; font-size: clamp(1.35rem, 1.1rem + 1.2vw, 1.75rem); line-height: 1.12; margin: 0 0 6px; text-wrap: balance; }
 .levels__text { font-size: 1.0625rem; line-height: 1.5; max-width: 52ch; margin: 0; text-wrap: pretty; }
-/* The red pawn: a board game played on the level spine. At rest (no JS,
-   before Start, after Exit) none of this renders. */
+/* Baseline: Press start launches the about-page runner (about-game.js).
+   Without JS the button never shows. */
+.play-start[hidden] { display: flex !important; visibility: hidden; }
 .play-start { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin: -8px 0 28px; }
 .play-btn { font-family: var(--f-mono); font-weight: 500; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.12em; min-height: 44px; padding: 0 18px; border: 2px solid var(--red); color: var(--red); background: transparent; cursor: pointer; }
 @media (hover: hover) { .play-btn:hover { background: var(--red); color: var(--paper); } }
 .play-hint { font-family: var(--f-mono); font-size: 0.72rem; color: var(--muted); }
-.play-btn:focus-visible, .hud button:focus-visible, .levels__go:focus-visible, .levels li:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
-.levels li:focus { outline: none; }
-.levels li:focus-visible { outline-offset: 6px; }
-.board { position: relative; --dur: 420ms; --ease: cubic-bezier(.2, .7, .2, 1); }
-.board__route { position: absolute; left: 0; top: 0; width: 2px; height: var(--route-h, 0px); background: var(--red); transform-origin: top; transform: scaleY(var(--route-s, 0)); transition: transform var(--dur) var(--ease); z-index: 1; pointer-events: none; }
-.board__pawn { position: absolute; left: -7px; top: 0; width: 16px; height: 16px; border-radius: 50%; background: var(--red); box-shadow: 0 0 0 3px var(--paper), 1px 1px 0 3px var(--ink); transform: translateY(var(--pawn-y, 0px)); transition: transform var(--dur) var(--ease), opacity 160ms ease-out; z-index: 2; pointer-events: none; }
-.board__pawn.is-land { animation: pawn-land 120ms ease-out; }
-@keyframes pawn-land { from { scale: 1.25; } to { scale: 1; } }
-.board.is-snap .board__route, .board.is-snap .board__pawn { transition: none; }
-.levels__go { position: absolute; left: -24px; top: calc(0.3em - 16px); width: 44px; height: 44px; padding: 0; border: 0; background: transparent; cursor: pointer; border-radius: 50%; z-index: 3; }
-.levels__stamp { position: absolute; right: max(0px, calc(100% - 31rem)); top: -3px; font-family: var(--f-mono); font-weight: 500; font-size: 0.6875rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--stamp); border: 1.5px solid var(--stamp); padding: 1px 6px; mix-blend-mode: var(--stamp-blend); transform: rotate(var(--tilt, -3deg)); }
-.levels__stamp--un { position: static; display: inline-block; margin-left: 4px; vertical-align: 1px; line-height: 1.3; --tilt: -4deg; }
-.levels__stamp.is-new { animation: level-stamp 120ms ease-out both; }
-@keyframes level-stamp { from { opacity: 0; transform: rotate(var(--tilt, -3deg)) scale(1.6); } to { opacity: 1; transform: rotate(var(--tilt, -3deg)) scale(1); } }
-.levels li.is-current .levels__title { animation: title-ink 360ms ease-out; }
-@keyframes title-ink { from { font-variation-settings: "wght" 300, "SOFT" 100; } to { font-variation-settings: "wght" 600, "SOFT" 0; } }
-.levels .w { transition: opacity 140ms ease-out; }
-.levels li.is-setting .w { opacity: 0; transition: none; }
-.levels li.is-set-now .w { transition: none; }
-.mlbb { background-image: linear-gradient(var(--red), var(--red)); background-repeat: no-repeat; background-position: 0 58%; background-size: 0% 2px; transition: background-size 400ms ease-out; }
-.mlbb.is-struck { background-size: 100% 2px; }
-.hud { position: sticky; bottom: 0; z-index: 4; display: flex; flex-wrap: wrap; align-items: center; gap: 0 4px; margin: 8px 0 0 -2px; padding: 6px 0 calc(6px + env(safe-area-inset-bottom)); background: var(--paper); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); font-family: var(--f-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; }
-.hud button { min-height: 44px; padding: 0 12px; background: transparent; border: 0; color: var(--ink); font: inherit; text-transform: inherit; letter-spacing: inherit; cursor: pointer; }
-.hud button[data-play="next"] { color: var(--red); font-weight: 500; }
-.hud button[data-play="exit"] { margin-left: auto; color: var(--muted); }
-.hud button:disabled { color: var(--muted); opacity: .5; cursor: default; }
-@media (hover: hover) { .hud button:not(:disabled):hover { text-decoration: underline; text-underline-offset: 4px; } }
-.hud__at { padding: 0 8px; font-variant-numeric: tabular-nums lining-nums; color: var(--muted); }
-.hud__note { flex-basis: 100%; padding: 0 12px 6px; text-transform: none; letter-spacing: 0.02em; color: var(--muted); }
-.continue [data-play="again"] { margin-top: 4px; }
+.play-btn:focus-visible { outline: 2px solid var(--red); outline-offset: 3px; }
+.bl { position: fixed; inset: 0; z-index: 100; display: grid; grid-template-rows: auto 1fr; background: var(--paper); color: var(--ink); }
+.bl__bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0 14px; padding: env(safe-area-inset-top) 12px 0; border-bottom: 1px solid var(--ink); font-family: var(--f-mono); font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.1em; }
+.bl__where { margin: 0; min-height: 44px; display: flex; align-items: center; }
+.bl__meter { margin: 0; color: var(--red); font-variant-numeric: tabular-nums lining-nums; letter-spacing: 0.14em; }
+.bl__btns { display: flex; margin-left: auto; }
+.bl__btns button { min-height: 44px; min-width: 44px; padding: 0 10px; background: none; border: 0; color: var(--ink); font: inherit; letter-spacing: inherit; text-transform: inherit; cursor: pointer; }
+.bl__btns button[data-bl="quit"] { color: var(--muted); }
+@media (hover: hover) { .bl__btns button:hover { text-decoration: underline; text-underline-offset: 4px; } }
+.bl button:focus-visible, .bl__canvas:focus-visible { outline: 2px solid var(--red); outline-offset: -2px; }
+.bl__stage { position: relative; min-height: 0; }
+.bl__canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; user-select: none; -webkit-user-select: none; cursor: pointer; }
+.bl__canvas:focus { outline: none; }
+.bl__card { position: absolute; inset: 0; display: flex; padding: 16px; overflow-y: auto; background: color-mix(in srgb, var(--paper) 70%, transparent); }
+.bl__panel { width: 100%; max-width: 34rem; margin: auto; padding: 22px 22px 20px; border: 2px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 var(--paper-2); }
+.bl__kicker { margin: 0; font-family: var(--f-mono); font-weight: 500; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--red); }
+.bl__title { margin: 6px 0 10px; font-family: var(--f-display); font-weight: 600; font-synthesis: none; font-size: clamp(2.2rem, 1.6rem + 3vw, 3.4rem); line-height: 1; letter-spacing: -0.01em; }
+.bl__title.is-ink { animation: bl-ink 360ms ease-out; }
+@keyframes bl-ink { from { font-variation-settings: "wght" 300, "SOFT" 100; } to { font-variation-settings: "wght" 600, "SOFT" 0; } }
+.bl__text { margin: 0 0 14px; font-size: 1.0625rem; line-height: 1.5; max-width: 52ch; }
+.bl__note { margin: 0 0 16px; font-family: var(--f-mono); font-size: 0.72rem; line-height: 1.6; color: var(--muted); }
+.bl__actions { display: flex; flex-wrap: wrap; gap: 10px 12px; }
+.bl__name { margin: 0 0 12px; font-family: var(--f-mono); font-weight: 500; font-size: 1.1rem; letter-spacing: 0.2em; color: var(--red); }
+.bl__name span { display: inline-block; max-width: 1.2em; overflow: hidden; vertical-align: bottom; transition: max-width 420ms ease-in-out 500ms, opacity 300ms ease-out 300ms; }
+.bl__name.is-short .drop { max-width: 0; opacity: 0; }
+[aria-busy="true"] { cursor: progress; }
 .player { border: 2px solid var(--ink); padding: 20px 20px 8px; }
 .player .about-portrait { margin: 10px 0 22px; }
 .player .about-portrait img { box-shadow: 0 0 0 1px var(--rule), 6px 6px 0 var(--paper-2); }

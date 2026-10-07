@@ -62,3 +62,58 @@ Ganis asked for an About page with fewer words, the greeting kept, a "video game
 - New lines that are framing, not facts: "Six levels so far. Still playing.", "to test products before anyone builds them", "The author, agreeing with you."
 - The old `ganis-portrait.jpg` is still used on the home page; untouched.
 - Push / PR / merge only when you say so.
+
+---
+
+# Round 2: content from Ganis, then the red pawn
+
+## New levels (loop 5: V, BB, PM)
+Ganis added Papua/Jakarta childhood, Yogyakarta 2002, Jakarta 2010 to 2013 (Circle Indonesia, Akubu, Mas Surya), back to Yogyakarta 2013. Nine levels now. V: 9, BB: 9, PM: 8.5 (wordiness, revisited below). One fix: "my aunt, Tante Tiwik". No age is printed next to a year, so the birth year can't be computed from this page.
+
+## The game (loops g1 to g4)
+Ganis: "when I say game, I feel like there should be more creativity and animation, and javascript." Six of seven seats independently pitched the same mechanic, so it became **The red pawn** (`PLAN-game.md`).
+
+<svg viewBox="0 0 640 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Game round scores per seat, loop 2 and final">
+  <style>text { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: #1b1a17; } .a { fill: #c9c2b4; } .b { fill: #b5341f; } .r { stroke: #1b1a17; } .n { stroke: #b5341f; stroke-dasharray: 3 3; }</style>
+  <rect width="640" height="230" fill="#f3eee6"/>
+  <line class="r" x1="60" y1="190" x2="620" y2="190"/><line class="n" x1="60" y1="28" x2="620" y2="28"/><text x="8" y="32">9 bar</text>
+  <rect class="a" x="72" y="55" width="22" height="135"/><rect class="b" x="96" y="28" width="22" height="162"/><text x="80" y="208">SD</text>
+  <rect class="a" x="152" y="46" width="22" height="144"/><rect class="b" x="176" y="28" width="22" height="162"/><text x="160" y="208">TY</text>
+  <rect class="a" x="232" y="55" width="22" height="135"/><rect class="b" x="256" y="28" width="22" height="162"/><text x="236" y="208">IxD</text>
+  <rect class="a" x="312" y="46" width="22" height="144"/><rect class="b" x="336" y="28" width="22" height="162"/><text x="320" y="208">PM</text>
+  <rect class="a" x="392" y="55" width="22" height="135"/><rect class="b" x="416" y="28" width="22" height="162"/><text x="396" y="208">SEO</text>
+  <rect class="a" x="472" y="46" width="22" height="144"/><rect class="b" x="496" y="28" width="22" height="162"/><text x="480" y="208">BB</text>
+  <rect class="a" x="552" y="37" width="22" height="153"/><rect class="b" x="576" y="28" width="22" height="162"/><text x="564" y="208">V</text>
+  <rect class="a" x="60" y="216" width="10" height="10"/><text x="76" y="225">g2</text><rect class="b" x="110" y="216" width="10" height="10"/><text x="126" y="225">final (g3, TY g4)</text>
+</svg>
+
+| Seat | g2 | Final | Sign-off |
+|---|---|---|---|
+| SD | 7.5 | 9 | yes |
+| TY | 8 | 9 (g4) | yes |
+| IxD | 7.5 | 9 | yes |
+| PM | 8 | 9 | yes |
+| SEO | 7.5 | 9 | yes |
+| BB | 8 | 9 | yes |
+| V | 8.5 | 9 | yes |
+
+### How it plays
+| Beat | What happens |
+|---|---|
+| Press start | Button under the lede (JS only). Pawn drops onto Level 1; a sticky HUD appears: Back · Level n of 9 · Next level · Exit |
+| Move | Buttons, `→`/`J`, `←`/`K`, `1`–`9`, or tap a dot (44px). Pawn glides 260ms + 60ms a level (max 700ms); route inks red behind it; left levels stamp **CLEARED** |
+| Arrive | Fraunces title inks `wght` 300→600, `SOFT` 100→0; text sets word by word (≤ 900ms; any key or tap finishes it); scrolls to centre; focus + polite live line |
+| End | Prove: "That's as far as the map goes." Next becomes **Continue?** → "Continue? 5 4 3 2 1" over the email line, **Play again** |
+| Hidden code | Type `mlbb`: red strike through "Mobile Legends", stamp **UNINSTALLING**. Again to lift |
+| Exit / Esc | Page returns to rest; focus back on Press start |
+
+### Rules it keeps
+At rest, with no JS, and in print the page is unchanged (0 word spans, dot buttons hidden). Nothing moves on load or scroll. Reduced motion: same moves, zero duration, no countdown. No storage, sound or tracking. CLS-safe (pawn, route and stamps absolutely positioned). Up, Down and Space are never captured.
+
+### Rulings worth remembering
+Words not letters (kerning, accessibility). No swipe (fights scroll). Stamp says "Uninstalling", not "Uninstalled" (the page says "still uninstalling"). One hidden code only.
+
+## Left for Ganis
+- Play it once: http://localhost:1316/about/ → Press start. Then try `mlbb`.
+- Still open from round 1: approve the photo, and the new framing lines.
+- Push / PR / merge only when you say so.

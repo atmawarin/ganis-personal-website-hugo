@@ -4,6 +4,6 @@ description: "A Nobel laureate explains the science of aging — why our bodies 
 cover: "images/reading/why-we-die.jpeg"
 publishDate: 2025-12-20
 authors: "Venki Ramakrishnan"
-categories: ["science & health"]
+categories: ["science & systems thinking"]
 status: 🟢
 ---
